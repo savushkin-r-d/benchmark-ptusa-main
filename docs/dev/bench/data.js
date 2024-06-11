@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718093810815,
+  "lastUpdate": 1718101811417,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -28220,6 +28220,38 @@ window.BENCHMARK_DATA = {
             "value": 108.31014378156725,
             "unit": "us/iter",
             "extra": "iterations: 6336\ncpu: 107.15009343434345 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "04e017d49f244db114ac1c1df7b7b51fea4de612",
+          "message": "[config][cmake] Disable pthreads in gtest",
+          "timestamp": "2024-05-17T06:17:58Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/706/commits/04e017d49f244db114ac1c1df7b7b51fea4de612"
+        },
+        "date": 1718101810925,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.994851828727523,
+            "unit": "us/iter",
+            "extra": "iterations: 30431\ncpu: 22.993145903848053 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.70882773564259,
+            "unit": "us/iter",
+            "extra": "iterations: 6461\ncpu: 108.35110199659496 us\nthreads: 1"
           }
         ]
       }
