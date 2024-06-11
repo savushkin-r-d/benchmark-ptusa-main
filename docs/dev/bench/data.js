@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718101811417,
+  "lastUpdate": 1718114885245,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -28252,6 +28252,38 @@ window.BENCHMARK_DATA = {
             "value": 109.70882773564259,
             "unit": "us/iter",
             "extra": "iterations: 6461\ncpu: 108.35110199659496 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "f0ec6933b8ef91a0fda5a3d8d484b8ae3e059699",
+          "message": "[tests] Fix save-speed-benchmark",
+          "timestamp": "2024-05-17T06:17:58Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/706/commits/f0ec6933b8ef91a0fda5a3d8d484b8ae3e059699"
+        },
+        "date": 1718114884947,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 135.44555058680388,
+            "unit": "us/iter",
+            "extra": "iterations: 4942\ncpu: 135.43860542290574 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 283.78962219552596,
+            "unit": "us/iter",
+            "extra": "iterations: 2496\ncpu: 282.36183653846155 us\nthreads: 1"
           }
         ]
       }
