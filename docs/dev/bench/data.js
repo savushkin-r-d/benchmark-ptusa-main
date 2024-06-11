@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718010311133,
+  "lastUpdate": 1718092749213,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -28088,6 +28088,42 @@ window.BENCHMARK_DATA = {
             "value": 110.1786052385415,
             "unit": "us/iter",
             "extra": "iterations: 6414\ncpu: 108.97028905519177 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "79cc36e1f434620af1fa5e4c5cad78e1d5de1599",
+          "message": "Add work with bus couplers in Windows  (#647)\n\nFor safety reason in Windows by default I/O modules are disabled and read only communication is switched on.",
+          "timestamp": "2024-06-11T10:57:17+03:00",
+          "tree_id": "32e053ccc3645b1727a96dbbf3c09994ccb487f5",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/79cc36e1f434620af1fa5e4c5cad78e1d5de1599"
+        },
+        "date": 1718092748807,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.884270280979468,
+            "unit": "us/iter",
+            "extra": "iterations: 30287\ncpu: 23.882510284940736 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.54702231799457,
+            "unit": "us/iter",
+            "extra": "iterations: 6497\ncpu: 108.36233184546712 us\nthreads: 1"
           }
         ]
       }
