@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718273418293,
+  "lastUpdate": 1718288362909,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -28680,6 +28680,38 @@ window.BENCHMARK_DATA = {
             "value": 110.88429760247145,
             "unit": "us/iter",
             "extra": "iterations: 6465\ncpu: 109.10061144624903 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "79bbba8d5583c70f647b6a1303b40c488e7de507",
+          "message": "Fix security hotspots",
+          "timestamp": "2024-05-17T06:17:58Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/707/commits/79bbba8d5583c70f647b6a1303b40c488e7de507"
+        },
+        "date": 1718288362569,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.000137359929017,
+            "unit": "us/iter",
+            "extra": "iterations: 30431\ncpu: 22.999694850645724 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.18475638050876,
+            "unit": "us/iter",
+            "extra": "iterations: 6465\ncpu: 108.9186645011601 us\nthreads: 1"
           }
         ]
       }
