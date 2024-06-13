@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718264370423,
+  "lastUpdate": 1718265293091,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -28412,6 +28412,40 @@ window.BENCHMARK_DATA = {
             "value": 109.97430141019676,
             "unit": "us/iter",
             "extra": "iterations: 6453\ncpu: 108.93440291337363 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "332a0937b1414baaaa8d02105c08256f90bfaa8c",
+          "message": "[tests] Fix save-speed-benchmark (#706)\n\n* [config][cmake] Run main_perfomance_test as serial\n\n* Refactor benchmark code",
+          "timestamp": "2024-06-13T07:52:24Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/332a0937b1414baaaa8d02105c08256f90bfaa8c"
+        },
+        "date": 1718265292468,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.548367905142936,
+            "unit": "us/iter",
+            "extra": "iterations: 29687\ncpu: 23.5476100986964 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.28003172849569,
+            "unit": "us/iter",
+            "extra": "iterations: 6335\ncpu: 110.12812754538282 us\nthreads: 1"
           }
         ]
       }
