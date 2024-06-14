@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718342618311,
+  "lastUpdate": 1718343079595,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -28780,6 +28780,40 @@ window.BENCHMARK_DATA = {
             "value": 109.45890215086243,
             "unit": "us/iter",
             "extra": "iterations: 6602\ncpu: 108.1360586186004 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "246e7d195230fe7df46130e07fcd8504ef239b05",
+          "message": "Fix state transition (#702)\n\n* Fix state transition\n\n* Add unconditional jump to the new operation state\n\n* Remove skipping STOP state\n\n* Fix tests\n\n* Fix debug print\n\n* Add tests\n\n* Add transition to Stop state",
+          "timestamp": "2024-06-14T05:28:55Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/246e7d195230fe7df46130e07fcd8504ef239b05"
+        },
+        "date": 1718343078942,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.285152841342075,
+            "unit": "us/iter",
+            "extra": "iterations: 31464\ncpu: 22.283827167556574 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.26834316436347,
+            "unit": "us/iter",
+            "extra": "iterations: 6510\ncpu: 109.10922411674345 us\nthreads: 1"
           }
         ]
       }
