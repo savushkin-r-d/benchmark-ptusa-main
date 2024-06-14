@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718376331557,
+  "lastUpdate": 1718376431429,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -29048,6 +29048,38 @@ window.BENCHMARK_DATA = {
             "value": 110.01085744909498,
             "unit": "us/iter",
             "extra": "iterations: 6531\ncpu: 108.50857219415097 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "2ee227c4eb2735e3555fd2af69965bb4a0f45079",
+          "message": "[config][cmake] Fix AXC F build",
+          "timestamp": "2024-05-17T06:17:58Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/711/commits/2ee227c4eb2735e3555fd2af69965bb4a0f45079"
+        },
+        "date": 1718376431026,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.78640168456835,
+            "unit": "us/iter",
+            "extra": "iterations: 30631\ncpu: 22.785737129052272 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 113.26438406374211,
+            "unit": "us/iter",
+            "extra": "iterations: 6275\ncpu: 111.75856334661354 us\nthreads: 1"
           }
         ]
       }
