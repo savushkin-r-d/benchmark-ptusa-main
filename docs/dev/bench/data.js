@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718344490036,
+  "lastUpdate": 1718344494971,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -28882,6 +28882,38 @@ window.BENCHMARK_DATA = {
             "value": 112.42451094315662,
             "unit": "us/iter",
             "extra": "iterations: 6351\ncpu: 110.62083042040625 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "42b5e4644508b32e7f6209f5df5ab8dae0878875",
+          "message": "Fix printf format specifier",
+          "timestamp": "2024-05-17T06:17:58Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/710/commits/42b5e4644508b32e7f6209f5df5ab8dae0878875"
+        },
+        "date": 1718344494442,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.399794391324143,
+            "unit": "us/iter",
+            "extra": "iterations: 31166\ncpu: 22.399537861772444 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.49962023572772,
+            "unit": "us/iter",
+            "extra": "iterations: 6533\ncpu: 107.3356000306138 us\nthreads: 1"
           }
         ]
       }
