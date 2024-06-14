@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718288362909,
+  "lastUpdate": 1718341600784,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -28712,6 +28712,42 @@ window.BENCHMARK_DATA = {
             "value": 110.18475638050876,
             "unit": "us/iter",
             "extra": "iterations: 6465\ncpu: 108.9186645011601 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bf30b5dc3f5f66627563fa7a62d2de0fca10be37",
+          "message": "Fix security hotspots (#707)\n\nFix security hotspots discovered by Sonar",
+          "timestamp": "2024-06-14T08:04:21+03:00",
+          "tree_id": "abd7e753794d842bb9f73ee4a9b40f66d678f246",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/bf30b5dc3f5f66627563fa7a62d2de0fca10be37"
+        },
+        "date": 1718341600396,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.24321073164266,
+            "unit": "us/iter",
+            "extra": "iterations: 30247\ncpu: 23.242927761430884 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.38229080118316,
+            "unit": "us/iter",
+            "extra": "iterations: 6403\ncpu: 110.12432437919725 us\nthreads: 1"
           }
         ]
       }
