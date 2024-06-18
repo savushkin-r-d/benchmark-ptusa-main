@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1718696324368,
+  "lastUpdate": 1718696584253,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -29182,6 +29182,38 @@ window.BENCHMARK_DATA = {
             "value": 108.52826891271044,
             "unit": "us/iter",
             "extra": "iterations: 6530\ncpu: 107.37303736600308 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "bb7612d092226b3458ae9f9bad27b7ea2e619265",
+          "message": "Add build and install cmake script",
+          "timestamp": "2024-05-17T06:17:58Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/712/commits/bb7612d092226b3458ae9f9bad27b7ea2e619265"
+        },
+        "date": 1718696583227,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.50483672419892,
+            "unit": "us/iter",
+            "extra": "iterations: 31113\ncpu: 22.504128627904734 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.18378922466648,
+            "unit": "us/iter",
+            "extra": "iterations: 6552\ncpu: 107.0143151709402 us\nthreads: 1"
           }
         ]
       }
