@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720421177264,
+  "lastUpdate": 1720429473288,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -29410,6 +29410,40 @@ window.BENCHMARK_DATA = {
             "value": 108.53093927806442,
             "unit": "us/iter",
             "extra": "iterations: 6538\ncpu: 107.4027857142857 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "423600b5ddde4695e29d132ece46a25ee105220a",
+          "message": "Fix AXC F build (#711)",
+          "timestamp": "2024-06-17T08:51:23Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/423600b5ddde4695e29d132ece46a25ee105220a"
+        },
+        "date": 1720429472931,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.47626825509105,
+            "unit": "us/iter",
+            "extra": "iterations: 31142\ncpu: 22.47513942585576 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.45707148346986,
+            "unit": "us/iter",
+            "extra": "iterations: 6505\ncpu: 108.34722997694084 us\nthreads: 1"
           }
         ]
       }
