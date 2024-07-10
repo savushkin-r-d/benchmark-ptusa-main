@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720533660638,
+  "lastUpdate": 1720592906887,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -29572,6 +29572,38 @@ window.BENCHMARK_DATA = {
             "value": 108.99995206636734,
             "unit": "us/iter",
             "extra": "iterations: 6509\ncpu: 107.81887017975113 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "8ae444554e98fd65d866ba7d71b53a0948c9ee2a",
+          "message": "[config][github-actions] Fix warning from Sonar",
+          "timestamp": "2024-05-17T06:17:58Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/719/commits/8ae444554e98fd65d866ba7d71b53a0948c9ee2a"
+        },
+        "date": 1720592906559,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.674193902747046,
+            "unit": "us/iter",
+            "extra": "iterations: 31588\ncpu: 22.673110896542994 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.90740630798163,
+            "unit": "us/iter",
+            "extra": "iterations: 6468\ncpu: 107.70912229437226 us\nthreads: 1"
           }
         ]
       }
