@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1720785887646,
+  "lastUpdate": 1720789981988,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -29764,6 +29764,38 @@ window.BENCHMARK_DATA = {
             "value": 111.14384289277112,
             "unit": "us/iter",
             "extra": "iterations: 6416\ncpu: 109.69123129675812 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "committer": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "id": "a47d0c9fb99ff067ac901601ab44a8b8f5cdf9d8",
+          "message": "Добавил менеджер параметрических рецептов",
+          "timestamp": "2021-12-15T13:17:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/718/commits/a47d0c9fb99ff067ac901601ab44a8b8f5cdf9d8"
+        },
+        "date": 1720789981313,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.87388521840378,
+            "unit": "us/iter",
+            "extra": "iterations: 29212\ncpu: 23.872873887443514 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.87255242927228,
+            "unit": "us/iter",
+            "extra": "iterations: 6504\ncpu: 108.19893911439115 us\nthreads: 1"
           }
         ]
       }
