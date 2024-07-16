@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721107138116,
+  "lastUpdate": 1721107273448,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -30162,6 +30162,42 @@ window.BENCHMARK_DATA = {
             "value": 111.70511118002432,
             "unit": "us/iter",
             "extra": "iterations: 6449\ncpu: 109.9644861218794 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "efc66f906f7249a05b723363768bc78d044b469a",
+          "message": "Fix warning from Sonar (#719)",
+          "timestamp": "2024-07-16T08:19:20+03:00",
+          "tree_id": "886a679228c4096a63576ce9b5d3edee5cdd17d5",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/efc66f906f7249a05b723363768bc78d044b469a"
+        },
+        "date": 1721107272954,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.30867713903741,
+            "unit": "us/iter",
+            "extra": "iterations: 31416\ncpu: 22.307717914438506 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.01513803680854,
+            "unit": "us/iter",
+            "extra": "iterations: 6520\ncpu: 107.60010322085888 us\nthreads: 1"
           }
         ]
       }
