@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721107067990,
+  "lastUpdate": 1721107118358,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -30090,6 +30090,42 @@ window.BENCHMARK_DATA = {
             "value": 111.44414758663284,
             "unit": "us/iter",
             "extra": "iterations: 6464\ncpu: 110.36213737623764 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1b5b064d56bd5f2821d3932c16f0ee8a1392f87f",
+          "message": "Add build and install cmake script (#712)",
+          "timestamp": "2024-07-16T08:16:38+03:00",
+          "tree_id": "26cd5168f128223fbd3adac72f63310a145e3e40",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/1b5b064d56bd5f2821d3932c16f0ee8a1392f87f"
+        },
+        "date": 1721107117710,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.448503106382198,
+            "unit": "us/iter",
+            "extra": "iterations: 31387\ncpu: 22.448068850160894 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.09726444512113,
+            "unit": "us/iter",
+            "extra": "iterations: 6542\ncpu: 107.00443732803424 us\nthreads: 1"
           }
         ]
       }
