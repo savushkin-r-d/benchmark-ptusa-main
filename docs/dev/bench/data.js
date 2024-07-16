@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1721107118358,
+  "lastUpdate": 1721107138116,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -30126,6 +30126,42 @@ window.BENCHMARK_DATA = {
             "value": 108.09726444512113,
             "unit": "us/iter",
             "extra": "iterations: 6542\ncpu: 107.00443732803424 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d4c60a9ea474a2e83b0a70c5d59cabd1f7cfe5b2",
+          "message": "Fix feedback state processing (#716)",
+          "timestamp": "2024-07-16T08:17:04+03:00",
+          "tree_id": "ecdea30b47cfa4ff84fdf715d34db9d9b48d606d",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d4c60a9ea474a2e83b0a70c5d59cabd1f7cfe5b2"
+        },
+        "date": 1721107137632,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.970162046767822,
+            "unit": "us/iter",
+            "extra": "iterations: 30448\ncpu: 22.967548738833425 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.70511118002432,
+            "unit": "us/iter",
+            "extra": "iterations: 6449\ncpu: 109.9644861218794 us\nthreads: 1"
           }
         ]
       }
