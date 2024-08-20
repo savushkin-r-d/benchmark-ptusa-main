@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724141689613,
+  "lastUpdate": 1724142354740,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -31022,6 +31022,40 @@ window.BENCHMARK_DATA = {
             "value": 110.47996598532927,
             "unit": "us/iter",
             "extra": "iterations: 6409\ncpu: 109.28013496645346 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "18b946c6d385a8c8dd7d1a64b338bc17648d0691",
+          "message": "Fix emulator mode (#727)\n\n* Fix emulator mode\n\n* Add tests\n\n* Refactor tests\n\n* Refactor code\n\n* Fix tests\n\n* [review] Fix from code review\n\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>\n\n---------\n\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2024-08-20T08:23:19Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/18b946c6d385a8c8dd7d1a64b338bc17648d0691"
+        },
+        "date": 1724142354371,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 22.624941332214306,
+            "unit": "us/iter",
+            "extra": "iterations: 30971\ncpu: 22.62391534015692 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.1661160659743,
+            "unit": "us/iter",
+            "extra": "iterations: 6548\ncpu: 107.03451710445938 us\nthreads: 1"
           }
         ]
       }
