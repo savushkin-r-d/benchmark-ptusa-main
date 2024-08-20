@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724142987461,
+  "lastUpdate": 1724143452252,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -31120,6 +31120,40 @@ window.BENCHMARK_DATA = {
             "value": 113.56342444902431,
             "unit": "us/iter",
             "extra": "iterations: 6307\ncpu: 111.68683684794671 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "bd9bafea0d6ba0d427cb9867078836213f644a8c",
+          "message": "Fix seat wash action (#730)",
+          "timestamp": "2024-08-20T08:40:54Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/bd9bafea0d6ba0d427cb9867078836213f644a8c"
+        },
+        "date": 1724143451779,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.82017506100885,
+            "unit": "us/iter",
+            "extra": "iterations: 29504\ncpu: 23.818954141811282 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.33007350665054,
+            "unit": "us/iter",
+            "extra": "iterations: 6462\ncpu: 108.90797926338597 us\nthreads: 1"
           }
         ]
       }
