@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724141671441,
+  "lastUpdate": 1724141689613,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -30990,6 +30990,38 @@ window.BENCHMARK_DATA = {
             "value": 110.53148880249094,
             "unit": "us/iter",
             "extra": "iterations: 6430\ncpu: 108.92366220839813 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "5965256ba29480cd8e368c303512654afe6fc63f",
+          "message": "Fix seat wash action",
+          "timestamp": "2024-08-16T06:41:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/730/commits/5965256ba29480cd8e368c303512654afe6fc63f"
+        },
+        "date": 1724141689216,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.774672327365792,
+            "unit": "us/iter",
+            "extra": "iterations: 29325\ncpu: 23.759306530264283 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.47996598532927,
+            "unit": "us/iter",
+            "extra": "iterations: 6409\ncpu: 109.28013496645346 us\nthreads: 1"
           }
         ]
       }
