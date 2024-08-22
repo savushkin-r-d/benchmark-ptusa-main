@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1724308626392,
+  "lastUpdate": 1724308994665,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -31288,6 +31288,42 @@ window.BENCHMARK_DATA = {
             "value": 110.18052220331575,
             "unit": "us/iter",
             "extra": "iterations: 6463\ncpu: 109.09004007426893 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "517b8b7f5f09f82e950d6b3d53b1394fbde73dbc",
+          "message": "Fix manual mode command processing (#731)",
+          "timestamp": "2024-08-22T06:34:30Z",
+          "tree_id": "9c352bc6e8ba8024271b81fd799e67de286109dd",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/517b8b7f5f09f82e950d6b3d53b1394fbde73dbc"
+        },
+        "date": 1724308994125,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.57282592305746,
+            "unit": "us/iter",
+            "extra": "iterations: 29711\ncpu: 23.57254269462489 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 112.40755734737874,
+            "unit": "us/iter",
+            "extra": "iterations: 6077\ncpu: 111.17479496462069 us\nthreads: 1"
           }
         ]
       }
