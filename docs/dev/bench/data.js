@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725001282280,
+  "lastUpdate": 1725001284566,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -31582,6 +31582,38 @@ window.BENCHMARK_DATA = {
             "value": 110.21673735650265,
             "unit": "us/iter",
             "extra": "iterations: 6446\ncpu: 109.05132237046234 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "5d601fb41fe7e6a1929b4586f5a2c42b3c1fb7b0",
+          "message": "[config][dependabot] Add gits ubmodules processing",
+          "timestamp": "2024-08-16T06:41:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/734/commits/5d601fb41fe7e6a1929b4586f5a2c42b3c1fb7b0"
+        },
+        "date": 1725001284012,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.31924856049237,
+            "unit": "us/iter",
+            "extra": "iterations: 30045\ncpu: 23.318757463804296 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.43824708443685,
+            "unit": "us/iter",
+            "extra": "iterations: 6431\ncpu: 109.28500031099364 us\nthreads: 1"
           }
         ]
       }
