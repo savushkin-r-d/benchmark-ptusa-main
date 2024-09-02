@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725265702260,
+  "lastUpdate": 1725267850919,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -31844,6 +31844,40 @@ window.BENCHMARK_DATA = {
             "value": 106.82818200344818,
             "unit": "us/iter",
             "extra": "iterations: 6379\ncpu: 105.70630616084026 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "1025a49432fdbcb9e4136b3dd59799dee05d4f1d",
+          "message": "[config][dependabot] Add gits ubmodules processing (#734)",
+          "timestamp": "2024-09-02T07:45:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/1025a49432fdbcb9e4136b3dd59799dee05d4f1d"
+        },
+        "date": 1725267850395,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.24925708170365,
+            "unit": "us/iter",
+            "extra": "iterations: 29901\ncpu: 23.24793528644527 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.82844183168118,
+            "unit": "us/iter",
+            "extra": "iterations: 6464\ncpu: 108.6869339418317 us\nthreads: 1"
           }
         ]
       }
