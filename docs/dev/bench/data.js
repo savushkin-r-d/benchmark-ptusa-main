@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725351711930,
+  "lastUpdate": 1725351851155,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -32172,6 +32172,40 @@ window.BENCHMARK_DATA = {
             "value": 110.85382376730706,
             "unit": "us/iter",
             "extra": "iterations: 6429\ncpu: 109.69049292269405 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "319c3860618a313f9eebd1f17bd192925669dd3f",
+          "message": "Bump deps/subhook from `284047b` to `e935959` (#740)\n\nBumps [deps/subhook](https://github.com/Zeex/subhook) from `284047b` to `e935959`.\n- [Commits](https://github.com/Zeex/subhook/compare/284047b761bd61e3c0518b0be235aa77172b1010...e935959d2f9cc642bcbb5e7759b2b1e7196b0947)\n\n---\nupdated-dependencies:\n- dependency-name: deps/subhook\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2024-09-03T08:22:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/319c3860618a313f9eebd1f17bd192925669dd3f"
+        },
+        "date": 1725351850590,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.27363661102323,
+            "unit": "us/iter",
+            "extra": "iterations: 30133\ncpu: 23.274531676235355 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.03808649067696,
+            "unit": "us/iter",
+            "extra": "iterations: 6440\ncpu: 108.86507236024845 us\nthreads: 1"
           }
         ]
       }
