@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725352182161,
+  "lastUpdate": 1725352338663,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -32274,6 +32274,42 @@ window.BENCHMARK_DATA = {
             "value": 111.35126983135792,
             "unit": "us/iter",
             "extra": "iterations: 6404\ncpu: 110.06988663335417 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "319c3860618a313f9eebd1f17bd192925669dd3f",
+          "message": "Bump deps/subhook from `284047b` to `e935959` (#740)\n\nBumps [deps/subhook](https://github.com/Zeex/subhook) from `284047b` to `e935959`.\n- [Commits](https://github.com/Zeex/subhook/compare/284047b761bd61e3c0518b0be235aa77172b1010...e935959d2f9cc642bcbb5e7759b2b1e7196b0947)\n\n---\nupdated-dependencies:\n- dependency-name: deps/subhook\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2024-09-03T08:22:00Z",
+          "tree_id": "0197cca2d09a5a7366cee0f8413d9ae43d8f85fa",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/319c3860618a313f9eebd1f17bd192925669dd3f"
+        },
+        "date": 1725352338140,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.135936220785656,
+            "unit": "us/iter",
+            "extra": "iterations: 30292\ncpu: 23.134904958404864 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.9860734784037,
+            "unit": "us/iter",
+            "extra": "iterations: 6342\ncpu: 109.79810122989595 us\nthreads: 1"
           }
         ]
       }
