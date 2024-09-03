@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725351890519,
+  "lastUpdate": 1725352182161,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -32240,6 +32240,40 @@ window.BENCHMARK_DATA = {
             "value": 110.13335643410791,
             "unit": "us/iter",
             "extra": "iterations: 6450\ncpu: 109.02175348837207 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "fddb638a35a446d5cb6549527f1dbf9c8c1a0f6f",
+          "message": "Fix error: ‘put_time’ is not a member of ‘std’ (#742)",
+          "timestamp": "2024-09-03T08:26:40Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/fddb638a35a446d5cb6549527f1dbf9c8c1a0f6f"
+        },
+        "date": 1725352181559,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.4357765318395,
+            "unit": "us/iter",
+            "extra": "iterations: 29964\ncpu: 23.433648344680286 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.35126983135792,
+            "unit": "us/iter",
+            "extra": "iterations: 6404\ncpu: 110.06988663335417 us\nthreads: 1"
           }
         ]
       }
