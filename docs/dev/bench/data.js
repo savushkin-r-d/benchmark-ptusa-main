@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725344462718,
+  "lastUpdate": 1725345003034,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -32006,6 +32006,38 @@ window.BENCHMARK_DATA = {
             "value": 111.0149280485899,
             "unit": "us/iter",
             "extra": "iterations: 6421\ncpu: 109.52687291699114 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "627a51c9b311e6d95907b15fc4b5aaebb29a3a57",
+          "message": "Fix error: ‘put_time’ is not a member of ‘std’",
+          "timestamp": "2024-08-16T06:41:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/742/commits/627a51c9b311e6d95907b15fc4b5aaebb29a3a57"
+        },
+        "date": 1725345002539,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 23.29528532217501,
+            "unit": "us/iter",
+            "extra": "iterations: 29875\ncpu: 23.293042410041842 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.26754539791277,
+            "unit": "us/iter",
+            "extra": "iterations: 6421\ncpu: 110.08180735087991 us\nthreads: 1"
           }
         ]
       }
