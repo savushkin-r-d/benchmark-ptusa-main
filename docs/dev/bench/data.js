@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725428994373,
+  "lastUpdate": 1725429260503,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -32690,6 +32690,42 @@ window.BENCHMARK_DATA = {
             "value": 106.38518733193818,
             "unit": "us/iter",
             "extra": "iterations: 6694\ncpu: 104.91668822826412 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "artem.rudnitsky@gmail.com",
+            "name": "Artem Rudnitsky",
+            "username": "rartem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "708836bbdeca07dc1899dd3779c54349450ac15c",
+          "message": "Добавил менеджер параметрических рецептов (#718)",
+          "timestamp": "2024-09-04T08:50:51+03:00",
+          "tree_id": "6db4530dad36b34463f8e299b174bf898d1bf2e4",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/708836bbdeca07dc1899dd3779c54349450ac15c"
+        },
+        "date": 1725429259971,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.211536084343596,
+            "unit": "us/iter",
+            "extra": "iterations: 38604\ncpu: 18.210067013780957 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.92648365516833,
+            "unit": "us/iter",
+            "extra": "iterations: 6577\ncpu: 102.6569575794435 us\nthreads: 1"
           }
         ]
       }
