@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725436129317,
+  "lastUpdate": 1725455042330,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -32954,6 +32954,42 @@ window.BENCHMARK_DATA = {
             "value": 104.06214368988375,
             "unit": "us/iter",
             "extra": "iterations: 6862\ncpu: 102.41834290294375 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0f9c13b60e9a1d3d5b2e445dbef2edabd80bdb10",
+          "message": "[fix] Move usage of fmt::format_to_n from *.h to *.cpp (#746)\n\nFix controller build.",
+          "timestamp": "2024-09-04T16:01:30+03:00",
+          "tree_id": "c098326ba56d5144362ecef0e28970e06a1bdf56",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/0f9c13b60e9a1d3d5b2e445dbef2edabd80bdb10"
+        },
+        "date": 1725455041415,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.16271063840758,
+            "unit": "us/iter",
+            "extra": "iterations: 38502\ncpu: 18.16081876266168 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.61764014598387,
+            "unit": "us/iter",
+            "extra": "iterations: 6850\ncpu: 103.46987708029198 us\nthreads: 1"
           }
         ]
       }
