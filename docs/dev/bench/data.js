@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725435711052,
+  "lastUpdate": 1725436127838,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -32890,6 +32890,38 @@ window.BENCHMARK_DATA = {
             "value": 103.60258965816566,
             "unit": "us/iter",
             "extra": "iterations: 6904\ncpu: 102.47844930475085 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "57df5fda9b90928c0b18e9a32b0fa2075f8f3243",
+          "message": "[fix] Move usage of fmt::format_to_n from *.h to *.cpp",
+          "timestamp": "2024-09-04T06:58:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/746/commits/57df5fda9b90928c0b18e9a32b0fa2075f8f3243"
+        },
+        "date": 1725436127128,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.602195867948303,
+            "unit": "us/iter",
+            "extra": "iterations: 37076\ncpu: 18.600049088359043 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.93843881667995,
+            "unit": "us/iter",
+            "extra": "iterations: 6693\ncpu: 103.215046914687 us\nthreads: 1"
           }
         ]
       }
