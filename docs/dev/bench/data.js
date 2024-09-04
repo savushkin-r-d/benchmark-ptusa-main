@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725433199357,
+  "lastUpdate": 1725435711052,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -32858,6 +32858,38 @@ window.BENCHMARK_DATA = {
             "value": 102.94238149445293,
             "unit": "us/iter",
             "extra": "iterations: 6852\ncpu: 101.7707816695855 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "NogameNo-life",
+            "username": "NogameNo-life"
+          },
+          "committer": {
+            "name": "NogameNo-life",
+            "username": "NogameNo-life"
+          },
+          "id": "33f020f8c46903a501d2307f5534d1e71e74dbdc",
+          "message": "Add gea_valve",
+          "timestamp": "2024-08-23T06:14:18Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/743/commits/33f020f8c46903a501d2307f5534d1e71e74dbdc"
+        },
+        "date": 1725435710518,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.100445582718443,
+            "unit": "us/iter",
+            "extra": "iterations: 38655\ncpu: 18.09990280688139 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.60258965816566,
+            "unit": "us/iter",
+            "extra": "iterations: 6904\ncpu: 102.47844930475085 us\nthreads: 1"
           }
         ]
       }
