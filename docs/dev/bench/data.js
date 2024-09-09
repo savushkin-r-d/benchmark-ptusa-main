@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725867545363,
+  "lastUpdate": 1725868652565,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -33284,6 +33284,38 @@ window.BENCHMARK_DATA = {
             "value": 102.90534458874762,
             "unit": "us/iter",
             "extra": "iterations: 6930\ncpu: 101.63820822510823 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "committer": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "id": "7da7395bdc167e92ed4a9e6a26907f651ac7e3cc",
+          "message": "Disable exchange with altivar motors",
+          "timestamp": "2024-09-09T06:57:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/751/commits/7da7395bdc167e92ed4a9e6a26907f651ac7e3cc"
+        },
+        "date": 1725868651842,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.27073397635319,
+            "unit": "us/iter",
+            "extra": "iterations: 38568\ncpu: 18.268810049782203 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.56770880428364,
+            "unit": "us/iter",
+            "extra": "iterations: 6724\ncpu: 102.67047903033908 us\nthreads: 1"
           }
         ]
       }
