@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725869682049,
+  "lastUpdate": 1725872098456,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -33350,6 +33350,42 @@ window.BENCHMARK_DATA = {
             "value": 102.2766750177934,
             "unit": "us/iter",
             "extra": "iterations: 7025\ncpu: 101.14444270462633 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "artem.rudnitsky@gmail.com",
+            "name": "Artem Rudnitsky",
+            "username": "rartem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "08226018fadfaac82eeae1593bba18e8cf4f4eed",
+          "message": "[fix] Disable exchange with altivar motors (#751)\n\nConnected with #647.",
+          "timestamp": "2024-09-09T11:52:35+03:00",
+          "tree_id": "49ae61aa594329ddbaf87d503da020d5b75e8b57",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/08226018fadfaac82eeae1593bba18e8cf4f4eed"
+        },
+        "date": 1725872097724,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.283650320771105,
+            "unit": "us/iter",
+            "extra": "iterations: 38501\ncpu: 18.28296262434742 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.35585027209835,
+            "unit": "us/iter",
+            "extra": "iterations: 6799\ncpu: 103.88879276364173 us\nthreads: 1"
           }
         ]
       }
