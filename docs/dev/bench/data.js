@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725860094614,
+  "lastUpdate": 1725861654022,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -33152,6 +33152,42 @@ window.BENCHMARK_DATA = {
             "value": 103.36351878823282,
             "unit": "us/iter",
             "extra": "iterations: 6866\ncpu: 102.21424482959509 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b2439398afcc9b9ab02f88f95d1b932995179927",
+          "message": "Fix sockets processing (#748)",
+          "timestamp": "2024-09-09T08:58:12+03:00",
+          "tree_id": "a9437d58609ee313640f2737d827ead8e0d0bea0",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/b2439398afcc9b9ab02f88f95d1b932995179927"
+        },
+        "date": 1725861653378,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.080634170138747,
+            "unit": "us/iter",
+            "extra": "iterations: 37922\ncpu: 18.079702257264913 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.54767369186143,
+            "unit": "us/iter",
+            "extra": "iterations: 6880\ncpu: 102.36258488372097 us\nthreads: 1"
           }
         ]
       }
