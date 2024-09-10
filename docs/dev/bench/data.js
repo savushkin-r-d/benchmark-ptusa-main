@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1725872684183,
+  "lastUpdate": 1725949559346,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -33420,6 +33420,38 @@ window.BENCHMARK_DATA = {
             "value": 103.9828719241043,
             "unit": "us/iter",
             "extra": "iterations: 6746\ncpu: 102.84183857100507 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "d1524b2f80051313ea0d2ea7d1587d28affdcfa2",
+          "message": "Fix emulator mode",
+          "timestamp": "2024-09-04T06:58:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/749/commits/d1524b2f80051313ea0d2ea7d1587d28affdcfa2"
+        },
+        "date": 1725949558284,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.749801927110642,
+            "unit": "us/iter",
+            "extra": "iterations: 37673\ncpu: 18.748063334483582 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.30504834906222,
+            "unit": "us/iter",
+            "extra": "iterations: 6784\ncpu: 103.10431117334907 us\nthreads: 1"
           }
         ]
       }
