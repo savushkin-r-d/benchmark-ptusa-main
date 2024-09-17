@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726575703960,
+  "lastUpdate": 1726575725600,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -33968,6 +33968,38 @@ window.BENCHMARK_DATA = {
             "value": 109.92782032102735,
             "unit": "us/iter",
             "extra": "iterations: 6417\ncpu: 108.76881486676021 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "4aadaeb02a5c362681f64130f4b0a9c6022a173d",
+          "message": "[tests] Fix ParamsRecipeStorage test",
+          "timestamp": "2024-09-04T06:58:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/754/commits/4aadaeb02a5c362681f64130f4b0a9c6022a173d"
+        },
+        "date": 1726575724559,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.12352613456859,
+            "unit": "us/iter",
+            "extra": "iterations: 38627\ncpu: 18.123105289046524 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.60229959994005,
+            "unit": "us/iter",
+            "extra": "iterations: 6749\ncpu: 103.37581878796858 us\nthreads: 1"
           }
         ]
       }
