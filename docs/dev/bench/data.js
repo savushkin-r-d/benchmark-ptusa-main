@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726575725600,
+  "lastUpdate": 1726576581325,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -34000,6 +34000,40 @@ window.BENCHMARK_DATA = {
             "value": 104.60229959994005,
             "unit": "us/iter",
             "extra": "iterations: 6749\ncpu: 103.37581878796858 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8f0437af01e42cae6d06fa9aec257bf2755ec7d1",
+          "message": "[tests] Fix ParamsRecipeStorage test (#754)",
+          "timestamp": "2024-09-17T12:33:13Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/8f0437af01e42cae6d06fa9aec257bf2755ec7d1"
+        },
+        "date": 1726576580583,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.58435251970359,
+            "unit": "us/iter",
+            "extra": "iterations: 37683\ncpu: 18.582486797760264 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.8888898678429,
+            "unit": "us/iter",
+            "extra": "iterations: 6810\ncpu: 102.6450323054332 us\nthreads: 1"
           }
         ]
       }
