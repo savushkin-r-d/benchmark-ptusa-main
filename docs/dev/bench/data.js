@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726818116378,
+  "lastUpdate": 1726825738448,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -34518,6 +34518,40 @@ window.BENCHMARK_DATA = {
             "value": 101.78601584274703,
             "unit": "us/iter",
             "extra": "iterations: 6817\ncpu: 100.66348041660558 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "a1c11194648706ff558eeaf0c976c117be0382fc",
+          "message": "Add I/O modules range checking (#757)\n\n* Add I/O modules range checking\n\n* Use constants\n\n* Add tests\n\n* Fix comments",
+          "timestamp": "2024-09-20T09:46:14Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/a1c11194648706ff558eeaf0c976c117be0382fc"
+        },
+        "date": 1726825737678,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.782872094782224,
+            "unit": "us/iter",
+            "extra": "iterations: 39670\ncpu: 17.782532518275776 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.57963231644837,
+            "unit": "us/iter",
+            "extra": "iterations: 6851\ncpu: 101.64291913589258 us\nthreads: 1"
           }
         ]
       }
