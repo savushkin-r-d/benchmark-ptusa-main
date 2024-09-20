@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1726814534397,
+  "lastUpdate": 1726817131104,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -34422,6 +34422,38 @@ window.BENCHMARK_DATA = {
             "value": 103.358494625218,
             "unit": "us/iter",
             "extra": "iterations: 6884\ncpu: 102.29128370133644 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "2510208cdd08dea4af4e41a7275d47af7d166e23",
+          "message": "Add I/O modules range checking",
+          "timestamp": "2024-09-04T06:58:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/757/commits/2510208cdd08dea4af4e41a7275d47af7d166e23"
+        },
+        "date": 1726817130165,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.752903352707985,
+            "unit": "us/iter",
+            "extra": "iterations: 39401\ncpu: 17.752482551204288 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.48637923121206,
+            "unit": "us/iter",
+            "extra": "iterations: 6972\ncpu: 100.44958419391855 us\nthreads: 1"
           }
         ]
       }
