@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727159098334,
+  "lastUpdate": 1727184685312,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -34974,6 +34974,38 @@ window.BENCHMARK_DATA = {
             "value": 101.89558062627783,
             "unit": "us/iter",
             "extra": "iterations: 6834\ncpu: 100.82136362306115 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Lenonim",
+            "username": "Lenonim"
+          },
+          "committer": {
+            "name": "Lenonim",
+            "username": "Lenonim"
+          },
+          "id": "5d3d5ed89d784beac7d2f2fcb5bc097975440b4a",
+          "message": "Add device GEA TVIS A15",
+          "timestamp": "2024-09-23T09:55:30Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/755/commits/5d3d5ed89d784beac7d2f2fcb5bc097975440b4a"
+        },
+        "date": 1727184684650,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.572289469504774,
+            "unit": "us/iter",
+            "extra": "iterations: 37776\ncpu: 18.571688664760696 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.63194558019238,
+            "unit": "us/iter",
+            "extra": "iterations: 6946\ncpu: 100.58905355600344 us\nthreads: 1"
           }
         ]
       }
