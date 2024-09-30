@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727674583060,
+  "lastUpdate": 1727677515487,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -35746,6 +35746,42 @@ window.BENCHMARK_DATA = {
             "value": 102.19877271416068,
             "unit": "us/iter",
             "extra": "iterations: 6934\ncpu: 101.1170784539948 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "40092caa1a3fad74f291ab77b2ba0724fcc607c3",
+          "message": "[config][cmake] Change version (#758)",
+          "timestamp": "2024-09-30T09:22:57+03:00",
+          "tree_id": "72b93b9173517d491f607205d0901869a3dc4e3f",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/40092caa1a3fad74f291ab77b2ba0724fcc607c3"
+        },
+        "date": 1727677514740,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.507792240581963,
+            "unit": "us/iter",
+            "extra": "iterations: 40003\ncpu: 17.50714688898333 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.95510002870978,
+            "unit": "us/iter",
+            "extra": "iterations: 6968\ncpu: 101.93466087830082 us\nthreads: 1"
           }
         ]
       }
