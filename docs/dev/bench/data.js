@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727759511325,
+  "lastUpdate": 1727759515744,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -36084,6 +36084,38 @@ window.BENCHMARK_DATA = {
             "value": 103.05309765569405,
             "unit": "us/iter",
             "extra": "iterations: 6953\ncpu: 101.99918006615847 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "1973fc3c081e2f389faac7137a9fbaced17d8ba1",
+          "message": "[config][github actions] Change sonar project version",
+          "timestamp": "2024-09-04T06:58:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/766/commits/1973fc3c081e2f389faac7137a9fbaced17d8ba1"
+        },
+        "date": 1727759514841,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.67279088747089,
+            "unit": "us/iter",
+            "extra": "iterations: 39945\ncpu: 17.672600500688446 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.91025646180097,
+            "unit": "us/iter",
+            "extra": "iterations: 6964\ncpu: 101.85629035037338 us\nthreads: 1"
           }
         ]
       }
