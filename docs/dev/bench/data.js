@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727705363606,
+  "lastUpdate": 1727759070549,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -36016,6 +36016,42 @@ window.BENCHMARK_DATA = {
             "value": 103.0493417888525,
             "unit": "us/iter",
             "extra": "iterations: 6820\ncpu: 102.07102243401758 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "831d01a5f5152a6f53f0c0256a41e77c298326f9",
+          "message": "Fix library for PLCNext (#761)",
+          "timestamp": "2024-10-01T08:02:09+03:00",
+          "tree_id": "c04fb6eb2a5960957c5613bcae28e44efbbea2a5",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/831d01a5f5152a6f53f0c0256a41e77c298326f9"
+        },
+        "date": 1727759069641,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.63808666837226,
+            "unit": "us/iter",
+            "extra": "iterations: 39080\ncpu: 17.63792543500512 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.7360641411947,
+            "unit": "us/iter",
+            "extra": "iterations: 6969\ncpu: 100.68965504376523 us\nthreads: 1"
           }
         ]
       }
