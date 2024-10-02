@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727857693918,
+  "lastUpdate": 1727858353317,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -36220,6 +36220,38 @@ window.BENCHMARK_DATA = {
             "value": 102.54129054349843,
             "unit": "us/iter",
             "extra": "iterations: 6863\ncpu: 101.24994011365294 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "7f4186a890ca5bb6e6f4cbaea25e680865a98fb0",
+          "message": "Refactor GEA IO-Link valve",
+          "timestamp": "2024-09-04T06:58:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/768/commits/7f4186a890ca5bb6e6f4cbaea25e680865a98fb0"
+        },
+        "date": 1727858352400,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.509186740221814,
+            "unit": "us/iter",
+            "extra": "iterations: 40061\ncpu: 17.508290981253587 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.28266151378354,
+            "unit": "us/iter",
+            "extra": "iterations: 6857\ncpu: 100.25134417383698 us\nthreads: 1"
           }
         ]
       }
