@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1727880088866,
+  "lastUpdate": 1727933217346,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -36348,6 +36348,42 @@ window.BENCHMARK_DATA = {
             "value": 104.34814844209409,
             "unit": "us/iter",
             "extra": "iterations: 6804\ncpu: 102.79899764844211 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "04a4e0ba320d673dc3d1dc90c6cda9be250fd830",
+          "message": "Refactor GEA IO-Link valve (#768)\n\nCo-authored-by: Ilja Aboimov <ilja.ist.am.besten@mail.ru>",
+          "timestamp": "2024-10-03T08:22:11+03:00",
+          "tree_id": "51791777c0add23b3bdc97d5ef3ff89d4ed97df8",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/04a4e0ba320d673dc3d1dc90c6cda9be250fd830"
+        },
+        "date": 1727933216189,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.622385865047743,
+            "unit": "us/iter",
+            "extra": "iterations: 39703\ncpu: 17.62195947409516 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.20296052442328,
+            "unit": "us/iter",
+            "extra": "iterations: 6941\ncpu: 101.12004206886617 us\nthreads: 1"
           }
         ]
       }
