@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1728976385129,
+  "lastUpdate": 1728984728526,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -37436,6 +37436,38 @@ window.BENCHMARK_DATA = {
             "value": 105.56409875795637,
             "unit": "us/iter",
             "extra": "iterations: 6602\ncpu: 104.05883717055441 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "33ebc25f068b6c96b245f54e60ac8d69cf53c95c",
+          "message": "[config][github actions] Remove tests from code coverage for Sonar",
+          "timestamp": "2024-10-09T12:44:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/781/commits/33ebc25f068b6c96b245f54e60ac8d69cf53c95c"
+        },
+        "date": 1728984727676,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.547997195301782,
+            "unit": "us/iter",
+            "extra": "iterations: 39933\ncpu: 17.546905266321087 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.7487438185817,
+            "unit": "us/iter",
+            "extra": "iterations: 6835\ncpu: 102.56264257498174 us\nthreads: 1"
           }
         ]
       }
