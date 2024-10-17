@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729144474537,
+  "lastUpdate": 1729144733656,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -37924,6 +37924,42 @@ window.BENCHMARK_DATA = {
             "value": 102.96552868554849,
             "unit": "us/iter",
             "extra": "iterations: 6885\ncpu: 101.77481539578795 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d90b0c710578a0ef7d866faee158f9503394b028",
+          "message": "[config][github actions] Remove tests from code coverage for Sonar (#781)",
+          "timestamp": "2024-10-17T08:56:34+03:00",
+          "tree_id": "5f5bdc7eb4c37fafa4c7dc6c446211138f74fdc5",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d90b0c710578a0ef7d866faee158f9503394b028"
+        },
+        "date": 1729144732954,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.976188018030346,
+            "unit": "us/iter",
+            "extra": "iterations: 41262\ncpu: 16.974335272163252 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.07758243495749,
+            "unit": "us/iter",
+            "extra": "iterations: 6957\ncpu: 100.87599928129941 us\nthreads: 1"
           }
         ]
       }
