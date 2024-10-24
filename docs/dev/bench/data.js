@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1729768481905,
+  "lastUpdate": 1729771155586,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -38926,6 +38926,38 @@ window.BENCHMARK_DATA = {
             "value": 103.3687696547694,
             "unit": "us/iter",
             "extra": "iterations: 6894\ncpu: 102.19448346388167 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Lenonim",
+            "username": "Lenonim"
+          },
+          "committer": {
+            "name": "Lenonim",
+            "username": "Lenonim"
+          },
+          "id": "fe50e4a4385a3337d74ce4f868b7b47a0c9f8a46",
+          "message": "[tests] Добавление тестов для менеджера рецептов",
+          "timestamp": "2024-10-18T07:32:59Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/779/commits/fe50e4a4385a3337d74ce4f868b7b47a0c9f8a46"
+        },
+        "date": 1729771154628,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.2267585435422,
+            "unit": "us/iter",
+            "extra": "iterations: 40674\ncpu: 17.22632305649801 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.90974128627961,
+            "unit": "us/iter",
+            "extra": "iterations: 6857\ncpu: 102.52729911039812 us\nthreads: 1"
           }
         ]
       }
