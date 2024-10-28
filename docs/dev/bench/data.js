@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730106524696,
+  "lastUpdate": 1730106526566,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -39222,6 +39222,42 @@ window.BENCHMARK_DATA = {
             "value": 104.6592409017237,
             "unit": "us/iter",
             "extra": "iterations: 6787\ncpu: 103.48902548990716 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "164905074+gleb7499@users.noreply.github.com",
+            "name": "Gleb",
+            "username": "gleb7499"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5f1e175a9dbdbf2723c846eb66a10aa971088545",
+          "message": "[doc] Fix typos (#787)",
+          "timestamp": "2024-10-28T12:05:40+03:00",
+          "tree_id": "a9acde5ff30566add0e3054bbe0557d16b7b73a2",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5f1e175a9dbdbf2723c846eb66a10aa971088545"
+        },
+        "date": 1730106525583,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.276521397121094,
+            "unit": "us/iter",
+            "extra": "iterations: 40426\ncpu: 17.27571144807797 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.40881055806844,
+            "unit": "us/iter",
+            "extra": "iterations: 6630\ncpu: 103.29239351432881 us\nthreads: 1"
           }
         ]
       }
