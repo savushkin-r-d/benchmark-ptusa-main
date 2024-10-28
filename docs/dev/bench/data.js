@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730102370605,
+  "lastUpdate": 1730103063074,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -39086,6 +39086,40 @@ window.BENCHMARK_DATA = {
             "value": 106.55692551765459,
             "unit": "us/iter",
             "extra": "iterations: 6713\ncpu: 105.07199463727098 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Gleb",
+            "username": "gleb7499",
+            "email": "164905074+gleb7499@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8decbe43e9359838b1a94017fb12d983cb0b23fe",
+          "message": "Update readme.md (#787)",
+          "timestamp": "2024-10-28T08:08:29Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/8decbe43e9359838b1a94017fb12d983cb0b23fe"
+        },
+        "date": 1730103062305,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.50517431329639,
+            "unit": "us/iter",
+            "extra": "iterations: 40192\ncpu: 17.505252015326434 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.35021072061572,
+            "unit": "us/iter",
+            "extra": "iterations: 6772\ncpu: 102.17570245126993 us\nthreads: 1"
           }
         ]
       }
