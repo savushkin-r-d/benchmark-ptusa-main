@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730103063074,
+  "lastUpdate": 1730106286386,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -39120,6 +39120,40 @@ window.BENCHMARK_DATA = {
             "value": 103.35021072061572,
             "unit": "us/iter",
             "extra": "iterations: 6772\ncpu: 102.17570245126993 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ilja Aboimov",
+            "username": "Lenonim",
+            "email": "ilja.ist.am.besten@mail.ru"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "3c65a5c698d7ea9f36b02f3eb46083600fd5aa9a",
+          "message": "[tests] Добавление тестов для менеджера рецептов (#779)\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2024-10-28T09:03:11Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/3c65a5c698d7ea9f36b02f3eb46083600fd5aa9a"
+        },
+        "date": 1730106285554,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.833426235823463,
+            "unit": "us/iter",
+            "extra": "iterations: 41531\ncpu: 16.83251380896198 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.0982728743798,
+            "unit": "us/iter",
+            "extra": "iterations: 6798\ncpu: 102.90670667843483 us\nthreads: 1"
           }
         ]
       }
