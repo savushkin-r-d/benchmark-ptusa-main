@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1730459368900,
+  "lastUpdate": 1730714218361,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -39582,6 +39582,38 @@ window.BENCHMARK_DATA = {
             "value": 104.33006187536706,
             "unit": "us/iter",
             "extra": "iterations: 6804\ncpu: 103.21546825396825 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "cae2c847fc54fc14aea6443bde1e89649d771156",
+          "message": "Fix subhook location",
+          "timestamp": "2024-10-09T12:44:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/792/commits/cae2c847fc54fc14aea6443bde1e89649d771156"
+        },
+        "date": 1730714217361,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.67967383259988,
+            "unit": "us/iter",
+            "extra": "iterations: 39725\ncpu: 17.678093920704846 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.76083250293198,
+            "unit": "us/iter",
+            "extra": "iterations: 6824\ncpu: 104.43098065650643 us\nthreads: 1"
           }
         ]
       }
