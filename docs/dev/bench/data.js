@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731307965986,
+  "lastUpdate": 1731309294347,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -39746,6 +39746,42 @@ window.BENCHMARK_DATA = {
             "value": 105.52167359050654,
             "unit": "us/iter",
             "extra": "iterations: 6740\ncpu: 104.16340059347182 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db162e5571a49e434b7e8e25ebf573934dc8680b",
+          "message": "Bump deps/benchmark from `24e0bd8` to `d99cdd7` (#791)\n\nBumps [deps/benchmark](https://github.com/google/benchmark) from `24e0bd8` to `d99cdd7`.\r\n- [Release notes](https://github.com/google/benchmark/releases)\r\n- [Commits](https://github.com/google/benchmark/compare/24e0bd827a8bec8121b128b0634cb34402fb3259...d99cdd7356de97b3056684d6b511189778d8a247)",
+          "timestamp": "2024-11-11T10:12:36+03:00",
+          "tree_id": "b4f68f31b882019e91141525e3b337b117971318",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/db162e5571a49e434b7e8e25ebf573934dc8680b"
+        },
+        "date": 1731309293365,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.955798485236937,
+            "unit": "us/iter",
+            "extra": "iterations: 38950\ncpu: 17.955360872913992 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.0192569246893,
+            "unit": "us/iter",
+            "extra": "iterations: 6679\ncpu: 105.53734496182064 us\nthreads: 1"
           }
         ]
       }
