@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731307700934,
+  "lastUpdate": 1731307930234,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -39678,6 +39678,42 @@ window.BENCHMARK_DATA = {
             "value": 104.01972320515426,
             "unit": "us/iter",
             "extra": "iterations: 6839\ncpu: 102.85989910805675 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "75fc99f75844165031d71f0c55af1c73f54ee09c",
+          "message": "Fix subhook location (#792)",
+          "timestamp": "2024-11-11T09:49:28+03:00",
+          "tree_id": "ed53828ce3aaeee037d7c26225cf4649121ff811",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/75fc99f75844165031d71f0c55af1c73f54ee09c"
+        },
+        "date": 1731307929479,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.197659014921136,
+            "unit": "us/iter",
+            "extra": "iterations: 40078\ncpu: 17.19721887319727 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.81878784319407,
+            "unit": "us/iter",
+            "extra": "iterations: 6811\ncpu: 102.65035618851854 us\nthreads: 1"
           }
         ]
       }
