@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731309560578,
+  "lastUpdate": 1731315892357,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -39846,6 +39846,40 @@ window.BENCHMARK_DATA = {
             "value": 104.94172044280518,
             "unit": "us/iter",
             "extra": "iterations: 6775\ncpu: 103.64588944649448 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "db162e5571a49e434b7e8e25ebf573934dc8680b",
+          "message": "Bump deps/benchmark from `24e0bd8` to `d99cdd7` (#791)\n\nBumps [deps/benchmark](https://github.com/google/benchmark) from `24e0bd8` to `d99cdd7`.\r\n- [Release notes](https://github.com/google/benchmark/releases)\r\n- [Commits](https://github.com/google/benchmark/compare/24e0bd827a8bec8121b128b0634cb34402fb3259...d99cdd7356de97b3056684d6b511189778d8a247)",
+          "timestamp": "2024-11-11T07:12:36Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/db162e5571a49e434b7e8e25ebf573934dc8680b"
+        },
+        "date": 1731315891389,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.662937692113992,
+            "unit": "us/iter",
+            "extra": "iterations: 39690\ncpu: 17.661650214159742 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.61637550531086,
+            "unit": "us/iter",
+            "extra": "iterations: 6679\ncpu: 103.12023671208266 us\nthreads: 1"
           }
         ]
       }
