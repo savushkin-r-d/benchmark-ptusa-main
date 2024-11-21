@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1731920677926,
+  "lastUpdate": 1732198708799,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -40106,6 +40106,38 @@ window.BENCHMARK_DATA = {
             "value": 103.12752165697809,
             "unit": "us/iter",
             "extra": "iterations: 6880\ncpu: 101.9379504360465 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "5ca5804171e95d00ef30db38a0f32b0acace9281",
+          "message": "Bump codecov/codecov-action from 4 to 5",
+          "timestamp": "2024-11-11T07:12:40Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/797/commits/5ca5804171e95d00ef30db38a0f32b0acace9281"
+        },
+        "date": 1732198707609,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.112811232933584,
+            "unit": "us/iter",
+            "extra": "iterations: 38672\ncpu: 18.11210009826231 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.14381482024908,
+            "unit": "us/iter",
+            "extra": "iterations: 6815\ncpu: 102.91798811445344 us\nthreads: 1"
           }
         ]
       }
