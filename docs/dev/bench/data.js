@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732198708799,
+  "lastUpdate": 1732266972552,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -40138,6 +40138,42 @@ window.BENCHMARK_DATA = {
             "value": 104.14381482024908,
             "unit": "us/iter",
             "extra": "iterations: 6815\ncpu: 102.91798811445344 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e974817cf87b585ab54ba2201196e7fab40b395d",
+          "message": "Bump codecov/codecov-action from 4 to 5 (#797)\n\nBumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 4 to 5.\n- [Release notes](https://github.com/codecov/codecov-action/releases)\n- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/codecov/codecov-action/compare/v4...v5)",
+          "timestamp": "2024-11-22T12:13:41+03:00",
+          "tree_id": "b7aaf97233d40c48e9150ecd80874d2c986843fb",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e974817cf87b585ab54ba2201196e7fab40b395d"
+        },
+        "date": 1732266971409,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.41345457718501,
+            "unit": "us/iter",
+            "extra": "iterations: 40112\ncpu: 17.412988881132826 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.94006257326775,
+            "unit": "us/iter",
+            "extra": "iterations: 6824\ncpu: 103.7974070926143 us\nthreads: 1"
           }
         ]
       }
