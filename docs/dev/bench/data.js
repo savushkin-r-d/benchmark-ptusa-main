@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732269185413,
+  "lastUpdate": 1732269203674,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -40206,6 +40206,38 @@ window.BENCHMARK_DATA = {
             "value": 105.0986088721812,
             "unit": "us/iter",
             "extra": "iterations: 6650\ncpu: 103.9594667669173 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "d18ba68caacfcbf88b4a99e67019a7892740ecaf",
+          "message": "Add new control device (pressure sensor IFM PM1706)",
+          "timestamp": "2024-10-09T12:44:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/801/commits/d18ba68caacfcbf88b4a99e67019a7892740ecaf"
+        },
+        "date": 1732269202660,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.72853381538685,
+            "unit": "us/iter",
+            "extra": "iterations: 39553\ncpu: 17.726999823022275 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.53404064440014,
+            "unit": "us/iter",
+            "extra": "iterations: 6766\ncpu: 104.6564800472953 us\nthreads: 1"
           }
         ]
       }
