@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1732525125737,
+  "lastUpdate": 1732525485946,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -40404,6 +40404,40 @@ window.BENCHMARK_DATA = {
             "value": 104.98371270473777,
             "unit": "us/iter",
             "extra": "iterations: 6777\ncpu: 103.58480404308693 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "5a7b0e6c155d2232ef4b93481ff3a6b6f7b84da8",
+          "message": "Add new control device (pressure sensor IFM PM1706) (#801)\n\n* Add new control device (pressure sensor IFM PM1706)\n\n* Add tests\n\n* Fix test",
+          "timestamp": "2024-11-25T08:42:03Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5a7b0e6c155d2232ef4b93481ff3a6b6f7b84da8"
+        },
+        "date": 1732525485134,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.71557799393626,
+            "unit": "us/iter",
+            "extra": "iterations: 39580\ncpu: 17.71541869631127 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.57004630990814,
+            "unit": "us/iter",
+            "extra": "iterations: 6802\ncpu: 102.74898074095852 us\nthreads: 1"
           }
         ]
       }
