@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1733824755282,
+  "lastUpdate": 1733826343797,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -40998,6 +40998,40 @@ window.BENCHMARK_DATA = {
             "value": 104.73426521037861,
             "unit": "us/iter",
             "extra": "iterations: 6821\ncpu: 103.64548775839322 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "bdf2c0ffa83e1cf5bb252182c7c3fbb86adb8515",
+          "message": "Fix stub functionality (#808)\n\n* Fix stub functionality\n\n* Add new line at end of file",
+          "timestamp": "2024-12-10T10:23:04Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/bdf2c0ffa83e1cf5bb252182c7c3fbb86adb8515"
+        },
+        "date": 1733826342858,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.5416770527942,
+            "unit": "us/iter",
+            "extra": "iterations: 38545\ncpu: 18.54020158256583 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.31329754147144,
+            "unit": "us/iter",
+            "extra": "iterations: 6752\ncpu: 103.89769297985785 us\nthreads: 1"
           }
         ]
       }
