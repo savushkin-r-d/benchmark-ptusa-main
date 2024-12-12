@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734004442307,
+  "lastUpdate": 1734005692170,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -41164,6 +41164,38 @@ window.BENCHMARK_DATA = {
             "value": 104.40890606193702,
             "unit": "us/iter",
             "extra": "iterations: 6813\ncpu: 103.37924071627769 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "bc2bef469d21e0e8a396cf7c99726a6254c02f97",
+          "message": "Change the maximum number of sockets",
+          "timestamp": "2024-10-09T12:44:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/811/commits/bc2bef469d21e0e8a396cf7c99726a6254c02f97"
+        },
+        "date": 1734005690899,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.12832767808804,
+            "unit": "us/iter",
+            "extra": "iterations: 38843\ncpu: 18.127682336585742 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.1954101314431,
+            "unit": "us/iter",
+            "extra": "iterations: 6771\ncpu: 105.09557701964263 us\nthreads: 1"
           }
         ]
       }
