@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734005992387,
+  "lastUpdate": 1734006267730,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -41260,6 +41260,42 @@ window.BENCHMARK_DATA = {
             "value": 105.99877528089579,
             "unit": "us/iter",
             "extra": "iterations: 6764\ncpu: 104.84465079834418 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "35d2e70ed0e003231b2d648d4e528e3cb92df913",
+          "message": "Change the maximum number of sockets (#811)",
+          "timestamp": "2024-12-12T15:21:59+03:00",
+          "tree_id": "92103c2710930e3d4c01360f9618bb75afea68ef",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/35d2e70ed0e003231b2d648d4e528e3cb92df913"
+        },
+        "date": 1734006266855,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.27725741282108,
+            "unit": "us/iter",
+            "extra": "iterations: 38312\ncpu: 18.276391209020673 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.09918763796976,
+            "unit": "us/iter",
+            "extra": "iterations: 6795\ncpu: 103.74792126563649 us\nthreads: 1"
           }
         ]
       }
