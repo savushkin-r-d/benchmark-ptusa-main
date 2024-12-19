@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734600999792,
+  "lastUpdate": 1734601881452,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -42014,6 +42014,42 @@ window.BENCHMARK_DATA = {
             "value": 106.39298907022079,
             "unit": "us/iter",
             "extra": "iterations: 6679\ncpu: 105.19137071417877 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d5bd3bb925f5d18b383824e3dbcbe922ddde27a9",
+          "message": "Fix digital valves (#817)",
+          "timestamp": "2024-12-19T12:48:38+03:00",
+          "tree_id": "39088f056159c51e0be8b8129080686c579d0815",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d5bd3bb925f5d18b383824e3dbcbe922ddde27a9"
+        },
+        "date": 1734601880076,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.502585128128285,
+            "unit": "us/iter",
+            "extra": "iterations: 40116\ncpu: 17.50168810449696 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.90841038922505,
+            "unit": "us/iter",
+            "extra": "iterations: 6757\ncpu: 104.245990972325 us\nthreads: 1"
           }
         ]
       }
