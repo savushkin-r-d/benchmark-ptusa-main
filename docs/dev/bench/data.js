@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734530658620,
+  "lastUpdate": 1734591101411,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -41758,6 +41758,38 @@ window.BENCHMARK_DATA = {
             "value": 106.65073693858793,
             "unit": "us/iter",
             "extra": "iterations: 6546\ncpu: 105.14057653528872 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "208c4f0f711c72454cf93e4815dd0ca7da7a8ed7",
+          "message": "Fix valve_DO1_DI1",
+          "timestamp": "2024-10-09T12:44:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/817/commits/208c4f0f711c72454cf93e4815dd0ca7da7a8ed7"
+        },
+        "date": 1734591100445,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.23009634949132,
+            "unit": "us/iter",
+            "extra": "iterations: 38433\ncpu: 18.229013660135823 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.18704004817926,
+            "unit": "us/iter",
+            "extra": "iterations: 6642\ncpu: 105.93034974405302 us\nthreads: 1"
           }
         ]
       }
