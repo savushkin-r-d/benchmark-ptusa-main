@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734703186141,
+  "lastUpdate": 1734703596614,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -42350,6 +42350,38 @@ window.BENCHMARK_DATA = {
             "value": 103.87785432206812,
             "unit": "us/iter",
             "extra": "iterations: 6837\ncpu: 102.70622875530204 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "66f4845eec471cdcce61164ef8eebd6f69018e84",
+          "message": "Fix unused variables",
+          "timestamp": "2024-10-09T12:44:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/825/commits/66f4845eec471cdcce61164ef8eebd6f69018e84"
+        },
+        "date": 1734703595267,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.421891354987682,
+            "unit": "us/iter",
+            "extra": "iterations: 38207\ncpu: 18.42068319941372 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.18487662928086,
+            "unit": "us/iter",
+            "extra": "iterations: 6598\ncpu: 106.71901333737499 us\nthreads: 1"
           }
         ]
       }
