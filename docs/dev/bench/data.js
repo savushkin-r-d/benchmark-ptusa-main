@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734673417121,
+  "lastUpdate": 1734673823701,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -42246,6 +42246,42 @@ window.BENCHMARK_DATA = {
             "value": 105.51500863995318,
             "unit": "us/iter",
             "extra": "iterations: 6713\ncpu: 103.90949396692984 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c72e70fee42b3c33d774b894d4ec4c10f4086b36",
+          "message": "Fix general DO device (#820)",
+          "timestamp": "2024-12-20T08:47:44+03:00",
+          "tree_id": "75efb0c52cd9cdfd680638c28a3a0dd52443c035",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/c72e70fee42b3c33d774b894d4ec4c10f4086b36"
+        },
+        "date": 1734673822180,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.733207785309272,
+            "unit": "us/iter",
+            "extra": "iterations: 39536\ncpu: 17.73279570518009 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.28162101571478,
+            "unit": "us/iter",
+            "extra": "iterations: 6557\ncpu: 107.08830456001219 us\nthreads: 1"
           }
         ]
       }
