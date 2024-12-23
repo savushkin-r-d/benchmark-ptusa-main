@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1734703608211,
+  "lastUpdate": 1734932347123,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -42414,6 +42414,38 @@ window.BENCHMARK_DATA = {
             "value": 108.43661136784593,
             "unit": "us/iter",
             "extra": "iterations: 6492\ncpu: 106.90919239063464 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "4e21a2ebb563236b249daa1a2962db7f5f3ee88a",
+          "message": "[cip] Fix string buffer size",
+          "timestamp": "2024-10-09T12:44:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/816/commits/4e21a2ebb563236b249daa1a2962db7f5f3ee88a"
+        },
+        "date": 1734932345747,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.86248584221588,
+            "unit": "us/iter",
+            "extra": "iterations: 39307\ncpu: 17.861698857709822 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.22255253380395,
+            "unit": "us/iter",
+            "extra": "iterations: 6729\ncpu: 105.3520971912617 us\nthreads: 1"
           }
         ]
       }
