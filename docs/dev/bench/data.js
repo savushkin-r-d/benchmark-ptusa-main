@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735022771152,
+  "lastUpdate": 1735042441026,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -42838,6 +42838,42 @@ window.BENCHMARK_DATA = {
             "value": 106.51156379644691,
             "unit": "us/iter",
             "extra": "iterations: 6701\ncpu: 105.38514162065364 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6888e96e3e81d04036c73e90e5146a384178b975",
+          "message": "[cip] Fix unused variables (#825)",
+          "timestamp": "2024-12-24T15:11:21+03:00",
+          "tree_id": "691a8864778035a66acfcfece5a06947565dd0fd",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/6888e96e3e81d04036c73e90e5146a384178b975"
+        },
+        "date": 1735042439471,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.846070875580423,
+            "unit": "us/iter",
+            "extra": "iterations: 40042\ncpu: 17.84567873732581 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.181617774465,
+            "unit": "us/iter",
+            "extra": "iterations: 6695\ncpu: 106.07655982076173 us\nthreads: 1"
           }
         ]
       }
