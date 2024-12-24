@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735022173889,
+  "lastUpdate": 1735022262012,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -42736,6 +42736,40 @@ window.BENCHMARK_DATA = {
             "value": 104.7536442222751,
             "unit": "us/iter",
             "extra": "iterations: 6802\ncpu: 103.64686254042927 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e79d9b9d4c32e29e8473398879d9ddfba6f05628",
+          "message": "[cip] Fix string buffer size (#816)\n\n* Fix string buffer size\n\n* Change only load buffer size",
+          "timestamp": "2024-12-24T06:34:48Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e79d9b9d4c32e29e8473398879d9ddfba6f05628"
+        },
+        "date": 1735022260600,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.975158240686856,
+            "unit": "us/iter",
+            "extra": "iterations: 38947\ncpu: 17.974204637070894 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.94899430712205,
+            "unit": "us/iter",
+            "extra": "iterations: 6675\ncpu: 104.78524239700373 us\nthreads: 1"
           }
         ]
       }
