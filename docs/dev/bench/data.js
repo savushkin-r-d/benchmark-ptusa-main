@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735309773081,
+  "lastUpdate": 1735309795788,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -43038,6 +43038,38 @@ window.BENCHMARK_DATA = {
             "value": 105.79316767098436,
             "unit": "us/iter",
             "extra": "iterations: 6638\ncpu: 104.62734890027117 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "0029da27862030767a7a0c0a388c6308bff802bf",
+          "message": "[cip] Fix load cip recipes",
+          "timestamp": "2024-10-09T12:44:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/827/commits/0029da27862030767a7a0c0a388c6308bff802bf"
+        },
+        "date": 1735309794844,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.115218951716496,
+            "unit": "us/iter",
+            "extra": "iterations: 38730\ncpu: 18.114238832946036 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.71328669367055,
+            "unit": "us/iter",
+            "extra": "iterations: 6418\ncpu: 104.52283452789031 us\nthreads: 1"
           }
         ]
       }
