@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1735309795788,
+  "lastUpdate": 1735549493152,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -43070,6 +43070,40 @@ window.BENCHMARK_DATA = {
             "value": 105.71328669367055,
             "unit": "us/iter",
             "extra": "iterations: 6418\ncpu: 104.52283452789031 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ilja Aboimov",
+            "username": "Lenonim",
+            "email": "ilja.ist.am.besten@mail.ru"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "7d1c6828678bcd5bacf4a4a9271329ea8b92c8ba",
+          "message": "Improvement of maintainability (#783)\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2024-12-26T05:12:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/7d1c6828678bcd5bacf4a4a9271329ea8b92c8ba"
+        },
+        "date": 1735549491668,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.10514273891152,
+            "unit": "us/iter",
+            "extra": "iterations: 38665\ncpu: 18.104402379412907 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.6848479699199,
+            "unit": "us/iter",
+            "extra": "iterations: 6650\ncpu: 105.5049494736842 us\nthreads: 1"
           }
         ]
       }
