@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1736863821874,
+  "lastUpdate": 1737442796190,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -43504,6 +43504,42 @@ window.BENCHMARK_DATA = {
             "value": 105.6836272118913,
             "unit": "us/iter",
             "extra": "iterations: 6725\ncpu: 104.55103078066914 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6e099fb4cf494b816d359fd561d8082f381eaecd",
+          "message": "[config][github actions] Fix code coverage calculation (#837)",
+          "timestamp": "2025-01-21T09:52:31+03:00",
+          "tree_id": "0e9a9efe0ca355154862770d9ad5b7f7b9c9d9c5",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/6e099fb4cf494b816d359fd561d8082f381eaecd"
+        },
+        "date": 1737442794997,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.093465698937823,
+            "unit": "us/iter",
+            "extra": "iterations: 38716\ncpu: 18.09286824568654 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.86271528944735,
+            "unit": "us/iter",
+            "extra": "iterations: 6547\ncpu: 108.52607621811515 us\nthreads: 1"
           }
         ]
       }
