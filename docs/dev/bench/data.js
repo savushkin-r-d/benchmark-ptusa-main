@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737442796190,
+  "lastUpdate": 1737443021206,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -43540,6 +43540,38 @@ window.BENCHMARK_DATA = {
             "value": 109.86271528944735,
             "unit": "us/iter",
             "extra": "iterations: 6547\ncpu: 108.52607621811515 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "d4115e688c76b33f18c50a612a889b875afcd72f",
+          "message": "Fix memore leaks in the OPC UA server",
+          "timestamp": "2024-10-09T12:44:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/835/commits/d4115e688c76b33f18c50a612a889b875afcd72f"
+        },
+        "date": 1737443019758,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.234661414246688,
+            "unit": "us/iter",
+            "extra": "iterations: 38395\ncpu: 18.233930459695273 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.2345508474527,
+            "unit": "us/iter",
+            "extra": "iterations: 6608\ncpu: 107.17327027845037 us\nthreads: 1"
           }
         ]
       }
