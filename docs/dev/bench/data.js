@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737443021206,
+  "lastUpdate": 1737467525358,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -43572,6 +43572,38 @@ window.BENCHMARK_DATA = {
             "value": 108.2345508474527,
             "unit": "us/iter",
             "extra": "iterations: 6608\ncpu: 107.17327027845037 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "ba1defd9c1fc45ad1983c4556df76a5f80ef2270",
+          "message": "[config][github actions] Fix SonarQube build",
+          "timestamp": "2025-01-21T12:30:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/838/commits/ba1defd9c1fc45ad1983c4556df76a5f80ef2270"
+        },
+        "date": 1737467524127,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.056188714106884,
+            "unit": "us/iter",
+            "extra": "iterations: 38969\ncpu: 18.055940747773874 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.92945469646375,
+            "unit": "us/iter",
+            "extra": "iterations: 6622\ncpu: 105.74444065237091 us\nthreads: 1"
           }
         ]
       }
