@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737467613785,
+  "lastUpdate": 1737467622941,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -43668,6 +43668,42 @@ window.BENCHMARK_DATA = {
             "value": 106.90363968038908,
             "unit": "us/iter",
             "extra": "iterations: 6633\ncpu: 105.8952884064526 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3927cb31996ce2ff2bb555c94a5631849f1495dc",
+          "message": "[config][github actions] Fix SonarQube build (#838)\n\n* Update to the 7.0.0.4796\n\n* Fix archive name\n\n* Use gcov\n\n* Optimize find\n\n* Optimize find\n\n* Use xargs and gcov\n\n* Fix binary file name\n\n* Fix 'find' command\n\n* Fix sonar settings",
+          "timestamp": "2025-01-21T16:50:55+03:00",
+          "tree_id": "2ddbc6da16071b6136762b556c7816b143c6e1ea",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/3927cb31996ce2ff2bb555c94a5631849f1495dc"
+        },
+        "date": 1737467621829,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.890382127290618,
+            "unit": "us/iter",
+            "extra": "iterations: 39233\ncpu: 17.88940239084444 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.36293306439289,
+            "unit": "us/iter",
+            "extra": "iterations: 6693\ncpu: 105.3467507844016 us\nthreads: 1"
           }
         ]
       }
