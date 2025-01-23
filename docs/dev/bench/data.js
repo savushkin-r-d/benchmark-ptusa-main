@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737622570848,
+  "lastUpdate": 1737630507999,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -43896,6 +43896,38 @@ window.BENCHMARK_DATA = {
             "value": 105.69801701746819,
             "unit": "us/iter",
             "extra": "iterations: 6699\ncpu: 104.65541349455144 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "e674e3b43d8797ed360425a2defd288e47f434ca",
+          "message": "[config][github actions] Add valgrind installation",
+          "timestamp": "2025-01-21T12:30:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/842/commits/e674e3b43d8797ed360425a2defd288e47f434ca"
+        },
+        "date": 1737630506486,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.271730874677573,
+            "unit": "us/iter",
+            "extra": "iterations: 37934\ncpu: 18.270600701217905 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.55721256764546,
+            "unit": "us/iter",
+            "extra": "iterations: 6652\ncpu: 105.51433839446787 us\nthreads: 1"
           }
         ]
       }
