@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737630522002,
+  "lastUpdate": 1737631127383,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -43960,6 +43960,42 @@ window.BENCHMARK_DATA = {
             "value": 105.69557746268414,
             "unit": "us/iter",
             "extra": "iterations: 6700\ncpu: 104.55352313432836 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "531fd88cdf21590290174804e0643a65413f5912",
+          "message": "[config][github actions] Add valgrind installation (#842)",
+          "timestamp": "2025-01-23T14:14:45+03:00",
+          "tree_id": "15e637ab3355e50d6c89f0054038de6fb923d9f5",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/531fd88cdf21590290174804e0643a65413f5912"
+        },
+        "date": 1737631126211,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.932918308285352,
+            "unit": "us/iter",
+            "extra": "iterations: 39392\ncpu: 17.932305823517467 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.38470803366218,
+            "unit": "us/iter",
+            "extra": "iterations: 6535\ncpu: 107.95284146901301 us\nthreads: 1"
           }
         ]
       }
