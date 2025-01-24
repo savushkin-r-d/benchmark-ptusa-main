@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737714231484,
+  "lastUpdate": 1737714650923,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -44256,6 +44256,38 @@ window.BENCHMARK_DATA = {
             "value": 106.07914400121231,
             "unit": "us/iter",
             "extra": "iterations: 6618\ncpu: 104.96560682985798 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "ee115adc77eda6a465599f9d99a975b57f6bacc4",
+          "message": "Add ability to start OPC UA server from command line",
+          "timestamp": "2025-01-21T12:30:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/843/commits/ee115adc77eda6a465599f9d99a975b57f6bacc4"
+        },
+        "date": 1737714649787,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.945961931488274,
+            "unit": "us/iter",
+            "extra": "iterations: 32783\ncpu: 17.945023426776075 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.17536455773742,
+            "unit": "us/iter",
+            "extra": "iterations: 6512\ncpu: 106.08891630835383 us\nthreads: 1"
           }
         ]
       }
