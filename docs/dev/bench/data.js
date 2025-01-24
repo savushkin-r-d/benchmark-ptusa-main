@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737696396213,
+  "lastUpdate": 1737696971187,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -44192,6 +44192,38 @@ window.BENCHMARK_DATA = {
             "value": 106.0782666167664,
             "unit": "us/iter",
             "extra": "iterations: 6680\ncpu: 105.03343802395212 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "aca95cdda21be366502c9de8702dc93920074e5a",
+          "message": "[cmake] Add valgrind  memory checking during tests",
+          "timestamp": "2025-01-21T12:30:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/841/commits/aca95cdda21be366502c9de8702dc93920074e5a"
+        },
+        "date": 1737696969939,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.61355794345308,
+            "unit": "us/iter",
+            "extra": "iterations: 37597\ncpu: 18.612705854190494 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.09345645016657,
+            "unit": "us/iter",
+            "extra": "iterations: 6682\ncpu: 105.01456659682732 us\nthreads: 1"
           }
         ]
       }
