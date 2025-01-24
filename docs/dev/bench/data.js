@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737639289092,
+  "lastUpdate": 1737696396213,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -44156,6 +44156,42 @@ window.BENCHMARK_DATA = {
             "value": 107.92012734422363,
             "unit": "us/iter",
             "extra": "iterations: 6612\ncpu: 106.9148898971567 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "103387edcf05bcff7bad38617692bb26700e836f",
+          "message": "Fix memory leaks in the OPC UA server (#835)",
+          "timestamp": "2025-01-24T08:24:03+03:00",
+          "tree_id": "e93600598ee5d675619d0e807d997607b772fad0",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/103387edcf05bcff7bad38617692bb26700e836f"
+        },
+        "date": 1737696394879,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.180853122873454,
+            "unit": "us/iter",
+            "extra": "iterations: 38202\ncpu: 18.18043678341448 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.0782666167664,
+            "unit": "us/iter",
+            "extra": "iterations: 6680\ncpu: 105.03343802395212 us\nthreads: 1"
           }
         ]
       }
