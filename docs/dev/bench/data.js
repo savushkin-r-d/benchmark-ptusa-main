@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1737955511405,
+  "lastUpdate": 1737968750363,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -44356,6 +44356,40 @@ window.BENCHMARK_DATA = {
             "value": 106.33457857783169,
             "unit": "us/iter",
             "extra": "iterations: 6694\ncpu: 105.31947535106065 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ilja Aboimov",
+            "username": "Lenonim",
+            "email": "ilja.ist.am.besten@mail.ru"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "69395a420a7526e0325e3d27e717491cab6594f0",
+          "message": "Исправление ошибки в документации (#844)",
+          "timestamp": "2025-01-27T05:22:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/69395a420a7526e0325e3d27e717491cab6594f0"
+        },
+        "date": 1737968749204,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.233550541562046,
+            "unit": "us/iter",
+            "extra": "iterations: 38869\ncpu: 18.233238158944147 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.3654310560972,
+            "unit": "us/iter",
+            "extra": "iterations: 6382\ncpu: 106.33413616421187 us\nthreads: 1"
           }
         ]
       }
