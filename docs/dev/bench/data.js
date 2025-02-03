@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738569396300,
+  "lastUpdate": 1738569555509,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -44518,6 +44518,42 @@ window.BENCHMARK_DATA = {
             "value": 106.46061573237023,
             "unit": "us/iter",
             "extra": "iterations: 6636\ncpu: 105.40303902953588 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5e82ef6ceda4d3ef179637a93c213992e3e1e0a4",
+          "message": "[cmake] Add valgrind memory checking during tests (#841)\n\n* [cmake] Add valgrind  memory checking during tests\n\n* Fix OS",
+          "timestamp": "2025-02-03T10:56:15+03:00",
+          "tree_id": "4de00fdf3fd540f2aef0c094d0ecfb5c725b0a24",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5e82ef6ceda4d3ef179637a93c213992e3e1e0a4"
+        },
+        "date": 1738569553971,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.22552231981376,
+            "unit": "us/iter",
+            "extra": "iterations: 38710\ncpu: 18.22186424696461 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.19414016213828,
+            "unit": "us/iter",
+            "extra": "iterations: 6414\ncpu: 107.05318303710634 us\nthreads: 1"
           }
         ]
       }
