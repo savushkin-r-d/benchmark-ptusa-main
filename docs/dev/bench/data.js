@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738573524590,
+  "lastUpdate": 1738573530320,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -44730,6 +44730,40 @@ window.BENCHMARK_DATA = {
             "value": 103.16846201887758,
             "unit": "us/iter",
             "extra": "iterations: 6885\ncpu: 102.07873667392883 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "597535f1040d849576ba4cc573814b0a0ab46f36",
+          "message": "Bump deps/fmt from `8303d14` to `c9267da` (#848)\n\nBumps [deps/fmt](https://github.com/fmtlib/fmt) from `8303d14` to `c9267da`.\n- [Release notes](https://github.com/fmtlib/fmt/releases)\n- [Commits](https://github.com/fmtlib/fmt/compare/8303d140a1a11f19b982a9f664bbe59a1ccda3f4...c9267da4dfec806e6137ce68a2ce50d833a27bc6)\n\n---\nupdated-dependencies:\n- dependency-name: deps/fmt\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-02-03T09:02:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/597535f1040d849576ba4cc573814b0a0ab46f36"
+        },
+        "date": 1738573529276,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.659242969769437,
+            "unit": "us/iter",
+            "extra": "iterations: 39828\ncpu: 17.655685623179675 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.89572987840491,
+            "unit": "us/iter",
+            "extra": "iterations: 6908\ncpu: 101.37828430804866 us\nthreads: 1"
           }
         ]
       }
