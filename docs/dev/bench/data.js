@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738569555509,
+  "lastUpdate": 1738571423174,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -44554,6 +44554,42 @@ window.BENCHMARK_DATA = {
             "value": 108.19414016213828,
             "unit": "us/iter",
             "extra": "iterations: 6414\ncpu: 107.05318303710634 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "aa83ff0e9c3b859d81722e8ddd6ba0806970749b",
+          "message": "Add ability to start OPC UA server from command line (#843)\n\n* Add ability to start OPC UA server from command line\n\n* Update tests\n\n* Add test\n\n* Optimize test",
+          "timestamp": "2025-02-03T11:27:50+03:00",
+          "tree_id": "a70b84023a67ab79849dac0681cf21349bdb8e33",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/aa83ff0e9c3b859d81722e8ddd6ba0806970749b"
+        },
+        "date": 1738571422117,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.533692303687143,
+            "unit": "us/iter",
+            "extra": "iterations: 38408\ncpu: 18.53294920329098 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.99472948602228,
+            "unit": "us/iter",
+            "extra": "iterations: 6654\ncpu: 105.87405064622786 us\nthreads: 1"
           }
         ]
       }
