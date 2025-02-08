@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1738935720183,
+  "lastUpdate": 1739016593665,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -45028,6 +45028,42 @@ window.BENCHMARK_DATA = {
             "value": 101.98786921850247,
             "unit": "us/iter",
             "extra": "iterations: 6897\ncpu: 100.85951573147746 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5245e93a3d000ca3b6320c3e0e3d41540fb5d197",
+          "message": "[config][github actions] Fix install apt packages (#852)\n\nBased on GitHub Actions documentation, you always should run sudo apt-get update before installing new packages: https://docs.github.com/en/actions/using-github-hosted-runners/customizing-github-hosted-runners#installing-software-on-ubuntu-runners",
+          "timestamp": "2025-02-08T15:05:44+03:00",
+          "tree_id": "dd24e8b2b88d4a267d78d35c7e0fa1fc50eb59fd",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5245e93a3d000ca3b6320c3e0e3d41540fb5d197"
+        },
+        "date": 1739016592391,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.66077216396599,
+            "unit": "us/iter",
+            "extra": "iterations: 39862\ncpu: 17.655744067031257 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.54855986118967,
+            "unit": "us/iter",
+            "extra": "iterations: 6916\ncpu: 101.47273091382306 us\nthreads: 1"
           }
         ]
       }
