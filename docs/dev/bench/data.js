@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739352182627,
+  "lastUpdate": 1739382841971,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -45096,6 +45096,38 @@ window.BENCHMARK_DATA = {
             "value": 102.26266048398503,
             "unit": "us/iter",
             "extra": "iterations: 6901\ncpu: 101.17929546442548 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "b149d11cebc94da418e99d33e303559941577de5",
+          "message": "Add valve error check during switching on/off",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/854/commits/b149d11cebc94da418e99d33e303559941577de5"
+        },
+        "date": 1739382840568,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.896732517124114,
+            "unit": "us/iter",
+            "extra": "iterations: 39124\ncpu: 17.895622124527147 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.03434288206776,
+            "unit": "us/iter",
+            "extra": "iterations: 6877\ncpu: 103.63194067180457 us\nthreads: 1"
           }
         ]
       }
