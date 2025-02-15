@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739611515143,
+  "lastUpdate": 1739620003791,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -45288,6 +45288,42 @@ window.BENCHMARK_DATA = {
             "value": 102.9368615050615,
             "unit": "us/iter",
             "extra": "iterations: 6910\ncpu: 101.68675397973949 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1ac18d7adc6f57b75c51b5197e0a9ccc325fccfa",
+          "message": "Fix counter (FQT control module) (#855)\n\n* Fix counter\n\n* Refactor algorithm\n\n* Fix test\n\n* Improve tests\n\n* Refactor code and tests\n\n* Fix time processing",
+          "timestamp": "2025-02-15T14:43:46+03:00",
+          "tree_id": "43e5a467f7376b3ee51be07f364df119c3738f6a",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/1ac18d7adc6f57b75c51b5197e0a9ccc325fccfa"
+        },
+        "date": 1739620002297,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.95145672538406,
+            "unit": "us/iter",
+            "extra": "iterations: 39284\ncpu: 17.950349047958458 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.36168567335407,
+            "unit": "us/iter",
+            "extra": "iterations: 6980\ncpu: 100.27909842406876 us\nthreads: 1"
           }
         ]
       }
