@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739799101998,
+  "lastUpdate": 1739800129131,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -45554,6 +45554,42 @@ window.BENCHMARK_DATA = {
             "value": 102.40412718838601,
             "unit": "us/iter",
             "extra": "iterations: 6683\ncpu: 101.24753374233127 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "64bd6d3270270bf885ffb4f977371c48fc6391b7",
+          "message": "Fix valve state (#854)",
+          "timestamp": "2025-02-17T16:44:42+03:00",
+          "tree_id": "a8b8afafb5365a344588001c1b1db9df43ac0b79",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/64bd6d3270270bf885ffb4f977371c48fc6391b7"
+        },
+        "date": 1739800127983,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.099000645911534,
+            "unit": "us/iter",
+            "extra": "iterations: 38705\ncpu: 18.097943547345306 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.33854052494854,
+            "unit": "us/iter",
+            "extra": "iterations: 6934\ncpu: 101.21302293048747 us\nthreads: 1"
           }
         ]
       }
