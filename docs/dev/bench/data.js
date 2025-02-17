@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1739783779143,
+  "lastUpdate": 1739799101998,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -45522,6 +45522,38 @@ window.BENCHMARK_DATA = {
             "value": 107.51311119358755,
             "unit": "us/iter",
             "extra": "iterations: 6736\ncpu: 105.36152345605706 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "08cc14ddb8fb2918f4597c38eb423b35ffe5995b",
+          "message": "Fix valve state",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/854/commits/08cc14ddb8fb2918f4597c38eb423b35ffe5995b"
+        },
+        "date": 1739799100671,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.808456341957875,
+            "unit": "us/iter",
+            "extra": "iterations: 39420\ncpu: 17.806306900050735 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.40412718838601,
+            "unit": "us/iter",
+            "extra": "iterations: 6683\ncpu: 101.24753374233127 us\nthreads: 1"
           }
         ]
       }
