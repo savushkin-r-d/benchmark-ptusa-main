@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1740992923454,
+  "lastUpdate": 1741068326921,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -45818,6 +45818,38 @@ window.BENCHMARK_DATA = {
             "value": 103.20460392441838,
             "unit": "us/iter",
             "extra": "iterations: 6880\ncpu: 102.15914694767443 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "d74a733a37c33c366d8e45b1a26f6d4167f616af",
+          "message": "Fix max step duration message",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/867/commits/d74a733a37c33c366d8e45b1a26f6d4167f616af"
+        },
+        "date": 1741068325649,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.189933915211522,
+            "unit": "us/iter",
+            "extra": "iterations: 38496\ncpu: 18.188965476932673 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.01995944754609,
+            "unit": "us/iter",
+            "extra": "iterations: 6806\ncpu: 103.64767954745814 us\nthreads: 1"
           }
         ]
       }
