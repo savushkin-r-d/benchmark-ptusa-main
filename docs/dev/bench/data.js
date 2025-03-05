@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741096401147,
+  "lastUpdate": 1741161027144,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -46378,6 +46378,38 @@ window.BENCHMARK_DATA = {
             "value": 104.56123782107888,
             "unit": "us/iter",
             "extra": "iterations: 6774\ncpu: 103.240176852672 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Lenonim",
+            "username": "Lenonim"
+          },
+          "committer": {
+            "name": "Lenonim",
+            "username": "Lenonim"
+          },
+          "id": "ce9e1e0c4bfe178ea0798664db7f8e054f2189a9",
+          "message": "Отсечение времени одной итерации главного цикла",
+          "timestamp": "2025-02-19T06:32:04Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/860/commits/ce9e1e0c4bfe178ea0798664db7f8e054f2189a9"
+        },
+        "date": 1741161025869,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.73462714303779,
+            "unit": "us/iter",
+            "extra": "iterations: 39605\ncpu: 17.73406865294786 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.91457401768457,
+            "unit": "us/iter",
+            "extra": "iterations: 6897\ncpu: 101.84939872408297 us\nthreads: 1"
           }
         ]
       }
