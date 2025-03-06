@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741266067835,
+  "lastUpdate": 1741270670395,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -46666,6 +46666,42 @@ window.BENCHMARK_DATA = {
             "value": 104.27361064671976,
             "unit": "us/iter",
             "extra": "iterations: 6819\ncpu: 102.86625678251944 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ilja.ist.am.besten@mail.ru",
+            "name": "Ilja Aboimov",
+            "username": "Lenonim"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c13f3870a91bbff6da4820b6b2e694a89bae5946",
+          "message": "Отсечение времени одной итерации главного цикла (#860)\n\n* Отсечение времени одной итерации главного цикла\n\n* Save cycle time in variable\n\n* Fix date\n\n* Fix line ending\n\n* Refactor code\n\n* Refactor code\n\n* Fix int conversion\n\n---------\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-03-06T17:14:54+03:00",
+          "tree_id": "cf5a4422cbaf2720914e8f2fb215df4d91aa70a1",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/c13f3870a91bbff6da4820b6b2e694a89bae5946"
+        },
+        "date": 1741270669038,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.557790676968054,
+            "unit": "us/iter",
+            "extra": "iterations: 38185\ncpu: 18.554902605735236 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.41316998710339,
+            "unit": "us/iter",
+            "extra": "iterations: 6977\ncpu: 101.25922760498779 us\nthreads: 1"
           }
         ]
       }
