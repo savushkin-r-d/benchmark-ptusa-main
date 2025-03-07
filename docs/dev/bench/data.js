@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741325510990,
+  "lastUpdate": 1741362121275,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -46734,6 +46734,38 @@ window.BENCHMARK_DATA = {
             "value": 101.67357416474445,
             "unit": "us/iter",
             "extra": "iterations: 6944\ncpu: 100.53049985599081 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dzibukalexander",
+            "username": "dzibukalexander"
+          },
+          "committer": {
+            "name": "dzibukalexander",
+            "username": "dzibukalexander"
+          },
+          "id": "2d95f922f85b4c5725949da9baec58ac43977c14",
+          "message": "Добавлен метод для виртуального пустого устройства STUB",
+          "timestamp": "2025-03-07T12:18:11Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/869/commits/2d95f922f85b4c5725949da9baec58ac43977c14"
+        },
+        "date": 1741362119683,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.448636686978823,
+            "unit": "us/iter",
+            "extra": "iterations: 40205\ncpu: 17.448172988434276 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.1312312717852,
+            "unit": "us/iter",
+            "extra": "iterations: 6888\ncpu: 101.97475319396051 us\nthreads: 1"
           }
         ]
       }
