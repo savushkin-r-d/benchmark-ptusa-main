@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741376279090,
+  "lastUpdate": 1741597730195,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -46798,6 +46798,40 @@ window.BENCHMARK_DATA = {
             "value": 105.44073141236207,
             "unit": "us/iter",
             "extra": "iterations: 6698\ncpu: 104.39377381307854 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Ilja Aboimov",
+            "username": "Lenonim",
+            "email": "ilja.ist.am.besten@mail.ru"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "c13f3870a91bbff6da4820b6b2e694a89bae5946",
+          "message": "Отсечение времени одной итерации главного цикла (#860)\n\n* Отсечение времени одной итерации главного цикла\n\n* Save cycle time in variable\n\n* Fix date\n\n* Fix line ending\n\n* Refactor code\n\n* Refactor code\n\n* Fix int conversion\n\n---------\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-03-06T14:14:54Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/c13f3870a91bbff6da4820b6b2e694a89bae5946"
+        },
+        "date": 1741597728515,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.250405296594,
+            "unit": "us/iter",
+            "extra": "iterations: 38251\ncpu: 18.248390578024104 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.09205138281949,
+            "unit": "us/iter",
+            "extra": "iterations: 6870\ncpu: 103.04474526928678 us\nthreads: 1"
           }
         ]
       }
