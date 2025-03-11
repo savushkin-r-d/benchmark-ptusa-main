@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741671839478,
+  "lastUpdate": 1741704099340,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -47092,6 +47092,38 @@ window.BENCHMARK_DATA = {
             "value": 101.5730660824565,
             "unit": "us/iter",
             "extra": "iterations: 6961\ncpu: 100.46903993679074 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "DopplerCore",
+            "username": "DopplerCore"
+          },
+          "committer": {
+            "name": "DopplerCore",
+            "username": "DopplerCore"
+          },
+          "id": "3bbc8ab1d98a2cc19332102deb9994649db76065",
+          "message": "Доработаны сообщения об ошибках коммуникации с узлами ввода\\вывода",
+          "timestamp": "2025-03-10T06:53:53Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/870/commits/3bbc8ab1d98a2cc19332102deb9994649db76065"
+        },
+        "date": 1741704098036,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.876664400193935,
+            "unit": "us/iter",
+            "extra": "iterations: 39121\ncpu: 17.875691112190385 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.11306792287937,
+            "unit": "us/iter",
+            "extra": "iterations: 6846\ncpu: 101.08385188431203 us\nthreads: 1"
           }
         ]
       }
