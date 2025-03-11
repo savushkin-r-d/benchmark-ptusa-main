@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741614105895,
+  "lastUpdate": 1741670726342,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -46960,6 +46960,42 @@ window.BENCHMARK_DATA = {
             "value": 102.76918372397324,
             "unit": "us/iter",
             "extra": "iterations: 6869\ncpu: 101.67360576503128 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ilja.ist.am.besten@mail.ru",
+            "name": "Ilja Aboimov",
+            "username": "Lenonim"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e074bd474722f6aad92b8f4ad094ec34ea5e85ac",
+          "message": "Исправление ошибки со счётчиком (#858)\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-03-11T08:22:24+03:00",
+          "tree_id": "d301a51183d531915860eddc9eff2624ba91b50f",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e074bd474722f6aad92b8f4ad094ec34ea5e85ac"
+        },
+        "date": 1741670724647,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.968412340358977,
+            "unit": "us/iter",
+            "extra": "iterations: 38524\ncpu: 17.965191465060744 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.983335914403,
+            "unit": "us/iter",
+            "extra": "iterations: 7103\ncpu: 107.95381768266928 us\nthreads: 1"
           }
         ]
       }
