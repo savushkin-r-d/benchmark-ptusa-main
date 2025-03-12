@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741767916387,
+  "lastUpdate": 1741768545538,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -47188,6 +47188,42 @@ window.BENCHMARK_DATA = {
             "value": 103.61720987476022,
             "unit": "us/iter",
             "extra": "iterations: 6947\ncpu: 102.5228612350655 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "124492308+dzibukalexander@users.noreply.github.com",
+            "name": "Дзибук Александр",
+            "username": "dzibukalexander"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "db1dedca133a70bd322f65729bed76342b9fba07",
+          "message": "Добавлен метод для виртуального устройства-заглушки STUB (#869)\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-03-12T11:31:35+03:00",
+          "tree_id": "cbf063f41767427c2bea3cf39de471c58d43567d",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/db1dedca133a70bd322f65729bed76342b9fba07"
+        },
+        "date": 1741768544216,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.842818558115322,
+            "unit": "us/iter",
+            "extra": "iterations: 39379\ncpu: 17.8420978186343 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.6994514737547,
+            "unit": "us/iter",
+            "extra": "iterations: 6955\ncpu: 101.75937526959024 us\nthreads: 1"
           }
         ]
       }
