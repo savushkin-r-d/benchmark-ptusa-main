@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1741792499976,
+  "lastUpdate": 1741873485605,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -47292,6 +47292,38 @@ window.BENCHMARK_DATA = {
             "value": 103.20552580598478,
             "unit": "us/iter",
             "extra": "iterations: 6917\ncpu: 102.26015237819863 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "9d264ecb164f71433d13ff94bf56acba7e968fb6",
+          "message": "Fix over range error for 466, 496",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/875/commits/9d264ecb164f71433d13ff94bf56acba7e968fb6"
+        },
+        "date": 1741873484283,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.553686680070726,
+            "unit": "us/iter",
+            "extra": "iterations: 39790\ncpu: 17.55244589092737 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.83481578947305,
+            "unit": "us/iter",
+            "extra": "iterations: 6954\ncpu: 100.76418766177737 us\nthreads: 1"
           }
         ]
       }
