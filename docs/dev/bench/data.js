@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742374729812,
+  "lastUpdate": 1742374871599,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -47686,6 +47686,38 @@ window.BENCHMARK_DATA = {
             "value": 101.70083124549755,
             "unit": "us/iter",
             "extra": "iterations: 6945\ncpu: 100.59770597552195 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "fff4fab10cff6fccb28db5b5224b46924142e58a",
+          "message": "Fix cycle time calculation for PLCnext",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/879/commits/fff4fab10cff6fccb28db5b5224b46924142e58a"
+        },
+        "date": 1742374870102,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.665347559260148,
+            "unit": "us/iter",
+            "extra": "iterations: 39107\ncpu: 17.664470120438796 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.0832582132533,
+            "unit": "us/iter",
+            "extra": "iterations: 6940\ncpu: 103.09115994236312 us\nthreads: 1"
           }
         ]
       }
