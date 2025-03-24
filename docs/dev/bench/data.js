@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742656712217,
+  "lastUpdate": 1742807167952,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -47782,6 +47782,40 @@ window.BENCHMARK_DATA = {
             "value": 103.09155097613765,
             "unit": "us/iter",
             "extra": "iterations: 6915\ncpu: 102.01208951554594 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "937c24ae8ce79b2575eaf5645fcf978d4f2b6d9d",
+          "message": "Fix over range error for I/O modules 750-466, 750-496 (#875)\n\n* Fix over range error for 466, 496\n\n* Replace local variable \"module\" with other \"io_module\"",
+          "timestamp": "2025-03-13T13:59:20Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/937c24ae8ce79b2575eaf5645fcf978d4f2b6d9d"
+        },
+        "date": 1742807166548,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.808017758463627,
+            "unit": "us/iter",
+            "extra": "iterations: 37278\ncpu: 18.80677042759805 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.95216783013085,
+            "unit": "us/iter",
+            "extra": "iterations: 6876\ncpu: 100.90428170447935 us\nthreads: 1"
           }
         ]
       }
