@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742909780376,
+  "lastUpdate": 1742911126977,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -48080,6 +48080,42 @@ window.BENCHMARK_DATA = {
             "value": 102.2919812783379,
             "unit": "us/iter",
             "extra": "iterations: 6837\ncpu: 101.22379610940472 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "110098650+DopplerCore@users.noreply.github.com",
+            "name": "Седко Максим Викторович",
+            "username": "DopplerCore"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "113a7fe6940c1ce6ae5f92a777512c037fc94308",
+          "message": "Доработаны сообщения об ошибках коммуникации с узлами ввода/вывода (#870)\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-03-25T16:53:44+03:00",
+          "tree_id": "8ad3c6c8cfcddd8bcce5b3272f77b9f20d871fb8",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/113a7fe6940c1ce6ae5f92a777512c037fc94308"
+        },
+        "date": 1742911125115,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.775114853501965,
+            "unit": "us/iter",
+            "extra": "iterations: 39250\ncpu: 17.774204509554142 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.12896269309316,
+            "unit": "us/iter",
+            "extra": "iterations: 6862\ncpu: 102.56148790440106 us\nthreads: 1"
           }
         ]
       }
