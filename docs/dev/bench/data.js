@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742911126977,
+  "lastUpdate": 1742982270432,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -48116,6 +48116,38 @@ window.BENCHMARK_DATA = {
             "value": 104.12896269309316,
             "unit": "us/iter",
             "extra": "iterations: 6862\ncpu: 102.56148790440106 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "73aceb18b1d53eaa20a27d59392244beba1a440e",
+          "message": "Fix QT control module error message",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/878/commits/73aceb18b1d53eaa20a27d59392244beba1a440e"
+        },
+        "date": 1742982268895,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.14471495520579,
+            "unit": "us/iter",
+            "extra": "iterations: 38622\ncpu: 18.144548469784063 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.5267300820217,
+            "unit": "us/iter",
+            "extra": "iterations: 6828\ncpu: 102.3183137082601 us\nthreads: 1"
           }
         ]
       }
