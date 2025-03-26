@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1742996201162,
+  "lastUpdate": 1742998367994,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -48212,6 +48212,42 @@ window.BENCHMARK_DATA = {
             "value": 103.09678976366247,
             "unit": "us/iter",
             "extra": "iterations: 6897\ncpu: 102.05335290706105 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6ec3b9fcbad866b19ced62c8c4cbcf0a96dfd1e9",
+          "message": "Fix QT control module error message (#878)",
+          "timestamp": "2025-03-26T17:09:21+03:00",
+          "tree_id": "264ee95bfcb458ef1ce048a10a625e2a141c76c4",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/6ec3b9fcbad866b19ced62c8c4cbcf0a96dfd1e9"
+        },
+        "date": 1742998366176,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.893567609675962,
+            "unit": "us/iter",
+            "extra": "iterations: 36585\ncpu: 18.8907622796228 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.30027897810209,
+            "unit": "us/iter",
+            "extra": "iterations: 6850\ncpu: 104.25087489051097 us\nthreads: 1"
           }
         ]
       }
