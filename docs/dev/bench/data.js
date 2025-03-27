@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743059089077,
+  "lastUpdate": 1743059164366,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -48316,6 +48316,38 @@ window.BENCHMARK_DATA = {
             "value": 105.11494553638164,
             "unit": "us/iter",
             "extra": "iterations: 6665\ncpu: 103.80890217554388 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "ffcc1d47ddc9ee920f5c4b6b920f6043850a75ef",
+          "message": "[config][cmake] Fix PLCnext build",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/885/commits/ffcc1d47ddc9ee920f5c4b6b920f6043850a75ef"
+        },
+        "date": 1743059162530,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.69680731751193,
+            "unit": "us/iter",
+            "extra": "iterations: 38893\ncpu: 17.69325899262078 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.22120405209174,
+            "unit": "us/iter",
+            "extra": "iterations: 6910\ncpu: 101.98025774240232 us\nthreads: 1"
           }
         ]
       }
