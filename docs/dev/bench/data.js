@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743067415323,
+  "lastUpdate": 1743085221327,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -48480,6 +48480,38 @@ window.BENCHMARK_DATA = {
             "value": 111.14450084890258,
             "unit": "us/iter",
             "extra": "iterations: 6479\ncpu: 109.74699768482792 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "1ac7dc3a65abb99ba3c64852d0e621baa4903764",
+          "message": "[config][cmaje] Add total build time print",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/887/commits/1ac7dc3a65abb99ba3c64852d0e621baa4903764"
+        },
+        "date": 1743085219758,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.71792166026643,
+            "unit": "us/iter",
+            "extra": "iterations: 39584\ncpu: 17.716394300727565 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.97064063179452,
+            "unit": "us/iter",
+            "extra": "iterations: 6901\ncpu: 101.91454644254456 us\nthreads: 1"
           }
         ]
       }
