@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743411929085,
+  "lastUpdate": 1743415331990,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -48646,6 +48646,38 @@ window.BENCHMARK_DATA = {
             "value": 107.26363135342744,
             "unit": "us/iter",
             "extra": "iterations: 6768\ncpu: 105.73842139479906 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "c403b1690fe58847d5135da9bf68b53087e62822",
+          "message": "Fix \"FQT\" control device",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/889/commits/c403b1690fe58847d5135da9bf68b53087e62822"
+        },
+        "date": 1743415330541,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.024175699592796,
+            "unit": "us/iter",
+            "extra": "iterations: 38987\ncpu: 18.02208248903481 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.91467892193378,
+            "unit": "us/iter",
+            "extra": "iterations: 6827\ncpu: 102.47256642742053 us\nthreads: 1"
           }
         ]
       }
