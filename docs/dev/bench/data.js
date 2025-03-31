@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1743415331990,
+  "lastUpdate": 1743420670198,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -48678,6 +48678,42 @@ window.BENCHMARK_DATA = {
             "value": 103.91467892193378,
             "unit": "us/iter",
             "extra": "iterations: 6827\ncpu: 102.47256642742053 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "eae113674c4eab5b15352359d35ed99ae65c60d7",
+          "message": "Fix \"FQT\" control device (#889)",
+          "timestamp": "2025-03-31T14:28:19+03:00",
+          "tree_id": "b5f4ba8db99e805efc076643622b379c8274e0db",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/eae113674c4eab5b15352359d35ed99ae65c60d7"
+        },
+        "date": 1743420668664,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.96266847251241,
+            "unit": "us/iter",
+            "extra": "iterations: 38763\ncpu: 17.961714031421717 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.526278051609,
+            "unit": "us/iter",
+            "extra": "iterations: 6898\ncpu: 102.41788054508554 us\nthreads: 1"
           }
         ]
       }
