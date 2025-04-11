@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744378336618,
+  "lastUpdate": 1744378343622,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -48848,6 +48848,38 @@ window.BENCHMARK_DATA = {
             "value": 104.94030609234046,
             "unit": "us/iter",
             "extra": "iterations: 6779\ncpu: 103.91956911048828 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "2553f671acc191aa6a8b800687390115f4c48eb9",
+          "message": "Fix build with CMake 4.0",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/900/commits/2553f671acc191aa6a8b800687390115f4c48eb9"
+        },
+        "date": 1744378341910,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.810376211363785,
+            "unit": "us/iter",
+            "extra": "iterations: 39212\ncpu: 17.80954205345303 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.26173710144877,
+            "unit": "us/iter",
+            "extra": "iterations: 6900\ncpu: 102.20214376811593 us\nthreads: 1"
           }
         ]
       }
