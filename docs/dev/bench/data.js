@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744442093441,
+  "lastUpdate": 1744442100461,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49216,6 +49216,38 @@ window.BENCHMARK_DATA = {
             "value": 104.8160675734334,
             "unit": "us/iter",
             "extra": "iterations: 6911\ncpu: 103.81281855013745 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "b1da37faa059fb0974b2486085e7878cf6e0b77b",
+          "message": "Removes unused snprintf implementation",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/901/commits/b1da37faa059fb0974b2486085e7878cf6e0b77b"
+        },
+        "date": 1744442098855,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.304618425575555,
+            "unit": "us/iter",
+            "extra": "iterations: 34908\ncpu: 18.299273862724878 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.9730679541142,
+            "unit": "us/iter",
+            "extra": "iterations: 6887\ncpu: 101.89250529984028 us\nthreads: 1"
           }
         ]
       }
