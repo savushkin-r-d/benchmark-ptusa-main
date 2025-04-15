@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744703260652,
+  "lastUpdate": 1744732397096,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49506,6 +49506,42 @@ window.BENCHMARK_DATA = {
             "value": 108.31310076017131,
             "unit": "us/iter",
             "extra": "iterations: 6709\ncpu: 106.76613012371445 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bd43041ff762c326c17f8f9c2d25460825d3906c",
+          "message": "Removes unused snprintf implementation (#901)\n\nThis commit removes the `snprintf.c` and `snprintf.h` files, which contain a portable implementation of the `snprintf` function.\n\nThe rationale is that modern systems generally provide their own `snprintf` implementation, making the inclusion of this file redundant and unnecessary. Removing it simplifies the codebase and reduces the maintenance burden.",
+          "timestamp": "2025-04-15T18:50:25+03:00",
+          "tree_id": "e0f9b14b2d3c9f1d29658e47bb499637784650e6",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/bd43041ff762c326c17f8f9c2d25460825d3906c"
+        },
+        "date": 1744732395518,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.858687749835568,
+            "unit": "us/iter",
+            "extra": "iterations: 39526\ncpu: 17.857645448565503 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.85855066397824,
+            "unit": "us/iter",
+            "extra": "iterations: 6928\ncpu: 101.78344269630486 us\nthreads: 1"
           }
         ]
       }
