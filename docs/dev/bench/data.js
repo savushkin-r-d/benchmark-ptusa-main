@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744703039625,
+  "lastUpdate": 1744703050584,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49442,6 +49442,38 @@ window.BENCHMARK_DATA = {
             "value": 103.21399210179801,
             "unit": "us/iter",
             "extra": "iterations: 6837\ncpu: 102.13324967090828 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "480a54204dd5c023ea151b5ea6ca58b28ad5d19d",
+          "message": "[config] [cmake] Adds 2024.0-LTS build configuration",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/903/commits/480a54204dd5c023ea151b5ea6ca58b28ad5d19d"
+        },
+        "date": 1744703048641,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.771973471770686,
+            "unit": "us/iter",
+            "extra": "iterations: 39392\ncpu: 17.77183110783915 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.33938624963027,
+            "unit": "us/iter",
+            "extra": "iterations: 6778\ncpu: 104.98883166125704 us\nthreads: 1"
           }
         ]
       }
