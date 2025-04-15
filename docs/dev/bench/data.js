@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744732436901,
+  "lastUpdate": 1744732615008,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49578,6 +49578,42 @@ window.BENCHMARK_DATA = {
             "value": 103.97323088569502,
             "unit": "us/iter",
             "extra": "iterations: 6605\ncpu: 102.91762649507947 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0deb332dc6b56f77b046b191006d19314f4ebd9",
+          "message": "Bump deps/open62541/open62541 from v1.4.6 to v1.4.11 (#893)\n\n* Bump deps/open62541/open62541 from `5e3e6bd` to `cae846b`\n\nBumps [deps/open62541/open62541](https://github.com/open62541/open62541) from `5e3e6bd` to `cae846b`.\n- [Release notes](https://github.com/open62541/open62541/releases)\n- [Commits](https://github.com/open62541/open62541/compare/5e3e6bd2c414dc12a9caba12ca60f8144b068b88...cae846b1e4504af6ee4953a131bb5fe96eaf38af)\n\n---\nupdated-dependencies:\n- dependency-name: deps/open62541/open62541\n  dependency-version: cae846b1e4504af6ee4953a131bb5fe96eaf38af\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* Fixes test exclusion regex\n\nUpdates the regular expression used to exclude certain subdirectories from the test suite.\n\n* Updates open62541 submodule\n\nUpdates the open62541 submodule to the modified version\n\n* Updates open62541 from v1.4.6 to v1.4.11\n\nPoints to the latest commit of the open62541 submodule.\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-04-15T18:53:21+03:00",
+          "tree_id": "890fb03373f3767e6252e07e8cd9fe8b3d39d9d4",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d0deb332dc6b56f77b046b191006d19314f4ebd9"
+        },
+        "date": 1744732613196,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.23683307393001,
+            "unit": "us/iter",
+            "extra": "iterations: 38550\ncpu: 18.235582879377436 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.39320693200428,
+            "unit": "us/iter",
+            "extra": "iterations: 6809\ncpu: 104.91671067704509 us\nthreads: 1"
           }
         ]
       }
