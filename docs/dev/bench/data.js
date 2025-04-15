@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744732615008,
+  "lastUpdate": 1744732625741,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49614,6 +49614,42 @@ window.BENCHMARK_DATA = {
             "value": 106.39320693200428,
             "unit": "us/iter",
             "extra": "iterations: 6809\ncpu: 104.91671067704509 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6cb2e2504c37841ba3ee992b713b0c2608068966",
+          "message": "[config][cmake] Adds 2024.0-LTS build configuration (#903)",
+          "timestamp": "2025-04-15T18:52:58+03:00",
+          "tree_id": "17bbb8f1fcfdba50d05784981263e3c51e38f693",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/6cb2e2504c37841ba3ee992b713b0c2608068966"
+        },
+        "date": 1744732622649,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.88178518480126,
+            "unit": "us/iter",
+            "extra": "iterations: 38582\ncpu: 17.879553988906746 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.16560392215784,
+            "unit": "us/iter",
+            "extra": "iterations: 6731\ncpu: 104.02542534541676 us\nthreads: 1"
           }
         ]
       }
