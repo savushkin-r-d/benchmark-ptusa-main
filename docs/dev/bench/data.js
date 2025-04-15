@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744703050584,
+  "lastUpdate": 1744703260652,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49474,6 +49474,38 @@ window.BENCHMARK_DATA = {
             "value": 106.33938624963027,
             "unit": "us/iter",
             "extra": "iterations: 6778\ncpu: 104.98883166125704 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "2609bf64e77345014ebf88d43473e498a21d0c8d",
+          "message": "Fixes cxxopts submodule",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/902/commits/2609bf64e77345014ebf88d43473e498a21d0c8d"
+        },
+        "date": 1744703259000,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.24949137436889,
+            "unit": "us/iter",
+            "extra": "iterations: 38374\ncpu: 18.249051623495077 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.31310076017131,
+            "unit": "us/iter",
+            "extra": "iterations: 6709\ncpu: 106.76613012371445 us\nthreads: 1"
           }
         ]
       }
