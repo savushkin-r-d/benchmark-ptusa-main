@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744732397096,
+  "lastUpdate": 1744732436901,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49542,6 +49542,42 @@ window.BENCHMARK_DATA = {
             "value": 102.85855066397824,
             "unit": "us/iter",
             "extra": "iterations: 6928\ncpu: 101.78344269630486 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83cc2415456c3ec530446dc93490b9ce8bccb00b",
+          "message": "Fixes cxxopts submodule (#902)",
+          "timestamp": "2025-04-15T18:50:54+03:00",
+          "tree_id": "366f7e5facb8342482dd94533d9f3cee8af58fa3",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/83cc2415456c3ec530446dc93490b9ce8bccb00b"
+        },
+        "date": 1744732435179,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.27481092876759,
+            "unit": "us/iter",
+            "extra": "iterations: 39181\ncpu: 18.272935198182793 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.97323088569502,
+            "unit": "us/iter",
+            "extra": "iterations: 6605\ncpu: 102.91762649507947 us\nthreads: 1"
           }
         ]
       }
