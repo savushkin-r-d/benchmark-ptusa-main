@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744804850240,
+  "lastUpdate": 1744804884306,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49974,6 +49974,38 @@ window.BENCHMARK_DATA = {
             "value": 103.16507502631113,
             "unit": "us/iter",
             "extra": "iterations: 6651\ncpu: 102.07528897910089 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "34c960b154ba75c56cd294b3a1f3f71b98e2cd20",
+          "message": "Disables zlib tests",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/909/commits/34c960b154ba75c56cd294b3a1f3f71b98e2cd20"
+        },
+        "date": 1744804882274,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.92383399642942,
+            "unit": "us/iter",
+            "extra": "iterations: 39210\ncpu: 17.921502779903086 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.26923198035075,
+            "unit": "us/iter",
+            "extra": "iterations: 6923\ncpu: 102.21384963166255 us\nthreads: 1"
           }
         ]
       }
