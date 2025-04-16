@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744732625741,
+  "lastUpdate": 1744791418651,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49650,6 +49650,42 @@ window.BENCHMARK_DATA = {
             "value": 105.16560392215784,
             "unit": "us/iter",
             "extra": "iterations: 6731\ncpu: 104.02542534541676 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cf83d6e0bf639ef2e7d3cbd91bb16525882d3538",
+          "message": "Revert \"Bump deps/open62541/open62541 from v1.4.6 to v1.4.11 (#893)\" (#905)\n\nThis reverts commit d0deb332dc6b56f77b046b191006d19314f4ebd9.",
+          "timestamp": "2025-04-16T11:13:59+03:00",
+          "tree_id": "17bbb8f1fcfdba50d05784981263e3c51e38f693",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/cf83d6e0bf639ef2e7d3cbd91bb16525882d3538"
+        },
+        "date": 1744791416978,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.588712346759767,
+            "unit": "us/iter",
+            "extra": "iterations: 36544\ncpu: 18.583767458406307 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.56255407801592,
+            "unit": "us/iter",
+            "extra": "iterations: 6768\ncpu: 107.51753398345153 us\nthreads: 1"
           }
         ]
       }
