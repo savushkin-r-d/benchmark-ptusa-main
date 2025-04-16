@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744797809439,
+  "lastUpdate": 1744797827584,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49814,6 +49814,38 @@ window.BENCHMARK_DATA = {
             "value": 105.17737809349408,
             "unit": "us/iter",
             "extra": "iterations: 6546\ncpu: 103.79800381912621 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "1f56c8e6a470edd57103de52bd069c5430d605fb",
+          "message": "Updates open62541 from v1.4.6 to v1.4.11",
+          "timestamp": "2025-04-16T08:14:03Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/907/commits/1f56c8e6a470edd57103de52bd069c5430d605fb"
+        },
+        "date": 1744797826089,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.8517148290903,
+            "unit": "us/iter",
+            "extra": "iterations: 39436\ncpu: 17.84974870676539 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.69285678577481,
+            "unit": "us/iter",
+            "extra": "iterations: 6801\ncpu: 103.42127304808116 us\nthreads: 1"
           }
         ]
       }
