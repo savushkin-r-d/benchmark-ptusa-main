@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744796594801,
+  "lastUpdate": 1744796599004,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -49718,6 +49718,38 @@ window.BENCHMARK_DATA = {
             "value": 103.41791878612695,
             "unit": "us/iter",
             "extra": "iterations: 6920\ncpu: 102.31842760115605 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "f87a09ed684b1bf3e55a4e9f8723341f7f92fb8d",
+          "message": "Fixes missing break statement",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/906/commits/f87a09ed684b1bf3e55a4e9f8723341f7f92fb8d"
+        },
+        "date": 1744796595026,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.30309076826159,
+            "unit": "us/iter",
+            "extra": "iterations: 38086\ncpu: 18.303112272226016 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.57517816850248,
+            "unit": "us/iter",
+            "extra": "iterations: 6825\ncpu: 101.44712615384616 us\nthreads: 1"
           }
         ]
       }
