@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744879095382,
+  "lastUpdate": 1744893603577,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -50070,6 +50070,42 @@ window.BENCHMARK_DATA = {
             "value": 104.0017097242353,
             "unit": "us/iter",
             "extra": "iterations: 6890\ncpu: 102.92696386066766 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e17ce23b399df0932dec3ad1f689308ce0facf4f",
+          "message": "Updates open62541 from v1.4.6 to v1.4.11 (#907)\n\n* Bump deps/open62541/open62541 from `5e3e6bd` to `cae846b`\n\nBumps [deps/open62541/open62541](https://github.com/open62541/open62541) from `5e3e6bd` to `cae846b`.\n- [Release notes](https://github.com/open62541/open62541/releases)\n- [Commits](https://github.com/open62541/open62541/compare/5e3e6bd2c414dc12a9caba12ca60f8144b068b88...cae846b1e4504af6ee4953a131bb5fe96eaf38af)\n\n---\nupdated-dependencies:\n- dependency-name: deps/open62541/open62541\n  dependency-version: cae846b1e4504af6ee4953a131bb5fe96eaf38af\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* Updates open62541 submodule\n\nUpdates the open62541 submodule to the modified version\n\n* Updates open62541 from v1.4.6 to v1.4.11\n\nPoints to the latest commit of the open62541 submodule.\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-04-17T15:36:10+03:00",
+          "tree_id": "2b6b8cf83b795eb7e44bb639b3f506f8d2f4564a",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e17ce23b399df0932dec3ad1f689308ce0facf4f"
+        },
+        "date": 1744893601997,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.92075353926948,
+            "unit": "us/iter",
+            "extra": "iterations: 39203\ncpu: 17.92068744738923 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.57058985170298,
+            "unit": "us/iter",
+            "extra": "iterations: 6878\ncpu: 103.42375806920617 us\nthreads: 1"
           }
         ]
       }
