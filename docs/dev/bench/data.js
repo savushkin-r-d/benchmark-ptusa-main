@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744893603577,
+  "lastUpdate": 1744896530999,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -50106,6 +50106,42 @@ window.BENCHMARK_DATA = {
             "value": 104.57058985170298,
             "unit": "us/iter",
             "extra": "iterations: 6878\ncpu: 103.42375806920617 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "64fe7d58b96508f4a82c4e99713a197c6a87c3fb",
+          "message": "Adds missing break statement (#906)\n\nAdds a missing `break` statement in a switch case within the Modbus service logic. This prevents fallthrough to the default case when handling a specific condition.",
+          "timestamp": "2025-04-17T16:25:54+03:00",
+          "tree_id": "a7986eb33a9e3da7859e208b9498307db634a13b",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/64fe7d58b96508f4a82c4e99713a197c6a87c3fb"
+        },
+        "date": 1744896529163,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.860270774477545,
+            "unit": "us/iter",
+            "extra": "iterations: 39291\ncpu: 17.86026285917895 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.15704595507403,
+            "unit": "us/iter",
+            "extra": "iterations: 6811\ncpu: 102.000668036999 us\nthreads: 1"
           }
         ]
       }
