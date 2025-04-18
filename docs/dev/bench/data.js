@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744965487442,
+  "lastUpdate": 1744967904156,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -50242,6 +50242,38 @@ window.BENCHMARK_DATA = {
             "value": 103.19305406580901,
             "unit": "us/iter",
             "extra": "iterations: 6899\ncpu: 102.07685113784608 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "d04af5644304b4c21312676db90aac656425754f",
+          "message": "Adds support for new IFM LMT sensors",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/910/commits/d04af5644304b4c21312676db90aac656425754f"
+        },
+        "date": 1744967902587,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.764301876279713,
+            "unit": "us/iter",
+            "extra": "iterations: 39493\ncpu: 17.764021472159627 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.82128615025952,
+            "unit": "us/iter",
+            "extra": "iterations: 6881\ncpu: 101.78319604708616 us\nthreads: 1"
           }
         ]
       }
