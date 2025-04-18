@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744964589967,
+  "lastUpdate": 1744965487442,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -50206,6 +50206,42 @@ window.BENCHMARK_DATA = {
             "value": 105.10145420974224,
             "unit": "us/iter",
             "extra": "iterations: 6770\ncpu: 103.59672466765144 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "42bd762b60b84d00040c0c97e3c0015e2427206b",
+          "message": "Fixes open62541 submodules (#912)\n\nConnected with #907.",
+          "timestamp": "2025-04-18T11:34:55+03:00",
+          "tree_id": "b267fff391a547e19dcafb8777909bbe55eb215e",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/42bd762b60b84d00040c0c97e3c0015e2427206b"
+        },
+        "date": 1744965485152,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.245210767468524,
+            "unit": "us/iter",
+            "extra": "iterations: 38412\ncpu: 18.24340138498386 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.19305406580901,
+            "unit": "us/iter",
+            "extra": "iterations: 6899\ncpu: 102.07685113784608 us\nthreads: 1"
           }
         ]
       }
