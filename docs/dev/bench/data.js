@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745223104497,
+  "lastUpdate": 1745226322978,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -50550,6 +50550,40 @@ window.BENCHMARK_DATA = {
             "value": 103.71178293673142,
             "unit": "us/iter",
             "extra": "iterations: 6892\ncpu: 102.24493630295997 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "106b9d649ad9e99171852a939a9a4cf7ba480525",
+          "message": "[config][cmake] Disables building shared library for toluapp (#914)\n\nForces toluapp to be built as a static library by default. This simplifies the build process and avoids potential issues with shared library dependencies.",
+          "timestamp": "2025-04-21T06:18:11Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/106b9d649ad9e99171852a939a9a4cf7ba480525"
+        },
+        "date": 1745226321082,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.644698717788177,
+            "unit": "us/iter",
+            "extra": "iterations: 39697\ncpu: 17.643868176436506 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.91942364318015,
+            "unit": "us/iter",
+            "extra": "iterations: 6928\ncpu: 103.8757359988453 us\nthreads: 1"
           }
         ]
       }
