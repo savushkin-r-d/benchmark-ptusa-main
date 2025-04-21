@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1744986200842,
+  "lastUpdate": 1745212557092,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -50338,6 +50338,42 @@ window.BENCHMARK_DATA = {
             "value": 103.10732208544356,
             "unit": "us/iter",
             "extra": "iterations: 6905\ncpu: 102.051087038378 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b92525a4bc932885c5c5d8a8c6eff46ca3478901",
+          "message": "Adds support for new IFM LMT sensors (#910)\n\nExtends the device support to include IFM LMT121 and LMT202\nsensors. This involves adding the new sensor types to the\nenumeration and incorporating them into the data evaluation logic.",
+          "timestamp": "2025-04-21T08:13:11+03:00",
+          "tree_id": "177a3d8934a8cd4134a33d6b2542a3fd1aa45602",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/b92525a4bc932885c5c5d8a8c6eff46ca3478901"
+        },
+        "date": 1745212555474,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.67356707962063,
+            "unit": "us/iter",
+            "extra": "iterations: 39714\ncpu: 17.67261018784308 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.98412990762085,
+            "unit": "us/iter",
+            "extra": "iterations: 6928\ncpu: 102.99229979792152 us\nthreads: 1"
           }
         ]
       }
