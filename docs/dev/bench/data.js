@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745215444776,
+  "lastUpdate": 1745216450699,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -50446,6 +50446,42 @@ window.BENCHMARK_DATA = {
             "value": 103.20899753623237,
             "unit": "us/iter",
             "extra": "iterations: 6900\ncpu: 102.18991202898552 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "55baef43d9266039b6c47bf3197fa277e0ef5028",
+          "message": "[config][cmake] Configures subhook as a static library (#913)\n\nSets subhook to build as a static library and disables installation.",
+          "timestamp": "2025-04-21T09:17:27+03:00",
+          "tree_id": "b93efe89071aba9dae62340109704c86b3b37100",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/55baef43d9266039b6c47bf3197fa277e0ef5028"
+        },
+        "date": 1745216448951,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.667441931909565,
+            "unit": "us/iter",
+            "extra": "iterations: 39712\ncpu: 17.66559999496374 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.65879677891391,
+            "unit": "us/iter",
+            "extra": "iterations: 6830\ncpu: 102.36609399707179 us\nthreads: 1"
           }
         ]
       }
