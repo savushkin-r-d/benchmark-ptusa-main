@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745213478725,
+  "lastUpdate": 1745215444776,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -50410,6 +50410,42 @@ window.BENCHMARK_DATA = {
             "value": 105.4545866843427,
             "unit": "us/iter",
             "extra": "iterations: 6789\ncpu: 104.45095728384153 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b319b74a2bc83f49429e1ea8918bab19696d0b3a",
+          "message": "[config][cmake] Disables testing for the googletest (#908)\n\nThis change disables the testing of the benchmark library by setting BENCHMARK_ENABLE_TESTING to OFF. This prevents tests related to the benchmark library from being executed.\nThe benchmark subdirectory are removed from the CTest test file generation.",
+          "timestamp": "2025-04-21T09:01:05+03:00",
+          "tree_id": "aa0dbabdc215c4d107b742d3399ded78e24ec732",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/b319b74a2bc83f49429e1ea8918bab19696d0b3a"
+        },
+        "date": 1745215442740,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.84467103989309,
+            "unit": "us/iter",
+            "extra": "iterations: 39254\ncpu: 17.84390887552861 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.20899753623237,
+            "unit": "us/iter",
+            "extra": "iterations: 6900\ncpu: 102.18991202898552 us\nthreads: 1"
           }
         ]
       }
