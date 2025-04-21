@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745212557092,
+  "lastUpdate": 1745213478725,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -50374,6 +50374,42 @@ window.BENCHMARK_DATA = {
             "value": 103.98412990762085,
             "unit": "us/iter",
             "extra": "iterations: 6928\ncpu: 102.99229979792152 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "31836caf32293991892a439131c94954ff55f16f",
+          "message": "[config][cmake] Configures zlib build options (#909)\n\nDisables the building of tests for the zlib dependency. Sets zlib to build as a static library, disables installation, and disables DLL compatibility. This ensures consistent and predictable linking behavior.",
+          "timestamp": "2025-04-21T08:28:30+03:00",
+          "tree_id": "eaa044d2ca0d6f34a751aa98fe290a93c789f83d",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/31836caf32293991892a439131c94954ff55f16f"
+        },
+        "date": 1745213477124,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 19.304349430800016,
+            "unit": "us/iter",
+            "extra": "iterations: 36279\ncpu: 19.30420069461672 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.4545866843427,
+            "unit": "us/iter",
+            "extra": "iterations: 6789\ncpu: 104.45095728384153 us\nthreads: 1"
           }
         ]
       }
