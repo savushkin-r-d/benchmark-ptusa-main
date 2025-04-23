@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1745415308174,
+  "lastUpdate": 1745415799119,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -51032,6 +51032,38 @@ window.BENCHMARK_DATA = {
             "value": 102.26514216037748,
             "unit": "us/iter",
             "extra": "iterations: 6971\ncpu: 101.14806813943478 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "4a8ef67d70114612c719e6df22aff5db815bcf0c",
+          "message": "Compensates PID dt for large time deltas",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/921/commits/4a8ef67d70114612c719e6df22aff5db815bcf0c"
+        },
+        "date": 1745415794551,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.6039563734836,
+            "unit": "us/iter",
+            "extra": "iterations: 39884\ncpu: 17.60297863805035 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.94744583272671,
+            "unit": "us/iter",
+            "extra": "iterations: 6803\ncpu: 103.57680890783477 us\nthreads: 1"
           }
         ]
       }
