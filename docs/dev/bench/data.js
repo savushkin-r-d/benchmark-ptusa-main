@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746536317610,
+  "lastUpdate": 1746537168801,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -51628,6 +51628,38 @@ window.BENCHMARK_DATA = {
             "value": 104.26963320238892,
             "unit": "us/iter",
             "extra": "iterations: 6873\ncpu: 103.15605718027062 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Lenonim",
+            "username": "Lenonim"
+          },
+          "committer": {
+            "name": "Lenonim",
+            "username": "Lenonim"
+          },
+          "id": "c5d6fe2c0dd10810ac019f15568531bfefec7cd0",
+          "message": "Модернизация алгоритма опроса узлов ввода/вывода",
+          "timestamp": "2025-04-16T09:00:17Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/911/commits/c5d6fe2c0dd10810ac019f15568531bfefec7cd0"
+        },
+        "date": 1746537167070,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.16879471974436,
+            "unit": "us/iter",
+            "extra": "iterations: 38786\ncpu: 18.16605308616511 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.98999262579257,
+            "unit": "us/iter",
+            "extra": "iterations: 6916\ncpu: 101.89432432041643 us\nthreads: 1"
           }
         ]
       }
