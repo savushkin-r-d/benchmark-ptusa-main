@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1746696061954,
+  "lastUpdate": 1747041474756,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -52016,6 +52016,40 @@ window.BENCHMARK_DATA = {
             "value": 105.41669408369488,
             "unit": "us/iter",
             "extra": "iterations: 6930\ncpu: 103.75218051948052 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "a7937e57df6cc88a208596e5ff6369efba7484e8",
+          "message": "Compensates PID dt for large time deltas (#921)\n\n* Compensates PID dt for large time deltas\n\nWhen the time delta between PID evaluations exceeds the configured `dt`,\nthe `dt` is recalculated to avoid integral windup.\n\nThis ensures that the PID controller responds appropriately even when\nthere are large gaps in the control loop.\n\n* Removes unnecessary time conversion\n\nRemoves the redundant conversion of the `dt` parameter to seconds,\nthis will be done later. This simplifies the calculations\nand avoids potential inaccuracies.\n\n* Refactors PID time delta handling\n\nEnsures correct PID calculation by renaming and clarifying the time delta variables.\n\nThis change addresses potential confusion by renaming 'dt' to 'set_delta_ms' when referring to the configured delta time.\nIt then introduces 'actual_delta_ms' to store the actual elapsed time since the last PID evaluation, ensuring accurate calculations\neven when there are variations in the execution frequency.\nThis also ensures that the dt variable passed to the PID equations contains the correct calculation, using the actual elapsed time.\n\n* Fixes error message\n\nCorrects the error message to reflect the actual variable\nbeing checked.\n\n* Casts delta time to float for PID calculation\n\nEnsures floating-point division when calculating `dt`, improving the accuracy of PID controller calculations.\n\n* Uses constant for default delta time\n\nUses a named constant for the default delta time\nvalue in the PID controller, improving code\nreadability and maintainability.\n\n* Fixes floating point division in PID calculation\n\nEnsures correct floating-point division when calculating `dt`\nin the PID controller's evaluation function. The previous\ncalculation was performing integer division due to an implicit\ntype conversion, leading to inaccurate `dt` values and\nincorrect PID output.",
+          "timestamp": "2025-05-08T08:43:53Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/a7937e57df6cc88a208596e5ff6369efba7484e8"
+        },
+        "date": 1747041472566,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.769770157201233,
+            "unit": "us/iter",
+            "extra": "iterations: 39440\ncpu: 17.767312119675456 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.2013609304976,
+            "unit": "us/iter",
+            "extra": "iterations: 6921\ncpu: 102.64180667533596 us\nthreads: 1"
           }
         ]
       }
