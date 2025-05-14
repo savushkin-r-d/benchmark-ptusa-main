@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747205739741,
+  "lastUpdate": 1747205996897,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -52150,6 +52150,42 @@ window.BENCHMARK_DATA = {
             "value": 102.66065848729843,
             "unit": "us/iter",
             "extra": "iterations: 6928\ncpu: 101.53874985565821 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b82586d4ba605e70b19daa72e3265501f7b91455",
+          "message": "Adds control module for connection check (#917)\n\n* Adds device for connection check\n\nImplements a new device type for checking the connection status\nof other devices. This device monitors a designated DI device\nand triggers its state based on the DI device's activity and a\nconfigurable timeout, improving system monitoring capabilities.",
+          "timestamp": "2025-05-14T09:54:09+03:00",
+          "tree_id": "c105264a90637a2278bd8b2aeecb2e1dd8439a11",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/b82586d4ba605e70b19daa72e3265501f7b91455"
+        },
+        "date": 1747205995090,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.913911735282966,
+            "unit": "us/iter",
+            "extra": "iterations: 38985\ncpu: 17.912047864563295 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.25038104169485,
+            "unit": "us/iter",
+            "extra": "iterations: 6931\ncpu: 101.16498283076034 us\nthreads: 1"
           }
         ]
       }
