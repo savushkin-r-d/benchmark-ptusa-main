@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747199224447,
+  "lastUpdate": 1747205739741,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -52114,6 +52114,42 @@ window.BENCHMARK_DATA = {
             "value": 102.23791974595571,
             "unit": "us/iter",
             "extra": "iterations: 6928\ncpu: 101.13476385681292 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asutp10@pda.savushkin.by",
+            "name": "AlexandrBehunkov",
+            "username": "AlexandrBehunkov"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "929b8aa0d1de18e79dc234a1892ff36e10dd4d0e",
+          "message": "Increases max copy size variable (#932)",
+          "timestamp": "2025-05-14T09:52:32+03:00",
+          "tree_id": "a941a171a4a6a0508f9c8acbec733b3c27e7e9e7",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/929b8aa0d1de18e79dc234a1892ff36e10dd4d0e"
+        },
+        "date": 1747205737557,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.88353070287399,
+            "unit": "us/iter",
+            "extra": "iterations: 39182\ncpu: 17.882855112041245 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.66065848729843,
+            "unit": "us/iter",
+            "extra": "iterations: 6928\ncpu: 101.53874985565821 us\nthreads: 1"
           }
         ]
       }
