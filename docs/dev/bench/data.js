@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747469528558,
+  "lastUpdate": 1747469536762,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -52766,6 +52766,42 @@ window.BENCHMARK_DATA = {
             "value": 106.80124886811666,
             "unit": "us/iter",
             "extra": "iterations: 6847\ncpu: 105.88332262304658 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "424dc48305159ffccbf15932c1dadaae8a361dc1",
+          "message": "Updates open62541 to 1.4.12 (#933)\n\nUpdates the open62541 subproject to incorporate the latest changes.",
+          "timestamp": "2025-05-17T11:07:51+03:00",
+          "tree_id": "159be134cf10ac5b2dec80a7db26280e30295e0a",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/424dc48305159ffccbf15932c1dadaae8a361dc1"
+        },
+        "date": 1747469534657,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.03778918083489,
+            "unit": "us/iter",
+            "extra": "iterations: 38820\ncpu: 18.03512354456466 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.6002410817044,
+            "unit": "us/iter",
+            "extra": "iterations: 6952\ncpu: 101.51256127733026 us\nthreads: 1"
           }
         ]
       }
