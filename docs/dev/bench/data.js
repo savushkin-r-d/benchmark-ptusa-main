@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747490608382,
+  "lastUpdate": 1747492339953,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -52930,6 +52930,38 @@ window.BENCHMARK_DATA = {
             "value": 105.07771529723948,
             "unit": "us/iter",
             "extra": "iterations: 6779\ncpu: 104.1342192063726 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "bb01cd7ef3eae2b7646e05a6dbd5b49e034609d5",
+          "message": "Adds error description for IOLink mix proof valve",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/934/commits/bb01cd7ef3eae2b7646e05a6dbd5b49e034609d5"
+        },
+        "date": 1747492337898,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.27751567908092,
+            "unit": "us/iter",
+            "extra": "iterations: 38427\ncpu: 18.27253069456372 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.23297341660799,
+            "unit": "us/iter",
+            "extra": "iterations: 6884\ncpu: 102.12970642068565 us\nthreads: 1"
           }
         ]
       }
