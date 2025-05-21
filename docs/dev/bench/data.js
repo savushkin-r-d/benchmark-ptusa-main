@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747816096743,
+  "lastUpdate": 1747819825975,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -53348,6 +53348,38 @@ window.BENCHMARK_DATA = {
             "value": 107.96650949603517,
             "unit": "us/iter",
             "extra": "iterations: 6687\ncpu: 106.56441917152686 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "a5cb09d5c3a8ad990e797095d11c1e47cff4c902",
+          "message": "Implements IOLink error description retrieval",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/935/commits/a5cb09d5c3a8ad990e797095d11c1e47cff4c902"
+        },
+        "date": 1747819824115,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.005024937784192,
+            "unit": "us/iter",
+            "extra": "iterations: 38977\ncpu: 18.003069220309413 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.51055570330546,
+            "unit": "us/iter",
+            "extra": "iterations: 6768\ncpu: 106.51309293735224 us\nthreads: 1"
           }
         ]
       }
