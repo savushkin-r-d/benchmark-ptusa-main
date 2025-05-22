@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1747899350618,
+  "lastUpdate": 1747922143411,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -53540,6 +53540,42 @@ window.BENCHMARK_DATA = {
             "value": 104.022893862287,
             "unit": "us/iter",
             "extra": "iterations: 6680\ncpu: 102.95634431137722 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "ilja.ist.am.besten@mail.ru",
+            "name": "Ilja Aboimov",
+            "username": "Lenonim"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "987c6b46589c88fa5ac322065d0c0d4e3ff5e99b",
+          "message": "Модернизация алгоритма опроса узлов ввода/вывода (#911)\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-05-22T16:52:27+03:00",
+          "tree_id": "f05adf47e434d6401248c6b957c36fdf45b720a6",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/987c6b46589c88fa5ac322065d0c0d4e3ff5e99b"
+        },
+        "date": 1747922141182,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.842907747858135,
+            "unit": "us/iter",
+            "extra": "iterations: 39327\ncpu: 17.841586823302055 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.57125176263368,
+            "unit": "us/iter",
+            "extra": "iterations: 6808\ncpu: 104.29224588719156 us\nthreads: 1"
           }
         ]
       }
