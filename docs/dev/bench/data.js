@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748092994352,
+  "lastUpdate": 1748093003420,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -53808,6 +53808,38 @@ window.BENCHMARK_DATA = {
             "value": 105.85206500671,
             "unit": "us/iter",
             "extra": "iterations: 6707\ncpu: 104.77059191889072 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "3d77fc329e180a72c6b0618c935419f61c1ccd07",
+          "message": "[config][misc] Updates AXCF2152 build configuration",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/940/commits/3d77fc329e180a72c6b0618c935419f61c1ccd07"
+        },
+        "date": 1748093001029,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.293015172413792,
+            "unit": "us/iter",
+            "extra": "iterations: 38425\ncpu: 18.292002238126223 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.42653711661144,
+            "unit": "us/iter",
+            "extra": "iterations: 6749\ncpu: 105.29547651503925 us\nthreads: 1"
           }
         ]
       }
