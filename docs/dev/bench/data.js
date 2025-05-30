@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748524727502,
+  "lastUpdate": 1748585598986,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -53938,6 +53938,42 @@ window.BENCHMARK_DATA = {
             "value": 106.01225447551658,
             "unit": "us/iter",
             "extra": "iterations: 6759\ncpu: 104.19251590471964 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "56ef4c29d7a52c78c9d056e9c5194a3952f0df2f",
+          "message": "[config][misc] Updates AXCF2152 build configuration to use the 2024 LTS (#940)",
+          "timestamp": "2025-05-30T09:10:15+03:00",
+          "tree_id": "db35c5cfd46af1702bb382f29a8b4b085bbc7ea5",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/56ef4c29d7a52c78c9d056e9c5194a3952f0df2f"
+        },
+        "date": 1748585596953,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 20.253668425127554,
+            "unit": "us/iter",
+            "extra": "iterations: 34879\ncpu: 20.251316064107343 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.93570209811624,
+            "unit": "us/iter",
+            "extra": "iterations: 6482\ncpu: 107.55269407590251 us\nthreads: 1"
           }
         ]
       }
