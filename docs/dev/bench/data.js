@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1748875798446,
+  "lastUpdate": 1748939716360,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -54328,6 +54328,38 @@ window.BENCHMARK_DATA = {
             "value": 104.40806248157847,
             "unit": "us/iter",
             "extra": "iterations: 6786\ncpu: 103.418230916593 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "df5acab3161a2ac059fdcb495ea15e3467eb8b16",
+          "message": "Refactors IO-Link error description",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/935/commits/df5acab3161a2ac059fdcb495ea15e3467eb8b16"
+        },
+        "date": 1748939714442,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.934323573707573,
+            "unit": "us/iter",
+            "extra": "iterations: 39175\ncpu: 17.93253876196554 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.90187228101223,
+            "unit": "us/iter",
+            "extra": "iterations: 6804\ncpu: 102.8122076719577 us\nthreads: 1"
           }
         ]
       }
