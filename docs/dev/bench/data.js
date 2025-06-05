@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749115712575,
+  "lastUpdate": 1749115891742,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -54680,6 +54680,38 @@ window.BENCHMARK_DATA = {
             "value": 107.26203265243512,
             "unit": "us/iter",
             "extra": "iterations: 6462\ncpu: 105.5570393067162 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "5485f5c03200e51748a39c843228f989bab7b295",
+          "message": "Fixes handling of PAC-info command result string",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/949/commits/5485f5c03200e51748a39c843228f989bab7b295"
+        },
+        "date": 1749115889686,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.31747413860647,
+            "unit": "us/iter",
+            "extra": "iterations: 38339\ncpu: 18.31595993635724 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.18533705717442,
+            "unit": "us/iter",
+            "extra": "iterations: 6803\ncpu: 104.01646479494345 us\nthreads: 1"
           }
         ]
       }
