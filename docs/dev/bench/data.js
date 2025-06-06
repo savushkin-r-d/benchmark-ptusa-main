@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749193215547,
+  "lastUpdate": 1749194064464,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -54956,6 +54956,38 @@ window.BENCHMARK_DATA = {
             "value": 104.81399572018701,
             "unit": "us/iter",
             "extra": "iterations: 6776\ncpu: 103.74188621605666 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "2af591208576964366b4e1c8cdc93eaaec4db047",
+          "message": "[tests] Fixes I/O manager test",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/951/commits/2af591208576964366b4e1c8cdc93eaaec4db047"
+        },
+        "date": 1749194062154,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.52330502503171,
+            "unit": "us/iter",
+            "extra": "iterations: 37751\ncpu: 18.521618394214723 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.7526394195228,
+            "unit": "us/iter",
+            "extra": "iterations: 6753\ncpu: 104.63481563749446 us\nthreads: 1"
           }
         ]
       }
