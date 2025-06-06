@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749128145466,
+  "lastUpdate": 1749193193409,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -54888,6 +54888,42 @@ window.BENCHMARK_DATA = {
             "value": 104.67047813925896,
             "unit": "us/iter",
             "extra": "iterations: 6793\ncpu: 103.39890313558075 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1edd9df88f23cd71dfdc64564b414027d01c601b",
+          "message": "Fixes IO-Link signal column (#950)",
+          "timestamp": "2025-06-06T09:56:49+03:00",
+          "tree_id": "ec32be3030d2c3b014051ea660926c8a5fff0e3c",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/1edd9df88f23cd71dfdc64564b414027d01c601b"
+        },
+        "date": 1749193191092,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.208416239047388,
+            "unit": "us/iter",
+            "extra": "iterations: 40729\ncpu: 17.207723685825826 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.55636150650794,
+            "unit": "us/iter",
+            "extra": "iterations: 6744\ncpu: 103.5694525504152 us\nthreads: 1"
           }
         ]
       }
