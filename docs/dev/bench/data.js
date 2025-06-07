@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749208309858,
+  "lastUpdate": 1749271557200,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -55120,6 +55120,42 @@ window.BENCHMARK_DATA = {
             "value": 107.46549992353575,
             "unit": "us/iter",
             "extra": "iterations: 6537\ncpu: 106.32901040232521 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "99e863b6b1b2d71a6e55151f434261a0d2891c98",
+          "message": "Fixes handling of PAC-info command result string (#949)",
+          "timestamp": "2025-06-07T07:41:45+03:00",
+          "tree_id": "c358d7ac6b813347f1484436882984af85a53346",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/99e863b6b1b2d71a6e55151f434261a0d2891c98"
+        },
+        "date": 1749271555075,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.03541588261115,
+            "unit": "us/iter",
+            "extra": "iterations: 41026\ncpu: 17.030114805245457 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.0060539071751,
+            "unit": "us/iter",
+            "extra": "iterations: 6808\ncpu: 103.92328084606345 us\nthreads: 1"
           }
         ]
       }
