@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749271671958,
+  "lastUpdate": 1749274355999,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -55188,6 +55188,38 @@ window.BENCHMARK_DATA = {
             "value": 103.91000254758136,
             "unit": "us/iter",
             "extra": "iterations: 6673\ncpu: 102.82680158849095 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "b9c92a1a7bfccaed6ef2c013dd27944b562f4b90",
+          "message": "[config] Adds Visual Studio configs",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/952/commits/b9c92a1a7bfccaed6ef2c013dd27944b562f4b90"
+        },
+        "date": 1749274353697,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.388642636510856,
+            "unit": "us/iter",
+            "extra": "iterations: 38202\ncpu: 18.382936888121044 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.09199970396912,
+            "unit": "us/iter",
+            "extra": "iterations: 6756\ncpu: 103.87109265837775 us\nthreads: 1"
           }
         ]
       }
