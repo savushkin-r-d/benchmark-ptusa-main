@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749460089689,
+  "lastUpdate": 1749481064297,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -55414,6 +55414,38 @@ window.BENCHMARK_DATA = {
             "value": 106.457494041487,
             "unit": "us/iter",
             "extra": "iterations: 6797\ncpu: 105.43955715756954 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "94654e5fe609d01ad70847e7105140b8d2d6859b",
+          "message": "Fixes IO-Link analog valve",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/954/commits/94654e5fe609d01ad70847e7105140b8d2d6859b"
+        },
+        "date": 1749481061643,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.637732709885984,
+            "unit": "us/iter",
+            "extra": "iterations: 37854\ncpu: 18.636468589845194 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.7553478062835,
+            "unit": "us/iter",
+            "extra": "iterations: 6587\ncpu: 104.73694306968274 us\nthreads: 1"
           }
         ]
       }
