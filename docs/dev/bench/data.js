@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1749563814596,
+  "lastUpdate": 1750064876821,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -55714,6 +55714,40 @@ window.BENCHMARK_DATA = {
             "value": 104.23995463887063,
             "unit": "us/iter",
             "extra": "iterations: 6812\ncpu: 103.14626262477978 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "aa9ec9558f9ed70c086d876d1d2e87a80ab78629",
+          "message": "Refactors IO-Link error description (#935)",
+          "timestamp": "2025-06-10T13:52:20Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/aa9ec9558f9ed70c086d876d1d2e87a80ab78629"
+        },
+        "date": 1750064874173,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.358758279720114,
+            "unit": "us/iter",
+            "extra": "iterations: 39947\ncpu: 17.357070117906225 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.63095230478466,
+            "unit": "us/iter",
+            "extra": "iterations: 6877\ncpu: 102.37789952013961 us\nthreads: 1"
           }
         ]
       }
