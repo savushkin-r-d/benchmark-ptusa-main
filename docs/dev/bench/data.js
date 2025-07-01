@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751380123318,
+  "lastUpdate": 1751380965388,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -56052,6 +56052,38 @@ window.BENCHMARK_DATA = {
             "value": 104.80835748863254,
             "unit": "us/iter",
             "extra": "iterations: 6817\ncpu: 103.37095335191435 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "99f8010fcd9db549cc50f7ecb480d785e6a7e5b8",
+          "message": "Adds error descriptions for AlfaLaval valves",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/959/commits/99f8010fcd9db549cc50f7ecb480d785e6a7e5b8"
+        },
+        "date": 1751380963228,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.94823955004534,
+            "unit": "us/iter",
+            "extra": "iterations: 39115\ncpu: 17.945729720056246 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.27818504285919,
+            "unit": "us/iter",
+            "extra": "iterations: 6766\ncpu: 103.93367129766479 us\nthreads: 1"
           }
         ]
       }
