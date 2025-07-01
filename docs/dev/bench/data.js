@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751373151101,
+  "lastUpdate": 1751373164497,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -55944,6 +55944,42 @@ window.BENCHMARK_DATA = {
             "value": 106.65203105868011,
             "unit": "us/iter",
             "extra": "iterations: 6697\ncpu: 105.38523995819025 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4c60379c190f558ca77a2ad748783b2f38402bd1",
+          "message": "Bump deps/googletest from `e9092b1` to `c67de11` (#962)\n\nBumps [deps/googletest](https://github.com/google/googletest) from `e9092b1` to `c67de11`.\n- [Release notes](https://github.com/google/googletest/releases)\n- [Commits](https://github.com/google/googletest/compare/e9092b12dc3cf617d47578f13a1f64285cfa5b2f...c67de117379f4d1c889c7581a0a76aa0979c2083)\n\n---\nupdated-dependencies:\n- dependency-name: deps/googletest\n  dependency-version: c67de117379f4d1c889c7581a0a76aa0979c2083\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-07-01T15:28:42+03:00",
+          "tree_id": "110b19798c5f7636f4ecb4a9bb8c7b091ffe38e6",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/4c60379c190f558ca77a2ad748783b2f38402bd1"
+        },
+        "date": 1751373161906,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.616670253960198,
+            "unit": "us/iter",
+            "extra": "iterations: 39770\ncpu: 17.614464470706565 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.99322142122261,
+            "unit": "us/iter",
+            "extra": "iterations: 6797\ncpu: 104.07623819332058 us\nthreads: 1"
           }
         ]
       }
