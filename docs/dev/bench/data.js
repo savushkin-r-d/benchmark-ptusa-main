@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751879206337,
+  "lastUpdate": 1751895300138,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -56314,6 +56314,38 @@ window.BENCHMARK_DATA = {
             "value": 104.46913091597773,
             "unit": "us/iter",
             "extra": "iterations: 6867\ncpu: 103.34178651521772 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "4ca421fb5276549a708929e3835e66c27b91c305",
+          "message": "Adds emulator support for IOLink signal columns",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/967/commits/4ca421fb5276549a708929e3835e66c27b91c305"
+        },
+        "date": 1751895298250,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.255220018211826,
+            "unit": "us/iter",
+            "extra": "iterations: 40633\ncpu: 17.25415735978146 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.77065097981297,
+            "unit": "us/iter",
+            "extra": "iterations: 6736\ncpu: 104.07929141923988 us\nthreads: 1"
           }
         ]
       }
