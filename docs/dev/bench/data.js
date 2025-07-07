@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751874308751,
+  "lastUpdate": 1751879206337,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -56280,6 +56280,40 @@ window.BENCHMARK_DATA = {
             "value": 105.42847945408829,
             "unit": "us/iter",
             "extra": "iterations: 6741\ncpu: 103.95894288681205 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "d6ed8d2e0d7b7b03376f7b7d095178ea9a7da9b0",
+          "message": "Adds error descriptions for AlfaLaval valves (#959)",
+          "timestamp": "2025-07-07T07:40:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d6ed8d2e0d7b7b03376f7b7d095178ea9a7da9b0"
+        },
+        "date": 1751879204160,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.261621823154464,
+            "unit": "us/iter",
+            "extra": "iterations: 38757\ncpu: 18.260248213226 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.46913091597773,
+            "unit": "us/iter",
+            "extra": "iterations: 6867\ncpu: 103.34178651521772 us\nthreads: 1"
           }
         ]
       }
