@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751968811848,
+  "lastUpdate": 1751979404881,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -56574,6 +56574,42 @@ window.BENCHMARK_DATA = {
             "value": 101.58330504324212,
             "unit": "us/iter",
             "extra": "iterations: 6940\ncpu: 100.48047708933717 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1f69ddbb246292e210df10b99a322c41b1b09e49",
+          "message": "[config][cmake] Disables testing for Lua (#968)\n\nRemoves custom CTest configuration that excludes Lua and TO Lua++\ndependencies from testing. Adds a SKIP_TESTING flag to Lua's\nCMakeLists.txt to prevent their tests from being discovered.",
+          "timestamp": "2025-07-08T15:53:57+03:00",
+          "tree_id": "91cc70089f24a072861cae432eaecdec735092f7",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/1f69ddbb246292e210df10b99a322c41b1b09e49"
+        },
+        "date": 1751979402731,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.4040385125827,
+            "unit": "us/iter",
+            "extra": "iterations: 39935\ncpu: 17.401003605859525 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 100.59675092724613,
+            "unit": "us/iter",
+            "extra": "iterations: 7010\ncpu: 99.47966390870185 us\nthreads: 1"
           }
         ]
       }
