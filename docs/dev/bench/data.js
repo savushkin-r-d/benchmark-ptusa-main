@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751953112600,
+  "lastUpdate": 1751958956564,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -56442,6 +56442,42 @@ window.BENCHMARK_DATA = {
             "value": 104.47356122896805,
             "unit": "us/iter",
             "extra": "iterations: 6835\ncpu: 103.34041185076812 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e70e841da48766f09e1398809fbb2db907645b77",
+          "message": "Adds emulator support for IOLink signal columns (#967)\n\nFixes #966.\nAdds emulator support to `signal_column_iolink::get_state()` to call the base class's method when running in emulator mode, ensuring consistent behavior across different environments.",
+          "timestamp": "2025-07-08T10:12:22+03:00",
+          "tree_id": "37ce66d33107d766a9253b71a807c29644628ffa",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e70e841da48766f09e1398809fbb2db907645b77"
+        },
+        "date": 1751958954360,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.059535809680167,
+            "unit": "us/iter",
+            "extra": "iterations: 40059\ncpu: 18.05846785990664 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.64804700420764,
+            "unit": "us/iter",
+            "extra": "iterations: 6893\ncpu: 101.5505447555491 us\nthreads: 1"
           }
         ]
       }
