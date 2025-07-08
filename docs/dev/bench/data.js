@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1751958956564,
+  "lastUpdate": 1751968799535,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -56478,6 +56478,38 @@ window.BENCHMARK_DATA = {
             "value": 102.64804700420764,
             "unit": "us/iter",
             "extra": "iterations: 6893\ncpu: 101.5505447555491 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "456dc526d1c6db1f9d0915b3a4aea68162664c4f",
+          "message": "[config][cmake] Disables testing for Lua",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/968/commits/456dc526d1c6db1f9d0915b3a4aea68162664c4f"
+        },
+        "date": 1751968797465,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.492511053740152,
+            "unit": "us/iter",
+            "extra": "iterations: 39896\ncpu: 17.49040094245037 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.25986349387165,
+            "unit": "us/iter",
+            "extra": "iterations: 7018\ncpu: 99.98042504987176 us\nthreads: 1"
           }
         ]
       }
