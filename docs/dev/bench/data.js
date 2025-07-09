@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752067336751,
+  "lastUpdate": 1752070797028,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -56770,6 +56770,38 @@ window.BENCHMARK_DATA = {
             "value": 102.51473349563162,
             "unit": "us/iter",
             "extra": "iterations: 6983\ncpu: 100.93181197193185 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "c80d8048812a551fc76d39ed290ad9625dae7825",
+          "message": "Renames `life_device` to `watchdog`",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/953/commits/c80d8048812a551fc76d39ed290ad9625dae7825"
+        },
+        "date": 1752070794830,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.97569367372289,
+            "unit": "us/iter",
+            "extra": "iterations: 41051\ncpu: 16.974643443521476 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.25019368051582,
+            "unit": "us/iter",
+            "extra": "iterations: 6836\ncpu: 101.91018519602109 us\nthreads: 1"
           }
         ]
       }
