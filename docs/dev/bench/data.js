@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752154999204,
+  "lastUpdate": 1752155050989,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -57062,6 +57062,38 @@ window.BENCHMARK_DATA = {
             "value": 103.70856179775221,
             "unit": "us/iter",
             "extra": "iterations: 6853\ncpu: 102.59406289216405 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "73f233052cf3927e9a155292d13117009e7414a7",
+          "message": "Adds support for IFM PM1717 pressure sensor",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/972/commits/73f233052cf3927e9a155292d13117009e7414a7"
+        },
+        "date": 1752155048217,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.704724422400812,
+            "unit": "us/iter",
+            "extra": "iterations: 39517\ncpu: 17.679833539995442 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.16414411064186,
+            "unit": "us/iter",
+            "extra": "iterations: 6724\ncpu: 100.64349821534802 us\nthreads: 1"
           }
         ]
       }
