@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752482775414,
+  "lastUpdate": 1752484211874,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -57574,6 +57574,40 @@ window.BENCHMARK_DATA = {
             "value": 105.47873236331382,
             "unit": "us/iter",
             "extra": "iterations: 6804\ncpu: 103.74434303350971 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "5401e6ab5f8a99cfa5ee8c4b29e0fe832743d737",
+          "message": "[tests] Fixes conditional test issue (#971)",
+          "timestamp": "2025-07-10T12:18:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5401e6ab5f8a99cfa5ee8c4b29e0fe832743d737"
+        },
+        "date": 1752484209367,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.515459836495634,
+            "unit": "us/iter",
+            "extra": "iterations: 39999\ncpu: 17.514740443511087 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.03219448213139,
+            "unit": "us/iter",
+            "extra": "iterations: 6633\ncpu: 100.72302638323535 us\nthreads: 1"
           }
         ]
       }
