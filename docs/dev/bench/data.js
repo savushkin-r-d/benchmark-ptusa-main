@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752571590240,
+  "lastUpdate": 1752583573208,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -58128,6 +58128,38 @@ window.BENCHMARK_DATA = {
             "value": 102.87999482387018,
             "unit": "us/iter",
             "extra": "iterations: 6955\ncpu: 101.80830165348672 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "40d65f0a326b3055fa88c15de3bfbd85474f3209",
+          "message": "[WIP] Find 5 TODOs in the codebase and fix them",
+          "timestamp": "2025-07-15T09:22:07Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/977/commits/40d65f0a326b3055fa88c15de3bfbd85474f3209"
+        },
+        "date": 1752583570903,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.48832284657208,
+            "unit": "us/iter",
+            "extra": "iterations: 40273\ncpu: 17.487629776773524 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.21935511156492,
+            "unit": "us/iter",
+            "extra": "iterations: 6857\ncpu: 102.2877787662243 us\nthreads: 1"
           }
         ]
       }
