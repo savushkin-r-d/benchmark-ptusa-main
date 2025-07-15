@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752571494433,
+  "lastUpdate": 1752571590240,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -58092,6 +58092,42 @@ window.BENCHMARK_DATA = {
             "value": 101.38853687820927,
             "unit": "us/iter",
             "extra": "iterations: 6996\ncpu: 100.27158490566038 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0b0b2e4833a4af7a7a7ccead3d3c834f032dd1e7",
+          "message": "Refactors `life_device` to `watchdog` (#953)",
+          "timestamp": "2025-07-15T12:22:02+03:00",
+          "tree_id": "9d7d98ed7d5a1e33e5fb2da636075657c9386a28",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/0b0b2e4833a4af7a7a7ccead3d3c834f032dd1e7"
+        },
+        "date": 1752571588117,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.27643200019804,
+            "unit": "us/iter",
+            "extra": "iterations: 40331\ncpu: 18.275676130024053 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.87999482387018,
+            "unit": "us/iter",
+            "extra": "iterations: 6955\ncpu: 101.80830165348672 us\nthreads: 1"
           }
         ]
       }
