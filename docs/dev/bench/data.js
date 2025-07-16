@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752658614325,
+  "lastUpdate": 1752659727861,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -58648,6 +58648,42 @@ window.BENCHMARK_DATA = {
             "value": 104.05886061057141,
             "unit": "us/iter",
             "extra": "iterations: 6715\ncpu: 102.9096446760983 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "62166775c85ce73e6da2c66a91671b2f48fa6118",
+          "message": "[config][git] Adds build directory to .gitignore (#979)\n\nPrevents tracking of the build directory. This avoids committing generated files.",
+          "timestamp": "2025-07-16T12:52:12+03:00",
+          "tree_id": "d989c08fe752a4e384d31772b3635b91402644c4",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/62166775c85ce73e6da2c66a91671b2f48fa6118"
+        },
+        "date": 1752659724992,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.30979610966069,
+            "unit": "us/iter",
+            "extra": "iterations: 38300\ncpu: 18.308442924281987 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.36669822313067,
+            "unit": "us/iter",
+            "extra": "iterations: 6866\ncpu: 102.06281182639088 us\nthreads: 1"
           }
         ]
       }
