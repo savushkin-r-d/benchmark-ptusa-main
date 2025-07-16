@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752658600685,
+  "lastUpdate": 1752658609304,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -58584,6 +58584,38 @@ window.BENCHMARK_DATA = {
             "value": 102.79922272265333,
             "unit": "us/iter",
             "extra": "iterations: 6883\ncpu: 101.62822446607584 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "a6d9124f15d65cb84a84cc6ce4808b665f38b736",
+          "message": "[config] Introduces end-of-line normalization",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/980/commits/a6d9124f15d65cb84a84cc6ce4808b665f38b736"
+        },
+        "date": 1752658606885,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.328443829654667,
+            "unit": "us/iter",
+            "extra": "iterations: 38134\ncpu: 18.327702365343264 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.10595868367871,
+            "unit": "us/iter",
+            "extra": "iterations: 6898\ncpu: 102.01050246448246 us\nthreads: 1"
           }
         ]
       }
