@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752672687128,
+  "lastUpdate": 1752672715547,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -58912,6 +58912,38 @@ window.BENCHMARK_DATA = {
             "value": 103.88385525534164,
             "unit": "us/iter",
             "extra": "iterations: 6736\ncpu: 102.60601024346792 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "459c57070ff08e1ce6116b88cc81172fadf3769d",
+          "message": "[config][cmake] Adds AXCF3152 2024 LTS build configurations",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/981/commits/459c57070ff08e1ce6116b88cc81172fadf3769d"
+        },
+        "date": 1752672713317,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.589316514852225,
+            "unit": "us/iter",
+            "extra": "iterations: 37875\ncpu: 18.58758059405941 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.3901668140212,
+            "unit": "us/iter",
+            "extra": "iterations: 6786\ncpu: 103.12075626289419 us\nthreads: 1"
           }
         ]
       }
