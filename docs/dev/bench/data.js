@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752655389880,
+  "lastUpdate": 1752655393868,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -58520,6 +58520,38 @@ window.BENCHMARK_DATA = {
             "value": 103.86569759299726,
             "unit": "us/iter",
             "extra": "iterations: 6855\ncpu: 102.68824099197667 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "f06f042be567ee097eb6fbb3de87b24c0099de10",
+          "message": "[config][git] Adds build directory to .gitignore",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/979/commits/f06f042be567ee097eb6fbb3de87b24c0099de10"
+        },
+        "date": 1752655391575,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.32793702149921,
+            "unit": "us/iter",
+            "extra": "iterations: 38140\ncpu: 18.327439800734137 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.26392180472938,
+            "unit": "us/iter",
+            "extra": "iterations: 6893\ncpu: 103.1916222254461 us\nthreads: 1"
           }
         ]
       }
