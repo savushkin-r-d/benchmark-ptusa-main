@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752642550821,
+  "lastUpdate": 1752642921234,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -58324,6 +58324,38 @@ window.BENCHMARK_DATA = {
             "value": 103.80883480526752,
             "unit": "us/iter",
             "extra": "iterations: 6907\ncpu: 102.82784884899378 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "02cdc10ad3e51a43e2bf86ba07ddb9c3e6790555",
+          "message": "Adds error message on CIP evaluation failure",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/975/commits/02cdc10ad3e51a43e2bf86ba07ddb9c3e6790555"
+        },
+        "date": 1752642919031,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.41836502848125,
+            "unit": "us/iter",
+            "extra": "iterations: 40553\ncpu: 17.41813577293912 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.65616726511085,
+            "unit": "us/iter",
+            "extra": "iterations: 6684\ncpu: 106.2009094853381 us\nthreads: 1"
           }
         ]
       }
