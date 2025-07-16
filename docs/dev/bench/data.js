@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752659727861,
+  "lastUpdate": 1752671193716,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -58684,6 +58684,42 @@ window.BENCHMARK_DATA = {
             "value": 103.36669822313067,
             "unit": "us/iter",
             "extra": "iterations: 6866\ncpu: 102.06281182639088 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0685d557f168c0e4b96dceafdc71c02dcbac3693",
+          "message": "[config] Introduces end-of-line normalization (#980)",
+          "timestamp": "2025-07-16T16:02:45+03:00",
+          "tree_id": "32520e9e4cdd6d7b0c29bc6e431bf3b20c930df1",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/0685d557f168c0e4b96dceafdc71c02dcbac3693"
+        },
+        "date": 1752671191511,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.30943351800529,
+            "unit": "us/iter",
+            "extra": "iterations: 37544\ncpu: 18.308871910291927 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.54040740198452,
+            "unit": "us/iter",
+            "extra": "iterations: 6836\ncpu: 102.4533838502048 us\nthreads: 1"
           }
         ]
       }
