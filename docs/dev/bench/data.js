@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1752673241676,
+  "lastUpdate": 1752674220494,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -58980,6 +58980,42 @@ window.BENCHMARK_DATA = {
             "value": 103.2353114397547,
             "unit": "us/iter",
             "extra": "iterations: 6897\ncpu: 102.17764404813691 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b260bc8a520171ebd18f0ffd63bff14401040130",
+          "message": "Adds error message on CIP evaluation failure (#975)",
+          "timestamp": "2025-07-16T16:31:51+03:00",
+          "tree_id": "57f2a3a80b727b5ebf542fdfc0548f04b0004139",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/b260bc8a520171ebd18f0ffd63bff14401040130"
+        },
+        "date": 1752674217764,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.881320243034928,
+            "unit": "us/iter",
+            "extra": "iterations: 40488\ncpu: 17.881000049397354 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.89778273809527,
+            "unit": "us/iter",
+            "extra": "iterations: 6720\ncpu: 104.78673392857145 us\nthreads: 1"
           }
         ]
       }
