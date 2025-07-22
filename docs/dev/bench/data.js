@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753098929746,
+  "lastUpdate": 1753162922293,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -59210,6 +59210,38 @@ window.BENCHMARK_DATA = {
             "value": 106.6094315390465,
             "unit": "us/iter",
             "extra": "iterations: 6595\ncpu: 105.4746212282032 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "ad5c3933d1cee443674a787d88cd4e0144747276",
+          "message": "Adds user check for workflow execution",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/987/commits/ad5c3933d1cee443674a787d88cd4e0144747276"
+        },
+        "date": 1753162919959,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.32674602585063,
+            "unit": "us/iter",
+            "extra": "iterations: 40386\ncpu: 17.325490640320904 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.80948876655255,
+            "unit": "us/iter",
+            "extra": "iterations: 6721\ncpu: 104.5644782026484 us\nthreads: 1"
           }
         ]
       }
