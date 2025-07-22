@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753177114201,
+  "lastUpdate": 1753193095616,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -59370,6 +59370,42 @@ window.BENCHMARK_DATA = {
             "value": 106.87075097742725,
             "unit": "us/iter",
             "extra": "iterations: 6650\ncpu: 105.62380436090227 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "109601076+konnorksu@users.noreply.github.com",
+            "name": "konnorksu",
+            "username": "konnorksu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "11891c3b5246c1be2f9e23fbed4b3301f84949ca",
+          "message": "Добавлены значения по умолчанию для параметров командной строки (#965)",
+          "timestamp": "2025-07-22T17:01:31+03:00",
+          "tree_id": "2d94a632bb7b0279cde16829c60fa89df770822f",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/11891c3b5246c1be2f9e23fbed4b3301f84949ca"
+        },
+        "date": 1753193092896,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.09088619158681,
+            "unit": "us/iter",
+            "extra": "iterations: 38969\ncpu: 18.088722882291055 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.92538452328112,
+            "unit": "us/iter",
+            "extra": "iterations: 6681\ncpu: 105.8430428079629 us\nthreads: 1"
           }
         ]
       }
