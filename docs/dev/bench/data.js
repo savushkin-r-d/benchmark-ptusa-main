@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753346502869,
+  "lastUpdate": 1753347272074,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -59630,6 +59630,38 @@ window.BENCHMARK_DATA = {
             "value": 102.44617997685529,
             "unit": "us/iter",
             "extra": "iterations: 6912\ncpu: 101.24207118055554 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "bc003cf8c4abb2a40437b8aae4fc41f4b591dcce",
+          "message": "Fix level sensor values going out of range",
+          "timestamp": "2025-07-24T06:59:05Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/989/commits/bc003cf8c4abb2a40437b8aae4fc41f4b591dcce"
+        },
+        "date": 1753347269395,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.261251213275276,
+            "unit": "us/iter",
+            "extra": "iterations: 38326\ncpu: 18.259135860773366 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.16713532309487,
+            "unit": "us/iter",
+            "extra": "iterations: 6902\ncpu: 101.89823413503332 us\nthreads: 1"
           }
         ]
       }
