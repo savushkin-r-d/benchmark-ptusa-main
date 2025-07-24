@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753349606929,
+  "lastUpdate": 1753350549671,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -59790,6 +59790,42 @@ window.BENCHMARK_DATA = {
             "value": 105.92944674422434,
             "unit": "us/iter",
             "extra": "iterations: 6619\ncpu: 104.76336213929595 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "83d63847f5212542fe757a94813c05735fc34bff",
+          "message": "Add comprehensive GitHub issue templates for ptusa_main project (#990)\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>",
+          "timestamp": "2025-07-24T12:45:16+03:00",
+          "tree_id": "f33d89a70530c27b7c235720686490b4ad5b16cc",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/83d63847f5212542fe757a94813c05735fc34bff"
+        },
+        "date": 1753350547302,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.54687380367754,
+            "unit": "us/iter",
+            "extra": "iterations: 39914\ncpu: 17.542357894473117 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.95272182254274,
+            "unit": "us/iter",
+            "extra": "iterations: 6672\ncpu: 105.45494079736211 us\nthreads: 1"
           }
         ]
       }
