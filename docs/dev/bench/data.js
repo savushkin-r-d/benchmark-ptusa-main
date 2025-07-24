@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753340614284,
+  "lastUpdate": 1753340848727,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -59566,6 +59566,38 @@ window.BENCHMARK_DATA = {
             "value": 104.60330306167839,
             "unit": "us/iter",
             "extra": "iterations: 6761\ncpu: 103.1119473450673 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "945626fee7e96f27ac658ccd7f4a55331cc3e9d4",
+          "message": "Fix pressure sensor values going out of range due to incorrect byte swapping #988",
+          "timestamp": "2025-07-24T06:59:05Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/989/commits/945626fee7e96f27ac658ccd7f4a55331cc3e9d4"
+        },
+        "date": 1753340846427,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.839243053377423,
+            "unit": "us/iter",
+            "extra": "iterations: 41423\ncpu: 16.838496777152795 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.82886496404707,
+            "unit": "us/iter",
+            "extra": "iterations: 6813\ncpu: 104.55788903566707 us\nthreads: 1"
           }
         ]
       }
