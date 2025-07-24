@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753348701228,
+  "lastUpdate": 1753348706324,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -59726,6 +59726,38 @@ window.BENCHMARK_DATA = {
             "value": 105.57626335762316,
             "unit": "us/iter",
             "extra": "iterations: 6588\ncpu: 104.48699696417731 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "d4457c02b002943196b48dd082c1bb5e4a63b8b1",
+          "message": "Add comprehensive GitHub issue templates for ptusa_main project",
+          "timestamp": "2025-07-24T09:09:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/990/commits/d4457c02b002943196b48dd082c1bb5e4a63b8b1"
+        },
+        "date": 1753348701232,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.934468979131942,
+            "unit": "us/iter",
+            "extra": "iterations: 39006\ncpu: 17.932345100753732 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.66409371720137,
+            "unit": "us/iter",
+            "extra": "iterations: 6669\ncpu: 104.41067896236315 us\nthreads: 1"
           }
         ]
       }
