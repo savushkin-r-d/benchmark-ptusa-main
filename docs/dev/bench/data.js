@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753425609678,
+  "lastUpdate": 1753430380869,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -60098,6 +60098,38 @@ window.BENCHMARK_DATA = {
             "value": 102.48888286863898,
             "unit": "us/iter",
             "extra": "iterations: 6958\ncpu: 101.44953707962057 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "fec45aa792d13f8777e6c5893ea3cf138c0d8b9b",
+          "message": "Add comprehensive tests for watchdog functionality",
+          "timestamp": "2025-07-25T07:03:07Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/993/commits/fec45aa792d13f8777e6c5893ea3cf138c0d8b9b"
+        },
+        "date": 1753430378639,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.384988002195545,
+            "unit": "us/iter",
+            "extra": "iterations: 38257\ncpu: 18.383865514807745 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.0615943974321,
+            "unit": "us/iter",
+            "extra": "iterations: 6854\ncpu: 101.94215625911875 us\nthreads: 1"
           }
         ]
       }
