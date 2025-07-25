@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753360402748,
+  "lastUpdate": 1753425201433,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -59962,6 +59962,42 @@ window.BENCHMARK_DATA = {
             "value": 103.02992816134135,
             "unit": "us/iter",
             "extra": "iterations: 6793\ncpu: 101.95341145296631 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "distinct": true,
+          "id": "ab64bc799997e0741f9981e474e57e2fbed41028",
+          "message": "Adds watchdog device functionality to monitor CIP\n\nIntroduces a watchdog device to monitor the CIP object's state.\n\nThis commit implements the following:\n- Adds a watchdog device to the CIP object, which is initialized during object creation.\n- Includes a check for the watchdog device's state in the error checking and step execution logic. The CIP object is considered not ready if the watchdog is not active.\n- Introduces a helper function to check a device's validity.\n\nThis ensures that the CIP object is only considered ready and operational if the watchdog device is active, thus providing an additional layer of safety and monitoring.",
+          "timestamp": "2025-07-25T09:28:48+03:00",
+          "tree_id": "963a76beb23b164995cf9d3ec88bc573aafe33be",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/ab64bc799997e0741f9981e474e57e2fbed41028"
+        },
+        "date": 1753425199238,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.9015102824046,
+            "unit": "us/iter",
+            "extra": "iterations: 41430\ncpu: 16.898745426019794 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.59566173299503,
+            "unit": "us/iter",
+            "extra": "iterations: 6959\ncpu: 102.51243914355511 us\nthreads: 1"
           }
         ]
       }
