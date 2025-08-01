@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1753693776398,
+  "lastUpdate": 1754031759088,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -60356,6 +60356,38 @@ window.BENCHMARK_DATA = {
             "value": 104.37667877544266,
             "unit": "us/iter",
             "extra": "iterations: 6827\ncpu: 103.24203574044236 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "committer": {
+            "name": "rartem",
+            "username": "rartem"
+          },
+          "id": "25d8956c0e7b69a09f2eac20e61061d672e14ca2",
+          "message": "Fixes valve switch timer restart",
+          "timestamp": "2025-01-29T11:42:19Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1001/commits/25d8956c0e7b69a09f2eac20e61061d672e14ca2"
+        },
+        "date": 1754031756773,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.718410098056427,
+            "unit": "us/iter",
+            "extra": "iterations: 39671\ncpu: 17.71322300925109 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.86648691776824,
+            "unit": "us/iter",
+            "extra": "iterations: 6956\ncpu: 100.60990828062104 us\nthreads: 1"
           }
         ]
       }
