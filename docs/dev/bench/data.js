@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757315757432,
+  "lastUpdate": 1757315942922,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -61026,6 +61026,38 @@ window.BENCHMARK_DATA = {
             "value": 102.02126032938301,
             "unit": "us/iter",
             "extra": "iterations: 6922\ncpu: 100.82871308870271 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "2df4d67ae2aff0bac41e54ba76d9dc7189e6ae59",
+          "message": "[ Fix ] Correct max out value for watchdog",
+          "timestamp": "2025-09-08T07:12:44Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1013/commits/2df4d67ae2aff0bac41e54ba76d9dc7189e6ae59"
+        },
+        "date": 1757315940289,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.198484177215686,
+            "unit": "us/iter",
+            "extra": "iterations: 38552\ncpu: 18.196950352770283 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.15404410701063,
+            "unit": "us/iter",
+            "extra": "iterations: 6915\ncpu: 101.97923326102678 us\nthreads: 1"
           }
         ]
       }
