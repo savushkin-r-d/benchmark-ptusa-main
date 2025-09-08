@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757316797005,
+  "lastUpdate": 1757322349950,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -61166,6 +61166,40 @@ window.BENCHMARK_DATA = {
             "value": 101.05663077144153,
             "unit": "us/iter",
             "extra": "iterations: 6974\ncpu: 99.90247963865788 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "AlexandrBehunkov",
+            "username": "AlexandrBehunkov",
+            "email": "asutp10@pda.savushkin.by"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "8f5a0846da16230d6adfa31f9d81de22fa9b1bd2",
+          "message": "[Fix] Correct max out value for watchdog (#1013)",
+          "timestamp": "2025-09-08T07:26:52Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/8f5a0846da16230d6adfa31f9d81de22fa9b1bd2"
+        },
+        "date": 1757322347505,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.563217656620093,
+            "unit": "us/iter",
+            "extra": "iterations: 39985\ncpu: 17.562455595848444 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.08602474464287,
+            "unit": "us/iter",
+            "extra": "iterations: 6951\ncpu: 101.0370998417494 us\nthreads: 1"
           }
         ]
       }
