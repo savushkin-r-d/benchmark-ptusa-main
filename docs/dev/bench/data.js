@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757315229803,
+  "lastUpdate": 1757315757432,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -60990,6 +60990,42 @@ window.BENCHMARK_DATA = {
             "value": 104.48113537434327,
             "unit": "us/iter",
             "extra": "iterations: 6892\ncpu: 103.08222809053976 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ac34cf7c991a19f12fe82d5387abdf53877b63b7",
+          "message": "Bump deps/open62541/open62541 from `1.4.12` to `1.4.13` (#996)\n\n* Bump deps/open62541/open62541 from `7a8db31` to `cb025c0`\n\nBumps [deps/open62541/open62541](https://github.com/open62541/open62541) from `7a8db31` to `cb025c0`.\n- [Release notes](https://github.com/open62541/open62541/releases)\n- [Commits](https://github.com/open62541/open62541/compare/7a8db31626f092c6f87cae39990cbf6ca2a1b6de...cb025c0a7153cce82b73e04183fee8a9d48b8fd1)\n\n---\nupdated-dependencies:\n- dependency-name: deps/open62541/open62541\n  dependency-version: cb025c0a7153cce82b73e04183fee8a9d48b8fd1\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* Updates open62541 to 1.4.13\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-09-08T10:12:41+03:00",
+          "tree_id": "d31e570392a6b86fdfdf0ed6b835b24a8bdc7a66",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/ac34cf7c991a19f12fe82d5387abdf53877b63b7"
+        },
+        "date": 1757315754704,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.477117200190122,
+            "unit": "us/iter",
+            "extra": "iterations: 40017\ncpu: 17.47646392783067 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.02126032938301,
+            "unit": "us/iter",
+            "extra": "iterations: 6922\ncpu: 100.82871308870271 us\nthreads: 1"
           }
         ]
       }
