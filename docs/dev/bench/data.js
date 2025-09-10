@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757513521985,
+  "lastUpdate": 1757513657210,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -61392,6 +61392,38 @@ window.BENCHMARK_DATA = {
             "value": 103.71626977657233,
             "unit": "us/iter",
             "extra": "iterations: 6624\ncpu: 102.54317300724638 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "e9d0cc14db7c338955be892b58acd68ae4776f5b",
+          "message": "[fix] Limits control module name length",
+          "timestamp": "2025-02-08T13:06:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1028/commits/e9d0cc14db7c338955be892b58acd68ae4776f5b"
+        },
+        "date": 1757513654657,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.51397785155122,
+            "unit": "us/iter",
+            "extra": "iterations: 40364\ncpu: 17.512245367158854 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.69983838821817,
+            "unit": "us/iter",
+            "extra": "iterations: 6924\ncpu: 101.5621406701329 us\nthreads: 1"
           }
         ]
       }
