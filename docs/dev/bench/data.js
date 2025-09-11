@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757571687826,
+  "lastUpdate": 1757600581601,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -61496,6 +61496,38 @@ window.BENCHMARK_DATA = {
             "value": 104.66492473898067,
             "unit": "us/iter",
             "extra": "iterations: 6896\ncpu: 102.95410716357311 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "b5ade4e7898fb414da17f96201ece9fb47fae075",
+          "message": "Fix valve_iolink_mix_proof immediate error when switching to upper/lower seats",
+          "timestamp": "2025-09-11T06:17:53Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1024/commits/b5ade4e7898fb414da17f96201ece9fb47fae075"
+        },
+        "date": 1757600579125,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.223371396635706,
+            "unit": "us/iter",
+            "extra": "iterations: 38471\ncpu: 18.2210317121988 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.15493774545956,
+            "unit": "us/iter",
+            "extra": "iterations: 6875\ncpu: 103.13278283636362 us\nthreads: 1"
           }
         ]
       }
