@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757513657210,
+  "lastUpdate": 1757571648357,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -61424,6 +61424,42 @@ window.BENCHMARK_DATA = {
             "value": 102.69983838821817,
             "unit": "us/iter",
             "extra": "iterations: 6924\ncpu: 101.5621406701329 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "499352e3e96af3a62bf9e6dde34545671c9d3290",
+          "message": "[fix] Limits control module name length (#1028)\n\n* Limits control module name length\n\nEnsures that device names do not exceed the maximum allowed length by truncating them and logging a critical error message if they do.\n\nIncreases device name size and adds null terminator to prevent buffer overflows.\n\nAdds a new test case to verify name truncation.",
+          "timestamp": "2025-09-11T09:17:23+03:00",
+          "tree_id": "5776fe66c34a7732f50bff3692e5a50515b4a023",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/499352e3e96af3a62bf9e6dde34545671c9d3290"
+        },
+        "date": 1757571645654,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.36600174255053,
+            "unit": "us/iter",
+            "extra": "iterations: 40171\ncpu: 17.364612357173087 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.84495786435161,
+            "unit": "us/iter",
+            "extra": "iterations: 6930\ncpu: 101.76678787878792 us\nthreads: 1"
           }
         ]
       }
