@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757687018803,
+  "lastUpdate": 1757912738897,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -61752,6 +61752,42 @@ window.BENCHMARK_DATA = {
             "value": 103.11947995334017,
             "unit": "us/iter",
             "extra": "iterations: 6859\ncpu: 102.10754716430965 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "artem.rudnitsky@gmail.com",
+            "name": "Artem Rudnitsky",
+            "username": "rartem"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "877f361c4ccf62845dd035a5e5380f35f6b1ea8e",
+          "message": "Fixes valve switch timer restart (#1001)\n\n* Fix valve_iolink_mix_proof switch timer restart on switching valve seat.\n\n* Tests seat switching timing for mix-proof valves.\n\n---------\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-09-15T08:00:53+03:00",
+          "tree_id": "6aa931b40b607c4a969324f2a4da69f884bd897d",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/877f361c4ccf62845dd035a5e5380f35f6b1ea8e"
+        },
+        "date": 1757912736071,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.233084983685362,
+            "unit": "us/iter",
+            "extra": "iterations: 40749\ncpu: 17.231291835382464 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.74061017674855,
+            "unit": "us/iter",
+            "extra": "iterations: 7016\ncpu: 101.67690920752568 us\nthreads: 1"
           }
         ]
       }
