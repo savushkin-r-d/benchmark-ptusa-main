@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757912859560,
+  "lastUpdate": 1757917682307,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -61824,6 +61824,42 @@ window.BENCHMARK_DATA = {
             "value": 101.12140149339454,
             "unit": "us/iter",
             "extra": "iterations: 6964\ncpu: 99.9955752441126 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "052f87fbb887f34897ae8277107859c474039de2",
+          "message": "[config][github actions] Disables man-db auto-update on Linux (#1030)",
+          "timestamp": "2025-09-15T09:24:49+03:00",
+          "tree_id": "5c06994b366eb70015497c3a5cb3f909678bd1c3",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/052f87fbb887f34897ae8277107859c474039de2"
+        },
+        "date": 1757917679678,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.14536273691479,
+            "unit": "us/iter",
+            "extra": "iterations: 40732\ncpu: 17.14387059314544 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.9705908238357,
+            "unit": "us/iter",
+            "extra": "iterations: 6931\ncpu: 101.94953599769154 us\nthreads: 1"
           }
         ]
       }
