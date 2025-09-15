@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757928975287,
+  "lastUpdate": 1757931920065,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -61926,6 +61926,42 @@ window.BENCHMARK_DATA = {
             "value": 102.78916791798967,
             "unit": "us/iter",
             "extra": "iterations: 6926\ncpu: 101.67494253537397 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asutp10@pda.savushkin.by",
+            "name": "AlexandrBehunkov",
+            "username": "AlexandrBehunkov"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a2920ef516164481b5d4d4149b406ea0cddaafd6",
+          "message": "Fixes default parameters for empty recipe (#1014)\n\n---------\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-09-15T13:22:16+03:00",
+          "tree_id": "2e490db930c8ae0e44d06cbdb8c0c414382a1df9",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/a2920ef516164481b5d4d4149b406ea0cddaafd6"
+        },
+        "date": 1757931917203,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.11001558638582,
+            "unit": "us/iter",
+            "extra": "iterations: 40869\ncpu: 17.108457657393135 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.63907242822425,
+            "unit": "us/iter",
+            "extra": "iterations: 6931\ncpu: 101.4524554898283 us\nthreads: 1"
           }
         ]
       }
