@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1757927149299,
+  "lastUpdate": 1757928975287,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -61894,6 +61894,38 @@ window.BENCHMARK_DATA = {
             "value": 101.42233511021674,
             "unit": "us/iter",
             "extra": "iterations: 6941\ncpu: 100.40284411468089 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "8a5b4730c9032905162fa65f0e57f751e6e3277d",
+          "message": "Fix default parameters for empty recipe",
+          "timestamp": "2025-09-15T06:24:53Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1014/commits/8a5b4730c9032905162fa65f0e57f751e6e3277d"
+        },
+        "date": 1757928972699,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.413997934603987,
+            "unit": "us/iter",
+            "extra": "iterations: 40186\ncpu: 17.41086084706117 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.78916791798967,
+            "unit": "us/iter",
+            "extra": "iterations: 6926\ncpu: 101.67494253537397 us\nthreads: 1"
           }
         ]
       }
