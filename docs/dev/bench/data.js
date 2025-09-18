@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758199969128,
+  "lastUpdate": 1758201041230,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -62218,6 +62218,38 @@ window.BENCHMARK_DATA = {
             "value": 104.30959967892552,
             "unit": "us/iter",
             "extra": "iterations: 6852\ncpu: 103.24808172796263 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "3bfdcbc796049664f86b34e557cdc86ef70b5c20",
+          "message": "[WIP] Add new device type Y",
+          "timestamp": "2025-09-15T10:22:20Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/986/commits/3bfdcbc796049664f86b34e557cdc86ef70b5c20"
+        },
+        "date": 1758201038312,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.650744124157438,
+            "unit": "us/iter",
+            "extra": "iterations: 40207\ncpu: 17.649286591886984 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.52493282789916,
+            "unit": "us/iter",
+            "extra": "iterations: 6595\ncpu: 103.94870705079606 us\nthreads: 1"
           }
         ]
       }
