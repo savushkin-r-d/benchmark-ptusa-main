@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758539959468,
+  "lastUpdate": 1758610686352,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -62476,6 +62476,38 @@ window.BENCHMARK_DATA = {
             "value": 101.65607257359022,
             "unit": "us/iter",
             "extra": "iterations: 6862\ncpu: 100.56203599533666 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "f171ee24c4f14a3cb8efb44d618b5432a7199f7a",
+          "message": "[config][cmake] Improves build script with timing and color",
+          "timestamp": "2025-09-11T12:23:27Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1032/commits/f171ee24c4f14a3cb8efb44d618b5432a7199f7a"
+        },
+        "date": 1758610683293,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.11389602079056,
+            "unit": "us/iter",
+            "extra": "iterations: 40787\ncpu: 18.112414347708828 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.59066934327545,
+            "unit": "us/iter",
+            "extra": "iterations: 6974\ncpu: 100.46619056495555 us\nthreads: 1"
           }
         ]
       }
