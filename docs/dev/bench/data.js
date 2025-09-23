@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758611795718,
+  "lastUpdate": 1758612924491,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -62636,6 +62636,42 @@ window.BENCHMARK_DATA = {
             "value": 102.2550284936976,
             "unit": "us/iter",
             "extra": "iterations: 6984\ncpu: 101.13480083046963 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3edfc2b2ebb454d4b347887b72fac7235ba6dbbd",
+          "message": "[config][cmake] Improves build script with timing and color (#1032)\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-09-23T10:32:25+03:00",
+          "tree_id": "23d76100aef2f3f7220aeac72c39615b0102a962",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/3edfc2b2ebb454d4b347887b72fac7235ba6dbbd"
+        },
+        "date": 1758612921837,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.403211685348285,
+            "unit": "us/iter",
+            "extra": "iterations: 40324\ncpu: 17.401959527824623 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.38819037387346,
+            "unit": "us/iter",
+            "extra": "iterations: 6981\ncpu: 101.03373313278901 us\nthreads: 1"
           }
         ]
       }
