@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758896414857,
+  "lastUpdate": 1758896976562,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63072,6 +63072,38 @@ window.BENCHMARK_DATA = {
             "value": 102.29301676698213,
             "unit": "us/iter",
             "extra": "iterations: 6978\ncpu: 101.22469762109485 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "ae651e77d67f23f06abc72035b1f81f25ad90c95",
+          "message": "[FEATURE]: Implement multiple_DI_DO_action for OR logic with multiple DI signals",
+          "timestamp": "2025-09-26T14:17:16Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1035/commits/ae651e77d67f23f06abc72035b1f81f25ad90c95"
+        },
+        "date": 1758896973717,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.38197655900125,
+            "unit": "us/iter",
+            "extra": "iterations: 40186\ncpu: 17.37959067834569 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.99477626112801,
+            "unit": "us/iter",
+            "extra": "iterations: 6740\ncpu: 103.73766172106822 us\nthreads: 1"
           }
         ]
       }
