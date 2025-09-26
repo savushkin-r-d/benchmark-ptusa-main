@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758893873985,
+  "lastUpdate": 1758896414857,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63036,6 +63036,42 @@ window.BENCHMARK_DATA = {
             "value": 104.26997421840477,
             "unit": "us/iter",
             "extra": "iterations: 6749\ncpu: 103.24157460364498 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c9c921b6e6f75b67fd48a2745405bfb8b598e071",
+          "message": "[config][github actions] Allows CI runs for Copilot PRs (#1038)\n\n* Allows CI runs for Copilot PRs without 'safe to test'\n\nExtends the CI trigger condition to allow pull requests from GitHub Copilot bot accounts to run without the 'safe to test' label.\nThis enables automated testing for Copilot-generated contributions.\n\n* refactor: Fixes bot actor check",
+          "timestamp": "2025-09-26T17:17:12+03:00",
+          "tree_id": "eef468392f4f2d4b065aa3ce4e4902cbda2bfff3",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/c9c921b6e6f75b67fd48a2745405bfb8b598e071"
+        },
+        "date": 1758896412352,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.402309828953076,
+            "unit": "us/iter",
+            "extra": "iterations: 40106\ncpu: 17.40155707375455 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.29301676698213,
+            "unit": "us/iter",
+            "extra": "iterations: 6978\ncpu: 101.22469762109485 us\nthreads: 1"
           }
         ]
       }
