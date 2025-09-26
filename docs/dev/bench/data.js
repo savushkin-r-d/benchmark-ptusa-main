@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758893740969,
+  "lastUpdate": 1758893776089,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -62904,6 +62904,42 @@ window.BENCHMARK_DATA = {
             "value": 103.83637811016914,
             "unit": "us/iter",
             "extra": "iterations: 6953\ncpu: 102.19949359988496 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "509a4455f451abf305416c0feeb896628f37d6e5",
+          "message": "[config][cmake] Fix mingw build (#1037)\n\n* Sets up MSYS2 for MinGW builds on Windows\n\nAdds a step to the CI workflow to install MSYS2 and the MinGW toolchain\nwhen building on Windows with the MinGW configuration. This ensures that\nthe necessary tools are available for successful compilation.\n\n* Allows workflow dispatch and copilot testing\n\nExtends the CI trigger conditions to include workflow_dispatch events.\n\nPermits the 'copilot' user to trigger CI builds on pull requests,\nbypassing the 'safe to test' label requirement. This is enabled\nboth for pull request events and direct actor triggering.\n\n* Uses MinGW's full name for GCC and G++\n\nSpecifies the full name of the MinGW compilers (GCC and G++)\nto ensure the correct compiler is used when building on Windows.\nThis prevents potential ambiguity and ensures the build process\nuses the intended MinGW toolchain.\n\n* Sets up and checks MSYS2 environment on Windows\n\nEnsures the MSYS2 environment is correctly set up and\nconfigured for MinGW builds on Windows runners.\nAdds a check to verify the presence of required tools and\nthe MSYS2 installation location.\n\n* Replaces MSYS2 with direct MinGW download\n\nReplaces the MSYS2 installation with a direct download\nof MinGW-w64 to simplify the setup process on Windows\nMinGW builds. This avoids potential issues with MSYS2 and\nstreamlines the environment configuration.\n\n* Fixes MinGW extraction and installation on Windows\n\nUpdates the MinGW extraction and installation process on Windows runners to correctly extract and copy the MinGW environment to the designated location.\n\nAdds debugging commands to diagnose environment issues.\n\n* Configures MinGW installation using env variables\n\nRefactors the MinGW installation process in the workflow to leverage environment variables for specifying the MinGW version, architecture, thread model, exceptions handling, and CRT.\n\nThis change makes it easier to update the MinGW version and configuration without modifying the workflow file directly.\n\n* Refactors MinGW download and extraction on Windows\n\nSimplifies and improves the MinGW download and extraction process on Windows runners.\n\n- Extracts the downloaded MinGW archive directly to `C:/` to avoid intermediate copying.\n- Adds verification to ensure the compiler executable exists after extraction.\n- Includes diagnostics to display the detected compilers in PATH and the g++ version for debugging purposes.\n\n* Caches MinGW archive to improve workflow speed\n\nAdds caching for the MinGW archive in the Windows MinGW build job.\n\nThis significantly reduces the download time for MinGW on subsequent workflow runs,\nleading to faster builds. The cache is keyed based on the MinGW version\nparameters.\n\n* Reverts some configuration parameters",
+          "timestamp": "2025-09-26T16:33:37+03:00",
+          "tree_id": "a298e78717910c63cfca1975aee2caea45049397",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/509a4455f451abf305416c0feeb896628f37d6e5"
+        },
+        "date": 1758893773329,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.302282467612823,
+            "unit": "us/iter",
+            "extra": "iterations: 40525\ncpu: 17.301926909315238 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.44631338129273,
+            "unit": "us/iter",
+            "extra": "iterations: 6950\ncpu: 102.32040820143888 us\nthreads: 1"
           }
         ]
       }
