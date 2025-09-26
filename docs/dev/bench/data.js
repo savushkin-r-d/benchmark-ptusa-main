@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1758893734891,
+  "lastUpdate": 1758893740969,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -62872,6 +62872,38 @@ window.BENCHMARK_DATA = {
             "value": 102.00464254952084,
             "unit": "us/iter",
             "extra": "iterations: 6966\ncpu: 100.86358455354582 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "87ff8bd7c0c52c8a8e2b68a2ae433fac08a7d4ad",
+          "message": "[config][cmake] Fix mingw build",
+          "timestamp": "2025-09-11T12:23:27Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1037/commits/87ff8bd7c0c52c8a8e2b68a2ae433fac08a7d4ad"
+        },
+        "date": 1758893735212,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.331352144302276,
+            "unit": "us/iter",
+            "extra": "iterations: 40526\ncpu: 17.32805090559147 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.83637811016914,
+            "unit": "us/iter",
+            "extra": "iterations: 6953\ncpu: 102.19949359988496 us\nthreads: 1"
           }
         ]
       }
