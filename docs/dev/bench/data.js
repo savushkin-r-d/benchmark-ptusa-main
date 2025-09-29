@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759148711663,
+  "lastUpdate": 1759149166324,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -64062,6 +64062,38 @@ window.BENCHMARK_DATA = {
             "value": 107.34112738379108,
             "unit": "us/iter",
             "extra": "iterations: 6712\ncpu: 106.36037693682954 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "136f8747a44bc153fe3243a253dc6c5e7b66717f",
+          "message": "Add P_FB parameter support to Burkert IO-Link valve for disabling feedback error checking",
+          "timestamp": "2025-09-29T11:54:02Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1010/commits/136f8747a44bc153fe3243a253dc6c5e7b66717f"
+        },
+        "date": 1759149163362,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.141447751434477,
+            "unit": "us/iter",
+            "extra": "iterations: 41293\ncpu: 17.14026040733296 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.09497730886152,
+            "unit": "us/iter",
+            "extra": "iterations: 6919\ncpu: 100.99340800693744 us\nthreads: 1"
           }
         ]
       }
