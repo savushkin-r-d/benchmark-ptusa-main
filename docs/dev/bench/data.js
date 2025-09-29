@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759146894339,
+  "lastUpdate": 1759146997939,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63898,6 +63898,42 @@ window.BENCHMARK_DATA = {
             "value": 104.33781385849983,
             "unit": "us/iter",
             "extra": "iterations: 6855\ncpu: 102.96238059810356 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d8f19c9de6c9371dd3a0cbc5aba50a3f5ce362e1",
+          "message": "[config][github actions] Updates pull request trigger events (#1047)\n\nExtends the pull request target trigger events to include 'opened',\n'reopened', and 'synchronize'. This ensures that CI pipelines are\ntriggered not only on labeled pull requests, but also when a new pull\nrequest is opened, reopened, or synchronized with the base branch from\nmembers and owners.",
+          "timestamp": "2025-09-29T14:53:59+03:00",
+          "tree_id": "fb3dcf5125d4744f19beefa5b4db1dada211a435",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d8f19c9de6c9371dd3a0cbc5aba50a3f5ce362e1"
+        },
+        "date": 1759146995269,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.305399963636887,
+            "unit": "us/iter",
+            "extra": "iterations: 38501\ncpu: 18.303138827562922 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.07095472355239,
+            "unit": "us/iter",
+            "extra": "iterations: 6891\ncpu: 102.049032070817 us\nthreads: 1"
           }
         ]
       }
