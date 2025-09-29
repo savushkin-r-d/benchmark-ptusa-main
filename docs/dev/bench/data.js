@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759138215558,
+  "lastUpdate": 1759138225277,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63442,6 +63442,38 @@ window.BENCHMARK_DATA = {
             "value": 105.06155776833049,
             "unit": "us/iter",
             "extra": "iterations: 6829\ncpu: 104.01305959876997 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "df0a9d932141be5abb0bace51e3196d7fbab2992",
+          "message": "[config][github actions] Refactor analysis on pull requests",
+          "timestamp": "2025-09-11T12:23:27Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1044/commits/df0a9d932141be5abb0bace51e3196d7fbab2992"
+        },
+        "date": 1759138222209,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.15840687982223,
+            "unit": "us/iter",
+            "extra": "iterations: 38751\ncpu: 18.154149080023743 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.73585265845607,
+            "unit": "us/iter",
+            "extra": "iterations: 6658\ncpu: 104.45420591769302 us\nthreads: 1"
           }
         ]
       }
