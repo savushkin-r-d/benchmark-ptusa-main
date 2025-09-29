@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759149580803,
+  "lastUpdate": 1759150364552,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -64158,6 +64158,38 @@ window.BENCHMARK_DATA = {
             "value": 101.75540315865017,
             "unit": "us/iter",
             "extra": "iterations: 6965\ncpu: 100.72694256999284 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "db6af80b0aecb08ea76fda7a7c770f2e3ec3ede3",
+          "message": "Fix valve_iolink_mix_proof and valve_iolink_shut_off_thinktop IOLink error reporting when feedback is disabled",
+          "timestamp": "2025-09-29T11:54:02Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1008/commits/db6af80b0aecb08ea76fda7a7c770f2e3ec3ede3"
+        },
+        "date": 1759150361736,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.979435091106335,
+            "unit": "us/iter",
+            "extra": "iterations: 41435\ncpu: 16.973653722698202 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.03844056144435,
+            "unit": "us/iter",
+            "extra": "iterations: 6982\ncpu: 101.84840146089947 us\nthreads: 1"
           }
         ]
       }
