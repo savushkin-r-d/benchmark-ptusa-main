@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759138235446,
+  "lastUpdate": 1759138262426,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63538,6 +63538,38 @@ window.BENCHMARK_DATA = {
             "value": 105.6228855577555,
             "unit": "us/iter",
             "extra": "iterations: 6571\ncpu: 104.2055439050373 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "b951404513acfa34bcf524ca772d2ace9976a5d6",
+          "message": "✨ Set up Copilot instructions",
+          "timestamp": "2025-09-29T09:27:45Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1026/commits/b951404513acfa34bcf524ca772d2ace9976a5d6"
+        },
+        "date": 1759138259578,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.3779525671091,
+            "unit": "us/iter",
+            "extra": "iterations: 38370\ncpu: 18.37592819911389 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.94789199882813,
+            "unit": "us/iter",
+            "extra": "iterations: 6824\ncpu: 104.71024736225087 us\nthreads: 1"
           }
         ]
       }
