@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759128050558,
+  "lastUpdate": 1759131935434,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63268,6 +63268,42 @@ window.BENCHMARK_DATA = {
             "value": 102.19579859554615,
             "unit": "us/iter",
             "extra": "iterations: 6693\ncpu: 101.11769535335424 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c4d3a55b5530bca719678f7ad2b580e84a377c35",
+          "message": "[config][github actions] Restricts CodeQL analysis to master branch (#1043)\n\nLimits CodeQL analysis to the master branch for both push and pull request events.\n\nThis prevents analysis from running on all branches, reducing unnecessary resource consumption and noise.",
+          "timestamp": "2025-09-29T10:42:37+03:00",
+          "tree_id": "3f3e5ade6b2cd9d1e2e71b76c600401d6838c789",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/c4d3a55b5530bca719678f7ad2b580e84a377c35"
+        },
+        "date": 1759131932927,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.490382808037065,
+            "unit": "us/iter",
+            "extra": "iterations: 40263\ncpu: 17.482798773067085 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.10737904624844,
+            "unit": "us/iter",
+            "extra": "iterations: 6920\ncpu: 100.80523511560693 us\nthreads: 1"
           }
         ]
       }
