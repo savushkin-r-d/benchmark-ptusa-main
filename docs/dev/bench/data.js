@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759153798645,
+  "lastUpdate": 1759154626042,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -64382,6 +64382,38 @@ window.BENCHMARK_DATA = {
             "value": 104.92104819103,
             "unit": "us/iter",
             "extra": "iterations: 6910\ncpu: 103.87932315484807 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "b469ea601722d4f90160aa15e5fb73ed592356dc",
+          "message": "Fixes initial valve state after converter binding",
+          "timestamp": "2025-09-11T12:23:27Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1048/commits/b469ea601722d4f90160aa15e5fb73ed592356dc"
+        },
+        "date": 1759154622698,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.205462369836606,
+            "unit": "us/iter",
+            "extra": "iterations: 40526\ncpu: 17.20471383802991 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.90511086441751,
+            "unit": "us/iter",
+            "extra": "iterations: 6756\ncpu: 100.82590304914152 us\nthreads: 1"
           }
         ]
       }
