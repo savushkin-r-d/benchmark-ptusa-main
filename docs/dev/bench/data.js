@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759139093532,
+  "lastUpdate": 1759139394459,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63734,6 +63734,42 @@ window.BENCHMARK_DATA = {
             "value": 116.92761688205283,
             "unit": "us/iter",
             "extra": "iterations: 6113\ncpu: 114.94655308359236 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "434ba9c1a07ef26a9e063ea01353f1af7e761f13",
+          "message": "✨ Set up Copilot instructions (#1026)\n\n* Initial plan\n\n* Add comprehensive GitHub Copilot instructions file\n\n* Removes test description\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-09-29T12:47:08+03:00",
+          "tree_id": "541bf7e3a787e5448ece5ce810e7a16fbbd3f9e2",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/434ba9c1a07ef26a9e063ea01353f1af7e761f13"
+        },
+        "date": 1759139391785,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.496730929630544,
+            "unit": "us/iter",
+            "extra": "iterations: 37886\ncpu: 18.495089346988337 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.84144379732146,
+            "unit": "us/iter",
+            "extra": "iterations: 6868\ncpu: 102.7102201514269 us\nthreads: 1"
           }
         ]
       }
