@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759131935434,
+  "lastUpdate": 1759132125833,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63304,6 +63304,42 @@ window.BENCHMARK_DATA = {
             "value": 102.10737904624844,
             "unit": "us/iter",
             "extra": "iterations: 6920\ncpu: 100.80523511560693 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asutp10@pda.savushkin.by",
+            "name": "AlexandrBehunkov",
+            "username": "AlexandrBehunkov"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "035bf2e24be4b9819712921a3eb0d3f65b4e6753",
+          "message": "[cip] Turn on disinfection signal in 77 operation cip (#1034)",
+          "timestamp": "2025-09-29T10:46:09+03:00",
+          "tree_id": "42a3a09beba44b8b6fdd29bbb5fe6ff26b991e88",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/035bf2e24be4b9819712921a3eb0d3f65b4e6753"
+        },
+        "date": 1759132123135,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.321538178111954,
+            "unit": "us/iter",
+            "extra": "iterations: 38268\ncpu: 18.31945732727083 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.34223567727625,
+            "unit": "us/iter",
+            "extra": "iterations: 6755\ncpu: 103.23485181347151 us\nthreads: 1"
           }
         ]
       }
