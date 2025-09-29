@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759136893017,
+  "lastUpdate": 1759138215558,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63406,6 +63406,42 @@ window.BENCHMARK_DATA = {
             "value": 99.58872059871356,
             "unit": "us/iter",
             "extra": "iterations: 7015\ncpu: 98.51158104062722 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b7e17b9cf60c5c47bc3d8d3b538fbdc8b618b33",
+          "message": "[config][github actions] Refactor analysis on pull requests (#1044)\n\nExtends SonarCloud analysis to run on pull requests targeting the master branch.\nIt also updates the SonarScanner version to the latest available.",
+          "timestamp": "2025-09-29T12:27:41+03:00",
+          "tree_id": "ca0fe937f45aa4325f57a222da2adb83799a25fc",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2b7e17b9cf60c5c47bc3d8d3b538fbdc8b618b33"
+        },
+        "date": 1759138212973,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.404775208283503,
+            "unit": "us/iter",
+            "extra": "iterations: 38529\ncpu: 18.40271312517844 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.06155776833049,
+            "unit": "us/iter",
+            "extra": "iterations: 6829\ncpu: 104.01305959876997 us\nthreads: 1"
           }
         ]
       }
