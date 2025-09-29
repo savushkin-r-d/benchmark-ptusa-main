@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759128046673,
+  "lastUpdate": 1759128050558,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63232,6 +63232,42 @@ window.BENCHMARK_DATA = {
             "value": 104.89051778888607,
             "unit": "us/iter",
             "extra": "iterations: 6802\ncpu: 103.26611673037341 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "938e0a8f74914cf1461c5f25f6b7162b8804771c",
+          "message": "[config][github actions] Fixes CMake build (#1041)",
+          "timestamp": "2025-09-29T09:37:28+03:00",
+          "tree_id": "ad85ede434b13ac9d33fbe241d581e2804562b9a",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/938e0a8f74914cf1461c5f25f6b7162b8804771c"
+        },
+        "date": 1759128043954,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.574484465653594,
+            "unit": "us/iter",
+            "extra": "iterations: 39815\ncpu: 17.573013713424587 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.19579859554615,
+            "unit": "us/iter",
+            "extra": "iterations: 6693\ncpu: 101.11769535335424 us\nthreads: 1"
           }
         ]
       }
