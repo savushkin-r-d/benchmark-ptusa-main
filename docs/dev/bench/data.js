@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759138262426,
+  "lastUpdate": 1759138979160,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -63570,6 +63570,38 @@ window.BENCHMARK_DATA = {
             "value": 105.94789199882813,
             "unit": "us/iter",
             "extra": "iterations: 6824\ncpu: 104.71024736225087 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "94eecc285d0bcce21fd72d0a9f02a5a60c9ff31d",
+          "message": "[config][github actions] Removes unnecessary file listing command",
+          "timestamp": "2025-09-11T12:23:27Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1045/commits/94eecc285d0bcce21fd72d0a9f02a5a60c9ff31d"
+        },
+        "date": 1759138976202,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.366431165849217,
+            "unit": "us/iter",
+            "extra": "iterations: 38324\ncpu: 18.361250469679575 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.83916570583648,
+            "unit": "us/iter",
+            "extra": "iterations: 6765\ncpu: 103.76502985957133 us\nthreads: 1"
           }
         ]
       }
