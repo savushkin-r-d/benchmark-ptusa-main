@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759150364552,
+  "lastUpdate": 1759151244225,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -64190,6 +64190,38 @@ window.BENCHMARK_DATA = {
             "value": 103.03844056144435,
             "unit": "us/iter",
             "extra": "iterations: 6982\ncpu: 101.84840146089947 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "3b8a6a39bc233b424775c0cd897c9f61e4b2dddc",
+          "message": "Fix IO-Link valves error reporting when feedback is disabled",
+          "timestamp": "2025-09-29T11:54:02Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1008/commits/3b8a6a39bc233b424775c0cd897c9f61e4b2dddc"
+        },
+        "date": 1759151240996,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.42777083497248,
+            "unit": "us/iter",
+            "extra": "iterations: 38121\ncpu: 18.424624695049975 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.72079029872711,
+            "unit": "us/iter",
+            "extra": "iterations: 6762\ncpu: 102.59490816326532 us\nthreads: 1"
           }
         ]
       }
