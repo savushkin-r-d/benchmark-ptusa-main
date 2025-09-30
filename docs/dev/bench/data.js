@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759212207967,
+  "lastUpdate": 1759221348213,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -64610,6 +64610,42 @@ window.BENCHMARK_DATA = {
             "value": 103.70465605003034,
             "unit": "us/iter",
             "extra": "iterations: 6876\ncpu: 102.32603112274579 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "261ecdec4fc659e2bb694e8040b211f654c5ca43",
+          "message": "Fix IO-Link valves error reporting when feedback is disabled (#1008)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-09-30T11:31:33+03:00",
+          "tree_id": "9f9e7679353678c7d0f371f46cc64538a2306410",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/261ecdec4fc659e2bb694e8040b211f654c5ca43"
+        },
+        "date": 1759221345313,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.25049746280303,
+            "unit": "us/iter",
+            "extra": "iterations: 40596\ncpu: 17.248406985909945 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.80056797892438,
+            "unit": "us/iter",
+            "extra": "iterations: 6833\ncpu: 102.66444270452217 us\nthreads: 1"
           }
         ]
       }
