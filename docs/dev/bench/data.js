@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759224318531,
+  "lastUpdate": 1759224332695,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -64710,6 +64710,38 @@ window.BENCHMARK_DATA = {
             "value": 102.35304523636263,
             "unit": "us/iter",
             "extra": "iterations: 6875\ncpu: 101.27030312727273 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "9d7e3e5f3b2825ace90cdffab84f9bf95523da08",
+          "message": "Refactors converter device `EY`",
+          "timestamp": "2025-09-30T08:34:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1054/commits/9d7e3e5f3b2825ace90cdffab84f9bf95523da08"
+        },
+        "date": 1759224329493,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.201074010684053,
+            "unit": "us/iter",
+            "extra": "iterations: 38562\ncpu: 18.19830485970645 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.90149157801892,
+            "unit": "us/iter",
+            "extra": "iterations: 6768\ncpu: 102.80253161938533 us\nthreads: 1"
           }
         ]
       }
