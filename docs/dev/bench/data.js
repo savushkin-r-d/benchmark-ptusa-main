@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759211407531,
+  "lastUpdate": 1759211511873,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -64542,6 +64542,42 @@ window.BENCHMARK_DATA = {
             "value": 102.84939657694324,
             "unit": "us/iter",
             "extra": "iterations: 6836\ncpu: 101.7999212990053 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3fe29f3a82b027f1fa7d9a287e5dd4ee0ef566c4",
+          "message": "Fixes initial valve state after converter binding (#1048)",
+          "timestamp": "2025-09-30T08:48:13+03:00",
+          "tree_id": "9d41704ca62c9a92e4e480d8f146308869317d8b",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/3fe29f3a82b027f1fa7d9a287e5dd4ee0ef566c4"
+        },
+        "date": 1759211508706,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.523665430398705,
+            "unit": "us/iter",
+            "extra": "iterations: 39905\ncpu: 17.521808745771207 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.20235782748108,
+            "unit": "us/iter",
+            "extra": "iterations: 6886\ncpu: 101.68685579436539 us\nthreads: 1"
           }
         ]
       }
