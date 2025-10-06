@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759756103035,
+  "lastUpdate": 1759757229367,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -65548,6 +65548,42 @@ window.BENCHMARK_DATA = {
             "value": 103.09778333816851,
             "unit": "us/iter",
             "extra": "iterations: 6914\ncpu: 101.81495921319063 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b3bb11efd81edad6111976fd66d53303783a75f",
+          "message": "Fixes converter device `EY` IO-Link in-data processing (#1061)",
+          "timestamp": "2025-10-06T16:24:31+03:00",
+          "tree_id": "867639e29b47f2429f3d6d17f5b7e59ea0e6ed84",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2b3bb11efd81edad6111976fd66d53303783a75f"
+        },
+        "date": 1759757226589,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.739114799936306,
+            "unit": "us/iter",
+            "extra": "iterations: 39338\ncpu: 17.73757679597336 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.39046136069206,
+            "unit": "us/iter",
+            "extra": "iterations: 6923\ncpu: 101.30483894265492 us\nthreads: 1"
           }
         ]
       }
