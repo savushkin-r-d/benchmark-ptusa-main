@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759760520128,
+  "lastUpdate": 1759760811025,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -65888,6 +65888,42 @@ window.BENCHMARK_DATA = {
             "value": 102.39414277481787,
             "unit": "us/iter",
             "extra": "iterations: 6941\ncpu: 101.23255236997552 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "350c35360c3f8cb8f2ede0785956cc58379ab2cc",
+          "message": "Bump deps/fmt from `11.2.0` to `12.0.0` (#1057)",
+          "timestamp": "2025-10-06T17:22:03+03:00",
+          "tree_id": "688d985a7b03d870b233bb6ea1c08e4a560f59c6",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/350c35360c3f8cb8f2ede0785956cc58379ab2cc"
+        },
+        "date": 1759760807381,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.323080955900394,
+            "unit": "us/iter",
+            "extra": "iterations: 40590\ncpu: 17.321714880512445 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.08847159746863,
+            "unit": "us/iter",
+            "extra": "iterations: 6936\ncpu: 101.88455493079586 us\nthreads: 1"
           }
         ]
       }
