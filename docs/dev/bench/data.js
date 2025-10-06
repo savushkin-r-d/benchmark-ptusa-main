@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759735346040,
+  "lastUpdate": 1759735488459,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -65354,6 +65354,38 @@ window.BENCHMARK_DATA = {
             "value": 104.88266676430949,
             "unit": "us/iter",
             "extra": "iterations: 6827\ncpu: 103.72196425955767 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "6dea803cef94dd118201916476f98829b3d9c42c",
+          "message": "Fixes EY device IO evaluation in emulator mode",
+          "timestamp": "2025-09-30T08:34:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1063/commits/6dea803cef94dd118201916476f98829b3d9c42c"
+        },
+        "date": 1759735485348,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.179561814401843,
+            "unit": "us/iter",
+            "extra": "iterations: 38470\ncpu: 18.1754772550039 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.55065713015215,
+            "unit": "us/iter",
+            "extra": "iterations: 6746\ncpu: 102.86975630002965 us\nthreads: 1"
           }
         ]
       }
