@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759759170859,
+  "lastUpdate": 1759759438581,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -65684,6 +65684,42 @@ window.BENCHMARK_DATA = {
             "value": 76.5640492919727,
             "unit": "us/iter",
             "extra": "iterations: 9251\ncpu: 75.65426516052317 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d31bc9e347141c6a1f857eeccb74ae9fc9c9495f",
+          "message": "Refactors converter device `EY` (#1054)",
+          "timestamp": "2025-10-06T17:00:43+03:00",
+          "tree_id": "5d7fa4b99e760558ea26ee1cf1482ad380e40c63",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d31bc9e347141c6a1f857eeccb74ae9fc9c9495f"
+        },
+        "date": 1759759435307,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.967756250605486,
+            "unit": "us/iter",
+            "extra": "iterations: 41276\ncpu: 16.965872710533965 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.43245298656662,
+            "unit": "us/iter",
+            "extra": "iterations: 6998\ncpu: 101.94807459274081 us\nthreads: 1"
           }
         ]
       }
