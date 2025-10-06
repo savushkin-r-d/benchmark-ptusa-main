@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759741705385,
+  "lastUpdate": 1759747818979,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -65420,6 +65420,38 @@ window.BENCHMARK_DATA = {
             "value": 101.93686191221816,
             "unit": "us/iter",
             "extra": "iterations: 7039\ncpu: 100.84651200454611 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "06357cafe3e77e87c1e56e509cbb8a61e228c071",
+          "message": "Fixes converter device (EY) IO-Link in data processing",
+          "timestamp": "2025-09-30T08:34:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1061/commits/06357cafe3e77e87c1e56e509cbb8a61e228c071"
+        },
+        "date": 1759747815930,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.648466607974036,
+            "unit": "us/iter",
+            "extra": "iterations: 39755\ncpu: 17.646025883536662 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.45641485979091,
+            "unit": "us/iter",
+            "extra": "iterations: 6918\ncpu: 100.35369731136166 us\nthreads: 1"
           }
         ]
       }
