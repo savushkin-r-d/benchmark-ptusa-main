@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759827341959,
+  "lastUpdate": 1759827354706,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66088,6 +66088,42 @@ window.BENCHMARK_DATA = {
             "value": 103.20815250323413,
             "unit": "us/iter",
             "extra": "iterations: 6931\ncpu: 102.05338277304861 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7981fad3c0b25e61b71febae0497707b315d176b",
+          "message": "[config] Adds Visual Studio configs (#952)",
+          "timestamp": "2025-10-07T11:52:51+03:00",
+          "tree_id": "94f5a2a5b3ad9e27133472ad824fb7a80fb38063",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/7981fad3c0b25e61b71febae0497707b315d176b"
+        },
+        "date": 1759827351741,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.163606478997288,
+            "unit": "us/iter",
+            "extra": "iterations: 40994\ncpu: 17.162550641557303 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.7791967091629,
+            "unit": "us/iter",
+            "extra": "iterations: 6746\ncpu: 103.0678121849985 us\nthreads: 1"
           }
         ]
       }
