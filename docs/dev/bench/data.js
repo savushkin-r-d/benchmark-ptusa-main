@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759842728270,
+  "lastUpdate": 1759843667464,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66480,6 +66480,38 @@ window.BENCHMARK_DATA = {
             "value": 104.68819691119599,
             "unit": "us/iter",
             "extra": "iterations: 6734\ncpu: 103.54387971487974 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "dc5bd9a09679784e41c022308b666705cef19b6a",
+          "message": "Enhances `DI_DO_action` and `inverted_DI_DO_action` for OR logic",
+          "timestamp": "2025-10-07T09:30:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1035/commits/dc5bd9a09679784e41c022308b666705cef19b6a"
+        },
+        "date": 1759843663941,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.530386693121862,
+            "unit": "us/iter",
+            "extra": "iterations: 37800\ncpu: 18.529524523809524 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.03350199792777,
+            "unit": "us/iter",
+            "extra": "iterations: 6757\ncpu: 104.99913275122093 us\nthreads: 1"
           }
         ]
       }
