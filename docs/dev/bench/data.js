@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759760811025,
+  "lastUpdate": 1759817834061,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -65924,6 +65924,42 @@ window.BENCHMARK_DATA = {
             "value": 103.08847159746863,
             "unit": "us/iter",
             "extra": "iterations: 6936\ncpu: 101.88455493079586 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "bot@stepsecurity.io",
+            "name": "StepSecurity Bot",
+            "username": "step-security-bot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b15ee4e41f222fcfd0716bd805ce328cd0e19d29",
+          "message": "[StepSecurity] Apply security best practices (#1062)",
+          "timestamp": "2025-10-07T09:13:51+03:00",
+          "tree_id": "cb672cc239c4dcda078c95fcaf416e29d7799470",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/b15ee4e41f222fcfd0716bd805ce328cd0e19d29"
+        },
+        "date": 1759817830666,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.61177001043402,
+            "unit": "us/iter",
+            "extra": "iterations: 40254\ncpu: 17.61018743478909 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.9398652927122,
+            "unit": "us/iter",
+            "extra": "iterations: 6696\ncpu: 103.73625298685783 us\nthreads: 1"
           }
         ]
       }
