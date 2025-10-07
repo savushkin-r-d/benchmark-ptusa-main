@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759846932590,
+  "lastUpdate": 1759854194738,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66844,6 +66844,38 @@ window.BENCHMARK_DATA = {
             "value": 106.03313458600634,
             "unit": "us/iter",
             "extra": "iterations: 6546\ncpu: 104.63148625114574 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "5b4342418f6dddf34f86f28e100a88df2896494e",
+          "message": "[WIP] Fix circulation signal handling during wash operation",
+          "timestamp": "2025-10-07T14:18:55Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1071/commits/5b4342418f6dddf34f86f28e100a88df2896494e"
+        },
+        "date": 1759854191414,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.724374552401475,
+            "unit": "us/iter",
+            "extra": "iterations: 37701\ncpu: 18.72255051590144 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.8496300825029,
+            "unit": "us/iter",
+            "extra": "iterations: 6788\ncpu: 103.82813789039481 us\nthreads: 1"
           }
         ]
       }
