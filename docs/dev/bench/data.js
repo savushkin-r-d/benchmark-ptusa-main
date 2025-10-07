@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759833717393,
+  "lastUpdate": 1759836900061,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66416,6 +66416,38 @@ window.BENCHMARK_DATA = {
             "value": 103.77527982391604,
             "unit": "us/iter",
             "extra": "iterations: 6815\ncpu: 102.67691504035214 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "cd393f4ae30c068b6b240abdbda94f6cddbbc54f",
+          "message": "[FEATURE]: Enhance DI_DO_action and inverted_DI_DO_action for OR logic with multiple DI signals and device ordering validation",
+          "timestamp": "2025-10-07T09:30:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1035/commits/cd393f4ae30c068b6b240abdbda94f6cddbbc54f"
+        },
+        "date": 1759836896999,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.588558362170968,
+            "unit": "us/iter",
+            "extra": "iterations: 39589\ncpu: 17.587878804718482 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.08461349147164,
+            "unit": "us/iter",
+            "extra": "iterations: 6745\ncpu: 103.88934128984434 us\nthreads: 1"
           }
         ]
       }
