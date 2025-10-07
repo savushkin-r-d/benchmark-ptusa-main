@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759844504843,
+  "lastUpdate": 1759845824813,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66544,6 +66544,38 @@ window.BENCHMARK_DATA = {
             "value": 106.19229244712415,
             "unit": "us/iter",
             "extra": "iterations: 6620\ncpu: 104.53945151057405 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "d5dde2a0f3d273f3dddbfb3861405fcb0ccf064d",
+          "message": "Add support for Endress&Hauser TM311 IO-Link temperature sensor",
+          "timestamp": "2025-10-07T09:30:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1067/commits/d5dde2a0f3d273f3dddbfb3861405fcb0ccf064d"
+        },
+        "date": 1759845821446,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.439633215808517,
+            "unit": "us/iter",
+            "extra": "iterations: 38006\ncpu: 18.437849444824504 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.7554234791575,
+            "unit": "us/iter",
+            "extra": "iterations: 6789\ncpu: 103.61525909559585 us\nthreads: 1"
           }
         ]
       }
