@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759829478206,
+  "lastUpdate": 1759829611150,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66252,6 +66252,42 @@ window.BENCHMARK_DATA = {
             "value": 105.06022144009157,
             "unit": "us/iter",
             "extra": "iterations: 6819\ncpu: 104.01295967150608 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b868e2e5fa976681d5671e986148d6a82a0d81a6",
+          "message": "[config] Fixes script execution in VS debugger (#1065)\n\nCorrects the order of arguments passed to the script in the debugger configuration.",
+          "timestamp": "2025-10-07T12:30:17+03:00",
+          "tree_id": "9c8ab37a194c3d49e22972c0261a027540f55d4d",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/b868e2e5fa976681d5671e986148d6a82a0d81a6"
+        },
+        "date": 1759829607989,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.05867118256531,
+            "unit": "us/iter",
+            "extra": "iterations: 41114\ncpu: 17.05802592790777 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.67021384839875,
+            "unit": "us/iter",
+            "extra": "iterations: 6860\ncpu: 102.566983819242 us\nthreads: 1"
           }
         ]
       }
