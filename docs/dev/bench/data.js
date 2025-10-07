@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759846151086,
+  "lastUpdate": 1759846396317,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66612,6 +66612,42 @@ window.BENCHMARK_DATA = {
             "value": 107.17418339099821,
             "unit": "us/iter",
             "extra": "iterations: 6647\ncpu: 105.76591891078684 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9c55ae93b1f0b94bf9084e94d20b085491ad752a",
+          "message": "[config] Add dedicated GitHub issue template for device/sensor additions (#1068)\n\n* Initial plan\n\n* Add device/sensor addition issue template\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>",
+          "timestamp": "2025-10-07T17:10:16+03:00",
+          "tree_id": "a25fb71881661cb47f0807a6843b3f0bf46b265a",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/9c55ae93b1f0b94bf9084e94d20b085491ad752a"
+        },
+        "date": 1759846393288,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.51091766678215,
+            "unit": "us/iter",
+            "extra": "iterations: 37579\ncpu: 18.50934758774848 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.64898202180744,
+            "unit": "us/iter",
+            "extra": "iterations: 6786\ncpu: 105.56442528735633 us\nthreads: 1"
           }
         ]
       }
