@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759833705891,
+  "lastUpdate": 1759833717393,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66384,6 +66384,38 @@ window.BENCHMARK_DATA = {
             "value": 104.37407328221745,
             "unit": "us/iter",
             "extra": "iterations: 6782\ncpu: 103.25015614862875 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "a00c94bdc98bc5af0ee43031228ff734c75022eb",
+          "message": "[WIP] [FEATURE]: Добавить новое устройство IO-Link датчик температуры Endress&Hauser TM311",
+          "timestamp": "2025-10-07T09:30:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1067/commits/a00c94bdc98bc5af0ee43031228ff734c75022eb"
+        },
+        "date": 1759833713965,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.674983227838716,
+            "unit": "us/iter",
+            "extra": "iterations: 37443\ncpu: 18.673384451032238 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.77527982391604,
+            "unit": "us/iter",
+            "extra": "iterations: 6815\ncpu: 102.67691504035214 us\nthreads: 1"
           }
         ]
       }
