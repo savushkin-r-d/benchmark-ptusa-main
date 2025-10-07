@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759854194738,
+  "lastUpdate": 1759854328515,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66876,6 +66876,38 @@ window.BENCHMARK_DATA = {
             "value": 104.8496300825029,
             "unit": "us/iter",
             "extra": "iterations: 6788\ncpu: 103.82813789039481 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "69ab758824b3881bcf3873d12056b018e47d3a9a",
+          "message": "[WIP] Add new pressure sensor E+H PMP23 integration",
+          "timestamp": "2025-10-07T14:18:55Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1070/commits/69ab758824b3881bcf3873d12056b018e47d3a9a"
+        },
+        "date": 1759854325472,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.353914038907803,
+            "unit": "us/iter",
+            "extra": "iterations: 40402\ncpu: 17.35050829166873 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.68190425839997,
+            "unit": "us/iter",
+            "extra": "iterations: 6904\ncpu: 102.45722885283895 us\nthreads: 1"
           }
         ]
       }
