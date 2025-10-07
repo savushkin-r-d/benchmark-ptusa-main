@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759827354706,
+  "lastUpdate": 1759828898853,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66124,6 +66124,38 @@ window.BENCHMARK_DATA = {
             "value": 104.7791967091629,
             "unit": "us/iter",
             "extra": "iterations: 6746\ncpu: 103.0678121849985 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "c0692f639ac26cb0b4fdb0372744b38eb56dd021",
+          "message": "[config] Fixes script execution in VS debugger",
+          "timestamp": "2025-09-30T08:34:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1065/commits/c0692f639ac26cb0b4fdb0372744b38eb56dd021"
+        },
+        "date": 1759828895842,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.201637591322783,
+            "unit": "us/iter",
+            "extra": "iterations: 40653\ncpu: 17.200297591813644 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.767557163528,
+            "unit": "us/iter",
+            "extra": "iterations: 6910\ncpu: 101.66817641099856 us\nthreads: 1"
           }
         ]
       }
