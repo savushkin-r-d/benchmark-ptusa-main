@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759845824813,
+  "lastUpdate": 1759846151086,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66576,6 +66576,42 @@ window.BENCHMARK_DATA = {
             "value": 104.7554234791575,
             "unit": "us/iter",
             "extra": "iterations: 6789\ncpu: 103.61525909559585 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8a986e91658a0f55f50924efd0e15a131334ab42",
+          "message": "Enhances `DI_DO_action` and `inverted_DI_DO_action` for OR logic (#1035)\n\n* Initial plan\n\n* Implement multiple_DI_DO_action for OR logic with multiple DI signals\n\n* Fix test failures by adding missing step creation and enum entry\n\n* Fix action array indexing by moving multiple_DI_DO_action to correct position\n\n* Add comprehensive test coverage for multiple_DI_DO_action to improve code coverage\n\n* Convert raw for-loops to range-based for-loops for better C++ style\n\n* Add device ordering validation for DI signals before DO signals\n\n* Integrate multiple DI functionality into existing DI_DO_action and inverted_DI_DO_action classes\n\n* Removes redundant DI/DO action tests\n\n* Adds device order check test\n\n* Prevents accidental modification of device list\n\nEnsures that the device list in `DI_DO_action` is not accidentally modified\nby declaring it as a const reference in both `evaluate()` and `finalize()` methods.\n\n* Refactors DI/DO device type checking\n\nSimplifies DI/DO action device type checks by introducing a dedicated function for determining DI device types.\nThis improves code readability and maintainability by centralizing the logic for identifying DI devices.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-10-07T17:04:22+03:00",
+          "tree_id": "36e2121bc96dd6fcee95e1a51b07498c864ea299",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/8a986e91658a0f55f50924efd0e15a131334ab42"
+        },
+        "date": 1759846148033,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.381242498227646,
+            "unit": "us/iter",
+            "extra": "iterations: 38091\ncpu: 18.37922440996561 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.17418339099821,
+            "unit": "us/iter",
+            "extra": "iterations: 6647\ncpu: 105.76591891078684 us\nthreads: 1"
           }
         ]
       }
