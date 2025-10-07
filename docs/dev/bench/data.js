@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759829462954,
+  "lastUpdate": 1759829478206,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66220,6 +66220,38 @@ window.BENCHMARK_DATA = {
             "value": 104.10750238663474,
             "unit": "us/iter",
             "extra": "iterations: 6704\ncpu: 103.1092468675418 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "b99c931725633410525aa5ddf92aebe938cbc333",
+          "message": "[fix] Ensures consistent path separators",
+          "timestamp": "2025-09-30T08:34:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1066/commits/b99c931725633410525aa5ddf92aebe938cbc333"
+        },
+        "date": 1759829474830,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.002908645003163,
+            "unit": "us/iter",
+            "extra": "iterations: 39144\ncpu: 18.00124031780094 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.06022144009157,
+            "unit": "us/iter",
+            "extra": "iterations: 6819\ncpu: 104.01295967150608 us\nthreads: 1"
           }
         ]
       }
