@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1759854353253,
+  "lastUpdate": 1759915972086,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -66940,6 +66940,38 @@ window.BENCHMARK_DATA = {
             "value": 103.99144163395079,
             "unit": "us/iter",
             "extra": "iterations: 6879\ncpu: 102.56055327809274 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "ae697f1bca641f1ec7518ea97d377998db793c3d",
+          "message": "Add support for Endress+Hauser PMP23 pressure sensor",
+          "timestamp": "2025-10-07T14:18:55Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1070/commits/ae697f1bca641f1ec7518ea97d377998db793c3d"
+        },
+        "date": 1759915968650,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.869090053422553,
+            "unit": "us/iter",
+            "extra": "iterations: 39310\ncpu: 17.867849910964132 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.42177548615659,
+            "unit": "us/iter",
+            "extra": "iterations: 6788\ncpu: 104.35046096051855 us\nthreads: 1"
           }
         ]
       }
