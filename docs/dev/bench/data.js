@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760012582947,
+  "lastUpdate": 1760012590919,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -67100,6 +67100,38 @@ window.BENCHMARK_DATA = {
             "value": 105.7567352685063,
             "unit": "us/iter",
             "extra": "iterations: 6890\ncpu: 104.65745065312048 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "f84e27974ab3b70e6a0c8b55bfc594521a483efd",
+          "message": "Adds transition `STOP` to `IDLE` state after evaluation",
+          "timestamp": "2025-09-30T08:34:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1072/commits/f84e27974ab3b70e6a0c8b55bfc594521a483efd"
+        },
+        "date": 1760012587754,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.214222579933114,
+            "unit": "us/iter",
+            "extra": "iterations: 40691\ncpu: 17.213164852178615 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.95968840789612,
+            "unit": "us/iter",
+            "extra": "iterations: 6884\ncpu: 103.05827527600235 us\nthreads: 1"
           }
         ]
       }
