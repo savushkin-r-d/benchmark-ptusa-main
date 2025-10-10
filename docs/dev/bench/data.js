@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760101271830,
+  "lastUpdate": 1760104060245,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -67332,6 +67332,38 @@ window.BENCHMARK_DATA = {
             "value": 109.56530954531618,
             "unit": "us/iter",
             "extra": "iterations: 6642\ncpu: 108.6084938271605 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "f4803c41cdcb63057e0e17d1a66daa9c71d9ea32",
+          "message": "Fix: Keep circulation signal on during circulation and rinse operations",
+          "timestamp": "2025-10-10T09:45:38Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1071/commits/f4803c41cdcb63057e0e17d1a66daa9c71d9ea32"
+        },
+        "date": 1760104056594,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.847394765912618,
+            "unit": "us/iter",
+            "extra": "iterations: 38020\ncpu: 18.84525028932141 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.14433973099723,
+            "unit": "us/iter",
+            "extra": "iterations: 6617\ncpu: 103.96299501284572 us\nthreads: 1"
           }
         ]
       }
