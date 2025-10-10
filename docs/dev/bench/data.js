@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760089810864,
+  "lastUpdate": 1760101271830,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -67300,6 +67300,38 @@ window.BENCHMARK_DATA = {
             "value": 104.27062536656851,
             "unit": "us/iter",
             "extra": "iterations: 6820\ncpu: 103.24224736070381 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "fae273b5667afe68fe2e8cdf6ebbcbc694636ed9",
+          "message": "Fix: Keep circulation signal on during active operations after \"can continue\" signal",
+          "timestamp": "2025-10-10T09:45:38Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1071/commits/fae273b5667afe68fe2e8cdf6ebbcbc694636ed9"
+        },
+        "date": 1760101268369,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.8004000375438,
+            "unit": "us/iter",
+            "extra": "iterations: 37289\ncpu: 18.798652068974764 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.56530954531618,
+            "unit": "us/iter",
+            "extra": "iterations: 6642\ncpu: 108.6084938271605 us\nthreads: 1"
           }
         ]
       }
