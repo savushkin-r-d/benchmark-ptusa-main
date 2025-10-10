@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760017295425,
+  "lastUpdate": 1760089759225,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -67228,6 +67228,42 @@ window.BENCHMARK_DATA = {
             "value": 104.31051150103434,
             "unit": "us/iter",
             "extra": "iterations: 6782\ncpu: 103.1677581834267 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bcd6e3287807fb7c9fd82580f625ebd23fb9e56f",
+          "message": "Add support for Endress+Hauser PMP23 pressure sensor (#1070)\n\n* Initial plan\n\n* Add support for E+H PMP23 pressure sensor with IO-Link\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refactors EH PMP23 pressure sensor\n\n* Updates pressure sensor test expectation\n\nCorrects the expected value in the pressure sensor test for the E&H.PMP23 device.\n\n* Refactors pressure sensor data processing\n\nUpdates the data processing logic for the pressure sensor to improve readability and maintainability.\n\nSimplifies the structure used to represent process data and uses memcpy for data transfer.\n\n* Simplifies data processing logic\n\nRefactors data processing to improve code readability\nand reduce redundancy by directly using the article info.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-10-10T12:44:05+03:00",
+          "tree_id": "bc842a65367bda00f01e7ad621723dc2f89a1619",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/bcd6e3287807fb7c9fd82580f625ebd23fb9e56f"
+        },
+        "date": 1760089756259,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.742870924531395,
+            "unit": "us/iter",
+            "extra": "iterations: 39566\ncpu: 17.742255749886265 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.23951168152422,
+            "unit": "us/iter",
+            "extra": "iterations: 6506\ncpu: 103.19118075622505 us\nthreads: 1"
           }
         ]
       }
