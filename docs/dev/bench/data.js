@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760089759225,
+  "lastUpdate": 1760089810864,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -67264,6 +67264,42 @@ window.BENCHMARK_DATA = {
             "value": 104.23951168152422,
             "unit": "us/iter",
             "extra": "iterations: 6506\ncpu: 103.19118075622505 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af81df13769b6f17ab7b5601f2529c6d1513f802",
+          "message": "Adds transition `STOP` to `IDLE` state after evaluation (#1072)\n\n* Adds transition `STOP` to `IDLE` state after evaluation\n\nEnsures the operation transitions from the STOP state to the IDLE state upon evaluation.\n\nAdds a new test case to verify the correct transition from STOP to IDLE when the evaluation condition is met.\n\n* Removes redundant state setting\n\n* Refactors operation state transition logic\n\nImproves the clarity and correctness of the operation state transition from STOP to IDLE.\n\nUses static_cast for safer type conversion and clarifies comments for better understanding of the logic.",
+          "timestamp": "2025-10-10T12:45:33+03:00",
+          "tree_id": "a1f1378c16f159ff276e187f1688422249b63eb6",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/af81df13769b6f17ab7b5601f2529c6d1513f802"
+        },
+        "date": 1760089807648,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.21405979997337,
+            "unit": "us/iter",
+            "extra": "iterations: 38495\ncpu: 18.212437823093907 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.27062536656851,
+            "unit": "us/iter",
+            "extra": "iterations: 6820\ncpu: 103.24224736070381 us\nthreads: 1"
           }
         ]
       }
