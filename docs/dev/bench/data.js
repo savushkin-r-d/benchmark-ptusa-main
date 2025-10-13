@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760321790118,
+  "lastUpdate": 1760336598089,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -67556,6 +67556,42 @@ window.BENCHMARK_DATA = {
             "value": 101.47710949431092,
             "unit": "us/iter",
             "extra": "iterations: 6941\ncpu: 100.32188387840368 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c4ecbbb8e52b5a82eaf4456bffa797ffab13e531",
+          "message": "Bump github/codeql-action from 3 to 4 (#1074)\n\nBumps [github/codeql-action](https://github.com/github/codeql-action) from 3 to 4.\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Commits](https://github.com/github/codeql-action/compare/v3...v4)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action\n  dependency-version: '4'\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-10-13T09:19:46+03:00",
+          "tree_id": "624fe7e7ea5b8ce00080b48d82d5dd4a41f271f8",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/c4ecbbb8e52b5a82eaf4456bffa797ffab13e531"
+        },
+        "date": 1760336594002,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.07838059793116,
+            "unit": "us/iter",
+            "extra": "iterations: 40707\ncpu: 17.077377772864622 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 79.88942098244004,
+            "unit": "us/iter",
+            "extra": "iterations: 8998\ncpu: 78.48833474105356 us\nthreads: 1"
           }
         ]
       }
