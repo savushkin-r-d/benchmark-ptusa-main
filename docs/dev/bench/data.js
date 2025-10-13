@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760351100630,
+  "lastUpdate": 1760354743624,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -67922,6 +67922,42 @@ window.BENCHMARK_DATA = {
             "value": 104.65433098591453,
             "unit": "us/iter",
             "extra": "iterations: 6816\ncpu: 103.61351525821597 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6b30bcb6868b82e87e264c893089907f3537b1d2",
+          "message": "[fix] Initializes output data for converter IO-Link AO (#1077)\n\nInitializes the output data structure for the converter IO-Link AO device. This ensures a clean state for output values, especially within test environments, preventing undefined behavior.",
+          "timestamp": "2025-10-13T14:22:30+03:00",
+          "tree_id": "60c27d78c75500da69d5b5974ea74ac583946523",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/6b30bcb6868b82e87e264c893089907f3537b1d2"
+        },
+        "date": 1760354740164,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.24190095756311,
+            "unit": "us/iter",
+            "extra": "iterations: 35298\ncpu: 18.238828262224494 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.49353639615805,
+            "unit": "us/iter",
+            "extra": "iterations: 6704\ncpu: 103.3808581443914 us\nthreads: 1"
           }
         ]
       }
