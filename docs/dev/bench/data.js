@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760339550729,
+  "lastUpdate": 1760346519037,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -67792,6 +67792,40 @@ window.BENCHMARK_DATA = {
             "value": 107.50356261101318,
             "unit": "us/iter",
             "extra": "iterations: 6756\ncpu: 105.75874289520426 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "7ca4d80292d4ae242c4a89811e355f9fb3e3ee2f",
+          "message": "Bump ossf/scorecard-action from 2.4.0 to 2.4.3 (#1076)\n\nBumps [ossf/scorecard-action](https://github.com/ossf/scorecard-action) from 2.4.0 to 2.4.3.\n- [Release notes](https://github.com/ossf/scorecard-action/releases)\n- [Changelog](https://github.com/ossf/scorecard-action/blob/main/RELEASE.md)\n- [Commits](https://github.com/ossf/scorecard-action/compare/62b2cac7ed8198b15735ed49ab1e5cf35480ba46...4eaacf0543bb3f2c246792bd56e8cdeffafb205a)\n\n---\nupdated-dependencies:\n- dependency-name: ossf/scorecard-action\n  dependency-version: 2.4.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2025-10-13T06:21:06Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/7ca4d80292d4ae242c4a89811e355f9fb3e3ee2f"
+        },
+        "date": 1760346515836,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.45201373184568,
+            "unit": "us/iter",
+            "extra": "iterations: 37941\ncpu: 18.450124878100212 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.75471870773217,
+            "unit": "us/iter",
+            "extra": "iterations: 6655\ncpu: 103.55469947407964 us\nthreads: 1"
           }
         ]
       }
