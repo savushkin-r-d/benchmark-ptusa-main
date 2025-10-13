@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760350882535,
+  "lastUpdate": 1760351093570,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -67858,6 +67858,38 @@ window.BENCHMARK_DATA = {
             "value": 103.55988313978729,
             "unit": "us/iter",
             "extra": "iterations: 6803\ncpu: 102.41869116566221 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "3ca9ce1442747d08df09a9bc45f1531ff31fd751",
+          "message": "[fix] Initializes output data for converter IO-Link AO",
+          "timestamp": "2025-09-30T08:34:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1077/commits/3ca9ce1442747d08df09a9bc45f1531ff31fd751"
+        },
+        "date": 1760351090505,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.087642239382347,
+            "unit": "us/iter",
+            "extra": "iterations: 38850\ncpu: 18.084811814671816 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.67368316684662,
+            "unit": "us/iter",
+            "extra": "iterations: 6707\ncpu: 102.54662218577609 us\nthreads: 1"
           }
         ]
       }
