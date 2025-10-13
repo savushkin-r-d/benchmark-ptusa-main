@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760321763527,
+  "lastUpdate": 1760321777523,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -67492,6 +67492,38 @@ window.BENCHMARK_DATA = {
             "value": 105.3524925107547,
             "unit": "us/iter",
             "extra": "iterations: 6743\ncpu: 104.19735562805874 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "ab05704e20f8abcbf1413fedc58d66d4657f85bc",
+          "message": "Bump ossf/scorecard-action from 2.4.0 to 2.4.3",
+          "timestamp": "2025-10-10T09:45:38Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1076/commits/ab05704e20f8abcbf1413fedc58d66d4657f85bc"
+        },
+        "date": 1760321774494,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.2135886616624,
+            "unit": "us/iter",
+            "extra": "iterations: 38630\ncpu: 18.211770489257056 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.5080856014041,
+            "unit": "us/iter",
+            "extra": "iterations: 6834\ncpu: 103.4404007901668 us\nthreads: 1"
           }
         ]
       }
