@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760448911073,
+  "lastUpdate": 1760449237622,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -68674,6 +68674,38 @@ window.BENCHMARK_DATA = {
             "value": 107.62431490563205,
             "unit": "us/iter",
             "extra": "iterations: 6729\ncpu: 105.5272336156933 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "konnorksu",
+            "username": "konnorksu"
+          },
+          "committer": {
+            "name": "konnorksu",
+            "username": "konnorksu"
+          },
+          "id": "51ed99aacc7078e945d575de4a7123241a59b323",
+          "message": "Возможность включения `OPC` в режиме чтения-записи",
+          "timestamp": "2025-07-07T05:23:05Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/970/commits/51ed99aacc7078e945d575de4a7123241a59b323"
+        },
+        "date": 1760449234213,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.898877392101152,
+            "unit": "us/iter",
+            "extra": "iterations: 39296\ncpu: 17.89565429051303 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.58284789978116,
+            "unit": "us/iter",
+            "extra": "iterations: 6785\ncpu: 103.41880044215182 us\nthreads: 1"
           }
         ]
       }
