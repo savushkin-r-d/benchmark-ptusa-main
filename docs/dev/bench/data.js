@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760450557174,
+  "lastUpdate": 1760450574475,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -68802,6 +68802,38 @@ window.BENCHMARK_DATA = {
             "value": 105.0326900826327,
             "unit": "us/iter",
             "extra": "iterations: 6776\ncpu: 103.92342916174735 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "aa0b205ae40b4ecf8545998adccb71f8f61b03f7",
+          "message": "[WIP] Fix incorrect valve VC shutdown behavior",
+          "timestamp": "2025-10-14T11:20:34Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1080/commits/aa0b205ae40b4ecf8545998adccb71f8f61b03f7"
+        },
+        "date": 1760450571027,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.477859031281096,
+            "unit": "us/iter",
+            "extra": "iterations: 39867\ncpu: 17.475025735570775 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.30754597449203,
+            "unit": "us/iter",
+            "extra": "iterations: 6819\ncpu: 102.77126147528962 us\nthreads: 1"
           }
         ]
       }
