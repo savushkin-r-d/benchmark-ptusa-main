@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760443710774,
+  "lastUpdate": 1760448911073,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -68642,6 +68642,38 @@ window.BENCHMARK_DATA = {
             "value": 105.51872649949343,
             "unit": "us/iter",
             "extra": "iterations: 6819\ncpu: 104.2272757002493 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "038203b20930b87b62ee76b3274a36d8ee09dfc9",
+          "message": "Adds watchdog device functionality to monitor CIP",
+          "timestamp": "2025-10-14T11:20:34Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/993/commits/038203b20930b87b62ee76b3274a36d8ee09dfc9"
+        },
+        "date": 1760448907446,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.53945294207832,
+            "unit": "us/iter",
+            "extra": "iterations: 39122\ncpu: 17.538105311589387 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.62431490563205,
+            "unit": "us/iter",
+            "extra": "iterations: 6729\ncpu: 105.5272336156933 us\nthreads: 1"
           }
         ]
       }
