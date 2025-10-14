@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760431626814,
+  "lastUpdate": 1760440962376,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -68378,6 +68378,42 @@ window.BENCHMARK_DATA = {
             "value": 103.67309856356752,
             "unit": "us/iter",
             "extra": "iterations: 6544\ncpu: 102.60225733496333 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "asutp10@pda.savushkin.by",
+            "name": "AlexandrBehunkov",
+            "username": "AlexandrBehunkov"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1a68082052a0499b45143ddb95abcb18308944f0",
+          "message": "Add byte order functions for `Modbus` communication (#1020)\n\n* Add all options for exchanging data types via Modbus\n\n* Comment w/o Cyrillic symbol\n\n* Adds tests\n\n* Adds tests\n\n* Refactors Lua tests for Modbus client\n\nIntroduces a helper function to reduce code duplication in Lua tests.\n\n* Refactors tests\n\n* Marks some modbus_client getters as const\n\n* Fixes codestyle\n\n---------\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-10-14T14:19:11+03:00",
+          "tree_id": "b60719938bd458f953a8a1b952a26bddc5949f4f",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/1a68082052a0499b45143ddb95abcb18308944f0"
+        },
+        "date": 1760440958920,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.278862616140714,
+            "unit": "us/iter",
+            "extra": "iterations: 38316\ncpu: 18.27751364965028 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.42697862232693,
+            "unit": "us/iter",
+            "extra": "iterations: 6736\ncpu: 104.21667636579572 us\nthreads: 1"
           }
         ]
       }
