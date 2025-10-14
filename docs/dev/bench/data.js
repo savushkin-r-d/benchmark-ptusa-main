@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760366423008,
+  "lastUpdate": 1760420838230,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -68214,6 +68214,42 @@ window.BENCHMARK_DATA = {
             "value": 104.66546452182841,
             "unit": "us/iter",
             "extra": "iterations: 6807\ncpu: 103.5481839283091 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a96a5ed7487efaa2f66e7baadffa596b3074bdd4",
+          "message": "Adds support for Endress+Hauser TM311 IO-Link temperature sensor (#1067)\n\n* Initial plan\n\n* Add IO-Link temperature sensor Endress&Hauser TM311 support\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add unit tests for TM311 temperature sensor\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refactors IO-Link temperature sensor handling\n\nConsolidates IO-Link temperature sensor device handling by differentiating TM311 sensors based on the article number.\nThis simplifies device type enumeration and management.\n\n* Replace char* with std::byte* in TM311 tests\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fixes TM311 status and data interpretation\n\nCorrects the TM311 status check and data interpretation. It now uses status1 and status2 fields for status evaluation and ensures correct data alignment.\n\nThe changes involve adjusting the `get_state` method to accurately determine the device status based on the status1 and status2 fields, and modifying the `evaluate_io` method to properly interpret the incoming data.\n\n* Improve TM311 tests with diverse temperature values and status combinations\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Improves TM311 error description and handling\n\nEnhances the error reporting for TM311 devices by providing more\ndescriptive error messages based on the device status.\n\nImproves unit tests to verify the new error descriptions.\n\n* Refactors tests\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-10-14T08:42:14+03:00",
+          "tree_id": "4a5bd53005eadb1b01948f70a7ed6b54497173a2",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/a96a5ed7487efaa2f66e7baadffa596b3074bdd4"
+        },
+        "date": 1760420835134,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.44707288578992,
+            "unit": "us/iter",
+            "extra": "iterations: 40145\ncpu: 17.4463187196413 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.23986479367622,
+            "unit": "us/iter",
+            "extra": "iterations: 6834\ncpu: 103.66206057945568 us\nthreads: 1"
           }
         ]
       }
