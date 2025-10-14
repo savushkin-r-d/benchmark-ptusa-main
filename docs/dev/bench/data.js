@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760424159895,
+  "lastUpdate": 1760430727579,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -68282,6 +68282,38 @@ window.BENCHMARK_DATA = {
             "value": 103.22880799418698,
             "unit": "us/iter",
             "extra": "iterations: 6880\ncpu: 102.02752354651165 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "54ec6a625cd7db1600ffd2158af3935fa6576b65",
+          "message": "Add all options for exchanging data types via Modbus",
+          "timestamp": "2025-10-14T05:42:19Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1020/commits/54ec6a625cd7db1600ffd2158af3935fa6576b65"
+        },
+        "date": 1760430724584,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.164926573769794,
+            "unit": "us/iter",
+            "extra": "iterations: 40762\ncpu: 17.1611114518424 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.86277691061717,
+            "unit": "us/iter",
+            "extra": "iterations: 6791\ncpu: 102.45021381239879 us\nthreads: 1"
           }
         ]
       }
