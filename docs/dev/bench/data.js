@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760440962376,
+  "lastUpdate": 1760441101642,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -68414,6 +68414,42 @@ window.BENCHMARK_DATA = {
             "value": 105.42697862232693,
             "unit": "us/iter",
             "extra": "iterations: 6736\ncpu: 104.21667636579572 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "062f72ec4425f191f99eccf24d3cde0d84118fb2",
+          "message": "Adds feedback parameter to IO-Link analog valve (#1078)\n\n* Adds feedback parameter to IO-Link analog valve\n\nAdds a feedback parameter to the IO-Link analog valve to allow disabling device errors.\nThis allows the device to ignore errors from the IO-Link module when the feedback is disabled.\nAlso, adds a test to check `get_state` taking into account feedback parameter.\n\n* Removes the `virtual` keyword from the `set_par` method in the `par_device` class",
+          "timestamp": "2025-10-14T14:20:30+03:00",
+          "tree_id": "14774058c2b16521a993c6e45c0215c4b2756116",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/062f72ec4425f191f99eccf24d3cde0d84118fb2"
+        },
+        "date": 1760441098554,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.199002872645615,
+            "unit": "us/iter",
+            "extra": "iterations: 40729\ncpu: 17.19732603304771 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.38027045027968,
+            "unit": "us/iter",
+            "extra": "iterations: 6907\ncpu: 101.26892847835532 us\nthreads: 1"
           }
         ]
       }
