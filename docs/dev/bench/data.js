@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760451900474,
+  "lastUpdate": 1760452972865,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -68866,6 +68866,38 @@ window.BENCHMARK_DATA = {
             "value": 102.18801788268416,
             "unit": "us/iter",
             "extra": "iterations: 6990\ncpu: 101.03456008583689 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "12f702e70426a7d892e9249bfa2e3302b86d5fe5",
+          "message": "Fix DST_VC valve value not resetting to 0 on close",
+          "timestamp": "2025-10-14T11:20:34Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1080/commits/12f702e70426a7d892e9249bfa2e3302b86d5fe5"
+        },
+        "date": 1760452969421,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.142648094342224,
+            "unit": "us/iter",
+            "extra": "iterations: 40957\ncpu: 17.141694655370266 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.41587259931713,
+            "unit": "us/iter",
+            "extra": "iterations: 6821\ncpu: 103.45918868201143 us\nthreads: 1"
           }
         ]
       }
