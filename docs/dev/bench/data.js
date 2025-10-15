@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760512525525,
+  "lastUpdate": 1760513222456,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -68962,6 +68962,42 @@ window.BENCHMARK_DATA = {
             "value": 104.18810714286195,
             "unit": "us/iter",
             "extra": "iterations: 6832\ncpu: 103.221474970726 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "109601076+konnorksu@users.noreply.github.com",
+            "name": "konnorksu",
+            "username": "konnorksu"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f999eed1c39ef398770de3aab7098efe56ea119e",
+          "message": "Возможность включения `OPC` в режиме чтения-записи (#970)\n\n* возможность включения OPC в режиме чтения-записи\n\nдобавлена возможность включения режима чтения через --opc и --opc-r, режим чтения-записи через --opc-wr\n\n* [fix] OPC\n\n* другой способ вывода строк\n\n* исправления\n\n* добавление пробелов\n\n* удаление лишних пробелов\n\n* изменения пробелов\n\n* добавление тестов для проверки запуска opc\n\n* fix test OPC\n\n* добавление пробелов\n\n* удаление лишней строки\n\n* исправление теста\n\n* исправление для линукса\n\n* добавление констант вместо одинаковых строк\n\n* fix\n\n* Removes OPC mode tests from CMakeLists.txt\n\n* Fixes OPC UA server activation logic\n\nCorrects the order of saving OPC UA server parameters to ensure proper activation and control settings.\n\n* Refactors test warnings for clarity\n\n* Adds test for OPC UA read-write mode\n\n---------\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-10-15T10:24:01+03:00",
+          "tree_id": "c58e116bc6503dc24b779175f95e2959579ee319",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/f999eed1c39ef398770de3aab7098efe56ea119e"
+        },
+        "date": 1760513219054,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.41720252345635,
+            "unit": "us/iter",
+            "extra": "iterations: 40183\ncpu: 17.41596112784013 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.1889913629083,
+            "unit": "us/iter",
+            "extra": "iterations: 6831\ncpu: 103.07402869272434 us\nthreads: 1"
           }
         ]
       }
