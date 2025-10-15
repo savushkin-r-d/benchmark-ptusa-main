@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760513222456,
+  "lastUpdate": 1760513559571,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -68998,6 +68998,42 @@ window.BENCHMARK_DATA = {
             "value": 104.1889913629083,
             "unit": "us/iter",
             "extra": "iterations: 6831\ncpu: 103.07402869272434 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3305e5c05f0e5546e265bea0639c951ad71a235c",
+          "message": "Fix DST_VC valve value not resetting to 0 on close (#1080)\n\n* Initial plan\n\n* Fix DST_VC valve value reset on close\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add direct_set_state override to properly handle ST command\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fixes analog valve direct off behavior\n\nEnsures that `direct_off` resets the valve value to 0.\nAdds tests to verify direct on/off functionality and\nstate reset behavior via `set_cmd` when using I/O modules.\n\n* Adds direct value setting for analog valves\n\nAdds a `direct_set_value` method to the `analog_valve` class, allowing direct control of the valve's output value.\n\nWhen setting the valve directly to a value greater than 0, it also turns the device on. Otherwise, it turns the device off.\n\nUpdates the test case to verify that setting the state to 1 sets the value to 100%.\n\n* Fixes analog valve test setup and teardown\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-10-15T10:27:51+03:00",
+          "tree_id": "e1180633aaacb1b16152f7224146259af29af4ed",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/3305e5c05f0e5546e265bea0639c951ad71a235c"
+        },
+        "date": 1760513555604,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.386797726371235,
+            "unit": "us/iter",
+            "extra": "iterations: 40376\ncpu: 17.385090078264316 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.3264598742906,
+            "unit": "us/iter",
+            "extra": "iterations: 6841\ncpu: 103.28326911270281 us\nthreads: 1"
           }
         ]
       }
