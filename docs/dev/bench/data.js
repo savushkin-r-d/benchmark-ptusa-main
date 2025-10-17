@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760513559571,
+  "lastUpdate": 1760708720442,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -69034,6 +69034,42 @@ window.BENCHMARK_DATA = {
             "value": 104.3264598742906,
             "unit": "us/iter",
             "extra": "iterations: 6841\ncpu: 103.28326911270281 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "11709c6b08df8e58afecac20715f1394aa902c10",
+          "message": "Fix: Keep circulation signal on during circulation and rinse operations (#1071)\n\n* Initial plan\n\n* Fix circulation signal to stay on during active operations after \"can continue\" signal\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add comprehensive test for circulation signal behavior with can_continue signal\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fixes circulation signal logic\n\nRemoves the `wasflip` flag to simplify the circulation signal control.\n\nThe circulation signal now relies solely on the \"can continue\" signal to determine its state, ensuring correct behavior during circulation and rinse steps. This resolves an issue where the signal could be incorrectly turned off due to the previous `wasflip` flag logic.\n\n* Add comprehensive test coverage for circulation signal changes\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add test for _Circ return 0 when timer expires with can_continue OFF\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fixes tests\n\n* Increases sleep duration for timer test\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-10-17T16:41:44+03:00",
+          "tree_id": "4d24559e393e768714b701ca59db5aa1a13dc176",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/11709c6b08df8e58afecac20715f1394aa902c10"
+        },
+        "date": 1760708716958,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.356980495753756,
+            "unit": "us/iter",
+            "extra": "iterations: 40504\ncpu: 17.35507535058266 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.48681097739671,
+            "unit": "us/iter",
+            "extra": "iterations: 6814\ncpu: 103.79218051071322 us\nthreads: 1"
           }
         ]
       }
