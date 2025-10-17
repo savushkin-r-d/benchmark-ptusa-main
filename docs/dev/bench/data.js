@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1760708720442,
+  "lastUpdate": 1760708814446,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -69070,6 +69070,42 @@ window.BENCHMARK_DATA = {
             "value": 105.48681097739671,
             "unit": "us/iter",
             "extra": "iterations: 6814\ncpu: 103.79218051071322 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "23741a0e9c27ac257f5fd84009cc8a99c3f3df85",
+          "message": "Adds watchdog device functionality to monitor CIP (#993)\n\n* Initial plan\n\n* Implement watchdog functionality and comprehensive tests\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Complete watchdog functionality implementation with all tests passing\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refactors code\n\n* [review] Fixes after review\n\n* Refactors watchdog error checking tests\n\nSimplifies and consolidates watchdog error checking tests.\n\n* Corrects device check return values\n\n* Fixes comments style\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\n\n* Fixes comments style\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\n\n* Avoids potential null pointer dereference\n\n* Adds watchdog timer support to CIP objects\n\nAdds support for a watchdog timer device to the CIP technology object.\n\nThis change introduces a new recipe parameter (RV_WATCHDOG) that, when set, associates a watchdog device with the CIP object. The CIP object then checks the watchdog status in its error checking routine (_CheckErr). If the watchdog is not \"kicked\", an ERR_WATCHDOG error is returned. A new test case is added to verify the functionality.\n\n* Refactors codestyle\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-10-17T16:43:23+03:00",
+          "tree_id": "6ae5b83b808734cc6cf67a26548282665db007bc",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/23741a0e9c27ac257f5fd84009cc8a99c3f3df85"
+        },
+        "date": 1760708810799,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.162435171966532,
+            "unit": "us/iter",
+            "extra": "iterations: 38525\ncpu: 18.160846385463987 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.25579950350604,
+            "unit": "us/iter",
+            "extra": "iterations: 6848\ncpu: 105.04528971962614 us\nthreads: 1"
           }
         ]
       }
