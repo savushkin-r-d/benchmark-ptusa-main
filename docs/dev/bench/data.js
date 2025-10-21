@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761036007927,
+  "lastUpdate": 1761036123783,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -69336,6 +69336,38 @@ window.BENCHMARK_DATA = {
             "value": 104.85317498160698,
             "unit": "us/iter",
             "extra": "iterations: 6795\ncpu: 103.84565768947753 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "db61fb5a431743cdfee57afde4fe7622ecd5e4dd",
+          "message": "Use local previously built Lua",
+          "timestamp": "2025-09-30T08:34:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/419/commits/db61fb5a431743cdfee57afde4fe7622ecd5e4dd"
+        },
+        "date": 1761036120100,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.253813116770697,
+            "unit": "us/iter",
+            "extra": "iterations: 40635\ncpu: 17.25175112587671 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.76950716631976,
+            "unit": "us/iter",
+            "extra": "iterations: 6698\ncpu: 104.97625022394746 us\nthreads: 1"
           }
         ]
       }
