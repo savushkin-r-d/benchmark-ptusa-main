@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761036293243,
+  "lastUpdate": 1761221213126,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -69400,6 +69400,38 @@ window.BENCHMARK_DATA = {
             "value": 105.67456697356862,
             "unit": "us/iter",
             "extra": "iterations: 6734\ncpu: 104.33815057915058 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "db3a18c26c9e54c0ba893579985100a0bc143acd",
+          "message": "Fixes timeout check and string formatting during steps processing",
+          "timestamp": "2025-09-30T08:34:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1083/commits/db3a18c26c9e54c0ba893579985100a0bc143acd"
+        },
+        "date": 1761221209551,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.92999699859578,
+            "unit": "us/iter",
+            "extra": "iterations: 41314\ncpu: 16.927415718642592 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.47192511902742,
+            "unit": "us/iter",
+            "extra": "iterations: 6931\ncpu: 102.02839979800896 us\nthreads: 1"
           }
         ]
       }
