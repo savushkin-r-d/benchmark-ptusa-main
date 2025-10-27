@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761531310992,
+  "lastUpdate": 1761531384810,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -69592,6 +69592,38 @@ window.BENCHMARK_DATA = {
             "value": 103.8307026580583,
             "unit": "us/iter",
             "extra": "iterations: 6659\ncpu: 102.77073314311455 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "72319261c1c152979de482213837c6f725960dcd",
+          "message": "Bump actions/upload-artifact from 4.6.2 to 5.0.0",
+          "timestamp": "2025-10-20T10:43:53Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1086/commits/72319261c1c152979de482213837c6f725960dcd"
+        },
+        "date": 1761531381139,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.209741428979612,
+            "unit": "us/iter",
+            "extra": "iterations: 38531\ncpu: 18.208310503231164 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.29742018160668,
+            "unit": "us/iter",
+            "extra": "iterations: 6828\ncpu: 104.33894390743995 us\nthreads: 1"
           }
         ]
       }
