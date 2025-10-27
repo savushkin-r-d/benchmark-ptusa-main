@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761556146655,
+  "lastUpdate": 1761556153762,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -69860,6 +69860,40 @@ window.BENCHMARK_DATA = {
             "value": 107.83888462115354,
             "unit": "us/iter",
             "extra": "iterations: 6665\ncpu: 106.71103555888972 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "7f797688d0d19ab4350ee7786fa6aabbc79f6598",
+          "message": "Fixes timeout check and string formatting during steps processing (#1083)\n\n* Fixes timeout check and string formatting during steps processing\n\nCorrects the timeout check logic to properly account for the step's maximum time.\n\nAlso, adjusts the string formatting logic to prevent buffer overflows when constructing the error message.\n\n* Fixes condition",
+          "timestamp": "2025-10-27T07:02:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/7f797688d0d19ab4350ee7786fa6aabbc79f6598"
+        },
+        "date": 1761556146245,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.915594579566058,
+            "unit": "us/iter",
+            "extra": "iterations: 41362\ncpu: 16.913582660412942 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.44552392909709,
+            "unit": "us/iter",
+            "extra": "iterations: 6770\ncpu: 104.23833308714917 us\nthreads: 1"
           }
         ]
       }
