@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761548708539,
+  "lastUpdate": 1761548753269,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -69724,6 +69724,42 @@ window.BENCHMARK_DATA = {
             "value": 104.39249251076394,
             "unit": "us/iter",
             "extra": "iterations: 6743\ncpu: 103.20449117603444 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7f797688d0d19ab4350ee7786fa6aabbc79f6598",
+          "message": "Fixes timeout check and string formatting during steps processing (#1083)\n\n* Fixes timeout check and string formatting during steps processing\n\nCorrects the timeout check logic to properly account for the step's maximum time.\n\nAlso, adjusts the string formatting logic to prevent buffer overflows when constructing the error message.\n\n* Fixes condition",
+          "timestamp": "2025-10-27T10:02:42+03:00",
+          "tree_id": "2e79face0e43045ee02296be8c3c56e3cff687dc",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/7f797688d0d19ab4350ee7786fa6aabbc79f6598"
+        },
+        "date": 1761548748946,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.838986526267826,
+            "unit": "us/iter",
+            "extra": "iterations: 44160\ncpu: 15.838187092391307 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 77.67786271944155,
+            "unit": "us/iter",
+            "extra": "iterations: 9171\ncpu: 76.55140213717154 us\nthreads: 1"
           }
         ]
       }
