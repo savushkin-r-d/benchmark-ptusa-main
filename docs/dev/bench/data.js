@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761656681219,
+  "lastUpdate": 1761656748718,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -70154,6 +70154,38 @@ window.BENCHMARK_DATA = {
             "value": 107.11150599733317,
             "unit": "us/iter",
             "extra": "iterations: 6753\ncpu: 105.40349400266548 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "a42fe6951501873b3b0cf73f260ddfe5f64fd121",
+          "message": "[fix] Renames `P_ERR_T` to `P_ERR` and `P_C0` to `P_CZ`",
+          "timestamp": "2025-10-27T07:23:46Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1089/commits/a42fe6951501873b3b0cf73f260ddfe5f64fd121"
+        },
+        "date": 1761656745003,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.929433235562886,
+            "unit": "us/iter",
+            "extra": "iterations: 41594\ncpu: 16.928345266144156 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.1703787518556,
+            "unit": "us/iter",
+            "extra": "iterations: 6730\ncpu: 103.44701054977712 us\nthreads: 1"
           }
         ]
       }
