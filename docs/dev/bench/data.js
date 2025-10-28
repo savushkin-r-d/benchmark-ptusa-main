@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761648073232,
+  "lastUpdate": 1761656681219,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -70118,6 +70118,42 @@ window.BENCHMARK_DATA = {
             "value": 104.63831634160914,
             "unit": "us/iter",
             "extra": "iterations: 6768\ncpu: 103.52795390070925 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d1b5437308870de7bf74d88b93f35318c500bc7a",
+          "message": "Use local previously built Lua (#419)",
+          "timestamp": "2025-10-28T16:01:57+03:00",
+          "tree_id": "b7edb3735588def38d8670e666e68718c99f7f02",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d1b5437308870de7bf74d88b93f35318c500bc7a"
+        },
+        "date": 1761656677857,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.03436499321593,
+            "unit": "us/iter",
+            "extra": "iterations: 41272\ncpu: 17.033293201201783 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.11150599733317,
+            "unit": "us/iter",
+            "extra": "iterations: 6753\ncpu: 105.40349400266548 us\nthreads: 1"
           }
         ]
       }
