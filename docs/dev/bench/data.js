@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761828909302,
+  "lastUpdate": 1761830091703,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -70578,6 +70578,38 @@ window.BENCHMARK_DATA = {
             "value": 106.78927260498575,
             "unit": "us/iter",
             "extra": "iterations: 6691\ncpu: 104.84666925721122 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "ac26a03cad3126223fa2a11101d4dc43c757d9d8",
+          "message": "[WIP] Add error descriptions for sensor E+H.TM311",
+          "timestamp": "2025-10-30T12:45:24Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1093/commits/ac26a03cad3126223fa2a11101d4dc43c757d9d8"
+        },
+        "date": 1761830088248,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.475399389253077,
+            "unit": "us/iter",
+            "extra": "iterations: 39951\ncpu: 17.472887862631726 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.81024942686963,
+            "unit": "us/iter",
+            "extra": "iterations: 6543\ncpu: 104.77585068011618 us\nthreads: 1"
           }
         ]
       }
