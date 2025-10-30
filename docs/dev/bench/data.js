@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761828894409,
+  "lastUpdate": 1761828909302,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -70546,6 +70546,38 @@ window.BENCHMARK_DATA = {
             "value": 104.11052970735915,
             "unit": "us/iter",
             "extra": "iterations: 6766\ncpu: 102.9552171149867 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "c948b68fd8e8d67c769fe56df285033be81d47d2",
+          "message": "Adds LuaSQL submodule",
+          "timestamp": "2025-10-27T07:23:46Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1092/commits/c948b68fd8e8d67c769fe56df285033be81d47d2"
+        },
+        "date": 1761828905665,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.062500642564487,
+            "unit": "us/iter",
+            "extra": "iterations: 41241\ncpu: 17.06137285710822 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.78927260498575,
+            "unit": "us/iter",
+            "extra": "iterations: 6691\ncpu: 104.84666925721122 us\nthreads: 1"
           }
         ]
       }
