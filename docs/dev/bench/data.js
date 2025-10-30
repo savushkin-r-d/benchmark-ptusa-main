@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1761831457927,
+  "lastUpdate": 1761832452784,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -70674,6 +70674,38 @@ window.BENCHMARK_DATA = {
             "value": 105.05062947045009,
             "unit": "us/iter",
             "extra": "iterations: 6515\ncpu: 103.86646277820418 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "7f066a3b31234a6f9521b9855d4c1c8c35f07e92",
+          "message": "[WIP] Fix incorrect values from IO-Link device",
+          "timestamp": "2025-10-30T12:45:24Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1094/commits/7f066a3b31234a6f9521b9855d4c1c8c35f07e92"
+        },
+        "date": 1761832449482,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.863497409194466,
+            "unit": "us/iter",
+            "extra": "iterations: 39370\ncpu: 17.861183642367287 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.38376681681483,
+            "unit": "us/iter",
+            "extra": "iterations: 6660\ncpu: 106.3198063063063 us\nthreads: 1"
           }
         ]
       }
