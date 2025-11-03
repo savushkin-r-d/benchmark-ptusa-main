@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762153913668,
+  "lastUpdate": 1762153927665,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -71162,6 +71162,38 @@ window.BENCHMARK_DATA = {
             "value": 103.25433854399247,
             "unit": "us/iter",
             "extra": "iterations: 6717\ncpu: 102.1199478934048 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "899b2532a58be87cf9c8a36424c2b8a3d2b4decf",
+          "message": "Bump deps/lunarmodules/penlight from `a94f885` to `bd26cb9`",
+          "timestamp": "2025-11-03T07:05:43Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1099/commits/899b2532a58be87cf9c8a36424c2b8a3d2b4decf"
+        },
+        "date": 1762153924129,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.16141790312693,
+            "unit": "us/iter",
+            "extra": "iterations: 40775\ncpu: 17.16073248313918 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.1699070108536,
+            "unit": "us/iter",
+            "extra": "iterations: 6818\ncpu: 102.10986740979762 us\nthreads: 1"
           }
         ]
       }
