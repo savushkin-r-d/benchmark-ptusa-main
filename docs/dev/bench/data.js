@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762154170166,
+  "lastUpdate": 1762154649568,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -71298,6 +71298,38 @@ window.BENCHMARK_DATA = {
             "value": 104.0192547506842,
             "unit": "us/iter",
             "extra": "iterations: 6999\ncpu: 102.92814716388055 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "d843bb32c13c53bf4eada7e47266ade8c80d3110",
+          "message": "Decode IO-Link power supply nominal current codes to amperage values",
+          "timestamp": "2025-11-03T07:12:08Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1094/commits/d843bb32c13c53bf4eada7e47266ade8c80d3110"
+        },
+        "date": 1762154645577,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.177178001472882,
+            "unit": "us/iter",
+            "extra": "iterations: 40730\ncpu: 17.176091676896636 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.33320232319039,
+            "unit": "us/iter",
+            "extra": "iterations: 6801\ncpu: 105.39923981767387 us\nthreads: 1"
           }
         ]
       }
