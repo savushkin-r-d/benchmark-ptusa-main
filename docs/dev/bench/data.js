@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762153024544,
+  "lastUpdate": 1762153032504,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -71026,6 +71026,38 @@ window.BENCHMARK_DATA = {
             "value": 105.18128202463838,
             "unit": "us/iter",
             "extra": "iterations: 6737\ncpu: 104.007668843699 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "96a9f024fb7ed5fe7785ad9ca85f2b28809339af",
+          "message": "[config][cmake] Removes stack protector disabling logic",
+          "timestamp": "2025-10-27T07:23:46Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1100/commits/96a9f024fb7ed5fe7785ad9ca85f2b28809339af"
+        },
+        "date": 1762153029054,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.02760994726388,
+            "unit": "us/iter",
+            "extra": "iterations: 41338\ncpu: 17.025543833760707 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.59783241472037,
+            "unit": "us/iter",
+            "extra": "iterations: 6713\ncpu: 103.44334172501118 us\nthreads: 1"
           }
         ]
       }
