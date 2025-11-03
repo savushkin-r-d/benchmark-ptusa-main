@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762160881637,
+  "lastUpdate": 1762171814050,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -71396,6 +71396,42 @@ window.BENCHMARK_DATA = {
             "value": 103.19200743982253,
             "unit": "us/iter",
             "extra": "iterations: 6855\ncpu: 101.88680889861415 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "945ff21e3da704557810c081b8d479ec6b096a79",
+          "message": "[config][cmake] Removes stack protector disabling logic (#1100)\n\nRemoves the disabling of stack protection and the associated linker flag cleanup. This logic was introduced to resolve linker issues related to `libssp` but is no longer necessary.",
+          "timestamp": "2025-11-03T15:07:43+03:00",
+          "tree_id": "f0d65c6f646c2cf0b49314abf2b05fce6c127bce",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/945ff21e3da704557810c081b8d479ec6b096a79"
+        },
+        "date": 1762171810617,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.36281504245959,
+            "unit": "us/iter",
+            "extra": "iterations: 40512\ncpu: 17.361294924960507 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.41001876476084,
+            "unit": "us/iter",
+            "extra": "iterations: 6768\ncpu: 103.13801300236409 us\nthreads: 1"
           }
         ]
       }
