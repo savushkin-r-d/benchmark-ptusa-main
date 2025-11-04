@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762245844084,
+  "lastUpdate": 1762257916599,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -71592,6 +71592,38 @@ window.BENCHMARK_DATA = {
             "value": 105.72170596137435,
             "unit": "us/iter",
             "extra": "iterations: 5955\ncpu: 104.08281964735517 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "4a3fc9d2bbea8b0062f71e3859a377739d722cf4",
+          "message": "Add cooperative switching",
+          "timestamp": "2025-10-27T07:23:46Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/777/commits/4a3fc9d2bbea8b0062f71e3859a377739d722cf4"
+        },
+        "date": 1762257913054,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.54899122434215,
+            "unit": "us/iter",
+            "extra": "iterations: 39997\ncpu: 17.54730509788234 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.92632915218428,
+            "unit": "us/iter",
+            "extra": "iterations: 6617\ncpu: 105.82456626870183 us\nthreads: 1"
           }
         ]
       }
