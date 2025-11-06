@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762412572443,
+  "lastUpdate": 1762413334473,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -72104,6 +72104,38 @@ window.BENCHMARK_DATA = {
             "value": 103.60643413838498,
             "unit": "us/iter",
             "extra": "iterations: 6749\ncpu: 102.44832878945031 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "d6e7e2f5616a4de6f95a162140285eb88f6e73c2",
+          "message": "Add operation_state:get_name() Lua binding for generic operation scripts",
+          "timestamp": "2025-11-03T12:07:48Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1102/commits/d6e7e2f5616a4de6f95a162140285eb88f6e73c2"
+        },
+        "date": 1762413330963,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.219227901368026,
+            "unit": "us/iter",
+            "extra": "iterations: 40636\ncpu: 17.21743190766808 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.49255570214129,
+            "unit": "us/iter",
+            "extra": "iterations: 6822\ncpu: 104.10043389035474 us\nthreads: 1"
           }
         ]
       }
