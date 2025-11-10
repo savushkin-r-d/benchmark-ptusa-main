@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762770275821,
+  "lastUpdate": 1762771125012,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -72850,6 +72850,38 @@ window.BENCHMARK_DATA = {
             "value": 103.06145496804217,
             "unit": "us/iter",
             "extra": "iterations: 6884\ncpu: 102.05725435793144 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "6a835fda6d325ea6d69522347cce2c950271b871",
+          "message": "Add documentation for E+H TM311 temperature sensor error handling",
+          "timestamp": "2025-11-10T07:49:57Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1093/commits/6a835fda6d325ea6d69522347cce2c950271b871"
+        },
+        "date": 1762771121126,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.91934401564596,
+            "unit": "us/iter",
+            "extra": "iterations: 41408\ncpu: 16.918653521058733 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.3602751717362,
+            "unit": "us/iter",
+            "extra": "iterations: 6843\ncpu: 103.26945667105069 us\nthreads: 1"
           }
         ]
       }
