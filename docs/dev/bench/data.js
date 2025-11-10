@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762780219384,
+  "lastUpdate": 1762781604841,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -72946,6 +72946,38 @@ window.BENCHMARK_DATA = {
             "value": 104.25639976222269,
             "unit": "us/iter",
             "extra": "iterations: 6729\ncpu: 103.10454421162136 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "56a8df8dcc678e6ef30bce43853a73fa57c7bd46",
+          "message": "Add network settings manager for configurable port forwarding",
+          "timestamp": "2025-11-10T07:49:57Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1104/commits/56a8df8dcc678e6ef30bce43853a73fa57c7bd46"
+        },
+        "date": 1762781601055,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.965103972416934,
+            "unit": "us/iter",
+            "extra": "iterations: 41184\ncpu: 16.963433323620826 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 102.47816378935151,
+            "unit": "us/iter",
+            "extra": "iterations: 6893\ncpu: 101.26351603075582 us\nthreads: 1"
           }
         ]
       }
