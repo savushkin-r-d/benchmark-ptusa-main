@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762761087199,
+  "lastUpdate": 1762761280271,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -72460,6 +72460,42 @@ window.BENCHMARK_DATA = {
             "value": 103.38283749813039,
             "unit": "us/iter",
             "extra": "iterations: 6683\ncpu: 102.32449812958255 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "53948ad347eb44cc61ee2ace7aed0a8c14de3c39",
+          "message": "Decode IO-Link power supply nominal current codes to amperage values (#1094)\n\n* Initial plan\n\n* Fix IO-Link power supply nominal current decoding\n\nAdd decode_nominal_current() function to convert 3-bit codes to amperage values.\nUpdate save_device_ex() to display decoded values instead of raw codes.\nUpdate all test expectations to use decoded float values.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Complete: IO-Link power supply nominal current fix verified\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Clean up: remove CodeQL build artifacts from tracking\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refactors code\n\n* Update nominal current decoding: code 0 = 1A, not 0A\n\nChanged decode_nominal_current() to map code 0 to 1.0A instead of 0.0A as per user feedback.\nUpdated all test expectations accordingly.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-11-10T10:49:53+03:00",
+          "tree_id": "f86079902b938f133c3e1c54e16aad62b1b91961",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/53948ad347eb44cc61ee2ace7aed0a8c14de3c39"
+        },
+        "date": 1762761276450,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.188749523287438,
+            "unit": "us/iter",
+            "extra": "iterations: 38283\ncpu: 18.188114829036387 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.89017499629668,
+            "unit": "us/iter",
+            "extra": "iterations: 6743\ncpu: 104.69019101290229 us\nthreads: 1"
           }
         ]
       }
