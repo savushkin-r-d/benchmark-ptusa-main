@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762780209229,
+  "lastUpdate": 1762780219384,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -72914,6 +72914,38 @@ window.BENCHMARK_DATA = {
             "value": 79.93048086358772,
             "unit": "us/iter",
             "extra": "iterations: 9171\ncpu: 79.05142154617816 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "362489fa340c1b4491b671e37236dc4961e4fb05",
+          "message": "[WIP] Add network settings object for port forwarding",
+          "timestamp": "2025-11-10T07:49:57Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1104/commits/362489fa340c1b4491b671e37236dc4961e4fb05"
+        },
+        "date": 1762780215399,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.636660021394054,
+            "unit": "us/iter",
+            "extra": "iterations: 41132\ncpu: 17.63531603131382 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.25639976222269,
+            "unit": "us/iter",
+            "extra": "iterations: 6729\ncpu: 103.10454421162136 us\nthreads: 1"
           }
         ]
       }
