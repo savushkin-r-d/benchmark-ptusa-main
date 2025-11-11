@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762865839731,
+  "lastUpdate": 1762865883338,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74050,6 +74050,38 @@ window.BENCHMARK_DATA = {
             "value": 106.14461241561419,
             "unit": "us/iter",
             "extra": "iterations: 6814\ncpu: 105.03159729967713 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "b2d75aedb0eb03aaa2d7ec631b0d7eeba7972654",
+          "message": "[config][github actions] Fixes `ccache` configuration",
+          "timestamp": "2025-11-11T09:05:38Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1110/commits/b2d75aedb0eb03aaa2d7ec631b0d7eeba7972654"
+        },
+        "date": 1762865879386,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.6256072586832,
+            "unit": "us/iter",
+            "extra": "iterations: 40393\ncpu: 17.62352291238581 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.32692330514755,
+            "unit": "us/iter",
+            "extra": "iterations: 6741\ncpu: 105.88878489838307 us\nthreads: 1"
           }
         ]
       }
