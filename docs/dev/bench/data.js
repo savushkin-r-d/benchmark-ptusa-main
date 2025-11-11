@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762845617352,
+  "lastUpdate": 1762845624807,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -73270,6 +73270,42 @@ window.BENCHMARK_DATA = {
             "value": 104.04321016747866,
             "unit": "us/iter",
             "extra": "iterations: 6747\ncpu: 102.90663198458577 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1d7a529bd410282abe489bec7dd84f8c80ec33a2",
+          "message": "[config][github actions] Installs `unixodbc-dev` for SonarCloud analysis (#1106)",
+          "timestamp": "2025-11-11T10:17:33+03:00",
+          "tree_id": "aecd66ec5b3cd6040d5e5430bf17024602f1775e",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/1d7a529bd410282abe489bec7dd84f8c80ec33a2"
+        },
+        "date": 1762845621094,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.980745398027988,
+            "unit": "us/iter",
+            "extra": "iterations: 41178\ncpu: 16.97991235611249 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.3522222715162,
+            "unit": "us/iter",
+            "extra": "iterations: 6762\ncpu: 102.20672922212366 us\nthreads: 1"
           }
         ]
       }
