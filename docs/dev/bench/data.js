@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762870772608,
+  "lastUpdate": 1762870797635,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74278,6 +74278,38 @@ window.BENCHMARK_DATA = {
             "value": 102.6830082951955,
             "unit": "us/iter",
             "extra": "iterations: 6992\ncpu: 101.6638209382151 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "8c59beea77c493f3635f206ba83bed9d811a2a19",
+          "message": "[config][github actions] Configures `CMake` build for `CodeQL` analysis",
+          "timestamp": "2025-11-11T09:05:38Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1111/commits/8c59beea77c493f3635f206ba83bed9d811a2a19"
+        },
+        "date": 1762870793095,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.133566355048977,
+            "unit": "us/iter",
+            "extra": "iterations: 40969\ncpu: 17.132216139031954 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.44861304347894,
+            "unit": "us/iter",
+            "extra": "iterations: 6900\ncpu: 102.36669217391304 us\nthreads: 1"
           }
         ]
       }
