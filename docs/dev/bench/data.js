@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762866914068,
+  "lastUpdate": 1762867089030,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74146,6 +74146,42 @@ window.BENCHMARK_DATA = {
             "value": 79.0202739191635,
             "unit": "us/iter",
             "extra": "iterations: 9229\ncpu: 77.9183783725214 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "ebf6f303db5eccb54889e437e95704b6fe6a4304",
+          "message": "[config][github actions] Fixes `ccache` configuration (#1110)\n\n* Fixes `ccache` configuration\n\n* Updates `ccache` action to latest version\n\n* Installs `unixodbc-dev` before `ccache` setup",
+          "timestamp": "2025-11-11T16:15:06+03:00",
+          "tree_id": "8a2a9a51bbee516e5f1f2dcb4afba6a110709229",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/ebf6f303db5eccb54889e437e95704b6fe6a4304"
+        },
+        "date": 1762867084985,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.902172405472797,
+            "unit": "us/iter",
+            "extra": "iterations: 41443\ncpu: 16.900572810848637 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.8940257084443,
+            "unit": "us/iter",
+            "extra": "iterations: 6846\ncpu: 103.50090534618754 us\nthreads: 1"
           }
         ]
       }
