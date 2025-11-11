@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762851463214,
+  "lastUpdate": 1762851481561,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -73662,6 +73662,38 @@ window.BENCHMARK_DATA = {
             "value": 104.25576821386596,
             "unit": "us/iter",
             "extra": "iterations: 6808\ncpu: 102.9515572855464 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "15599f1f5312a6f5fe482d8cc9abd8dd57a3ceda",
+          "message": "Add network settings manager for configurable port forwarding with Monitor client control",
+          "timestamp": "2025-11-11T08:54:04Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1104/commits/15599f1f5312a6f5fe482d8cc9abd8dd57a3ceda"
+        },
+        "date": 1762851477695,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.041989371038934,
+            "unit": "us/iter",
+            "extra": "iterations: 41020\ncpu: 17.039234519746465 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.28772428592642,
+            "unit": "us/iter",
+            "extra": "iterations: 6757\ncpu: 104.49524596714518 us\nthreads: 1"
           }
         ]
       }
