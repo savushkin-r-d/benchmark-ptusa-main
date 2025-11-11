@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762842766554,
+  "lastUpdate": 1762844795290,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -73074,6 +73074,42 @@ window.BENCHMARK_DATA = {
             "value": 105.36208980723934,
             "unit": "us/iter",
             "extra": "iterations: 6848\ncpu: 104.34140026285044 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0d7d6ae7c4644bf3402a3f526f9707e840a8f487",
+          "message": "Adds `LuaSQL` submodule (#1092)",
+          "timestamp": "2025-11-11T10:03:56+03:00",
+          "tree_id": "a90769e8a1ddd39731f7c11fc817e7b7019485da",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/0d7d6ae7c4644bf3402a3f526f9707e840a8f487"
+        },
+        "date": 1762844791450,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.340730083469605,
+            "unit": "us/iter",
+            "extra": "iterations: 40494\ncpu: 17.339406801007556 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.49587132031513,
+            "unit": "us/iter",
+            "extra": "iterations: 6862\ncpu: 103.44752608568929 us\nthreads: 1"
           }
         ]
       }
