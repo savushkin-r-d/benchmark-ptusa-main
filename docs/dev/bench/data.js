@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762867113647,
+  "lastUpdate": 1762867839806,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74214,6 +74214,38 @@ window.BENCHMARK_DATA = {
             "value": 101.95275978056937,
             "unit": "us/iter",
             "extra": "iterations: 6927\ncpu: 100.78424065251912 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "c3e4ea63781e548fcb1f4d67e818d50123236f9c",
+          "message": "[fix] Fixes typo in AsyncReceive function name",
+          "timestamp": "2025-11-11T09:05:38Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1105/commits/c3e4ea63781e548fcb1f4d67e818d50123236f9c"
+        },
+        "date": 1762867835932,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.062824198053576,
+            "unit": "us/iter",
+            "extra": "iterations: 41524\ncpu: 17.05991515749928 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.37959921592467,
+            "unit": "us/iter",
+            "extra": "iterations: 6632\ncpu: 104.49296562123037 us\nthreads: 1"
           }
         ]
       }
