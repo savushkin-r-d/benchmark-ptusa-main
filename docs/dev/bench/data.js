@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762942668694,
+  "lastUpdate": 1762953775586,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74682,6 +74682,42 @@ window.BENCHMARK_DATA = {
             "value": 107.3679784527952,
             "unit": "us/iter",
             "extra": "iterations: 6683\ncpu: 105.86860885829715 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4172b973af10b3205bb28e75840c3d84a0c3cd97",
+          "message": "Adds documentation for `E+H` `TM311` temperature sensor (#1093)\n\n* Initial plan\n\n* Add comprehensive documentation for E+H TM311 temperature sensor\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Update README files with links to device documentation\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add user guide for TM311 sensor for APCS engineers\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Wrap documentation lines to maximum 80 characters\n\n- Wrapped long lines in all documentation files to comply with 80 char limit\n- Preserved code blocks, tables, and URLs\n- Maintained markdown formatting and readability\n- Results:\n  - TM311_user_guide.md: 99.6% compliant (1/270 lines over 79)\n  - TM311.md: 93.2% compliant (18/265 lines over 79)\n  - README.md: 100% compliant\n  - russian_readme/readme.md: 96.4% compliant (8/223)\n  - readme.md: 94.8% compliant (12/229)\n\nRemaining long lines are mainly URLs, table content, and Mermaid diagrams\nwhich cannot be meaningfully wrapped.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Ensure all lists are surrounded by blank lines\n\n- Added blank lines before and after all lists in documentation\n- Fixed numbered lists with sub-bullets to have proper spacing\n- Ensured compliance with markdown best practices\n- All bullet lists (-) and numbered lists now properly formatted\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix markdown formatting: remove multiple blanks, add header spacing, add periods\n\n- Removed multiple consecutive blank lines (max 1 blank line)\n- Ensured all headers are separated by blank lines before and after\n- Added periods to sentences that were missing them\n- Fixed continuation lines to not have incorrect periods\n- All documentation now follows consistent markdown formatting rules\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Remove trailing punctuation from headings and convert emphasized separators to proper headings\n\n- Removed trailing punctuation (colons, periods, etc.) from all headings\n- Converted emphasized text (**bold**) used as section separators to proper\n  Markdown headings with appropriate levels\n- Kept inline bold labels (like **Описание:**, **Причина:**) as they are\n  content labels, not section headings\n- All headings now comply with style guidelines\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Updates images and fixes minor issues in README\n\n* Improves readability of badge links in README\n\nReformats badge links in the README file to improve\nreadability by using line breaks.\n\n* [review] Fixes code style\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\n\n* [review] Изменения после рецензирования\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\nCo-authored-by: SergeiSilakov <139815520+SergeiSilakov@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\nCo-authored-by: SergeiSilakov <139815520+SergeiSilakov@users.noreply.github.com>",
+          "timestamp": "2025-11-12T16:20:01+03:00",
+          "tree_id": "fd4d8c7373219163174bf40a414e263315412f18",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/4172b973af10b3205bb28e75840c3d84a0c3cd97"
+        },
+        "date": 1762953771816,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.115265050275244,
+            "unit": "us/iter",
+            "extra": "iterations: 38687\ncpu: 18.114990151730556 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.37171714719331,
+            "unit": "us/iter",
+            "extra": "iterations: 6590\ncpu: 106.02870227617605 us\nthreads: 1"
           }
         ]
       }
