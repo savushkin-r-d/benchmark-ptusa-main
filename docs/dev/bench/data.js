@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762941423740,
+  "lastUpdate": 1762941581486,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74514,6 +74514,38 @@ window.BENCHMARK_DATA = {
             "value": 103.2008641886042,
             "unit": "us/iter",
             "extra": "iterations: 6914\ncpu: 102.06598409025169 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "a39fcb6e57fed452ffe54e851c67054b0d7d2c30",
+          "message": "Add documentation for `E+H` `TM311` temperature sensor",
+          "timestamp": "2025-11-12T08:48:07Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1093/commits/a39fcb6e57fed452ffe54e851c67054b0d7d2c30"
+        },
+        "date": 1762941577555,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.047228906653828,
+            "unit": "us/iter",
+            "extra": "iterations: 38780\ncpu: 18.04609548736462 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.13337893337429,
+            "unit": "us/iter",
+            "extra": "iterations: 6769\ncpu: 104.58749963066923 us\nthreads: 1"
           }
         ]
       }
