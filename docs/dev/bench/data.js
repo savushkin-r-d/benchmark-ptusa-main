@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762929806137,
+  "lastUpdate": 1762937465102,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74342,6 +74342,42 @@ window.BENCHMARK_DATA = {
             "value": 104.79183338171094,
             "unit": "us/iter",
             "extra": "iterations: 6890\ncpu: 103.68943280116109 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f36c0ae5a28f5720e711c1236f4954e79203c630",
+          "message": "[config][github actions] Configures `CMake` build for `CodeQL` analysis (#1111)\n\n* [config][github actions] Configures CMake build for CodeQL analysis\n\nReplaces the default CodeQL autobuild process with a manual CMake configuration and build.\n\n* Enables manual triggering of CodeQL workflow",
+          "timestamp": "2025-11-12T11:48:02+03:00",
+          "tree_id": "341d0ad1f658f3dec7fbdbed9c66a4229da7031c",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/f36c0ae5a28f5720e711c1236f4954e79203c630"
+        },
+        "date": 1762937461149,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.40255562152144,
+            "unit": "us/iter",
+            "extra": "iterations: 40425\ncpu: 17.40147156462585 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.548036801653,
+            "unit": "us/iter",
+            "extra": "iterations: 6766\ncpu: 102.17621120307417 us\nthreads: 1"
           }
         ]
       }
