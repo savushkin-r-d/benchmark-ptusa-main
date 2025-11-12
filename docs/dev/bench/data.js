@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762941410318,
+  "lastUpdate": 1762941423740,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74478,6 +74478,42 @@ window.BENCHMARK_DATA = {
             "value": 104.08425113155069,
             "unit": "us/iter",
             "extra": "iterations: 6849\ncpu: 102.95601284859104 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5de97b08db9237ad7ea1b3fb445f41f13aa1cc84",
+          "message": "Add `operation::get_name()` Lua binding for generic operation scripts (#1102)",
+          "timestamp": "2025-11-12T12:54:16+03:00",
+          "tree_id": "4bd02ccba22314900db610343d062663a4c3c7e2",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5de97b08db9237ad7ea1b3fb445f41f13aa1cc84"
+        },
+        "date": 1762941419855,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.56292482198658,
+            "unit": "us/iter",
+            "extra": "iterations: 40025\ncpu: 17.56224739537789 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.2008641886042,
+            "unit": "us/iter",
+            "extra": "iterations: 6914\ncpu: 102.06598409025169 us\nthreads: 1"
           }
         ]
       }
