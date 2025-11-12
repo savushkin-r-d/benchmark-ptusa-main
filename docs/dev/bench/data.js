@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762953775586,
+  "lastUpdate": 1762956917625,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74718,6 +74718,38 @@ window.BENCHMARK_DATA = {
             "value": 107.37171714719331,
             "unit": "us/iter",
             "extra": "iterations: 6590\ncpu: 106.02870227617605 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "c5bfba387047bd3d7f52b449dc049cfce49d2017",
+          "message": "[config][cmale] Fixes install script to include build type",
+          "timestamp": "2025-11-12T10:26:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1113/commits/c5bfba387047bd3d7f52b449dc049cfce49d2017"
+        },
+        "date": 1762956913418,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.11052940172223,
+            "unit": "us/iter",
+            "extra": "iterations: 41001\ncpu: 17.10937608838809 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.72570319771889,
+            "unit": "us/iter",
+            "extra": "iterations: 6661\ncpu: 105.68309443026571 us\nthreads: 1"
           }
         ]
       }
