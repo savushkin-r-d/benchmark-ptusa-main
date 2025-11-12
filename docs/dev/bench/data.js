@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1762937588923,
+  "lastUpdate": 1762941410318,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74442,6 +74442,42 @@ window.BENCHMARK_DATA = {
             "value": 103.65368415682715,
             "unit": "us/iter",
             "extra": "iterations: 6861\ncpu: 102.32667337122867 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "87f8e73041380904ebe923cd1a8bb4d62c53655e",
+          "message": "[fix] Fixes typo in `AsyncReceive` function name (#1105)",
+          "timestamp": "2025-11-12T12:53:45+03:00",
+          "tree_id": "b94aed2e3b0d7953979c70738f82c6ee17af98cc",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/87f8e73041380904ebe923cd1a8bb4d62c53655e"
+        },
+        "date": 1762941406232,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.806241909151787,
+            "unit": "us/iter",
+            "extra": "iterations: 41652\ncpu: 16.804854556803996 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.08425113155069,
+            "unit": "us/iter",
+            "extra": "iterations: 6849\ncpu: 102.95601284859104 us\nthreads: 1"
           }
         ]
       }
