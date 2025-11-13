@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763022767445,
+  "lastUpdate": 1763037185808,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74882,6 +74882,38 @@ window.BENCHMARK_DATA = {
             "value": 107.25866873705901,
             "unit": "us/iter",
             "extra": "iterations: 6762\ncpu: 106.15759257616091 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "9748a971212f532c2cf4917986ad3a3e60675a61",
+          "message": "Fixes idle time calculation",
+          "timestamp": "2025-11-12T10:26:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1114/commits/9748a971212f532c2cf4917986ad3a3e60675a61"
+        },
+        "date": 1763037181969,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.171358751014665,
+            "unit": "us/iter",
+            "extra": "iterations: 40641\ncpu: 17.17004301075269 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.5207394881189,
+            "unit": "us/iter",
+            "extra": "iterations: 6564\ncpu: 107.40773750761731 us\nthreads: 1"
           }
         ]
       }
