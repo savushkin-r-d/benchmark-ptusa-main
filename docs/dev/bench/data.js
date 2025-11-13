@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763012698491,
+  "lastUpdate": 1763022767445,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -74846,6 +74846,42 @@ window.BENCHMARK_DATA = {
             "value": 106.0819016001188,
             "unit": "us/iter",
             "extra": "iterations: 6687\ncpu: 104.95800643038734 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "af7446cfb9875331c6906fc2a5720712b3714bf6",
+          "message": "[config][cmale] Fixes install script to include build type (#1113)",
+          "timestamp": "2025-11-13T11:29:53+03:00",
+          "tree_id": "cefcfaba14b05116b6e34c00d392be972828ba61",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/af7446cfb9875331c6906fc2a5720712b3714bf6"
+        },
+        "date": 1763022763678,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.384391275117682,
+            "unit": "us/iter",
+            "extra": "iterations: 40161\ncpu: 18.382743208585445 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.25866873705901,
+            "unit": "us/iter",
+            "extra": "iterations: 6762\ncpu: 106.15759257616091 us\nthreads: 1"
           }
         ]
       }
