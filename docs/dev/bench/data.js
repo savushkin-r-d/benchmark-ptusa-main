@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763356155204,
+  "lastUpdate": 1763370527746,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -75046,6 +75046,40 @@ window.BENCHMARK_DATA = {
             "value": 107.0427554453959,
             "unit": "us/iter",
             "extra": "iterations: 6657\ncpu: 105.5422657353162 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e57dc1bc1fc88dcc1dc90a14566d649652c067ba",
+          "message": "Fixes idle time calculation (#1114)\n\nThis commit changes the `get_idle_time` function to return seconds instead of milliseconds.\nIt also updates the calling code to handle the new unit of time.",
+          "timestamp": "2025-11-14T12:48:01Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e57dc1bc1fc88dcc1dc90a14566d649652c067ba"
+        },
+        "date": 1763370524137,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.00056272436014,
+            "unit": "us/iter",
+            "extra": "iterations: 41507\ncpu: 16.998245187558727 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.14274539786312,
+            "unit": "us/iter",
+            "extra": "iterations: 6736\ncpu: 104.03390691805224 us\nthreads: 1"
           }
         ]
       }
