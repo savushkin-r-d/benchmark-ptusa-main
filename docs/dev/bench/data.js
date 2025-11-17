@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763356148438,
+  "lastUpdate": 1763356155204,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -75014,6 +75014,38 @@ window.BENCHMARK_DATA = {
             "value": 107.13651350540061,
             "unit": "us/iter",
             "extra": "iterations: 6664\ncpu: 105.99930102040815 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "49476a39310c6d5385f5d000671ae7f1ebc13af0",
+          "message": "[WIP] Improve pause message details based on conditions",
+          "timestamp": "2025-11-14T12:48:05Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1115/commits/49476a39310c6d5385f5d000671ae7f1ebc13af0"
+        },
+        "date": 1763356151570,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.41794759371527,
+            "unit": "us/iter",
+            "extra": "iterations: 40415\ncpu: 17.415584634417915 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.0427554453959,
+            "unit": "us/iter",
+            "extra": "iterations: 6657\ncpu: 105.5422657353162 us\nthreads: 1"
           }
         ]
       }
