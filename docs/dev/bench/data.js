@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763975335003,
+  "lastUpdate": 1763975361440,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -75434,6 +75434,38 @@ window.BENCHMARK_DATA = {
             "value": 78.51338660021999,
             "unit": "us/iter",
             "extra": "iterations: 9030\ncpu: 77.01193034330011 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "284df1d8ebdaf3960f487cf0873df7800d79af16",
+          "message": "[test] Adds a destructor to reset the time",
+          "timestamp": "2025-11-14T12:51:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1122/commits/284df1d8ebdaf3960f487cf0873df7800d79af16"
+        },
+        "date": 1763975357098,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.405857125120875,
+            "unit": "us/iter",
+            "extra": "iterations: 40273\ncpu: 17.402374096789412 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.48701632469522,
+            "unit": "us/iter",
+            "extra": "iterations: 6677\ncpu: 104.86510948030553 us\nthreads: 1"
           }
         ]
       }
