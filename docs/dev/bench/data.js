@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763963179342,
+  "lastUpdate": 1763963244411,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -75272,6 +75272,38 @@ window.BENCHMARK_DATA = {
             "value": 107.04799267845829,
             "unit": "us/iter",
             "extra": "iterations: 6556\ncpu: 105.93342220866387 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "f43a416622b1fa79bbe839c632c6ce58791798df",
+          "message": "[tests] Fixes `recvtimeout` test",
+          "timestamp": "2025-11-14T12:51:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1120/commits/f43a416622b1fa79bbe839c632c6ce58791798df"
+        },
+        "date": 1763963240343,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.98289811885729,
+            "unit": "us/iter",
+            "extra": "iterations: 41411\ncpu: 16.98157335007607 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.62520168601674,
+            "unit": "us/iter",
+            "extra": "iterations: 6287\ncpu: 106.68883760139973 us\nthreads: 1"
           }
         ]
       }
