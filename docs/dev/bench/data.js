@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763986519059,
+  "lastUpdate": 1763986566448,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -75702,6 +75702,42 @@ window.BENCHMARK_DATA = {
             "value": 106.91459157481502,
             "unit": "us/iter",
             "extra": "iterations: 6623\ncpu: 105.76637248980823 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9509eeb6b87b47e209d80aece53e50b3071ab583",
+          "message": "[test] Fixes `recvtimeout` test (#1120)\n\nUpdates recvtimeout test to ensure it accurately tests the timeout functionality.",
+          "timestamp": "2025-11-24T15:12:55+03:00",
+          "tree_id": "7bea590ef100eb90b634e6225c9bec8d24164d3f",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/9509eeb6b87b47e209d80aece53e50b3071ab583"
+        },
+        "date": 1763986562342,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.142281582471316,
+            "unit": "us/iter",
+            "extra": "iterations: 41075\ncpu: 17.141259695678638 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.70017853908719,
+            "unit": "us/iter",
+            "extra": "iterations: 6626\ncpu: 105.67466193782072 us\nthreads: 1"
           }
         ]
       }
