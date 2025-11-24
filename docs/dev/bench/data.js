@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763986332567,
+  "lastUpdate": 1763986498075,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -75634,6 +75634,42 @@ window.BENCHMARK_DATA = {
             "value": 107.78217274645455,
             "unit": "us/iter",
             "extra": "iterations: 6634\ncpu: 106.63908788061502 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "dda131578a9f4d0c6ed41db6b47260812cf1921b",
+          "message": "[test] Improves open seat action test reliability (#1121)\n\nUpdates the open seat action test to use a time-mocking\nmechanism instead of `sleep_ms`. This avoids timing issues\nand makes the test more reliable. Also increases flip interval\nand duration to more reasonable values.",
+          "timestamp": "2025-11-24T15:11:40+03:00",
+          "tree_id": "eb7dc541f589a27088bd1b37ceba23156f9f8afd",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/dda131578a9f4d0c6ed41db6b47260812cf1921b"
+        },
+        "date": 1763986493981,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.84634867154415,
+            "unit": "us/iter",
+            "extra": "iterations: 41552\ncpu: 16.845599393530996 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.55538401088249,
+            "unit": "us/iter",
+            "extra": "iterations: 6617\ncpu: 104.24938370862925 us\nthreads: 1"
           }
         ]
       }
