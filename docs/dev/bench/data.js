@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763975184485,
+  "lastUpdate": 1763975229344,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -75368,6 +75368,38 @@ window.BENCHMARK_DATA = {
             "value": 77.58753362397988,
             "unit": "us/iter",
             "extra": "iterations: 9175\ncpu: 76.5934999455041 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "6ff9cd7f4e9f43ed45245e18ff0db2774dfa3b26",
+          "message": "Improves open seat action test reliability",
+          "timestamp": "2025-11-14T12:51:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1121/commits/6ff9cd7f4e9f43ed45245e18ff0db2774dfa3b26"
+        },
+        "date": 1763975224709,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.95978929483741,
+            "unit": "us/iter",
+            "extra": "iterations: 41494\ncpu: 16.95776690605871 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.84447359710971,
+            "unit": "us/iter",
+            "extra": "iterations: 6647\ncpu: 105.83534752519937 us\nthreads: 1"
           }
         ]
       }
