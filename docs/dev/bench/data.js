@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1763982902490,
+  "lastUpdate": 1763983104334,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -75566,6 +75566,42 @@ window.BENCHMARK_DATA = {
             "value": 79.06827670714101,
             "unit": "us/iter",
             "extra": "iterations: 8977\ncpu: 78.20240648323494 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3ae97ddbd0637cffacda748f1a8dd55e0ebfffd2",
+          "message": "Bump actions/checkout from 5.0.0 to 6.0.0 (#1119)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 5.0.0 to 6.0.0.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/08c6903cd8c0fde910a37f88322edcfb5dd907a8...1af3b93b6815bc44a9784bd300feb67ff0d1eeb3)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-version: 6.0.0\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dima Dvoraninovich <113066705+Lictwin@users.noreply.github.com>",
+          "timestamp": "2025-11-24T11:15:17Z",
+          "tree_id": "64020b69f4510a654599c987d8e5c1ed92733436",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/3ae97ddbd0637cffacda748f1a8dd55e0ebfffd2"
+        },
+        "date": 1763983100236,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.72439587308882,
+            "unit": "us/iter",
+            "extra": "iterations: 39303\ncpu: 17.723154008599852 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.45220075643225,
+            "unit": "us/iter",
+            "extra": "iterations: 6610\ncpu: 107.33574145234492 us\nthreads: 1"
           }
         ]
       }
