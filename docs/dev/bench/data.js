@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764049075092,
+  "lastUpdate": 1764078420065,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -75898,6 +75898,38 @@ window.BENCHMARK_DATA = {
             "value": 106.82501713441684,
             "unit": "us/iter",
             "extra": "iterations: 6770\ncpu: 105.61308183161006 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "dc39981ecead43bbb604a30b177dad122f04efcf",
+          "message": "[WIP] Fix incorrect display of time exceeded message",
+          "timestamp": "2025-11-24T12:13:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1125/commits/dc39981ecead43bbb604a30b177dad122f04efcf"
+        },
+        "date": 1764078415765,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.39617919046484,
+            "unit": "us/iter",
+            "extra": "iterations: 40270\ncpu: 17.395445766078968 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.75944740080163,
+            "unit": "us/iter",
+            "extra": "iterations: 6502\ncpu: 105.37681513380498 us\nthreads: 1"
           }
         ]
       }
