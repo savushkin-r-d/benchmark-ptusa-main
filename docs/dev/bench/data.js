@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764248157855,
+  "lastUpdate": 1764248812790,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -76282,6 +76282,38 @@ window.BENCHMARK_DATA = {
             "value": 105.36234903417827,
             "unit": "us/iter",
             "extra": "iterations: 6730\ncpu: 104.3250684992571 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "60670f2b87ab90d58d658848b2914fe1e6d1d21f",
+          "message": "Adds specific `E+H` `PMP23` article numbers",
+          "timestamp": "2025-11-14T12:51:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1128/commits/60670f2b87ab90d58d658848b2914fe1e6d1d21f"
+        },
+        "date": 1764248807477,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.032305267257986,
+            "unit": "us/iter",
+            "extra": "iterations: 43647\ncpu: 16.03066721653264 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 78.10215215006579,
+            "unit": "us/iter",
+            "extra": "iterations: 9116\ncpu: 77.07054387889426 us\nthreads: 1"
           }
         ]
       }
