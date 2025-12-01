@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764593066859,
+  "lastUpdate": 1764593115672,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -76932,6 +76932,38 @@ window.BENCHMARK_DATA = {
             "value": 105.94232889704477,
             "unit": "us/iter",
             "extra": "iterations: 6537\ncpu: 104.8218768548264 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "9694353eea25af44800e932695d71c1a4e1e66b4",
+          "message": "[test] Adds a destructor to reset the time in `DeltaMilliSecSubHooker`",
+          "timestamp": "2025-11-14T12:51:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1122/commits/9694353eea25af44800e932695d71c1a4e1e66b4"
+        },
+        "date": 1764593111210,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.240748670212653,
+            "unit": "us/iter",
+            "extra": "iterations: 40608\ncpu: 17.239358402285266 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.64720297951776,
+            "unit": "us/iter",
+            "extra": "iterations: 6444\ncpu: 107.41931626319058 us\nthreads: 1"
           }
         ]
       }
