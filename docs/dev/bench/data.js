@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764599513658,
+  "lastUpdate": 1764599769113,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -77166,6 +77166,42 @@ window.BENCHMARK_DATA = {
             "value": 79.2321467889892,
             "unit": "us/iter",
             "extra": "iterations: 9156\ncpu: 78.37764897335082 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2ad60b1a1c370fdf80cd1a57072d1e16b74fea52",
+          "message": "[test] Adds a destructor to reset the time in `DeltaMilliSecSubHooker` (#1122)\n\n* [test] Adds a destructor to reset the time\n\nAdds a destructor to the `DeltaMilliSecSubHooker` class to ensure that the default time is restored when the object goes out of scope.\n\n* Adds deleted assignment operator to class\n\nAdds the deleted assignment operator to the class to prevent accidental copying.\nThis ensures that the class behaves as intended and avoids potential issues related to unintended object duplication.\n\n---------\n\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2025-12-01T14:18:48Z",
+          "tree_id": "87e2c8b9b6c5eb3cbd40b18ffd5d59b02c7f2506",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2ad60b1a1c370fdf80cd1a57072d1e16b74fea52"
+        },
+        "date": 1764599763880,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.826299827633127,
+            "unit": "us/iter",
+            "extra": "iterations: 44092\ncpu: 15.825486732287038 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 78.19451412553747,
+            "unit": "us/iter",
+            "extra": "iterations: 9097\ncpu: 77.1276360338573 us\nthreads: 1"
           }
         ]
       }
