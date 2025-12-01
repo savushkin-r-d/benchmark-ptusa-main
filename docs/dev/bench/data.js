@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764598889690,
+  "lastUpdate": 1764598924135,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -77064,6 +77064,40 @@ window.BENCHMARK_DATA = {
             "value": 106.62083535762503,
             "unit": "us/iter",
             "extra": "iterations: 6669\ncpu: 105.43647953216376 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "2ad60b1a1c370fdf80cd1a57072d1e16b74fea52",
+          "message": "[test] Adds a destructor to reset the time in `DeltaMilliSecSubHooker` (#1122)\n\n* [test] Adds a destructor to reset the time\n\nAdds a destructor to the `DeltaMilliSecSubHooker` class to ensure that the default time is restored when the object goes out of scope.\n\n* Adds deleted assignment operator to class\n\nAdds the deleted assignment operator to the class to prevent accidental copying.\nThis ensures that the class behaves as intended and avoids potential issues related to unintended object duplication.\n\n---------\n\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2025-12-01T14:18:48Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2ad60b1a1c370fdf80cd1a57072d1e16b74fea52"
+        },
+        "date": 1764598919817,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.923181297756358,
+            "unit": "us/iter",
+            "extra": "iterations: 41225\ncpu: 16.92256016979988 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.59830306621377,
+            "unit": "us/iter",
+            "extra": "iterations: 6751\ncpu: 103.4387432972893 us\nthreads: 1"
           }
         ]
       }
