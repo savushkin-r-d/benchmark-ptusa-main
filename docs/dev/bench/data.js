@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764592861740,
+  "lastUpdate": 1764592943196,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -76768,6 +76768,38 @@ window.BENCHMARK_DATA = {
             "value": 105.05183395107596,
             "unit": "us/iter",
             "extra": "iterations: 6745\ncpu: 103.90998428465531 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "f8ea2107ff35931ef3f1aa3dd8ebd6f9c50fbed2",
+          "message": "Optimize compression and device lookup performance",
+          "timestamp": "2025-12-01T08:14:57Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1123/commits/f8ea2107ff35931ef3f1aa3dd8ebd6f9c50fbed2"
+        },
+        "date": 1764592939016,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.517180794571686,
+            "unit": "us/iter",
+            "extra": "iterations: 40676\ncpu: 17.516626880715904 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.4033902960041,
+            "unit": "us/iter",
+            "extra": "iterations: 6554\ncpu: 105.40788693927375 us\nthreads: 1"
           }
         ]
       }
