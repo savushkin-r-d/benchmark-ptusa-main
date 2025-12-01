@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764592809628,
+  "lastUpdate": 1764592829088,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -76704,6 +76704,38 @@ window.BENCHMARK_DATA = {
             "value": 107.45013990895035,
             "unit": "us/iter",
             "extra": "iterations: 6590\ncpu: 106.48274688922612 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "bc61b8e35f80454b385827859da5ad99ce557cdf",
+          "message": "Fix UTF-8 truncation in max step time exceeded message",
+          "timestamp": "2025-12-01T08:14:57Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1125/commits/bc61b8e35f80454b385827859da5ad99ce557cdf"
+        },
+        "date": 1764592824922,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.283816966908596,
+            "unit": "us/iter",
+            "extra": "iterations: 40856\ncpu: 17.2825855688271 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.04615283520323,
+            "unit": "us/iter",
+            "extra": "iterations: 6772\ncpu: 103.95577008269346 us\nthreads: 1"
           }
         ]
       }
