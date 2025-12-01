@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764555816518,
+  "lastUpdate": 1764555824624,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -76346,6 +76346,38 @@ window.BENCHMARK_DATA = {
             "value": 106.08987304216811,
             "unit": "us/iter",
             "extra": "iterations: 6640\ncpu: 104.80023448795181 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "32ec552ce16f29c1eced5c940695c54df89922ca",
+          "message": "Bump deps/lunarmodules/luasql/luasql from `e63a3a1` to `6cf42d0`",
+          "timestamp": "2025-11-26T09:07:29Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1134/commits/32ec552ce16f29c1eced5c940695c54df89922ca"
+        },
+        "date": 1764555820651,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.074373197625494,
+            "unit": "us/iter",
+            "extra": "iterations: 41265\ncpu: 17.073369974554705 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.09086676852662,
+            "unit": "us/iter",
+            "extra": "iterations: 6545\ncpu: 104.850233460657 us\nthreads: 1"
           }
         ]
       }
