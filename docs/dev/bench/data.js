@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764598865269,
+  "lastUpdate": 1764598889690,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -77030,6 +77030,40 @@ window.BENCHMARK_DATA = {
             "value": 108.21014122079941,
             "unit": "us/iter",
             "extra": "iterations: 6635\ncpu: 107.03523828183874 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Copilot",
+            "username": "Copilot",
+            "email": "198982749+Copilot@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "fc669eb100fb63a4e9dbc0a7bb050b92c062cfcc",
+          "message": "Fix UTF-8 truncation in max step time exceeded message (#1125)\n\n* Initial plan\n\n* Fix UTF-8 truncation in check_max_step_time message\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Improve comments for UTF-8 truncation logic\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Increases error message string size\n\nIncreases the size of the error message string to accommodate potentially longer error messages.\nThis prevents truncation of error information, aiding in troubleshooting.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-12-01T14:17:57Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/fc669eb100fb63a4e9dbc0a7bb050b92c062cfcc"
+        },
+        "date": 1764598885666,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.95167238373636,
+            "unit": "us/iter",
+            "extra": "iterations: 39006\ncpu: 17.950068374096293 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.62083535762503,
+            "unit": "us/iter",
+            "extra": "iterations: 6669\ncpu: 105.43647953216376 us\nthreads: 1"
           }
         ]
       }
