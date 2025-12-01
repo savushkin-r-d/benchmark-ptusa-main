@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764598924135,
+  "lastUpdate": 1764599284804,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -77098,6 +77098,40 @@ window.BENCHMARK_DATA = {
             "value": 104.59830306621377,
             "unit": "us/iter",
             "extra": "iterations: 6751\ncpu: 103.4387432972893 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "311450f549615977dfc44540ec4c2fbd8862c570",
+          "message": "Adds specific `E+H` `PMP23` article numbers (#1128)\n\n* Adds specific `E+H` `PMP23` article numbers\n\nExtends the supported article numbers for the `E+H` `PMP23` pressure sensor.\nThis change ensures correct identification and processing of the new article\nnumbers in the device logic. Adds test coverage for the new article numbers.\n\n* Adds tests\n\n* [review] Fix tests\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\n\n---------\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-12-01T14:17:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/311450f549615977dfc44540ec4c2fbd8862c570"
+        },
+        "date": 1764599280887,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.378949254121736,
+            "unit": "us/iter",
+            "extra": "iterations: 38210\ncpu: 18.377090997121172 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.6614481565078,
+            "unit": "us/iter",
+            "extra": "iterations: 6645\ncpu: 105.41310970654628 us\nthreads: 1"
           }
         ]
       }
