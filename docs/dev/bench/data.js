@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764655898848,
+  "lastUpdate": 1764656132728,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -77402,6 +77402,40 @@ window.BENCHMARK_DATA = {
             "value": 106.57888294711458,
             "unit": "us/iter",
             "extra": "iterations: 6732\ncpu: 105.21806521093289 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Copilot",
+            "username": "Copilot",
+            "email": "198982749+Copilot@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "bccc7bd7b657ab9a37d99bb2a017dd36f3745aca",
+          "message": "Optimize device lookup performance (#1123)\n\n* Initial plan\n\n* Optimize compression and string operations for better performance\n\n- Skip compression for small data (< 128 bytes) to avoid overhead\n- Use Z_BEST_SPEED compression level instead of default for faster processing\n- Only use compressed data if it's actually smaller than original\n- Fix redundant strcmp calls in device binary search\n- Replace inefficient string concatenations with fmt::format\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Address code review feedback - move constant to file scope\n\nMove MIN_COMPRESSION_SIZE constant to file scope to avoid recreating it on every function call\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix tests to match compression optimization behavior\n\nUpdate g_device_tests to expect uncompressed data for small payloads (< 128 bytes) instead of zlib-compressed data starting with 'x' (0x78). The compression optimization skips compression for small data where overhead exceeds benefits.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix CMD_GET_PAC_ERRORS test expectation\n\nCMD_GET_PAC_ERRORS returns \"alarms[...]\" string which starts with 'a', not '\\0'\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Corrects type casting for compression function\n\n* Fix test expectation for CMD_EXEC_DEVICE_COMMAND with __RECMAN\n\nCMD_EXEC_DEVICE_COMMAND returns 1 (success) not 0 when the command succeeds. Updated test to expect '\\x1' instead of '\\0' for the __RECMAN command test case.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Revert compression optimization to separate PR\n\nReverts compression-related changes from common/PAC-driver/g_device.cpp\nand test/g_device_tests.cpp as requested. Keeps binary search and\nstring concatenation optimizations.\n\nThe compression optimization will be submitted in a separate pull request.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-12-02T06:12:03Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/bccc7bd7b657ab9a37d99bb2a017dd36f3745aca"
+        },
+        "date": 1764656128484,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.264342750463488,
+            "unit": "us/iter",
+            "extra": "iterations: 38299\ncpu: 18.26247066503042 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.04960668498008,
+            "unit": "us/iter",
+            "extra": "iterations: 6552\ncpu: 106.9335412087912 us\nthreads: 1"
           }
         ]
       }
