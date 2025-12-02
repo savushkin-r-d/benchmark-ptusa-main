@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764656414390,
+  "lastUpdate": 1764663050687,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -77508,6 +77508,38 @@ window.BENCHMARK_DATA = {
             "value": 105.43071555687564,
             "unit": "us/iter",
             "extra": "iterations: 6743\ncpu: 104.3253925552425 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "4aa2b8b11e547c0d8a494c6d0caba43f810d08e5",
+          "message": "[config][github actions] Removes temporary file",
+          "timestamp": "2025-12-02T07:49:45Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1137/commits/4aa2b8b11e547c0d8a494c6d0caba43f810d08e5"
+        },
+        "date": 1764663046381,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.317430510073137,
+            "unit": "us/iter",
+            "extra": "iterations: 38171\ncpu: 18.315176259463993 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.42477552238884,
+            "unit": "us/iter",
+            "extra": "iterations: 6700\ncpu: 105.26564388059701 us\nthreads: 1"
           }
         ]
       }
