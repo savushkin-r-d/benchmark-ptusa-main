@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764651777176,
+  "lastUpdate": 1764652192086,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -77236,6 +77236,42 @@ window.BENCHMARK_DATA = {
             "value": 107.34105214124418,
             "unit": "us/iter",
             "extra": "iterations: 6655\ncpu: 105.91513223140498 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "fdb1faa68d42518246412972bff9f4a85a71a73f",
+          "message": "Adds reason to `jump_if` action (#1117)\n\n* Adds reason to jump if action\n\nExtends the `jump_if_action` to provide a descriptive reason for state transitions.\n\n* Adds reason to stop/pause messages\n\n* Adds reason to operation auto switch on\n\n* Improves jump_if_action logic and messages\n\nRefactors the `jump_if_action::is_jump` method for improved\nreadability and efficiency by extracting the jump check logic\ninto a separate variable.\n\nEnhances the reason message in `jump_if_action` to provide a\nclearer explanation for state transitions based on signal activity.\n\nFixes debug output in `tech_object::set_mode` to ensure proper\nformatting with line breaks.\n\nAdds ANSI color definitions for non-Linux platforms.\n\n* Improves tech object mode setting output\n\nEnhances the verbosity and clarity of the output message\nwhen setting the mode of a tech object.\n\nIt adds more context to the output, making it easier to\nunderstand the result of the operation.\n\n* Fixes incorrect error message color\n\n* Includes tech_def.h in operation_mngr.cpp\n\nThe change includes tech_def.h in operation_mngr.cpp.\n\nThis resolves a forward declaration issue\nfor tech_object, improving code clarity and\ndependency management.\n\n* [review] Fixes message\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\n\n* Refactors tests\n\n* Improves operation auto-switch error messages\n\nModifies error messages related to operation auto-switching to include the reason for failure, providing more context for debugging.\n\nAlso, sets a default reason for unconditional jumps in the jump_if_action class.\n\nAdditionally, it updates debug print format and adds a new test case for tech_object::set_mode.\n\n* Fixes minor text output issues in tests\n\nCorrects a typo in a debug message (\" ON\" -> \"ON\").\n\nUpdates test expectations to include ANSI color codes,\nensuring accurate validation of formatted output from the tech_object.\n\n* Fixes operation state retrieval during mode setting\n\n* Improves error messaging for invalid modes\n\nEnhances the error message when an invalid mode (0) is set, providing more context to the user.\nThe message now includes the valid mode range.\n\nAdds a test case to verify the new error message.\n\n* Fixes test\n\n* Improves jump condition reason message\n\nEnsures the reason message in `jump_if_action` is properly initialized\nand constructed, preventing potential accumulation of outdated information.\n\n* Simplifies jump reason message\n\nRemoves redundant \"сигнала\" (\"signal\") from jump reason messages,\nresulting in a more concise and readable output.\n\nThe tests are adjusted to reflect the change in output.\n\n* Updates text in test output\n\nCorrects the text in a test output string for accuracy.\n\nThe phrase \"пауза по активности сигнала\" is updated to \"пауза по активности\" to reflect the intended meaning and improve clarity.\n\n* Refactors printing to the debug log before jumping to new step\n\n---------\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-12-02T04:59:30Z",
+          "tree_id": "364d4f5aa4535a8490ae11f05815879f1909bea0",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/fdb1faa68d42518246412972bff9f4a85a71a73f"
+        },
+        "date": 1764652187597,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.938128624351684,
+            "unit": "us/iter",
+            "extra": "iterations: 40490\ncpu: 17.936886984440605 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.63685919455487,
+            "unit": "us/iter",
+            "extra": "iterations: 6754\ncpu: 104.53547660645546 us\nthreads: 1"
           }
         ]
       }
