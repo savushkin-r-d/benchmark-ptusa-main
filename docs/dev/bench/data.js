@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764685505043,
+  "lastUpdate": 1764745801414,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -77732,6 +77732,38 @@ window.BENCHMARK_DATA = {
             "value": 106.62135634076145,
             "unit": "us/iter",
             "extra": "iterations: 6679\ncpu: 105.43878874082947 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "5f05efa27a86594008823df5351595c7632025d6",
+          "message": "[WIP] Update PXC BK ETH node status handling",
+          "timestamp": "2025-12-02T06:17:05Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1139/commits/5f05efa27a86594008823df5351595c7632025d6"
+        },
+        "date": 1764745796766,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.530921208238098,
+            "unit": "us/iter",
+            "extra": "iterations: 40588\ncpu: 17.529122942741697 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.6903292737936,
+            "unit": "us/iter",
+            "extra": "iterations: 6651\ncpu: 107.7541705006766 us\nthreads: 1"
           }
         ]
       }
