@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764745811459,
+  "lastUpdate": 1764746115259,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -77796,6 +77796,38 @@ window.BENCHMARK_DATA = {
             "value": 105.9534795488726,
             "unit": "us/iter",
             "extra": "iterations: 6650\ncpu: 104.75093248120302 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "c98e86d2f09108165ed3de6068e4ed0f01d7deb7",
+          "message": "Fix `on_extra_step` debug messages polluting system message log",
+          "timestamp": "2025-12-02T06:17:05Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1127/commits/c98e86d2f09108165ed3de6068e4ed0f01d7deb7"
+        },
+        "date": 1764746110682,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.16295991318434,
+            "unit": "us/iter",
+            "extra": "iterations: 38242\ncpu: 17.160803880550183 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.60492429865141,
+            "unit": "us/iter",
+            "extra": "iterations: 6737\ncpu: 103.48232507050616 us\nthreads: 1"
           }
         ]
       }
