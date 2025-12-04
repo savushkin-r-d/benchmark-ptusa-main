@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764848749536,
+  "lastUpdate": 1764849535560,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -78244,6 +78244,40 @@ window.BENCHMARK_DATA = {
             "value": 80.13233148250856,
             "unit": "us/iter",
             "extra": "iterations: 9005\ncpu: 78.48437667962241 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "90df8ff016672e79bc2d6819fbd0d4e15fc4d2da",
+          "message": "[config][github actions] Removes temporary file (#1137)\n\nDeletes the temporary file used for detecting the source root.",
+          "timestamp": "2025-12-04T11:53:09Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/90df8ff016672e79bc2d6819fbd0d4e15fc4d2da"
+        },
+        "date": 1764849531134,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.572032457108328,
+            "unit": "us/iter",
+            "extra": "iterations: 39868\ncpu: 17.570745434935287 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.63019783238904,
+            "unit": "us/iter",
+            "extra": "iterations: 6551\ncpu: 104.986340100748 us\nthreads: 1"
           }
         ]
       }
