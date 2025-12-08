@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765182119871,
+  "lastUpdate": 1765182520246,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -78730,6 +78730,42 @@ window.BENCHMARK_DATA = {
             "value": 108.05211548242036,
             "unit": "us/iter",
             "extra": "iterations: 6685\ncpu: 107.02054749439041 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1566a1f64b37d334df5d8c758b08cbd8c24e5de4",
+          "message": "[config][copilot] Enforces line length limit (#1144)\n\n* [config][copilot] Enforces line length limit\n\nAddresses typos in documentation for performance tests.\n\nEnforces an 80-character line length limit for improved\nreadability in code and comments.\n\n* [review] Исправлены ошибки\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-12-08T11:26:00+03:00",
+          "tree_id": "9d6ace915715bfff1f08e79594c6218995f5739d",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/1566a1f64b37d334df5d8c758b08cbd8c24e5de4"
+        },
+        "date": 1765182516005,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.10678251755098,
+            "unit": "us/iter",
+            "extra": "iterations: 41024\ncpu: 17.105658053822154 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.08251792354258,
+            "unit": "us/iter",
+            "extra": "iterations: 6723\ncpu: 103.9988808567604 us\nthreads: 1"
           }
         ]
       }
