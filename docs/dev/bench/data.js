@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765197865247,
+  "lastUpdate": 1765197881312,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -79184,6 +79184,38 @@ window.BENCHMARK_DATA = {
             "value": 80.66843914055146,
             "unit": "us/iter",
             "extra": "iterations: 9029\ncpu: 79.60083973862001 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "a22a60c2c3e0bb6b7f186b4616538533d14014de",
+          "message": "[test] Adds tests for the stub device",
+          "timestamp": "2025-12-02T07:49:45Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1145/commits/a22a60c2c3e0bb6b7f186b4616538533d14014de"
+        },
+        "date": 1765197876614,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.788426377707705,
+            "unit": "us/iter",
+            "extra": "iterations: 40375\ncpu: 17.787157597523223 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.61451592166695,
+            "unit": "us/iter",
+            "extra": "iterations: 6689\ncpu: 105.61886051726717 us\nthreads: 1"
           }
         ]
       }
