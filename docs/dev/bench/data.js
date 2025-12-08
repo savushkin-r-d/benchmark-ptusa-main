@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765202133435,
+  "lastUpdate": 1765204882385,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -79554,6 +79554,40 @@ window.BENCHMARK_DATA = {
             "value": 105.97073957395564,
             "unit": "us/iter",
             "extra": "iterations: 6666\ncpu: 104.82768496849685 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Copilot",
+            "username": "Copilot",
+            "email": "198982749+Copilot@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "06588d2de3f98f5d3f9dc42131cdb4e75d9a891d",
+          "message": "Fix `on_extra_step` debug messages polluting system message log (#1127)\n\n* Initial plan\n\n* Fix on_extra_step messages being output to message log\n\nChanged G_LOG->warning() to printf() with SetColor() in\noperation_state::on_extra_step() to match the pattern used in\noff_extra_step(). This ensures the message only appears in debug\nconsole output and not in the system message log.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add test for on_extra_step debug output to stdout\n\nAdded test TEST(operation, on_extra_step_debug_output) that verifies:\n- When G_DEBUG is enabled, on_extra_step() outputs to stdout (console)\n- The output contains the expected debug message pattern\n- The output includes the YELLOW color escape sequence\n\nThis test validates the fix for issue #1126.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Improve on_extra_step debug output test\n\nEnhanced the test to verify:\n- When G_DEBUG = 0, no debug output is produced\n- When G_DEBUG = 1, proper debug output with colors is produced\n- Output contains YELLOW and RESET color codes\n- Verifies the fix prevents debug messages from polluting system logs\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Corrects extra step debug message output\n\nFixes the format of the debug output for the extra step in operations.\n\n* Refactors debug output in operation manager\n\n* Only show step time when non-zero in on_extra_step debug output\n\nModified on_extra_step() to conditionally display step time:\n- When step_time = 0: output shows \"on_extra_step() -> N.\"\n- When step_time > 0: output shows \"on_extra_step() -> N (time ms).\"\n\nUpdated test to verify both scenarios:\n- Test with step_time = 0 (no time shown)\n- Test with step_time > 0 (time is shown)\n\nThis addresses the feedback that time should only be shown when the step\nis activated with a transition time, not when it's a simple activation.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Simplifies debug output for extra steps\n\n* Refactors extra step message output in debug mode\n\n* Controls extra step message output\n\nModifies the `on_extra_step` function to provide more control\nover when the step time is included in the debug output. This\nenhances the clarity and relevance of the debug messages.\n\nRemoves the default value for `step_time` in the primary `on_extra_step`\nfunction to allow the `is_print_time` to control the output.\n\nAdds a overload for the `on_extra_step` function that takes only the `step_idx`\nas argument that calls the main `on_extra_step` function with a default value\nfor `step_time` of 0 and `is_print_time` to false.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-12-08T14:36:26Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/06588d2de3f98f5d3f9dc42131cdb4e75d9a891d"
+        },
+        "date": 1765204877636,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.484644811731584,
+            "unit": "us/iter",
+            "extra": "iterations: 40235\ncpu: 17.483035267801665 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.93829874962022,
+            "unit": "us/iter",
+            "extra": "iterations: 6718\ncpu: 104.80152991961896 us\nthreads: 1"
           }
         ]
       }
