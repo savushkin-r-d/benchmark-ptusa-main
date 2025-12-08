@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765180750939,
+  "lastUpdate": 1765180756777,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -78634,6 +78634,38 @@ window.BENCHMARK_DATA = {
             "value": 107.39820984340362,
             "unit": "us/iter",
             "extra": "iterations: 6705\ncpu: 106.26063892617452 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "51560a0a2b75249e38426abc3910590c240e553e",
+          "message": "[config][copilot] Enforces line length limit",
+          "timestamp": "2025-12-02T07:49:45Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1144/commits/51560a0a2b75249e38426abc3910590c240e553e"
+        },
+        "date": 1765180748268,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.041045667532686,
+            "unit": "us/iter",
+            "extra": "iterations: 41189\ncpu: 17.0388882225837 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.24613966979037,
+            "unit": "us/iter",
+            "extra": "iterations: 6723\ncpu: 106.96683177153056 us\nthreads: 1"
           }
         ]
       }
