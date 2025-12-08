@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765182721233,
+  "lastUpdate": 1765185000989,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -78862,6 +78862,40 @@ window.BENCHMARK_DATA = {
             "value": 107.79274072404972,
             "unit": "us/iter",
             "extra": "iterations: 6657\ncpu: 106.73498062190177 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "1566a1f64b37d334df5d8c758b08cbd8c24e5de4",
+          "message": "[config][copilot] Enforces line length limit (#1144)\n\n* [config][copilot] Enforces line length limit\n\nAddresses typos in documentation for performance tests.\n\nEnforces an 80-character line length limit for improved\nreadability in code and comments.\n\n* [review] Исправлены ошибки\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-12-08T08:26:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/1566a1f64b37d334df5d8c758b08cbd8c24e5de4"
+        },
+        "date": 1765184996909,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.15208978963562,
+            "unit": "us/iter",
+            "extra": "iterations: 40929\ncpu: 17.151514769478855 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.8211908237781,
+            "unit": "us/iter",
+            "extra": "iterations: 6713\ncpu: 106.48333442574109 us\nthreads: 1"
           }
         ]
       }
