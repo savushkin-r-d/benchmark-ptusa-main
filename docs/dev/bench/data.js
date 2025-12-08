@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765201567290,
+  "lastUpdate": 1765202133435,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -79518,6 +79518,42 @@ window.BENCHMARK_DATA = {
             "value": 105.58746073218883,
             "unit": "us/iter",
             "extra": "iterations: 6583\ncpu: 104.46499939237432 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "60b430f3124678d88a6f3be83bf26c842bfebe49",
+          "message": "Update PXC BK ETH node status handling with error/warning bits 0-5 detection (#1139)\n\n* Initial plan\n\n* Initial exploration complete\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add node display state (NODEST) with PP mode support for PXC BK ETH\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Address code review: improve documentation and add debug logging\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add comprehensive tests for 100% code coverage of PXC BK ETH status handling\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix SonarQube issues: replace magic numbers with named constants\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix SonarQube issues for PR 1139: use const pointer and reduce nesting\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Check bits 0-5 for error/PP mode state instead of only bit 4\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add comprehensive tests for read_phoenix_status_register method\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix SonarQube issues: use const pointer and fix implicit conversions\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* [review] Uses constants\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\n\n* Refactors code style\n\n* Rename ST_PP_MODE to ST_WARNING to reflect Status Register bits 0-5 detection\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix code style issues: add periods to comments and split long lines\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Update documentation to reflect error/warning conditions detection instead of just PP mode\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add periods to all test file comments per project style guidelines\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix all line length issues: break long lines to stay within 80 char limit\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix final 2 line length issues in test comments to stay within 80 chars\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add periods to final 5 test comments per project style guidelines\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2025-12-08T13:41:00Z",
+          "tree_id": "12af0017cf7bb90504843766d6628e71cca28660",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/60b430f3124678d88a6f3be83bf26c842bfebe49"
+        },
+        "date": 1765202128744,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.27176093165273,
+            "unit": "us/iter",
+            "extra": "iterations: 40616\ncpu: 17.270217869805002 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.97073957395564,
+            "unit": "us/iter",
+            "extra": "iterations: 6666\ncpu: 104.82768496849685 us\nthreads: 1"
           }
         ]
       }
