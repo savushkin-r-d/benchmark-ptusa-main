@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765287654325,
+  "lastUpdate": 1765290228980,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -79912,6 +79912,38 @@ window.BENCHMARK_DATA = {
             "value": 107.25638873914494,
             "unit": "us/iter",
             "extra": "iterations: 6678\ncpu: 106.04318613357296 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "32cdd3997c4e428efc6e9fbaab617c07c6aee6a3",
+          "message": "[WIP] Add tests for PAC_dev_lua.cpp",
+          "timestamp": "2025-12-08T14:53:47Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1147/commits/32cdd3997c4e428efc6e9fbaab617c07c6aee6a3"
+        },
+        "date": 1765290224432,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.331782536463727,
+            "unit": "us/iter",
+            "extra": "iterations: 40931\ncpu: 17.329149226747454 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.48176708860696,
+            "unit": "us/iter",
+            "extra": "iterations: 6715\ncpu: 104.40487163067759 us\nthreads: 1"
           }
         ]
       }
