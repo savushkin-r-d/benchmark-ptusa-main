@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765275325071,
+  "lastUpdate": 1765285350012,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -79752,6 +79752,38 @@ window.BENCHMARK_DATA = {
             "value": 105.57259427634295,
             "unit": "us/iter",
             "extra": "iterations: 6709\ncpu: 104.475416008347 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "99e9986fa673fbc43a7ca6eb052ad53d09a4a7ba",
+          "message": "[test] Adds tests for the `stub` control module",
+          "timestamp": "2025-12-02T07:49:45Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1145/commits/99e9986fa673fbc43a7ca6eb052ad53d09a4a7ba"
+        },
+        "date": 1765285345641,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.30486557686156,
+            "unit": "us/iter",
+            "extra": "iterations: 40313\ncpu: 17.30361354897924 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.34932790591924,
+            "unit": "us/iter",
+            "extra": "iterations: 6633\ncpu: 108.12939906527964 us\nthreads: 1"
           }
         ]
       }
