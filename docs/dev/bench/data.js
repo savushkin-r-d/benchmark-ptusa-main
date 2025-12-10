@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765353016379,
+  "lastUpdate": 1765354950277,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -80072,6 +80072,38 @@ window.BENCHMARK_DATA = {
             "value": 105.64371618393568,
             "unit": "us/iter",
             "extra": "iterations: 6698\ncpu: 104.56175798745893 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "ae4a38fa8fd551e53ca4bd4c9ab4e89084aa1c49",
+          "message": "Add comprehensive test coverage for PAC_dev_lua Lua bindings",
+          "timestamp": "2025-12-08T14:53:47Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1147/commits/ae4a38fa8fd551e53ca4bd4c9ab4e89084aa1c49"
+        },
+        "date": 1765354945704,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.181882206658635,
+            "unit": "us/iter",
+            "extra": "iterations: 39408\ncpu: 17.180505024360535 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.78535397439774,
+            "unit": "us/iter",
+            "extra": "iterations: 6718\ncpu: 104.65874278058946 us\nthreads: 1"
           }
         ]
       }
