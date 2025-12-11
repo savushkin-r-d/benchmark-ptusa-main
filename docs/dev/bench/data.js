@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765432946246,
+  "lastUpdate": 1765433397101,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -80266,6 +80266,42 @@ window.BENCHMARK_DATA = {
             "value": 106.59801917890674,
             "unit": "us/iter",
             "extra": "iterations: 6674\ncpu: 105.5473317350914 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e8c93cbc955c0a9f07b061394cfd01c60d58d206",
+          "message": "[test] Adds tests for the `stub` control module (#1145)\n\n* [test] Adds tests for the stub device\n\n* Improves device stub and adds tests\n\n* Initializes article and description in constructor",
+          "timestamp": "2025-12-11T05:57:42Z",
+          "tree_id": "34dfc695be35bbcab200662c684771257995e1f1",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e8c93cbc955c0a9f07b061394cfd01c60d58d206"
+        },
+        "date": 1765433390998,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.532225447866125,
+            "unit": "us/iter",
+            "extra": "iterations: 41921\ncpu: 16.530552563154508 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 82.00623043380799,
+            "unit": "us/iter",
+            "extra": "iterations: 8944\ncpu: 80.5661557468694 us\nthreads: 1"
           }
         ]
       }
