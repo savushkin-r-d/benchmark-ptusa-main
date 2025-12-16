@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765871454573,
+  "lastUpdate": 1765871473547,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -80924,6 +80924,40 @@ window.BENCHMARK_DATA = {
             "value": 78.8905912698418,
             "unit": "us/iter",
             "extra": "iterations: 9072\ncpu: 78.03064825837743 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "11ffdcda78a809596ec2181aa36850cb0d5cac90",
+          "message": "Starts counters on checked devices action init (#1146)\n\n* Starts counters on checked devices action init\n\nAdds initialization for the checked devices action.\n\nWhen the action is initialized, it iterates through the devices\nand starts any counters (FQTs) found. This ensures that counters\nare running from the beginning of the step.\n\n* Refactors comments\n\n* Refactors code\n\n* Reverts changes\n\n* Renames variable for clarity\n\n---------\n\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2025-12-16T07:48:12Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/11ffdcda78a809596ec2181aa36850cb0d5cac90"
+        },
+        "date": 1765871468999,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.415829202880943,
+            "unit": "us/iter",
+            "extra": "iterations: 40270\ncpu: 17.41335279364291 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.24330278281663,
+            "unit": "us/iter",
+            "extra": "iterations: 6612\ncpu: 107.0640143678161 us\nthreads: 1"
           }
         ]
       }
