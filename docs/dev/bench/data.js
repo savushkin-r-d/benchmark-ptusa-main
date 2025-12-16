@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765874383962,
+  "lastUpdate": 1765882948627,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -81302,6 +81302,40 @@ window.BENCHMARK_DATA = {
             "value": 107.85257206789927,
             "unit": "us/iter",
             "extra": "iterations: 6480\ncpu: 106.33980416666667 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Copilot",
+            "username": "Copilot",
+            "email": "198982749+Copilot@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "5baf6fc6a338160b124c6139596f58fcd0617207",
+          "message": "Fix device checking for extra steps in operations (#1150)\n\n* Initial plan\n\n* Fix: check devices in extra/additional steps\n\nAdd device checking for active_steps (extra/additional steps) in operation_state::check_devices(). Previously only mode_step and active_step_n were checked, causing device errors in extra steps to be ignored.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add test for multiple extra steps device checking\n\nAdded comprehensive test to verify device checking works correctly when multiple extra/additional steps are active simultaneously.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fixes device check in extra steps\n\nChanges reinterpret_cast to dynamic_cast with a null check\nto verify if the cast is valid. This fixes potential errors\nwhen checking devices in extra steps.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2025-12-16T10:58:50Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5baf6fc6a338160b124c6139596f58fcd0617207"
+        },
+        "date": 1765882943766,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.389010040907163,
+            "unit": "us/iter",
+            "extra": "iterations: 40335\ncpu: 17.38549458286848 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.59543829279106,
+            "unit": "us/iter",
+            "extra": "iterations: 6701\ncpu: 105.32091210267126 us\nthreads: 1"
           }
         ]
       }
