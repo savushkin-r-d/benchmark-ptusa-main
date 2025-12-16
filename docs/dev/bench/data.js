@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765865856444,
+  "lastUpdate": 1765866244731,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -80760,6 +80760,42 @@ window.BENCHMARK_DATA = {
             "value": 106.86661956847416,
             "unit": "us/iter",
             "extra": "iterations: 6674\ncpu: 105.78402487264012 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2892b2cf7af0305add1b73d38d7974fbe82d205f",
+          "message": "Add comprehensive test coverage for `PAC_dev_lua` `Lua` bindings (#1147)\n\n* Initial plan\n\n* Add comprehensive tests for PAC_dev_lua device functions\n\n- Added tests for basic I/O devices (AI, AO, DI, DO)\n- Added tests for valves and valve controllers (V, VC)\n- Added tests for motors (M)\n- Added tests for level switches (LS, FS)\n- Added tests for temperature and level sensors (TE, LT, GS, HA, HL, HLA, SB)\n- Added tests for flowmeters and counters (FQT, QT, PT, F)\n- Added tests for utility functions (EY, virtual_FQT, DEVICE)\n- All 22 new tests pass successfully\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add interface and method tests for PAC_dev_lua\n\n- Added tests for i_DI_device interface (get_state, is_active)\n- Added tests for i_DO_device interface (on, off, instant_off, set_state)\n- Added tests for i_AI_device interface (get_value, get_state)\n- Added tests for i_AO_device interface (set_value, off)\n- Added tests for i_counter interface methods (pause, start, reset, etc.)\n- Added tests for valve methods (is_opened, is_closed, on, off, etc.)\n- Added tests for level get_volume method\n- Added tests for virtual_counter methods (reset, get_quantity, eval, etc.)\n- Added test for WT (wages) device\n- All 47 tests in toLuapp suite pass successfully\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix SonarQube issues: Replace 0 with nullptr in tolua_touserdata calls\n\nИсправлены все 25 критических замечаний SonarQube (cpp:S4962):\n- Заменено использование 0 на nullptr в третьем параметре tolua_touserdata\n- Изменено 32 строки в тестовых функциях\n- Все тесты успешно проходят (47/47)\n\nCloses SonarQube issues for PR #1147\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refactors test for `DO` device state in `Lua`\n\n* Add tests for incomplete items from PR description\n\n- Added tests for signal_column methods (on, off, set_state)\n- Added tests for i_motor methods (reverse, get_linear_speed, get_amperage)\n- Added tests for PID controller (on, off, reset, set, eval, get_state, set_cmd, print)\n- Added tests for timer functions (start, reset, pause, is_time_up, get_work_time, set_countdown_time, get_countdown_time, get_state)\n- Added tests for G_DEVICE_MANAGER (add_io_device, get_device)\n- Added tests for G_IO_MANAGER\n- All 53 toLuapp tests pass successfully\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix code style issues: line length and indentation\n\n- Split long lines to keep within 80 character limit\n- Fixed indentation to use tabs instead of spaces in lines 921-933\n- Wrapped static_cast statements across multiple lines\n- Split long comments to respect line length limit\n- All 53 tests still pass successfully\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refactors tests\n\n* Refactors tests\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>\nCo-authored-by: Dima Dvoraninovich <113066705+Lictwin@users.noreply.github.com>",
+          "timestamp": "2025-12-16T06:14:37Z",
+          "tree_id": "3a1b48d8d9944daa69dee6e8b6b0b8759cad022f",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2892b2cf7af0305add1b73d38d7974fbe82d205f"
+        },
+        "date": 1765866239631,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.52837926285772,
+            "unit": "us/iter",
+            "extra": "iterations: 39938\ncpu: 17.526929691021085 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.69443879245557,
+            "unit": "us/iter",
+            "extra": "iterations: 6625\ncpu: 105.59114883018869 us\nthreads: 1"
           }
         ]
       }
