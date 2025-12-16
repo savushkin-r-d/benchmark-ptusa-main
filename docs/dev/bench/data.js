@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765874202777,
+  "lastUpdate": 1765874232484,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -81162,6 +81162,42 @@ window.BENCHMARK_DATA = {
             "value": 107.64016195913274,
             "unit": "us/iter",
             "extra": "iterations: 6656\ncpu: 106.41649654447117 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "82eabc153242da4a12e03219461ea151f439b341",
+          "message": "Bump actions/upload-artifact from 5.0.0 to 6.0.0 (#1155)\n\nBumps [actions/upload-artifact](https://github.com/actions/upload-artifact) from 5.0.0 to 6.0.0.\n- [Release notes](https://github.com/actions/upload-artifact/releases)\n- [Commits](https://github.com/actions/upload-artifact/compare/330a01c490aca151604b8cf639adc76d48f6c5d4...b7c566a772e6b6bfb58ed0dc250532a479d7789f)\n\n---\nupdated-dependencies:\n- dependency-name: actions/upload-artifact\n  dependency-version: 6.0.0\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-12-16T08:30:45Z",
+          "tree_id": "755f92625e3d11db4abf40763897a1ef0771e77c",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/82eabc153242da4a12e03219461ea151f439b341"
+        },
+        "date": 1765874228040,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.030362586783205,
+            "unit": "us/iter",
+            "extra": "iterations: 38890\ncpu: 18.029024350732836 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.56436155123001,
+            "unit": "us/iter",
+            "extra": "iterations: 6627\ncpu: 106.5887641466727 us\nthreads: 1"
           }
         ]
       }
