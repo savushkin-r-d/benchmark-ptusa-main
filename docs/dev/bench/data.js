@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765874232484,
+  "lastUpdate": 1765874242629,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -81198,6 +81198,42 @@ window.BENCHMARK_DATA = {
             "value": 107.56436155123001,
             "unit": "us/iter",
             "extra": "iterations: 6627\ncpu: 106.5887641466727 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "ce031078299229c0bed855a75b735ba8112058c2",
+          "message": "Bump codecov/codecov-action from 5.5.1 to 5.5.2 (#1154)\n\nBumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 5.5.1 to 5.5.2.\n- [Release notes](https://github.com/codecov/codecov-action/releases)\n- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/codecov/codecov-action/compare/5a1091511ad55cbe89839c7260b706298ca349f7...671740ac38dd9b0130fbe1cec585b89eea48d3de)\n\n---\nupdated-dependencies:\n- dependency-name: codecov/codecov-action\n  dependency-version: 5.5.2\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-12-16T08:29:59Z",
+          "tree_id": "ec1705b1b36d54ec0f2b5d132f9ec28ff60c665a",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/ce031078299229c0bed855a75b735ba8112058c2"
+        },
+        "date": 1765874233111,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.165662138346914,
+            "unit": "us/iter",
+            "extra": "iterations: 40854\ncpu: 17.164783913447888 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.48285025187045,
+            "unit": "us/iter",
+            "extra": "iterations: 6551\ncpu: 106.73780048847505 us\nthreads: 1"
           }
         ]
       }
