@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765953621260,
+  "lastUpdate": 1765954044488,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -81500,6 +81500,38 @@ window.BENCHMARK_DATA = {
             "value": 107.78486465607173,
             "unit": "us/iter",
             "extra": "iterations: 6731\ncpu: 106.25564225226567 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "7d0f025af5685b54e635cd1b6a254b657f036c2e",
+          "message": "Add `DT_NODE` device type for network node management",
+          "timestamp": "2025-12-16T13:58:16Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1148/commits/7d0f025af5685b54e635cd1b6a254b657f036c2e"
+        },
+        "date": 1765954039690,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.470759624248362,
+            "unit": "us/iter",
+            "extra": "iterations: 40133\ncpu: 17.469809533301774 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.34597067624141,
+            "unit": "us/iter",
+            "extra": "iterations: 6684\ncpu: 101.923092010772 us\nthreads: 1"
           }
         ]
       }
