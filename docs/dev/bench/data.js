@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1765974377316,
+  "lastUpdate": 1766050916272,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -81596,6 +81596,38 @@ window.BENCHMARK_DATA = {
             "value": 77.39479928833522,
             "unit": "us/iter",
             "extra": "iterations: 8993\ncpu: 76.51715645502055 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "3026066d113381f26e23f5c322694f90f15e1bff",
+          "message": "[WIP] Add logic type field with AND/OR options",
+          "timestamp": "2025-12-16T13:58:16Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1161/commits/3026066d113381f26e23f5c322694f90f15e1bff"
+        },
+        "date": 1766050911713,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.213061415972014,
+            "unit": "us/iter",
+            "extra": "iterations: 40820\ncpu: 17.211902964233225 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.58976103661402,
+            "unit": "us/iter",
+            "extra": "iterations: 6637\ncpu: 105.37158716287479 us\nthreads: 1"
           }
         ]
       }
