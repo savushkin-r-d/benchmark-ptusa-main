@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766215583605,
+  "lastUpdate": 1766215642274,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -81664,6 +81664,38 @@ window.BENCHMARK_DATA = {
             "value": 106.07470713540977,
             "unit": "us/iter",
             "extra": "iterations: 6713\ncpu: 104.98970534783254 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "954f514be397584030404c3a0402aa5b8747ca50",
+          "message": "Add configurable `AND/OR` logic type to `DI->DO` action group",
+          "timestamp": "2025-12-16T13:58:16Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1161/commits/954f514be397584030404c3a0402aa5b8747ca50"
+        },
+        "date": 1766215636490,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.398370978331823,
+            "unit": "us/iter",
+            "extra": "iterations: 42644\ncpu: 16.397261091830035 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 79.72172672423982,
+            "unit": "us/iter",
+            "extra": "iterations: 8453\ncpu: 78.53727209274814 us\nthreads: 1"
           }
         ]
       }
