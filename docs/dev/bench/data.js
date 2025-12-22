@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766385167039,
+  "lastUpdate": 1766385591223,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -81920,6 +81920,38 @@ window.BENCHMARK_DATA = {
             "value": 104.50640945925376,
             "unit": "us/iter",
             "extra": "iterations: 6787\ncpu: 103.47118034477681 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "5585eb1be5c81b3cc1528ff4d72c905b5ffab237",
+          "message": "[WIP] Fix time step and operation type conversion error",
+          "timestamp": "2025-12-22T05:41:02Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1164/commits/5585eb1be5c81b3cc1528ff4d72c905b5ffab237"
+        },
+        "date": 1766385586233,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.997900046229898,
+            "unit": "us/iter",
+            "extra": "iterations: 41099\ncpu: 16.994178471495655 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.8816594717028,
+            "unit": "us/iter",
+            "extra": "iterations: 6625\ncpu: 105.64634928301886 us\nthreads: 1"
           }
         ]
       }
