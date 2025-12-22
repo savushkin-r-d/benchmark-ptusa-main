@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766402058564,
+  "lastUpdate": 1766410387261,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -82324,6 +82324,38 @@ window.BENCHMARK_DATA = {
             "value": 110.02071577515788,
             "unit": "us/iter",
             "extra": "iterations: 6618\ncpu: 108.94528558476885 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "30e0ea03cdd5bf43799accb16fa1e0c90f0140c3",
+          "message": "Fix time overflow after 49.7 days on 64-bit systems",
+          "timestamp": "2025-12-22T10:22:54Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1164/commits/30e0ea03cdd5bf43799accb16fa1e0c90f0140c3"
+        },
+        "date": 1766410382005,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.578497882469904,
+            "unit": "us/iter",
+            "extra": "iterations: 39905\ncpu: 17.576157073048492 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.18323431791157,
+            "unit": "us/iter",
+            "extra": "iterations: 6568\ncpu: 107.71448112058467 us\nthreads: 1"
           }
         ]
       }
