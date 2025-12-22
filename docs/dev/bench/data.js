@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766398217416,
+  "lastUpdate": 1766398439815,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -82186,6 +82186,40 @@ window.BENCHMARK_DATA = {
             "value": 107.61939694391332,
             "unit": "us/iter",
             "extra": "iterations: 5759\ncpu: 106.06293731550616 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Copilot",
+            "username": "Copilot",
+            "email": "198982749+Copilot@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "b95489e6369abf52b655ad8bd6ed2dcbc50bdf29",
+          "message": "Add configurable `AND/OR` logic type to `DI->DO` action group (#1161)\n\n* Initial plan\n\n* Add AND/OR logic type to DI->DO action group with OR as default\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add clarifying comment about zero DI device behavior\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Translate test comments from Russian to English for consistency\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Improves device property logging and action handling\n\nUpdates device property logging to use a consistent format and include device type information.\n\nSimplifies action property setting by providing a default implementation in the base class and centralizing debug logging.\n\n* Refactors DI/DO action evaluation for clarity\n\n* Refactors code and tests\n\nThe device manager should also clear the errors manager when clearing all IO devices.\n\nThis change ensures that error states are properly reset when devices are cleared, preventing potential issues with lingering error information.\n\nRemoves redundant `G_ERRORS_MANAGER->clear()` calls from device tests, as it is now handled within `device_manager::clear_io_devices()`.\n\nAdds a test case for `level_e_iolink::set_string_property` to verify the correct behavior of setting string properties on IO-Link devices.\n\n* Refactors comments and DO evaluation\n\n* Refactors code and tests\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-12-22T10:09:13Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/b95489e6369abf52b655ad8bd6ed2dcbc50bdf29"
+        },
+        "date": 1766398433796,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.034052280210954,
+            "unit": "us/iter",
+            "extra": "iterations: 43439\ncpu: 16.033263864269436 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 78.95672911336729,
+            "unit": "us/iter",
+            "extra": "iterations: 8989\ncpu: 77.92135932806765 us\nthreads: 1"
           }
         ]
       }
