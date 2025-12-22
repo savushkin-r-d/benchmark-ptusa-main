@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766385591223,
+  "lastUpdate": 1766386418297,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -81952,6 +81952,38 @@ window.BENCHMARK_DATA = {
             "value": 106.8816594717028,
             "unit": "us/iter",
             "extra": "iterations: 6625\ncpu: 105.64634928301886 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "11257d83404f47ea3aa44b151e893aafcfed64bb",
+          "message": "Add `IFM SM4000` flow meter support using article property",
+          "timestamp": "2025-12-22T05:41:02Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1158/commits/11257d83404f47ea3aa44b151e893aafcfed64bb"
+        },
+        "date": 1766386413299,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.445190764441108,
+            "unit": "us/iter",
+            "extra": "iterations: 40474\ncpu: 17.44473447151258 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.5260893067013,
+            "unit": "us/iter",
+            "extra": "iterations: 6808\ncpu: 103.45939806110458 us\nthreads: 1"
           }
         ]
       }
