@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766394621853,
+  "lastUpdate": 1766398217416,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -82152,6 +82152,40 @@ window.BENCHMARK_DATA = {
             "value": 106.85849434355427,
             "unit": "us/iter",
             "extra": "iterations: 6718\ncpu: 105.54763024709736 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Copilot",
+            "username": "Copilot",
+            "email": "198982749+Copilot@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "86ede99861008418a6e38a282812e9787b535474",
+          "message": "Add `IFM SM4000` flow meter support using article property (#1158)\n\n* Initial plan\n\n* Add FQT_IOLINK_SM4000 device support (IFM SM4000 flow meter)\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Improve code maintainability with named constants for SM4000 gradients\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Use article property instead of new subtype for SM4000 support\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Code review improvements: consistent enum style and better error handling\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix article tests: proper initialization and float comparison\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* [review] Fixes memory leaks, tests\n\n* Refactors counter iolink tests for clarity\n\n* Refactors article handling for IOLink counters\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2025-12-22T10:05:32Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/86ede99861008418a6e38a282812e9787b535474"
+        },
+        "date": 1766398212768,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.008998615294683,
+            "unit": "us/iter",
+            "extra": "iterations: 41164\ncpu: 17.006817097463806 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.61939694391332,
+            "unit": "us/iter",
+            "extra": "iterations: 5759\ncpu: 106.06293731550616 us\nthreads: 1"
           }
         ]
       }
