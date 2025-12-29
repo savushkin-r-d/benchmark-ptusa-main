@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1766999489158,
+  "lastUpdate": 1767017344305,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -82486,6 +82486,38 @@ window.BENCHMARK_DATA = {
             "value": 79.2262949656244,
             "unit": "us/iter",
             "extra": "iterations: 9018\ncpu: 77.86030649811487 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "75a252011152767566f263902a772dc442634d85",
+          "message": "[WIP] Refactor get_millisec function using steady_clock",
+          "timestamp": "2025-12-22T10:22:54Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1168/commits/75a252011152767566f263902a772dc442634d85"
+        },
+        "date": 1767017339572,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.561057657161662,
+            "unit": "us/iter",
+            "extra": "iterations: 39943\ncpu: 17.559427083594123 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.57142959001817,
+            "unit": "us/iter",
+            "extra": "iterations: 6732\ncpu: 104.5285087641117 us\nthreads: 1"
           }
         ]
       }
