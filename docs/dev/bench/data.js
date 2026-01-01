@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767233472675,
+  "lastUpdate": 1767233556534,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -83094,6 +83094,38 @@ window.BENCHMARK_DATA = {
             "value": 106.68652461217825,
             "unit": "us/iter",
             "extra": "iterations: 6704\ncpu: 105.54207786396182 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "407b4f7625777c42d8f8c2df436684797de20e5b",
+          "message": "Bump deps/zlib/zlib from `5a82f71` to `570720b`",
+          "timestamp": "2025-12-22T10:22:54Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1173/commits/407b4f7625777c42d8f8c2df436684797de20e5b"
+        },
+        "date": 1767233551382,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.34689988623452,
+            "unit": "us/iter",
+            "extra": "iterations: 40434\ncpu: 17.346630682099224 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.04135907798589,
+            "unit": "us/iter",
+            "extra": "iterations: 6681\ncpu: 104.99315880856159 us\nthreads: 1"
           }
         ]
       }
