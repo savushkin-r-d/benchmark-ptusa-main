@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767604335847,
+  "lastUpdate": 1767704761728,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -83232,6 +83232,42 @@ window.BENCHMARK_DATA = {
             "value": 107.70238778877915,
             "unit": "us/iter",
             "extra": "iterations: 6666\ncpu: 106.1908594359436 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "yana.sitkowecz@yandex.ru",
+            "name": "Yana Sitkovets",
+            "username": "NogameNo-life"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "52ea663404240ad67a709c6c737fbc8a841dd423",
+          "message": "[doc] Fix image references in `user_manual` (#1176)",
+          "timestamp": "2026-01-06T16:02:51+03:00",
+          "tree_id": "f417cef10811723d9f9b861dd53bb8c5533955fa",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/52ea663404240ad67a709c6c737fbc8a841dd423"
+        },
+        "date": 1767704754319,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.595239006572463,
+            "unit": "us/iter",
+            "extra": "iterations: 40547\ncpu: 17.594981379633513 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.73922323155833,
+            "unit": "us/iter",
+            "extra": "iterations: 6715\ncpu: 104.63257110945642 us\nthreads: 1"
           }
         ]
       }
