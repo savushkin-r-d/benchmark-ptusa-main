@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767956920331,
+  "lastUpdate": 1767961231101,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -83500,6 +83500,38 @@ window.BENCHMARK_DATA = {
             "value": 105.48248160584095,
             "unit": "us/iter",
             "extra": "iterations: 6850\ncpu: 104.28061562043797 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "f2bdeab040c0c7055fdb3845db522696e1e492a0",
+          "message": "Fix device property writes in debug/emulator mode",
+          "timestamp": "2026-01-09T10:16:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1181/commits/f2bdeab040c0c7055fdb3845db522696e1e492a0"
+        },
+        "date": 1767961226060,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.41808515495866,
+            "unit": "us/iter",
+            "extra": "iterations: 38107\ncpu: 18.415886635001446 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.52925482218188,
+            "unit": "us/iter",
+            "extra": "iterations: 6636\ncpu: 106.80202998794455 us\nthreads: 1"
           }
         ]
       }
