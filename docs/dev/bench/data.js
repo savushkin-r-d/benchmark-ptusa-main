@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767953820594,
+  "lastUpdate": 1767953950312,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -83400,6 +83400,42 @@ window.BENCHMARK_DATA = {
             "value": 107.96848911575069,
             "unit": "us/iter",
             "extra": "iterations: 6661\ncpu: 106.80561372166342 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c161854c3f1f89a89bd481664927f1f4767c7f7c",
+          "message": "Bump deps/lunarmodules/luasql/luasql from `6cf42d0` to `359fda6` (#1170)\n\nBumps [deps/lunarmodules/luasql/luasql](https://github.com/lunarmodules/luasql) from `6cf42d0` to `359fda6`.\n- [Release notes](https://github.com/lunarmodules/luasql/releases)\n- [Commits](https://github.com/lunarmodules/luasql/compare/6cf42d08ada3aa2ad45f39afb6655ce06ee95984...359fda6751c95e7dec9bb05cbdaaf061bb2a78b7)\n\n---\nupdated-dependencies:\n- dependency-name: deps/lunarmodules/luasql/luasql\n  dependency-version: 359fda6751c95e7dec9bb05cbdaaf061bb2a78b7\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-01-09T13:16:21+03:00",
+          "tree_id": "5bb1e87ac065676ecbf2e403a58f9e98994ea457",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/c161854c3f1f89a89bd481664927f1f4767c7f7c"
+        },
+        "date": 1767953945406,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.337081681323397,
+            "unit": "us/iter",
+            "extra": "iterations: 40254\ncpu: 17.335419560788992 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.52081418312513,
+            "unit": "us/iter",
+            "extra": "iterations: 6684\ncpu: 108.42812687013767 us\nthreads: 1"
           }
         ]
       }
