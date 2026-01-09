@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767704761728,
+  "lastUpdate": 1767949774404,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -83268,6 +83268,38 @@ window.BENCHMARK_DATA = {
             "value": 105.73922323155833,
             "unit": "us/iter",
             "extra": "iterations: 6715\ncpu: 104.63257110945642 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "2950f33003c69cd4d3b0392d8009fae71a42cc08",
+          "message": "Fixes IOLink counter calculations",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1179/commits/2950f33003c69cd4d3b0392d8009fae71a42cc08"
+        },
+        "date": 1767949769629,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.172050859006248,
+            "unit": "us/iter",
+            "extra": "iterations: 41094\ncpu: 17.171134593857985 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.32808415917235,
+            "unit": "us/iter",
+            "extra": "iterations: 6559\ncpu: 104.15072084159172 us\nthreads: 1"
           }
         ]
       }
