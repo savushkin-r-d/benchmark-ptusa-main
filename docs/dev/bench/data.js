@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768197229107,
+  "lastUpdate": 1768197264336,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -83792,6 +83792,42 @@ window.BENCHMARK_DATA = {
             "value": 107.43115419500829,
             "unit": "us/iter",
             "extra": "iterations: 6615\ncpu: 106.36355313681028 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2843eb2c2197ab6f4c82a69cf00f5e5d0c81e5e6",
+          "message": "Fixes `IO-Link` counter calculations (#1179)\n\n* Fixes IOLink counter calculations\n\nUpdates IOLink counter to correctly calculate flow and temperature values.\n\n- Modifies scaling factors for temperature and flow readings.\n- Ensures proper conversion to engineering units.\n- Corrects volume calculation by removing unnecessary scaling in test.\n- Adds a check to see if running in emulation mode.\n\n* [review] Исправления после рецензирования",
+          "timestamp": "2026-01-12T08:50:05+03:00",
+          "tree_id": "097c9480d3ed9a6a1d234ad5d11578a1cd63c42e",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2843eb2c2197ab6f4c82a69cf00f5e5d0c81e5e6"
+        },
+        "date": 1768197259597,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.234137256347594,
+            "unit": "us/iter",
+            "extra": "iterations: 40683\ncpu: 17.232249416218078 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.60904667721543,
+            "unit": "us/iter",
+            "extra": "iterations: 6320\ncpu: 104.51636740506329 us\nthreads: 1"
           }
         ]
       }
