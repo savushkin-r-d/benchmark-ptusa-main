@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1767968627407,
+  "lastUpdate": 1768197229107,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -83756,6 +83756,42 @@ window.BENCHMARK_DATA = {
             "value": 103.53562987867544,
             "unit": "us/iter",
             "extra": "iterations: 6841\ncpu: 102.23314310773276 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "515430733c952d6ee955420cda15f43bb5fabe7b",
+          "message": "Fix device property writes in debug/emulator mode (#1181)\n\n* Initial plan\n\n* Fix device control in debug/emulator mode for wages_eth, wages_pxc_axl, and DI1\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Remove redundant emulator check in wages_pxc_axl::get_value()\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Add validation to wages_eth::direct_set_value in emulator mode\n\nMatch the behavior of iot_wages_eth::set_wages_value which only accepts non-negative values. This ensures consistency between emulator and normal modes, fixing test failures.\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refactors `wages_eth` emulator mode handling\n\nSimplifies emulator mode handling for wages_eth devices by\ndelegating value/state management to the base device class.\nThis removes redundant code and ensures consistency.\n\nAdds tests that disables device emulation to check real device\nfunctionality.\n\n* Fix code style issues and logic bug in wages_eth methods\n\n- Remove trailing whitespace on blank lines and after braces\n- Change float literal from 0.0f to .0f for consistency\n- Fix critical bug: add explicit return after validation in direct_set_value\n  to prevent fallthrough to weth->set_wages_value() in emulator mode\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fixes wages_eth device state management\n\nEnsures correct state setting and retrieval for wages_eth devices, particularly when emulation is disabled.\n\nThis involves using the correct method for setting the wages state and adding tests to confirm the functionality of direct on/off controls, especially in the context of disabled emulation.\n\n* Refactors tests\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-01-12T08:49:19+03:00",
+          "tree_id": "87986adf43a8ffafabe295b35d85647baa0e932a",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/515430733c952d6ee955420cda15f43bb5fabe7b"
+        },
+        "date": 1768197224394,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.23079607385494,
+            "unit": "us/iter",
+            "extra": "iterations: 40294\ncpu: 17.22962235072219 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.43115419500829,
+            "unit": "us/iter",
+            "extra": "iterations: 6615\ncpu: 106.36355313681028 us\nthreads: 1"
           }
         ]
       }
