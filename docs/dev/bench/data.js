@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1768197963804,
+  "lastUpdate": 1768209148727,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -83924,6 +83924,40 @@ window.BENCHMARK_DATA = {
             "value": 108.46353508083281,
             "unit": "us/iter",
             "extra": "iterations: 6371\ncpu: 106.6678792968137 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "2843eb2c2197ab6f4c82a69cf00f5e5d0c81e5e6",
+          "message": "Fixes `IO-Link` counter calculations (#1179)\n\n* Fixes IOLink counter calculations\n\nUpdates IOLink counter to correctly calculate flow and temperature values.\n\n- Modifies scaling factors for temperature and flow readings.\n- Ensures proper conversion to engineering units.\n- Corrects volume calculation by removing unnecessary scaling in test.\n- Adds a check to see if running in emulation mode.\n\n* [review] Исправления после рецензирования",
+          "timestamp": "2026-01-12T05:50:05Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2843eb2c2197ab6f4c82a69cf00f5e5d0c81e5e6"
+        },
+        "date": 1768209143638,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.4038348928169,
+            "unit": "us/iter",
+            "extra": "iterations: 40398\ncpu: 17.402129610376754 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.03905586924206,
+            "unit": "us/iter",
+            "extra": "iterations: 6730\ncpu: 104.71571381872215 us\nthreads: 1"
           }
         ]
       }
