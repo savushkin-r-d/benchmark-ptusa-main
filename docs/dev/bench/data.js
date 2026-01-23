@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769163260387,
+  "lastUpdate": 1769163499004,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -84904,6 +84904,42 @@ window.BENCHMARK_DATA = {
             "value": 108.19500754034482,
             "unit": "us/iter",
             "extra": "iterations: 6631\ncpu: 106.95690303121702 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "65b0f6fb3b9224ee58a581ca13ad12467b54944d",
+          "message": "Fixes `DIs/DOs` action logic (#1189)\n\n* Fixes `DIs/DOs` action logic\n\nRefactors DIs/DOs action evaluation to correctly handle multiple device groups with different logic types (AND/OR).\n\nIntroduces a `print` method for debugging and logging purposes.\nAlso, adds logic to handle dynamic allocation of logic types.\n\n* [review] Validates logic_type values for DI_DO_action\n\nEnsures that the `logic_type` property for `DI_DO_action`\naccepts only 0 (OR) or 1 (AND) to prevent unintended behavior\ncaused by silently coercing arbitrary non-zero values to AND.\n\nAlso updates the print function to have default parameters.\n\n* Refactors DI_DO_action for inverted logic\n\nConsolidates inverted DI/DO action logic into the base\nDI_DO_action class by introducing an `is_inverted` flag.\nThis eliminates the need for a separate\n`inverted_DI_DO_action` class and simplifies the code.\n\nThe `evaluate_DO` method now incorporates a check for the\n`is_inverted` flag, applying the inversion logic\naccordingly.\n\nRemoves the `inverted_DI_DO_action` class.\n\n* Refactor `evaluate_DO` method\n\n* Add test",
+          "timestamp": "2026-01-23T13:14:50+03:00",
+          "tree_id": "dd7b0592c3081367ff095550a21f3d0c2aa691e3",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/65b0f6fb3b9224ee58a581ca13ad12467b54944d"
+        },
+        "date": 1769163491592,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.691368155437694,
+            "unit": "us/iter",
+            "extra": "iterations: 39630\ncpu: 17.68911879888973 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.09304780999409,
+            "unit": "us/iter",
+            "extra": "iterations: 6484\ncpu: 106.60960271437384 us\nthreads: 1"
           }
         ]
       }
