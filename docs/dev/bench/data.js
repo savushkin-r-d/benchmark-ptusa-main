@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769153485891,
+  "lastUpdate": 1769155479253,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -84708,6 +84708,38 @@ window.BENCHMARK_DATA = {
             "value": 109.8884993894961,
             "unit": "us/iter",
             "extra": "iterations: 6552\ncpu: 108.05669154456658 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "d995d8fc7c0566da3fd9bb3f670a8872bc4f0e98",
+          "message": "Fixes `DIs/DOs` action logic",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1189/commits/d995d8fc7c0566da3fd9bb3f670a8872bc4f0e98"
+        },
+        "date": 1769155474406,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.756265837103477,
+            "unit": "us/iter",
+            "extra": "iterations: 39780\ncpu: 17.754516365007543 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.83265838800381,
+            "unit": "us/iter",
+            "extra": "iterations: 6402\ncpu: 107.67043158388002 us\nthreads: 1"
           }
         ]
       }
