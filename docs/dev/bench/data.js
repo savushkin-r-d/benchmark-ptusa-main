@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769595521775,
+  "lastUpdate": 1769595528582,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -85234,6 +85234,38 @@ window.BENCHMARK_DATA = {
             "value": 108.23478220390899,
             "unit": "us/iter",
             "extra": "iterations: 6552\ncpu: 107.21607829670333 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "e618270124c9421000fdb1f3ed730e28653a51b1",
+          "message": "Refactor `get_millisec()` to use `std::chrono::steady_clock` with unified implementation and `uint32_t` return type",
+          "timestamp": "2026-01-23T10:15:33Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1168/commits/e618270124c9421000fdb1f3ed730e28653a51b1"
+        },
+        "date": 1769595518594,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.825911047927928,
+            "unit": "us/iter",
+            "extra": "iterations: 39392\ncpu: 17.825542699025185 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.47963864548007,
+            "unit": "us/iter",
+            "extra": "iterations: 6733\ncpu: 104.49309817317693 us\nthreads: 1"
           }
         ]
       }
