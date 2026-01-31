@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769858161428,
+  "lastUpdate": 1769858221708,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -85600,6 +85600,38 @@ window.BENCHMARK_DATA = {
             "value": 80.76065139464521,
             "unit": "us/iter",
             "extra": "iterations: 8927\ncpu: 79.48423546544191 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "5914d1544494be7fac9fcf5e3c7723588494c528",
+          "message": "[WIP] Add notification for network node entering PP mode",
+          "timestamp": "2026-01-30T07:33:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1195/commits/5914d1544494be7fac9fcf5e3c7723588494c528"
+        },
+        "date": 1769858216620,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.15144478962812,
+            "unit": "us/iter",
+            "extra": "iterations: 40880\ncpu: 17.149724584148725 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.22016790309449,
+            "unit": "us/iter",
+            "extra": "iterations: 6605\ncpu: 104.19572778198336 us\nthreads: 1"
           }
         ]
       }
