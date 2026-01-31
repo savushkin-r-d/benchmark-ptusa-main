@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769779760756,
+  "lastUpdate": 1769858148848,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -85536,6 +85536,38 @@ window.BENCHMARK_DATA = {
             "value": 79.70770430517085,
             "unit": "us/iter",
             "extra": "iterations: 9175\ncpu: 78.32263553133517 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "b7ad299d48ce99b69bb77c36653e8e266c1e9626",
+          "message": "[WIP] Fix incorrect reference in SDK installation documentation",
+          "timestamp": "2026-01-30T07:33:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1199/commits/b7ad299d48ce99b69bb77c36653e8e266c1e9626"
+        },
+        "date": 1769858143717,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.99977002098428,
+            "unit": "us/iter",
+            "extra": "iterations: 40982\ncpu: 16.999143819237716 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.91101315789788,
+            "unit": "us/iter",
+            "extra": "iterations: 6764\ncpu: 104.79266484328801 us\nthreads: 1"
           }
         ]
       }
