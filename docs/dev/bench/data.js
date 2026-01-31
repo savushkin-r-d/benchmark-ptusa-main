@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769858148848,
+  "lastUpdate": 1769858161428,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -85568,6 +85568,38 @@ window.BENCHMARK_DATA = {
             "value": 105.91101315789788,
             "unit": "us/iter",
             "extra": "iterations: 6764\ncpu: 104.79266484328801 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "2870cce9c9677c6622332b2a3fb9d3a2760c4b5d",
+          "message": "[WIP] Add system tags for node connection error indication",
+          "timestamp": "2026-01-30T07:33:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1193/commits/2870cce9c9677c6622332b2a3fb9d3a2760c4b5d"
+        },
+        "date": 1769858155163,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.53195661385648,
+            "unit": "us/iter",
+            "extra": "iterations: 42479\ncpu: 16.531644742107865 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 80.76065139464521,
+            "unit": "us/iter",
+            "extra": "iterations: 8927\ncpu: 79.48423546544191 us\nthreads: 1"
           }
         ]
       }
