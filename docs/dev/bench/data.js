@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769858230487,
+  "lastUpdate": 1769858263376,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -85664,6 +85664,38 @@ window.BENCHMARK_DATA = {
             "value": 107.26275121878763,
             "unit": "us/iter",
             "extra": "iterations: 6769\ncpu: 105.81648500517062 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "5271630f2c5044abdf1e4f8537afec5b15143331",
+          "message": "[WIP] Add periodic saving of parameters to nvram",
+          "timestamp": "2026-01-30T07:33:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1197/commits/5271630f2c5044abdf1e4f8537afec5b15143331"
+        },
+        "date": 1769858257771,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.233470328808284,
+            "unit": "us/iter",
+            "extra": "iterations: 40814\ncpu: 17.232411721468125 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.2789715690791,
+            "unit": "us/iter",
+            "extra": "iterations: 6507\ncpu: 104.21473828185032 us\nthreads: 1"
           }
         ]
       }
