@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1769858263376,
+  "lastUpdate": 1769914073491,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -85696,6 +85696,38 @@ window.BENCHMARK_DATA = {
             "value": 105.2789715690791,
             "unit": "us/iter",
             "extra": "iterations: 6507\ncpu: 104.21473828185032 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "f03b3da48963944d237bd7054d1bf712ba82b3db",
+          "message": "Bump deps/lunarmodules/luafilesystem/luafilesystem from `0951178` to `a186cca`",
+          "timestamp": "2026-01-30T07:33:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1227/commits/f03b3da48963944d237bd7054d1bf712ba82b3db"
+        },
+        "date": 1769914068544,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.064181123443348,
+            "unit": "us/iter",
+            "extra": "iterations: 41088\ncpu: 17.059648851246106 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.72593885216678,
+            "unit": "us/iter",
+            "extra": "iterations: 6656\ncpu: 105.57614137620193 us\nthreads: 1"
           }
         ]
       }
