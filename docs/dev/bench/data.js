@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770101315231,
+  "lastUpdate": 1770104810492,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -86390,6 +86390,38 @@ window.BENCHMARK_DATA = {
             "value": 80.09576582208078,
             "unit": "us/iter",
             "extra": "iterations: 8959\ncpu: 78.51097655988391 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "4b969bb6fc7e4b3b7a3364c1219cecfef176b03e",
+          "message": "[tests] Fixes `Google Test` integration and dependencies",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1231/commits/4b969bb6fc7e4b3b7a3364c1219cecfef176b03e"
+        },
+        "date": 1770104805383,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.966991919094028,
+            "unit": "us/iter",
+            "extra": "iterations: 41332\ncpu: 16.964523831413917 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.53595624156989,
+            "unit": "us/iter",
+            "extra": "iterations: 6673\ncpu: 105.24499370597933 us\nthreads: 1"
           }
         ]
       }
