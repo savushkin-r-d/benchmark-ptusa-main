@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770123892309,
+  "lastUpdate": 1770125409368,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -86582,6 +86582,40 @@ window.BENCHMARK_DATA = {
             "value": 105.1433938897151,
             "unit": "us/iter",
             "extra": "iterations: 6710\ncpu: 103.8861236959762 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "d8878b427b989f95e0a66a16392be1fcf12b0d3e",
+          "message": "[tests] Fixes `Google Test` integration and dependencies (#1231)\n\n* Fixes Google Test integration\n\nUpdates Google Test integration to properly link and function within the project.\n\nThis commit addresses issues with shared library builds and simplifies the build process for Google Test. It ensures proper linking of gtest and gmock libraries. Also removes redundant target property settings.\n\nConfigures Google Test/Benchmark builds\n\nConfigures Google Test and Google Benchmark to build correctly.\n\nSpecifically, configures Google Test and Mock to build as static\nlibraries with dynamic CRT to match the main project.  Also configures\nGoogle Benchmark to build as a static library, disabling internal tests\nand install targets to avoid conflicts with MSVC and pthreads.\n\n* Cleans up `CMakeLists.txt` formatting\n\nImproves readability of CMakeLists.txt by reformatting\ncomments and aligning code blocks. No functional changes\nare introduced.\n\n* Fixes OPCUA server tests\n\nChanges the tests to use a mock OPCUA server instance\nto avoid dependencies on the real OPCUA server.\n\nThe mock server is thread-safe.\n\n* Relaxes tolerance in delta time tests\n\nIncreases the tolerance value in the delta time tests.\n\nThis change prevents spurious test failures due to minor timing\ninconsistencies in the test environment.\n\n* [review] Fix code style\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\n\n* [review] Fix code style\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\n\n---------\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-02-03T13:26:53Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d8878b427b989f95e0a66a16392be1fcf12b0d3e"
+        },
+        "date": 1770125404155,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.382731611910597,
+            "unit": "us/iter",
+            "extra": "iterations: 42949\ncpu: 16.37885119560409 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.50254770906051,
+            "unit": "us/iter",
+            "extra": "iterations: 6613\ncpu: 106.12994949342203 us\nthreads: 1"
           }
         ]
       }
