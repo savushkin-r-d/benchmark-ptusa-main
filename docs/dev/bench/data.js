@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770196146242,
+  "lastUpdate": 1770196408758,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -86848,6 +86848,40 @@ window.BENCHMARK_DATA = {
             "value": 105.33901895592044,
             "unit": "us/iter",
             "extra": "iterations: 6647\ncpu: 104.1063323303746 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "bf16cf55d86df1e9ca517cfd0f88d220a18ddd8b",
+          "message": "Refactors and initializes `PAC_info` members (#1232)\n\n* Refactors and initializes `PAC_info` members\n\nRefactors PAC_info class by using in-class member initialization and introduces a dedicated method for resetting uptime, which ensures proper state management.\nThis addresses potential issues related to uninitialized data and simplifies the process of resetting the uptime.\nMock object lifetime is also fixed in tests.\n\n* Fixes OPCUA server mock and adds retry logic\n\nCorrects the OPCUA server mock to handle concurrent test executions by using thread_local storage for the mock instance.\n\nUpdates the test to retry OPCUA server initialization, ensuring that the server eventually starts even if the first attempts fail.\n\n* Fixes flaky test in PAC_info\n\nEnsures that the mock server's `init_all_and_start` method is only called once in the test to prevent unexpected behavior and improve test reliability.\n\nThis resolves an issue where the test could fail intermittently due to the repeated invocation of the method.\n\n* Moves mock method declarations\n\nRelocates the mock method declarations within the `MockOPCUAServer` class to improve code organization and readability.",
+          "timestamp": "2026-02-04T09:09:09Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/bf16cf55d86df1e9ca517cfd0f88d220a18ddd8b"
+        },
+        "date": 1770196403006,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.341033760905134,
+            "unit": "us/iter",
+            "extra": "iterations: 40461\ncpu: 17.340749165863425 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.07666815210912,
+            "unit": "us/iter",
+            "extra": "iterations: 6732\ncpu: 107.03989780154484 us\nthreads: 1"
           }
         ]
       }
