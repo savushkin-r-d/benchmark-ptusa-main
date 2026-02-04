@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770126295947,
+  "lastUpdate": 1770194280329,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -86748,6 +86748,38 @@ window.BENCHMARK_DATA = {
             "value": 106.32336352747527,
             "unit": "us/iter",
             "extra": "iterations: 6679\ncpu: 104.94849543344812 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "8e115d87295eb696971bb72a07d218e24cc657cf",
+          "message": "Refactors and initializes `PAC_info` members",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1232/commits/8e115d87295eb696971bb72a07d218e24cc657cf"
+        },
+        "date": 1770194274358,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.306411492783166,
+            "unit": "us/iter",
+            "extra": "iterations: 40669\ncpu: 17.30447107133197 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.67183604858047,
+            "unit": "us/iter",
+            "extra": "iterations: 6752\ncpu: 104.39701258886261 us\nthreads: 1"
           }
         ]
       }
