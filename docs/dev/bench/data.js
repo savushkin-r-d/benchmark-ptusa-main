@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1770605263402,
+  "lastUpdate": 1770629110081,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -87092,6 +87092,40 @@ window.BENCHMARK_DATA = {
             "value": 105.84582747841604,
             "unit": "us/iter",
             "extra": "iterations: 6718\ncpu: 104.67521167013993 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Грущинский Даниил",
+            "username": "dadjil",
+            "email": "grudas2005@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "39adf4324d33c84f7fc9740d7128cf9779ce34e1",
+          "message": "[doc] Update `Mermaid` class diagrams (#1162)",
+          "timestamp": "2026-02-07T14:18:51Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/39adf4324d33c84f7fc9740d7128cf9779ce34e1"
+        },
+        "date": 1770629103174,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.128689925166018,
+            "unit": "us/iter",
+            "extra": "iterations: 43296\ncpu: 16.12728483000739 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 79.37099312104766,
+            "unit": "us/iter",
+            "extra": "iterations: 9013\ncpu: 78.36916343060024 us\nthreads: 1"
           }
         ]
       }
