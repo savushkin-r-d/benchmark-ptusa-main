@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772460250738,
+  "lastUpdate": 1772461068199,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -88380,6 +88380,38 @@ window.BENCHMARK_DATA = {
             "value": 115.52894126933765,
             "unit": "us/iter",
             "extra": "iterations: 6334\ncpu: 114.37163830123147 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "e7c386fe8afc05e5fb6f2d77a29118fc45bd16e2",
+          "message": "[WIP] Add new module PXC.1088106 AXL SE PT100 x4",
+          "timestamp": "2026-03-02T08:59:45Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1247/commits/e7c386fe8afc05e5fb6f2d77a29118fc45bd16e2"
+        },
+        "date": 1772461062675,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.230770691130935,
+            "unit": "us/iter",
+            "extra": "iterations: 40875\ncpu: 17.229733847094803 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 115.28082871177347,
+            "unit": "us/iter",
+            "extra": "iterations: 6311\ncpu: 114.16561638409124 us\nthreads: 1"
           }
         ]
       }
