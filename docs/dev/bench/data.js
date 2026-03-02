@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1772430591999,
+  "lastUpdate": 1772430684821,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -87726,6 +87726,40 @@ window.BENCHMARK_DATA = {
             "value": 116.44930925721478,
             "unit": "us/iter",
             "extra": "iterations: 6341\ncpu: 115.48752783472642 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "9de967f50d556e6eadab9fabd3f7205455137228",
+          "message": "Bump deps/lunarmodules/penlight from `bd26cb9` to `e0bc8f7` (#1239)\n\nBumps [deps/lunarmodules/penlight](https://github.com/lunarmodules/Penlight) from `bd26cb9` to `e0bc8f7`.\n- [Commits](https://github.com/lunarmodules/Penlight/compare/bd26cb9e4619489cb1e9e13e282888726527d954...e0bc8f7fce3b6a4fdef3660066f5006bf8456b32)\n\n---\nupdated-dependencies:\n- dependency-name: deps/lunarmodules/penlight\n  dependency-version: e0bc8f7fce3b6a4fdef3660066f5006bf8456b32\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-03-02T05:42:09Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/9de967f50d556e6eadab9fabd3f7205455137228"
+        },
+        "date": 1772430679205,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.162077049542003,
+            "unit": "us/iter",
+            "extra": "iterations: 40753\ncpu: 17.159456383579123 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 117.5386591849712,
+            "unit": "us/iter",
+            "extra": "iterations: 6282\ncpu: 116.32719914040113 us\nthreads: 1"
           }
         ]
       }
