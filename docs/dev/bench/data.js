@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773039778680,
+  "lastUpdate": 1773040232020,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -88878,6 +88878,38 @@ window.BENCHMARK_DATA = {
             "value": 114.81069739103329,
             "unit": "us/iter",
             "extra": "iterations: 6401\ncpu: 113.78051023277611 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "cc282319e2b74d62c159b0b8291f5e1e6b31a796",
+          "message": "Adds `AXL SE RTD4 PT100` (`PXC.1088106`) module support",
+          "timestamp": "2026-03-09T06:59:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1247/commits/cc282319e2b74d62c159b0b8291f5e1e6b31a796"
+        },
+        "date": 1773040226117,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.353526317214488,
+            "unit": "us/iter",
+            "extra": "iterations: 36934\ncpu: 17.351604889803433 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 116.34071905379245,
+            "unit": "us/iter",
+            "extra": "iterations: 6172\ncpu: 115.37023817239144 us\nthreads: 1"
           }
         ]
       }
