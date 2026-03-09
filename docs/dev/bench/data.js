@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773038065458,
+  "lastUpdate": 1773038096092,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -88676,6 +88676,40 @@ window.BENCHMARK_DATA = {
             "value": 113.6871833748456,
             "unit": "us/iter",
             "extra": "iterations: 6424\ncpu: 111.94847026774599 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "ae21e134c2857aff9dec14c3453e387271a0927f",
+          "message": "Bump benchmark-action/github-action-benchmark from 1.20.7 to 1.21.0 (#1252)\n\nBumps [benchmark-action/github-action-benchmark](https://github.com/benchmark-action/github-action-benchmark) from 1.20.7 to 1.21.0.\n- [Release notes](https://github.com/benchmark-action/github-action-benchmark/releases)\n- [Changelog](https://github.com/benchmark-action/github-action-benchmark/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/benchmark-action/github-action-benchmark/compare/4bdcce38c94cec68da58d012ac24b7b1155efe8b...a7bc2366eda11037936ea57d811a43b3418d3073)\n\n---\nupdated-dependencies:\n- dependency-name: benchmark-action/github-action-benchmark\n  dependency-version: 1.21.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-03-09T06:31:20Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/ae21e134c2857aff9dec14c3453e387271a0927f"
+        },
+        "date": 1773038089010,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.844863859426539,
+            "unit": "us/iter",
+            "extra": "iterations: 44219\ncpu: 15.842984689839211 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 83.50384126805977,
+            "unit": "us/iter",
+            "extra": "iterations: 8927\ncpu: 82.14538030693403 us\nthreads: 1"
           }
         ]
       }
