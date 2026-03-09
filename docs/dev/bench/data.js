@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773040232020,
+  "lastUpdate": 1773045177491,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -88910,6 +88910,38 @@ window.BENCHMARK_DATA = {
             "value": 116.34071905379245,
             "unit": "us/iter",
             "extra": "iterations: 6172\ncpu: 115.37023817239144 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "7bab2a8556e8784febfdf34ac04fea25242fe0d9",
+          "message": "[WIP] Fix module loading error during project testing",
+          "timestamp": "2026-03-09T06:59:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1253/commits/7bab2a8556e8784febfdf34ac04fea25242fe0d9"
+        },
+        "date": 1773045172032,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.39788742642867,
+            "unit": "us/iter",
+            "extra": "iterations: 40267\ncpu: 17.395413142275313 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 116.47730017314626,
+            "unit": "us/iter",
+            "extra": "iterations: 6353\ncpu: 114.83626601605538 us\nthreads: 1"
           }
         ]
       }
