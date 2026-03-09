@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773045177491,
+  "lastUpdate": 1773045526000,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -88942,6 +88942,38 @@ window.BENCHMARK_DATA = {
             "value": 116.47730017314626,
             "unit": "us/iter",
             "extra": "iterations: 6353\ncpu: 114.83626601605538 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "0e80c4cadf55a6e2b28fc0d839755e5729ac27d1",
+          "message": "WIP on copilot/add-new-module-pxc-1088106",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1254/commits/0e80c4cadf55a6e2b28fc0d839755e5729ac27d1"
+        },
+        "date": 1773045520473,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.374446288894354,
+            "unit": "us/iter",
+            "extra": "iterations: 40783\ncpu: 17.372193536522573 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 117.83081304640186,
+            "unit": "us/iter",
+            "extra": "iterations: 5948\ncpu: 116.66294317417619 us\nthreads: 1"
           }
         ]
       }
