@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773379692661,
+  "lastUpdate": 1773380262816,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -89328,6 +89328,42 @@ window.BENCHMARK_DATA = {
             "value": 116.41941196892087,
             "unit": "us/iter",
             "extra": "iterations: 6049\ncpu: 114.92137427673994 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e34bac8c61ca11efd1f3fea9f10d64f32bc86020",
+          "message": "Fix `ptusa_main.dll` module loading failure on `Windows` (#1253)\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-03-13T08:34:01+03:00",
+          "tree_id": "dabe6cb06c14b19aed5a1caf887a610af8356be2",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e34bac8c61ca11efd1f3fea9f10d64f32bc86020"
+        },
+        "date": 1773380255421,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.836807920656529,
+            "unit": "us/iter",
+            "extra": "iterations: 43961\ncpu: 15.836365869748189 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 84.72137151664694,
+            "unit": "us/iter",
+            "extra": "iterations: 8110\ncpu: 83.85024907521576 us\nthreads: 1"
           }
         ]
       }
