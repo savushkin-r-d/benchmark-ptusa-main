@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773400459157,
+  "lastUpdate": 1773401113855,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -89430,6 +89430,42 @@ window.BENCHMARK_DATA = {
             "value": 117.62165789911879,
             "unit": "us/iter",
             "extra": "iterations: 6007\ncpu: 116.46927218245379 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "bc2a3c3a6b581874ed03d740be01a61b87461deb",
+          "message": "Changes back `get_idle_time()` return time to `ms` (#1254)\n\n* Changes back get_idle_time() return time to `ms`\n\n* Removes unused variables in get_idle_time test\n\nCleans up the `operation_mngr.get_idle_time` test by removing the `operation_state` and `step` variables, which were initialized but never used in any assertions.\n\n* Adds Lua tests for get_idle_time and get_idle_time_sec\n\nVerifies the Lua bindings for modes_manager's idle time retrieval methods, ensuring correct return values and proper handling of invalid arguments.\n\nRenames get_idle_time Lua test to follow naming convention\n\nAppends a numeric suffix to the `tolua_PAC_dev_operation_manager_get_idle_time` test case to maintain consistency with other tests in `PAC_dev_lua_tests.cpp`.\n\n* Fixes flaky idle time assertion in operation_mngr tests\n\nRelaxes the requirement for idle time to be exactly 0 milliseconds after a command change to account for small execution delays. This ensures the test is more robust by verifying the idle time is less than one second rather than strictly zero.\n\n* Marks get_idle_time and get_idle_time_sec as const\n\nApplies the `const` qualifier to the idle time retrieval methods in `operation_manager` since they do not modify the object's state. This allows these methods to be called on constant instances of the class.\n\n* Reorders idle time retrieval to prevent flaky test assertions\n\nSwaps the order of `get_idle_time_sec()` and `get_idle_time()` calls to ensure the millisecond value is fetched at an equal or later time than the seconds value. This prevents assertion failures that could occur if a second boundary is crossed between the two calls.\n\n* Removes trailing whitespace in get_idle_time declaration\n\n---------\n\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2026-03-13T11:11:09Z",
+          "tree_id": "de2695dcbb681143033178061b370064be2ef95f",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/bc2a3c3a6b581874ed03d740be01a61b87461deb"
+        },
+        "date": 1773401107492,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.46198130123633,
+            "unit": "us/iter",
+            "extra": "iterations: 36473\ncpu: 17.460198283661892 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 117.23826844458446,
+            "unit": "us/iter",
+            "extra": "iterations: 6262\ncpu: 116.20062392206962 us\nthreads: 1"
           }
         ]
       }
