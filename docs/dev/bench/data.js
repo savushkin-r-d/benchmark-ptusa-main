@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773629255769,
+  "lastUpdate": 1773641482822,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -89568,6 +89568,38 @@ window.BENCHMARK_DATA = {
             "value": 120.776786456588,
             "unit": "us/iter",
             "extra": "iterations: 5966\ncpu: 119.77570080455915 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "1e22b9d7ba79af234185a1806a52df7f459946ed",
+          "message": "Add object and step context to transition debug logs",
+          "timestamp": "2026-03-13T11:47:26Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1198/commits/1e22b9d7ba79af234185a1806a52df7f459946ed"
+        },
+        "date": 1773641476822,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.25539466620663,
+            "unit": "us/iter",
+            "extra": "iterations: 40609\ncpu: 17.253402496983426 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 115.78854214559381,
+            "unit": "us/iter",
+            "extra": "iterations: 6264\ncpu: 114.62834099616859 us\nthreads: 1"
           }
         ]
       }
