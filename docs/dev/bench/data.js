@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773646014260,
+  "lastUpdate": 1773653278854,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -89696,6 +89696,40 @@ window.BENCHMARK_DATA = {
             "value": 111.97798986750277,
             "unit": "us/iter",
             "extra": "iterations: 6415\ncpu: 110.82837069368671 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Copilot",
+            "username": "Copilot",
+            "email": "198982749+Copilot@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "21168496e26e78d766f4e9b19cd4ca6bf1a6c3b2",
+          "message": "Adds `AXL SE RTD4 PT100` (`PXC.1088106`) module support (#1247)\n\n* Initial plan\n\n* Add AXL SE RTD4 PT100 (module 1088106) support in get_AI and tests\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix formatting of case statement for RTD4 1H\n\n* [review] Refactor AI channel tests and fix formatting in `bus_coupler_io`\n\nCentralizes constants in `PAC_dev_tests.cpp` and adjusts tolerances for under-range error checks to improve test accuracy. Also fixes indentation for RTD4 module case statements in `bus_coupler_io.cpp`.\n\n* [review] Use float literal for AI under-range return value\n\nEnsures type consistency in `bus_coupler_io.cpp` by returning a float literal instead of an integer when an under-range error is detected in `get_AI`.\n\n* [review] Adjust AI test error tolerances for modules 1088106 and 2688556\n\nReplaces `ZERO_ABS_ERR` with `ABS_ERR` in `get_state` tests to allow for non-zero floating-point deviations, improving test reliability for these modules.\n\n* [review] Fix comment formatting for RTD4 modules\n\nAdds trailing periods to comments for modules 1088106 and 2688556 in `bus_coupler_io.cpp` for consistency.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2026-03-13T11:37:55Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/21168496e26e78d766f4e9b19cd4ca6bf1a6c3b2"
+        },
+        "date": 1773653273237,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.06597547843958,
+            "unit": "us/iter",
+            "extra": "iterations: 40862\ncpu: 17.064971464930743 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 118.12053768675457,
+            "unit": "us/iter",
+            "extra": "iterations: 5957\ncpu: 116.67322158804768 us\nthreads: 1"
           }
         ]
       }
