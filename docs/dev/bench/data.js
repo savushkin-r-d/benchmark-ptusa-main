@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1773828996863,
+  "lastUpdate": 1773831961724,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -90338,6 +90338,38 @@ window.BENCHMARK_DATA = {
             "value": 82.26192933810655,
             "unit": "us/iter",
             "extra": "iterations: 8944\ncpu: 81.36767106440071 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "16c4759aa58e05d5c506c6730df0279b7a211f84",
+          "message": "Marks device state and serialization methods as `const`",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1257/commits/16c4759aa58e05d5c506c6730df0279b7a211f84"
+        },
+        "date": 1773831956019,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.74816852063163,
+            "unit": "us/iter",
+            "extra": "iterations: 42072\ncpu: 16.74501288267731 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 119.33951007474849,
+            "unit": "us/iter",
+            "extra": "iterations: 6154\ncpu: 117.77564380890479 us\nthreads: 1"
           }
         ]
       }
