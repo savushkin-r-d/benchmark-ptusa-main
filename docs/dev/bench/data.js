@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774266661718,
+  "lastUpdate": 1774266697925,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -91874,6 +91874,40 @@ window.BENCHMARK_DATA = {
             "value": 112.65861223212828,
             "unit": "us/iter",
             "extra": "iterations: 6393\ncpu: 111.33512060065696 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Copilot",
+            "username": "Copilot",
+            "email": "198982749+Copilot@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "3b77db3c3eb2eba24159810b242f816789a9afe6",
+          "message": "[docs] Corrects SDK compatibility reference from Toolchain to Control firmware (#1199)\n\n* Initial plan\n\n* docs: fix incorrect reference to Toolchain instead of PLCnext Control firmware in SDK installation section\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2026-03-23T11:46:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/3b77db3c3eb2eba24159810b242f816789a9afe6"
+        },
+        "date": 1774266692016,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.972282216435847,
+            "unit": "us/iter",
+            "extra": "iterations: 43782\ncpu: 15.971523342926316 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 112.95663331252108,
+            "unit": "us/iter",
+            "extra": "iterations: 6406\ncpu: 111.79205838276613 us\nthreads: 1"
           }
         ]
       }
