@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774248567219,
+  "lastUpdate": 1774248752943,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -91202,6 +91202,38 @@ window.BENCHMARK_DATA = {
             "value": 118.99343828629945,
             "unit": "us/iter",
             "extra": "iterations: 5882\ncpu: 117.64333015980961 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "60c2dd45506e621ca0219b0ab88fb53ed949ea8f",
+          "message": "Fixes false positive in operation step signal validation",
+          "timestamp": "2026-03-19T14:24:03Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1206/commits/60c2dd45506e621ca0219b0ab88fb53ed949ea8f"
+        },
+        "date": 1774248746408,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.147367711576734,
+            "unit": "us/iter",
+            "extra": "iterations: 40801\ncpu: 17.145609519374524 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 115.9468362740357,
+            "unit": "us/iter",
+            "extra": "iterations: 6291\ncpu: 114.51516690510255 us\nthreads: 1"
           }
         ]
       }
