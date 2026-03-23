@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774265206370,
+  "lastUpdate": 1774265874317,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -91492,6 +91492,38 @@ window.BENCHMARK_DATA = {
             "value": 117.74827519691392,
             "unit": "us/iter",
             "extra": "iterations: 6221\ncpu: 116.6807963349944 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "f1413300fbd1e0ce8aedaf52a77ad9028a0f4eee",
+          "message": "[docs] Corrects SDK compatibility reference from Toolchain to Control firmware",
+          "timestamp": "2026-03-19T14:24:03Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1199/commits/f1413300fbd1e0ce8aedaf52a77ad9028a0f4eee"
+        },
+        "date": 1774265868317,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.990839880110936,
+            "unit": "us/iter",
+            "extra": "iterations: 41038\ncpu: 16.989790291924557 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 116.58529254302314,
+            "unit": "us/iter",
+            "extra": "iterations: 6276\ncpu: 115.58563448056087 us\nthreads: 1"
           }
         ]
       }
