@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774266717232,
+  "lastUpdate": 1774266903394,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -91976,6 +91976,38 @@ window.BENCHMARK_DATA = {
             "value": 125.06674834436865,
             "unit": "us/iter",
             "extra": "iterations: 6191\ncpu: 123.86627200775317 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "741bc0418cffee8fb75048af9073fdf499d39e40",
+          "message": "Replaces `system()` calls with native `chmod()`",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1263/commits/741bc0418cffee8fb75048af9073fdf499d39e40"
+        },
+        "date": 1774266895726,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.35762342089693,
+            "unit": "us/iter",
+            "extra": "iterations: 42825\ncpu: 16.35705520140105 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 83.61588880334627,
+            "unit": "us/iter",
+            "extra": "iterations: 9092\ncpu: 82.88523944126706 us\nthreads: 1"
           }
         ]
       }
