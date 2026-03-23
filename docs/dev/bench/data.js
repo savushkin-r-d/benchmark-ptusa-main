@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774248752943,
+  "lastUpdate": 1774249878641,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -91234,6 +91234,38 @@ window.BENCHMARK_DATA = {
             "value": 115.9468362740357,
             "unit": "us/iter",
             "extra": "iterations: 6291\ncpu: 114.51516690510255 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "df620cb79df0d222e2f629ce13a52648eda90ca7",
+          "message": "Replaces `system()` calls with native `chmod()` for `PAC_PLCNEXT`",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1263/commits/df620cb79df0d222e2f629ce13a52648eda90ca7"
+        },
+        "date": 1774249872576,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.1364573735283,
+            "unit": "us/iter",
+            "extra": "iterations: 40503\ncpu: 17.135307359948648 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 119.32582208895539,
+            "unit": "us/iter",
+            "extra": "iterations: 6003\ncpu: 118.16245510578042 us\nthreads: 1"
           }
         ]
       }
