@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774268793347,
+  "lastUpdate": 1774268854804,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -92280,6 +92280,42 @@ window.BENCHMARK_DATA = {
             "value": 117.09328802909725,
             "unit": "us/iter",
             "extra": "iterations: 6048\ncpu: 115.90631531084657 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "556614a0b9987e4e97f0080cb892542c2289d38f",
+          "message": "[docs] Corrects SDK compatibility reference from Toolchain to Control firmware (#1199)\n\n* Initial plan\n\n* docs: fix incorrect reference to Toolchain instead of PLCnext Control firmware in SDK installation section\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2026-03-23T15:24:54+03:00",
+          "tree_id": "679bd8b87a6e254a5a1c2070188a2e917139ff93",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/556614a0b9987e4e97f0080cb892542c2289d38f"
+        },
+        "date": 1774268848984,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.04594532744136,
+            "unit": "us/iter",
+            "extra": "iterations: 43916\ncpu: 16.044635895801076 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 115.10242679624018,
+            "unit": "us/iter",
+            "extra": "iterations: 6277\ncpu: 113.94908507248688 us\nthreads: 1"
           }
         ]
       }
