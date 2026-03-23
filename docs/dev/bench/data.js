@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774265906716,
+  "lastUpdate": 1774266110426,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -91626,6 +91626,42 @@ window.BENCHMARK_DATA = {
             "value": 116.53993964291251,
             "unit": "us/iter",
             "extra": "iterations: 6329\ncpu: 114.59930794754305 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "e28bfd7eac925bb030b0d85789f5cbf3223ce585",
+          "message": "Bump actions/cache from 5.0.3 to 5.0.4 (#1259)\n\nBumps [actions/cache](https://github.com/actions/cache) from 5.0.3 to 5.0.4.\n- [Release notes](https://github.com/actions/cache/releases)\n- [Changelog](https://github.com/actions/cache/blob/main/RELEASES.md)\n- [Commits](https://github.com/actions/cache/compare/cdf6c1fa76f9f475f3d7449005a359c84ca0f306...668228422ae6a00e4ad889ee87cd7109ec5666a7)\n\n---\nupdated-dependencies:\n- dependency-name: actions/cache\n  dependency-version: 5.0.4\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-03-23T11:34:48Z",
+          "tree_id": "e35e9ec52ec376ee3fe3286433d223bb02280cec",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e28bfd7eac925bb030b0d85789f5cbf3223ce585"
+        },
+        "date": 1774266104445,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.23491639412791,
+            "unit": "us/iter",
+            "extra": "iterations: 40667\ncpu: 17.233491995967245 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 116.28534096691892,
+            "unit": "us/iter",
+            "extra": "iterations: 6288\ncpu: 115.18952687659035 us\nthreads: 1"
           }
         ]
       }
