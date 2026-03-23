@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774266329239,
+  "lastUpdate": 1774266493023,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -91732,6 +91732,42 @@ window.BENCHMARK_DATA = {
             "value": 116.63973363680734,
             "unit": "us/iter",
             "extra": "iterations: 6371\ncpu: 115.67598979752003 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f34e238fb01a08d575be0dc1254cec2fab9cfcb0",
+          "message": "Fixes false positive in operation step signal validation (#1206)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-03-23T14:45:12+03:00",
+          "tree_id": "9b184da3d00ef4dc1e5a93a4a5272faa647232c5",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/f34e238fb01a08d575be0dc1254cec2fab9cfcb0"
+        },
+        "date": 1774266487192,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.195535509998674,
+            "unit": "us/iter",
+            "extra": "iterations: 43706\ncpu: 16.194782386857643 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 116.9799085194354,
+            "unit": "us/iter",
+            "extra": "iterations: 6045\ncpu: 115.62867113316793 us\nthreads: 1"
           }
         ]
       }
