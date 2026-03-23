@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774266493023,
+  "lastUpdate": 1774266577081,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -91768,6 +91768,42 @@ window.BENCHMARK_DATA = {
             "value": 116.9799085194354,
             "unit": "us/iter",
             "extra": "iterations: 6045\ncpu: 115.62867113316793 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b0b9eff690e207f0840113531b041b366edc5d23",
+          "message": "Add object and step context to transition debug logs (#1198)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-03-23T14:46:53+03:00",
+          "tree_id": "ef3459ab6692a6662b42e402fd3168dcf6062666",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/b0b9eff690e207f0840113531b041b366edc5d23"
+        },
+        "date": 1774266571197,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.249192318396762,
+            "unit": "us/iter",
+            "extra": "iterations: 43116\ncpu: 16.248390272752577 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 119.2819651278682,
+            "unit": "us/iter",
+            "extra": "iterations: 6022\ncpu: 118.18088160079711 us\nthreads: 1"
           }
         ]
       }
