@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774268878545,
+  "lastUpdate": 1774336611055,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -92388,6 +92388,38 @@ window.BENCHMARK_DATA = {
             "value": 114.97474507019979,
             "unit": "us/iter",
             "extra": "iterations: 6339\ncpu: 113.87766682442027 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "4a3369d4c728e7f432c12d3c323eed58fed2a468",
+          "message": "Fix node state display in emulator mode without I/O",
+          "timestamp": "2026-03-23T12:25:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1194/commits/4a3369d4c728e7f432c12d3c323eed58fed2a468"
+        },
+        "date": 1774336604533,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.35166225644625,
+            "unit": "us/iter",
+            "extra": "iterations: 42855\ncpu: 16.349506195309765 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 117.26691535791427,
+            "unit": "us/iter",
+            "extra": "iterations: 6049\ncpu: 115.96295701768886 us\nthreads: 1"
           }
         ]
       }
