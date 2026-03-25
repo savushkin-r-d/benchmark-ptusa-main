@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774441944596,
+  "lastUpdate": 1774441999429,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -93028,6 +93028,38 @@ window.BENCHMARK_DATA = {
             "value": 114.62321324461033,
             "unit": "us/iter",
             "extra": "iterations: 6312\ncpu: 113.30737785171102 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "66a10765c217f84614c8697f483185e4a0809acc",
+          "message": "Add network node availability checking for output devices",
+          "timestamp": "2026-03-23T12:25:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1196/commits/66a10765c217f84614c8697f483185e4a0809acc"
+        },
+        "date": 1774441993474,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.121363509204663,
+            "unit": "us/iter",
+            "extra": "iterations: 43611\ncpu: 16.120747196808146 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.13865848974555,
+            "unit": "us/iter",
+            "extra": "iterations: 6767\ncpu: 106.6370985665731 us\nthreads: 1"
           }
         ]
       }
