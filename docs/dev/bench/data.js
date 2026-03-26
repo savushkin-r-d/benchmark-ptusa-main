@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774532795743,
+  "lastUpdate": 1774532853933,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -93188,6 +93188,38 @@ window.BENCHMARK_DATA = {
             "value": 109.27640164315461,
             "unit": "us/iter",
             "extra": "iterations: 6451\ncpu: 108.55494776003721 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "bbd40de2cb82cf5b6c0ed94305ba8c00d5194feb",
+          "message": "Allows reading Phoenix status register during I/O errors",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1265/commits/bbd40de2cb82cf5b6c0ed94305ba8c00d5194feb"
+        },
+        "date": 1774532845834,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.447025394450481,
+            "unit": "us/iter",
+            "extra": "iterations: 45443\ncpu: 15.446545518561715 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 81.17673403176826,
+            "unit": "us/iter",
+            "extra": "iterations: 8877\ncpu: 80.12020671397994 us\nthreads: 1"
           }
         ]
       }
