@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774617418464,
+  "lastUpdate": 1774617808393,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -93284,6 +93284,38 @@ window.BENCHMARK_DATA = {
             "value": 106.93368382352989,
             "unit": "us/iter",
             "extra": "iterations: 6664\ncpu: 106.41655762304921 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "43ba8f66b717bd19093d153c12a3a7a18c0dde2d",
+          "message": "Adds optional skip of cooling",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1267/commits/43ba8f66b717bd19093d153c12a3a7a18c0dde2d"
+        },
+        "date": 1774617802018,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.914117300056779,
+            "unit": "us/iter",
+            "extra": "iterations: 44075\ncpu: 15.910043131026661 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.61404893913434,
+            "unit": "us/iter",
+            "extra": "iterations: 6457\ncpu: 108.9862642093852 us\nthreads: 1"
           }
         ]
       }
