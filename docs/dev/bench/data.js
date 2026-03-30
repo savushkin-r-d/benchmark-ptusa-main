@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774856422758,
+  "lastUpdate": 1774856475104,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -93574,6 +93574,40 @@ window.BENCHMARK_DATA = {
             "value": 107.79786010056367,
             "unit": "us/iter",
             "extra": "iterations: 6762\ncpu: 107.26741895888792 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "2c56d5571468683a2e780da621ccdb7b3e86f2d7",
+          "message": "Bump hendrikmuhs/ccache-action from 1.2.21 to 1.2.22 (#1268)\n\nBumps [hendrikmuhs/ccache-action](https://github.com/hendrikmuhs/ccache-action) from 1.2.21 to 1.2.22.\n- [Release notes](https://github.com/hendrikmuhs/ccache-action/releases)\n- [Commits](https://github.com/hendrikmuhs/ccache-action/compare/1bbbcda0748b3e340dee71a314fa68ffcbd6df79...33522472633dbd32578e909b315f5ee43ba878ce)\n\n---\nupdated-dependencies:\n- dependency-name: hendrikmuhs/ccache-action\n  dependency-version: 1.2.22\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-03-30T07:37:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2c56d5571468683a2e780da621ccdb7b3e86f2d7"
+        },
+        "date": 1774856468655,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.15126441751885,
+            "unit": "us/iter",
+            "extra": "iterations: 43246\ncpu: 16.147882046894512 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.98128606658409,
+            "unit": "us/iter",
+            "extra": "iterations: 6488\ncpu: 109.29981951294701 us\nthreads: 1"
           }
         ]
       }
