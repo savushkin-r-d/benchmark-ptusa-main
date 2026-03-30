@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774854475139,
+  "lastUpdate": 1774856422758,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -93540,6 +93540,40 @@ window.BENCHMARK_DATA = {
             "value": 107.73124420150758,
             "unit": "us/iter",
             "extra": "iterations: 6769\ncpu: 107.20088580292511 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "4934d4450c7ab2c04b6d52c521e2e3230907801c",
+          "message": "Bump codecov/codecov-action from 5.5.3 to 6.0.0 (#1269)\n\nBumps [codecov/codecov-action](https://github.com/codecov/codecov-action) from 5.5.3 to 6.0.0.\n- [Release notes](https://github.com/codecov/codecov-action/releases)\n- [Changelog](https://github.com/codecov/codecov-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/codecov/codecov-action/compare/1af58845a975a7985b0beb0cbe6fbbb71a41dbad...57e3a136b779b570ffcdbf80b3bdc90e7fab3de2)\n\n---\nupdated-dependencies:\n- dependency-name: codecov/codecov-action\n  dependency-version: 6.0.0\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-03-30T07:37:19Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/4934d4450c7ab2c04b6d52c521e2e3230907801c"
+        },
+        "date": 1774856416353,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.155895340024717,
+            "unit": "us/iter",
+            "extra": "iterations: 43541\ncpu: 16.154203440435452 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.79786010056367,
+            "unit": "us/iter",
+            "extra": "iterations: 6762\ncpu: 107.26741895888792 us\nthreads: 1"
           }
         ]
       }
