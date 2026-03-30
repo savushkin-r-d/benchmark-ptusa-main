@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774859517728,
+  "lastUpdate": 1774859756221,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -93678,6 +93678,42 @@ window.BENCHMARK_DATA = {
             "value": 106.02757533026701,
             "unit": "us/iter",
             "extra": "iterations: 6737\ncpu: 105.46890826777498 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0e800a8db54861ed57468dbb1d4964f96a0a89d5",
+          "message": "Allows reading Phoenix status register during I/O errors (#1265)\n\nRemoves the check that prevented reading the status register when the `read_io_error_flag` was set. This ensures the coupler's status can be monitored even during communication faults, which is necessary for diagnostics and error recovery.",
+          "timestamp": "2026-03-30T08:28:40Z",
+          "tree_id": "416eedb11469fe4038047e19c60d3ffae222c3cc",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/0e800a8db54861ed57468dbb1d4964f96a0a89d5"
+        },
+        "date": 1774859749977,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.399185216237147,
+            "unit": "us/iter",
+            "extra": "iterations: 42939\ncpu: 16.397789724958663 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.44485368374451,
+            "unit": "us/iter",
+            "extra": "iterations: 6773\ncpu: 106.93434563708847 us\nthreads: 1"
           }
         ]
       }
