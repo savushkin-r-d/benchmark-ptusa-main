@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774861141967,
+  "lastUpdate": 1774861633847,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -93748,6 +93748,42 @@ window.BENCHMARK_DATA = {
             "value": 109.37651304347528,
             "unit": "us/iter",
             "extra": "iterations: 6440\ncpu: 108.82368881987577 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "df9f476af8f505b9373b59921b7a3b6e09d5a794",
+          "message": "Fixes node state display in emulator mode (#1194)\n\n* Initial plan\n\n* Implement network node state fix for emulator mode\n\n- Modified get_display_state() to check if node has I/O configured\n- If no I/O (DI_cnt + DO_cnt + AI_cnt + AO_cnt == 0), return ST_NO_CONNECT (0) instead of ST_ERROR (-1)\n- Updated existing test to match new behavior\n- Added 4 new unit tests covering emulator mode scenarios\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Update network node status logic for emulator mode\n\nRefactors `get_display_state()` to return `ST_NO_CONNECT` when the system is in emulator mode, replacing the previous heuristic based on I/O counts.\n\nThis change also modernizes the `io_node` struct by:\n- Using in-class member initializers for default values.\n- Simplifying the constructor and using `static_cast` for type safety.\n- Updating unit tests to explicitly manage the global emulation state for consistent results.\n\n* Update generated Lua bindings for PAC and IoT components\n\nRegenerates `PAC_dev_lua.cpp` and `IOT_dev_lua.cpp` using tolua++, updating the generation timestamps in the file headers.\n\n* Remove obsolete unit tests for io_node display state\n\nDeletes tests that validated the legacy heuristic based on I/O counts in emulator mode. These cases are now obsolete following the logic simplification where emulator mode consistently returns ST_NO_CONNECT regardless of I/O configuration.\n\n* Refactor io_node constructor and improve diagnostic logging\n\n- Renames the constructor parameter `type` to `node_type` to resolve variable shadowing.\n- Moves the initialization of the node `name` earlier in the constructor to ensure log messages correctly display the name during IP and type validation.\n- Removes a redundant emulation state reset in unit tests.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-03-30T08:48:13Z",
+          "tree_id": "ce117867345d0928eb41321c6118f99eb75e63fa",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/df9f476af8f505b9373b59921b7a3b6e09d5a794"
+        },
+        "date": 1774861626973,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.427846193356135,
+            "unit": "us/iter",
+            "extra": "iterations: 42833\ncpu: 16.424102654495368 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.239572762304,
+            "unit": "us/iter",
+            "extra": "iterations: 6748\ncpu: 105.74491256668644 us\nthreads: 1"
           }
         ]
       }
