@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774617808393,
+  "lastUpdate": 1774838878165,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -93316,6 +93316,38 @@ window.BENCHMARK_DATA = {
             "value": 109.61404893913434,
             "unit": "us/iter",
             "extra": "iterations: 6457\ncpu: 108.9862642093852 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "0e5575dab93c7f2b92bd843a2d34e63dfdf46df8",
+          "message": "Bump hendrikmuhs/ccache-action from 1.2.21 to 1.2.22",
+          "timestamp": "2026-03-23T12:25:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1268/commits/0e5575dab93c7f2b92bd843a2d34e63dfdf46df8"
+        },
+        "date": 1774838870739,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.053520490407916,
+            "unit": "us/iter",
+            "extra": "iterations: 44045\ncpu: 16.05193231921898 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.6864311749902,
+            "unit": "us/iter",
+            "extra": "iterations: 6749\ncpu: 104.15147221810639 us\nthreads: 1"
           }
         ]
       }
