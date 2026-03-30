@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774851306492,
+  "lastUpdate": 1774852871413,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -93444,6 +93444,38 @@ window.BENCHMARK_DATA = {
             "value": 107.28728923031053,
             "unit": "us/iter",
             "extra": "iterations: 6704\ncpu: 106.79284979116946 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "1a31eeefc93f77b3f4a41560fb623447a94b82c7",
+          "message": "[tests] Refactors `recvtimeout` test to use constants",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1270/commits/1a31eeefc93f77b3f4a41560fb623447a94b82c7"
+        },
+        "date": 1774852864882,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.187530293264338,
+            "unit": "us/iter",
+            "extra": "iterations: 43442\ncpu: 16.18558392799595 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.61723897003759,
+            "unit": "us/iter",
+            "extra": "iterations: 6641\ncpu: 105.97579701852128 us\nthreads: 1"
           }
         ]
       }
