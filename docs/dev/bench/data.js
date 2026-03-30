@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774864069947,
+  "lastUpdate": 1774870396490,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -93818,6 +93818,40 @@ window.BENCHMARK_DATA = {
             "value": 103.56897868899995,
             "unit": "us/iter",
             "extra": "iterations: 6804\ncpu: 103.04482965902413 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "45e3e4544fead3f8dfd5ba4e38ab2516d8466b52",
+          "message": "[tests] Refactors `recvtimeout` test to use constants (#1270)\n\n* [tests] Refactors `recvtimeout` test to use constants\n\nReplaces magic numbers with named constants in the `tcp_communicator` test to improve readability and ensure assertions are explicitly linked to the timeout parameters.\n\n* [tests] Standardizes constant usage and updates timeout precision in recvtimeout tests\n\nReplaces remaining magic numbers with the `TIME_SEC` constant and converts the millisecond timeout parameter to microseconds. Adds clarifying comments regarding the expected behavior of cycle time assertions.\n\n* [tests] Cleans up formatting and whitespace in tcp_communicator tests\n\nRemoves trailing whitespace and standardizes spacing in function calls within `tcp_cmctr_tests.cpp` to improve code consistency.",
+          "timestamp": "2026-03-30T11:29:27Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/45e3e4544fead3f8dfd5ba4e38ab2516d8466b52"
+        },
+        "date": 1774870389814,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.27355401610127,
+            "unit": "us/iter",
+            "extra": "iterations: 42728\ncpu: 16.26823017693316 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.65440908420373,
+            "unit": "us/iter",
+            "extra": "iterations: 6781\ncpu: 103.99668883645482 us\nthreads: 1"
           }
         ]
       }
