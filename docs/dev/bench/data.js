@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1774941312698,
+  "lastUpdate": 1774941525209,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -94016,6 +94016,38 @@ window.BENCHMARK_DATA = {
             "value": 78.41556661064243,
             "unit": "us/iter",
             "extra": "iterations: 8925\ncpu: 77.76347831932773 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "3c1a475abc479f376758c99e605e6381a6eb7f26",
+          "message": "Adds alarm logging for network node `PP` mode state changes",
+          "timestamp": "2026-03-30T11:35:16Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1195/commits/3c1a475abc479f376758c99e605e6381a6eb7f26"
+        },
+        "date": 1774941516912,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 14.656068200636469,
+            "unit": "us/iter",
+            "extra": "iterations: 45894\ncpu: 14.655458208044628 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 82.3324300992276,
+            "unit": "us/iter",
+            "extra": "iterations: 9070\ncpu: 81.8824520396913 us\nthreads: 1"
           }
         ]
       }
