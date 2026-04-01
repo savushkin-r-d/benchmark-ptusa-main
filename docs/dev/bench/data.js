@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775011751469,
+  "lastUpdate": 1775038150895,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -94272,6 +94272,42 @@ window.BENCHMARK_DATA = {
             "value": 77.72190251467646,
             "unit": "us/iter",
             "extra": "iterations: 9027\ncpu: 77.30463409770687 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "4abffc22653e53f773bed54e2a997580e8d5c422",
+          "message": "Adds optional skip of cooling (#1267)\n\n* Adds optional skip of cooling\n\nModifies step 67 to transition directly to step 91 if the disinfection volume parameter is negative, allowing the process to skip the cooling phase. Includes unit tests for both the step transition logic and parameter preservation.\n\n* Updates TODO comment for solution preparation recipes\n\nRephrases the comment in `cipline_tech_object::ResetWP` regarding the necessity of creating recipes for solution preparation.\n\n* Ensures program loading when skipping cooling phase\n\nUpdates step 67 to execute `LoadProgram()` before evaluating the condition to skip to step 91. This ensures that any necessary program initialization or state changes occur even when the cooling phase is bypassed.\n\n* Updates cooling phase skip to use state flag\n\nModifies step 67 to set the `disable_final_rinsing` flag instead of returning a hardcoded step number when the cooling phase is skipped. This allows `LoadProgram()` to handle the transition logic and ensures proper state management. Unit tests are updated to verify the correct step sequence and parameter handling.",
+          "timestamp": "2026-04-01T13:05:48+03:00",
+          "tree_id": "029fa3ecf882bf901dd053f3ae6ed6301b72b76b",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/4abffc22653e53f773bed54e2a997580e8d5c422"
+        },
+        "date": 1775038143904,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.096443860092652,
+            "unit": "us/iter",
+            "extra": "iterations: 43543\ncpu: 16.095773074891486 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.17219481096846,
+            "unit": "us/iter",
+            "extra": "iterations: 6745\ncpu: 107.69438902891034 us\nthreads: 1"
           }
         ]
       }
