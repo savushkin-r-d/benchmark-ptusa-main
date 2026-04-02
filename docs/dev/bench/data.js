@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775109857880,
+  "lastUpdate": 1775109871506,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -94614,6 +94614,38 @@ window.BENCHMARK_DATA = {
             "value": 82.00120104293617,
             "unit": "us/iter",
             "extra": "iterations: 9013\ncpu: 81.57620692333298 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "c7875d26a822f8951f4d30516232bc836e08b93b",
+          "message": "Adds system tag for `I/O` node and `watchdog` error indication",
+          "timestamp": "2026-04-01T13:56:56Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1193/commits/c7875d26a822f8951f4d30516232bc836e08b93b"
+        },
+        "date": 1775109858022,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.592894410379866,
+            "unit": "us/iter",
+            "extra": "iterations: 42239\ncpu: 16.588916143848103 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.36604306864467,
+            "unit": "us/iter",
+            "extra": "iterations: 6687\ncpu: 104.7987402422611 us\nthreads: 1"
           }
         ]
       }
