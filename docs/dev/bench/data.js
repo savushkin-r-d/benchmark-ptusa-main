@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775219123773,
+  "lastUpdate": 1775221474538,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -95290,6 +95290,38 @@ window.BENCHMARK_DATA = {
             "value": 111.29911891385817,
             "unit": "us/iter",
             "extra": "iterations: 6408\ncpu: 110.71596754057428 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "5cf14410dee08e01726865e6eaa18e1bc618fb47",
+          "message": "Refactors `OPC UA` control and `CLI` args",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1279/commits/5cf14410dee08e01726865e6eaa18e1bc618fb47"
+        },
+        "date": 1775221468018,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.665885326699726,
+            "unit": "us/iter",
+            "extra": "iterations: 42608\ncpu: 16.660179285580174 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 112.68289851602997,
+            "unit": "us/iter",
+            "extra": "iterations: 6267\ncpu: 112.12921621190361 us\nthreads: 1"
           }
         ]
       }
