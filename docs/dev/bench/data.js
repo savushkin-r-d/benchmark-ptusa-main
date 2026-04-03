@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775218754335,
+  "lastUpdate": 1775218873074,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -95222,6 +95222,42 @@ window.BENCHMARK_DATA = {
             "value": 105.00054692845451,
             "unit": "us/iter",
             "extra": "iterations: 6723\ncpu: 104.44402498884428 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9a2017db0e7285e5db214dfc3ddaf2792115b146",
+          "message": "Adds system tag for `I/O` node and `watchdog` error indication (#1193)\n\n* Initial plan\n\n* Add system tags for node and watchdog error indication\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Apply review feedback: add null checks and test isolation\n\n- Add null pointer check in PAC_info::eval() before accessing node->get_display_state()\n- Create PAC_info_io_test fixture to isolate I/O manager state between tests\n- Update all node/watchdog tests to use fixture with proper SetUp/TearDown\n- Fix timing flakiness in save_device test by adding reset_uptime() call\n- Tests now properly clean up io_manager and device_manager state\n\nAddresses review comments in PR #1193\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/413aed96-236a-4c95-aaf4-46ea9b793893\n\n* Update PAC_info tests to include node and watchdog error tags\n\nUpdate the expected output in the `save_device` test to include the `NODES_COMM_ERROR` and `WATCHDOG_ERROR` system tags.\n\n* Consolidate PAC_info node communication error tests\n\nMerges `nodes_comm_error_all_ok` and `nodes_comm_error_one_has_error` into a single test case to eliminate redundant setup logic and simplify the test suite.\n\n* Add combined communication error status to PAC_info\n\nIntroduces a `COMMUN_ERROR` flag that aggregates node communication and watchdog errors into a single status indicator.\n\n- Add `get_commun_error()` and internal tracking for the combined error state\n- Include `COMMUN_ERROR` in the `save_device` output for system tags\n- Update `device_manager::get_device` to use `size_t` for index consistency\n- Update unit tests to verify the new status and ensure proper emulation handling\n\n* Fix watchdog allocation in PAC_info tests\n\nUpdate watchdog devices to use heap allocation instead of stack allocation. This ensures the device manager can safely clean up and delete registered devices without encountering memory corruption from stack-allocated pointers.\n\n* Refactor node communication error detection and update test types\n\n- Modernize node status evaluation in `PAC_info::eval` using C++17 init-statements\n- Update device manager tests to use `size_t` for index consistency\n- Remove redundant null check for I/O nodes in the evaluation loop\n\n* Implement stub I/O nodes and refactor PAC_info evaluation logic\n\n- Update `io_manager::get_node` to return a stub node instead of `nullptr` to prevent potential null pointer dereferences\n- Cache the `io_manager` instance in `PAC_info::eval` for better performance\n- Consolidate emulation state resets into the test fixture teardown to reduce redundancy in unit tests\n\n* Ensure `io_manager::get_node` always returns a valid node stub\n\n- Update `get_node` to return a stub node instead of `nullptr` when a node index is uninitialized or out of bounds to prevent null pointer dereferences.\n- Move `io_node_stub` and `IO_NODE_STUB` to the public section of `io_manager` to allow for identity checks in tests and other components.\n- Update unit tests to verify that the manager returns stub references instead of null pointers.\n\n* Optimize PAC_info error evaluation frequency\n\nMove I/O node and watchdog status checks into the conditional update block to perform these evaluations periodically rather than every execution cycle.\n\n* Update PAC_info unit tests for periodic error evaluation\n\n- Simulate elapsed time in tests using `DeltaMilliSecSubHooker` to trigger error checks within the timed evaluation block.\n- Move redundant device cleanup and timer resets to the test fixture teardown.\n- Add initial state verification to combined error tests to ensure baseline correctness before time elapses.\n\n* Refine stub I/O node defaults and unit test timing\n\n- Update `io_node_stub` to initialize with zero I/O modules instead of one to better represent an empty node.\n- Adjust simulated timing in unit tests to ensure periodic evaluation blocks are correctly triggered.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-04-03T15:16:52+03:00",
+          "tree_id": "aa8c840cd584639fd76c102d6e63121c03185ff9",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/9a2017db0e7285e5db214dfc3ddaf2792115b146"
+        },
+        "date": 1775218866609,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.754656709635857,
+            "unit": "us/iter",
+            "extra": "iterations: 41813\ncpu: 16.754046444885564 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.16418836606823,
+            "unit": "us/iter",
+            "extra": "iterations: 6567\ncpu: 109.53324836302727 us\nthreads: 1"
           }
         ]
       }
