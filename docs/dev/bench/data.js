@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775454659292,
+  "lastUpdate": 1775454681734,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -95484,6 +95484,40 @@ window.BENCHMARK_DATA = {
             "value": 108.82351171467124,
             "unit": "us/iter",
             "extra": "iterations: 6701\ncpu: 108.3173766602 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "71bd7df8b82250303c6dd96173e0151ef5ef73ed",
+          "message": "Bump benchmark-action/github-action-benchmark from 1.21.0 to 1.22.0 (#1281)\n\nBumps [benchmark-action/github-action-benchmark](https://github.com/benchmark-action/github-action-benchmark) from 1.21.0 to 1.22.0.\n- [Release notes](https://github.com/benchmark-action/github-action-benchmark/releases)\n- [Changelog](https://github.com/benchmark-action/github-action-benchmark/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/benchmark-action/github-action-benchmark/compare/a7bc2366eda11037936ea57d811a43b3418d3073...a60cea5bc7b49e15c1f58f411161f99e0df48372)\n\n---\nupdated-dependencies:\n- dependency-name: benchmark-action/github-action-benchmark\n  dependency-version: 1.22.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-04-06T05:48:03Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/71bd7df8b82250303c6dd96173e0151ef5ef73ed"
+        },
+        "date": 1775454673254,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.214468860803722,
+            "unit": "us/iter",
+            "extra": "iterations: 45971\ncpu: 15.213114963781518 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 83.9216809342886,
+            "unit": "us/iter",
+            "extra": "iterations: 8948\ncpu: 83.22834197586054 us\nthreads: 1"
           }
         ]
       }
