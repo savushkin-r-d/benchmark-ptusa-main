@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775443691013,
+  "lastUpdate": 1775454659292,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -95450,6 +95450,40 @@ window.BENCHMARK_DATA = {
             "value": 110.28536928616283,
             "unit": "us/iter",
             "extra": "iterations: 6388\ncpu: 109.75854508453351 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "531948df8003a38660ecc2e9e82f6fdad31a9672",
+          "message": "Bump step-security/harden-runner from 2.16.0 to 2.16.1 (#1282)\n\nBumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.16.0 to 2.16.1.\n- [Release notes](https://github.com/step-security/harden-runner/releases)\n- [Commits](https://github.com/step-security/harden-runner/compare/fa2e9d605c4eeb9fcad4c99c224cee0c6c7f3594...fe104658747b27e96e4f7e80cd0a94068e53901d)\n\n---\nupdated-dependencies:\n- dependency-name: step-security/harden-runner\n  dependency-version: 2.16.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-04-06T05:47:39Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/531948df8003a38660ecc2e9e82f6fdad31a9672"
+        },
+        "date": 1775454652456,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.314771141968226,
+            "unit": "us/iter",
+            "extra": "iterations: 43066\ncpu: 16.312787651511634 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.82351171467124,
+            "unit": "us/iter",
+            "extra": "iterations: 6701\ncpu: 108.3173766602 us\nthreads: 1"
           }
         ]
       }
