@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775458147948,
+  "lastUpdate": 1775462328460,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -95622,6 +95622,38 @@ window.BENCHMARK_DATA = {
             "value": 109.65153366027852,
             "unit": "us/iter",
             "extra": "iterations: 6729\ncpu: 109.11172878585224 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "4419c360a57da5c29bc43aaeb17f4b6c449b29dc",
+          "message": "Add `I/O` node availability checking for `DO` and `AO` devices",
+          "timestamp": "2026-04-06T05:59:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1196/commits/4419c360a57da5c29bc43aaeb17f4b6c449b29dc"
+        },
+        "date": 1775462322010,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.38903566661202,
+            "unit": "us/iter",
+            "extra": "iterations: 42701\ncpu: 16.38780335355144 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.54930439988243,
+            "unit": "us/iter",
+            "extra": "iterations: 6682\ncpu: 110.00701541454657 us\nthreads: 1"
           }
         ]
       }
