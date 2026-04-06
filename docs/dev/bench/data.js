@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775454681734,
+  "lastUpdate": 1775455327999,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -95518,6 +95518,42 @@ window.BENCHMARK_DATA = {
             "value": 83.9216809342886,
             "unit": "us/iter",
             "extra": "iterations: 8948\ncpu: 83.22834197586054 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "71bd7df8b82250303c6dd96173e0151ef5ef73ed",
+          "message": "Bump benchmark-action/github-action-benchmark from 1.21.0 to 1.22.0 (#1281)\n\nBumps [benchmark-action/github-action-benchmark](https://github.com/benchmark-action/github-action-benchmark) from 1.21.0 to 1.22.0.\n- [Release notes](https://github.com/benchmark-action/github-action-benchmark/releases)\n- [Changelog](https://github.com/benchmark-action/github-action-benchmark/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/benchmark-action/github-action-benchmark/compare/a7bc2366eda11037936ea57d811a43b3418d3073...a60cea5bc7b49e15c1f58f411161f99e0df48372)\n\n---\nupdated-dependencies:\n- dependency-name: benchmark-action/github-action-benchmark\n  dependency-version: 1.22.0\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-04-06T05:48:03Z",
+          "tree_id": "6ac16d926330432a003f7e05c1755b1788a5e6d6",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/71bd7df8b82250303c6dd96173e0151ef5ef73ed"
+        },
+        "date": 1775455321293,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.348475883793935,
+            "unit": "us/iter",
+            "extra": "iterations: 42855\ncpu: 16.34637267530043 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.7319189146573,
+            "unit": "us/iter",
+            "extra": "iterations: 6339\ncpu: 109.23231298312035 us\nthreads: 1"
           }
         ]
       }
