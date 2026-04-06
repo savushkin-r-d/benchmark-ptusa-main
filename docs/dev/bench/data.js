@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775480286582,
+  "lastUpdate": 1775485803507,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -95848,6 +95848,38 @@ window.BENCHMARK_DATA = {
             "value": 109.19725481127624,
             "unit": "us/iter",
             "extra": "iterations: 6703\ncpu: 108.67363956437417 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "3add4fc701702f7bf6cc42e9ee4371c41bbd99ee",
+          "message": "[WIP] Add watchdog device check without specifying line in MSA recipe",
+          "timestamp": "2026-04-06T05:59:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1285/commits/3add4fc701702f7bf6cc42e9ee4371c41bbd99ee"
+        },
+        "date": 1775485797033,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.556687189039998,
+            "unit": "us/iter",
+            "extra": "iterations: 42409\ncpu: 16.554678063618574 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.48322761418073,
+            "unit": "us/iter",
+            "extra": "iterations: 6656\ncpu: 107.97302749399043 us\nthreads: 1"
           }
         ]
       }
