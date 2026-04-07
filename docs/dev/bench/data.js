@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775546245852,
+  "lastUpdate": 1775546566459,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -96012,6 +96012,42 @@ window.BENCHMARK_DATA = {
             "value": 109.27940894270891,
             "unit": "us/iter",
             "extra": "iterations: 6441\ncpu: 108.79235444806706 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "289c3c76ad56dee778901761122aee4ad6f428f9",
+          "message": "[config][cmake] Change version to 2026.04.02 (#1278)\n\n* [config][cmake] Change version to 2025.04.02\n\n* [config][cmake] Change version to `2026.04.02.0`\n\nStandardizes the version string format by adding leading zeros to the month and day components.\n\n---------\n\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2026-04-07T07:07:06Z",
+          "tree_id": "9cad362df60922e0e64695758c22dabf5d22a718",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/289c3c76ad56dee778901761122aee4ad6f428f9"
+        },
+        "date": 1775546559411,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.14924215174433,
+            "unit": "us/iter",
+            "extra": "iterations: 43481\ncpu: 16.148079528989673 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.08373870034943,
+            "unit": "us/iter",
+            "extra": "iterations: 6571\ncpu: 110.403684218536 us\nthreads: 1"
           }
         ]
       }
