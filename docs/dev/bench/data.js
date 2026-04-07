@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775539356212,
+  "lastUpdate": 1775545849227,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -95944,6 +95944,40 @@ window.BENCHMARK_DATA = {
             "value": 107.0221134624031,
             "unit": "us/iter",
             "extra": "iterations: 6663\ncpu: 106.48711286207413 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "289c3c76ad56dee778901761122aee4ad6f428f9",
+          "message": "[config][cmake] Change version to 2026.04.02 (#1278)\n\n* [config][cmake] Change version to 2025.04.02\n\n* [config][cmake] Change version to `2026.04.02.0`\n\nStandardizes the version string format by adding leading zeros to the month and day components.\n\n---------\n\nCo-authored-by: AlexandrBehunkov <asutp10@pda.savushkin.by>",
+          "timestamp": "2026-04-07T07:07:06Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/289c3c76ad56dee778901761122aee4ad6f428f9"
+        },
+        "date": 1775545842343,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.02680356774319,
+            "unit": "us/iter",
+            "extra": "iterations: 43613\ncpu: 16.02539921583014 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.85598418167929,
+            "unit": "us/iter",
+            "extra": "iterations: 6385\ncpu: 109.34180485512927 us\nthreads: 1"
           }
         ]
       }
