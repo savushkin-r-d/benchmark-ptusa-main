@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775560397362,
+  "lastUpdate": 1775561018619,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -96218,6 +96218,42 @@ window.BENCHMARK_DATA = {
             "value": 107.03499685957908,
             "unit": "us/iter",
             "extra": "iterations: 6687\ncpu: 106.499806340661 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9644e6dfaa074f5dc8fc435b6ad4594d42ff8d99",
+          "message": "Refactors `OPC UA` control and `CLI` args (#1279)\n\n* [feat] Refactors and renames command-line arguments\n\n* [fix] Activates OPC UA server by default on parameter reset\n\n* [fix] Fixes Russian typo in comment\n\n* [cmake] Makes OPC UA support always-on\n\n* [refactor] Improves robustness of OPC UA command-line parsing\n\n* [test] Adds and updates OPC UA command-line parsing tests\n\n* feat: Make OPC UA server header includes and CLI option unconditional\n\n* refactor: Remove conditional compilation for OPC UA parameter control\n\n* refactor: Process OPC UA CLI arguments unconditionally\n\n* refactor: Unconditionally manage OPC UA server lifecycle\n\n* [refactor] Remove default value for OPC UA CLI argument\n\nThe --opc option no longer defaults to \"r\" when not specified. This change updates the CLI option definition, help strings in CMakeLists.txt, and unit tests. Additionally, the options definition in prj_mngr.cpp has been reformatted for improved readability.",
+          "timestamp": "2026-04-07T14:20:28+03:00",
+          "tree_id": "62f423ab66a93f4c7c92f7f01b103c4ae8f3488f",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/9644e6dfaa074f5dc8fc435b6ad4594d42ff8d99"
+        },
+        "date": 1775561011980,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.586614116312838,
+            "unit": "us/iter",
+            "extra": "iterations: 42334\ncpu: 16.584639438748994 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.75301998197236,
+            "unit": "us/iter",
+            "extra": "iterations: 6656\ncpu: 105.12231265024039 us\nthreads: 1"
           }
         ]
       }
