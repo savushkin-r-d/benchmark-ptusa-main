@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775547735785,
+  "lastUpdate": 1775548177931,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -96118,6 +96118,42 @@ window.BENCHMARK_DATA = {
             "value": 110.14724730679764,
             "unit": "us/iter",
             "extra": "iterations: 6405\ncpu: 109.6419406713505 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "6e222c6108e1d70ee68130c1112cf3a258e07c9a",
+          "message": "Add `I/O` node availability checking for `DO` and `AO` devices (#1196)\n\n* Initial plan\n\n* Add network node state checking for output devices\n\n- Added check_output_node_state() method to io_device class\n- Modified DO1::get_state() to check node availability before returning state\n- Returns error (-1) when node is unavailable, in PP mode, or not connected\n- Added comprehensive tests for node state checking\n- All tests passing (9 new tests + 11 existing io_node tests)\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix check_output_node_state to handle uninitialized channels\n\n- Added defensive checks for uninitialized channels and IO manager\n- Added bounds checking for node index before accessing\n- Prevents segfault when channels are not fully initialized\n- All tests passing (7 DO1 tests + 9 new tests + 11 io_node tests)\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refactor check_output_node_state and simplify its usage\n\n- Added default parameters to `check_output_node_state` to simplify common calls\n- Made the method `const` for better consistency and const-correctness\n- Updated `DO1::get_state()` and unit tests to use the simplified signature\n\n* Refactor DO1 unit tests to use a test fixture\n\n- Introduced `DO1_test` fixture to handle common setup and teardown logic for the IO manager and device initialization\n- Reduced boilerplate code in individual test cases by moving redundant logic to the fixture\n- Expanded `get_state_with_node_check_ok` to verify behavior for both high and low channel values\n\n* Refactor check_output_node_state unit tests to reduce boilerplate\n\n- Consolidated individual test cases for different node states (PP mode, not connected, and inactive) into a single test\n- Removed redundant setup and initialization code for the IO manager and device\n- Improved test maintainability by reducing code duplication\n\n* Refactor `check_output_node_state` and improve test coverage\n\n- Use modern C++ syntax, including `auto` and `if` statements with initializers, to simplify logic and improve readability\n- Update unit tests to verify behavior when the IO manager is initialized with no nodes\n- Remove redundant null checks for the IO manager to streamline the method\n\n* Refactor `check_output_node_state` to focus on DO channels\n\n- Rename the method to `check_output_DO_node_state` to reflect its specialized purpose\n- Remove the `is_digital` parameter and AO-related logic to simplify the implementation\n- Add an additional null check for `char_write_values` at the specified index for improved robustness\n- Update calls in `DO1::get_state()` and associated unit tests to use the new signature\n\n* Improve `check_output_DO_node_state` test coverage\n\n- Update unit tests to verify behavior when the IO manager is initialized but contains no nodes.\n\n* Update `check_output_DO_node_state` test to control emulation state\n\n- Explicitly disable emulation during the test to ensure the verification logic is correctly exercised\n- Restore the emulation state at the end of the test to avoid side effects on other test cases\n\n* Update node availability check documentation\n\n- Correct the parameter description to specify it applies to DO channels, removing the inaccurate reference to AO channels.\n\n* Add node availability check for analog output channels\n\n- Implement `check_output_AO_node_state` to verify the status of network nodes associated with AO channels.\n- Override `AO1::get_state` to return an error state if the underlying network node is unavailable or in a fault/PP mode.\n- Add unit tests to validate AO node state reporting in both `io_device` and analog output device classes.\n\n* Set IO node state to OK in analog valve tests\n\n- Explicitly set the underlying IO node to a healthy state to ensure the analog valve device initializes correctly now that node availability checks are enforced.\n\n* Refactor IO node states and refine PP mode availability checks\n\n- Introduce the `DISPLAY_STATES` enumeration to decouple visual status reporting from internal connectivity logic.\n- Implement `is_pp_mode_active` to specifically detect Project Planning mode on Phoenix bus couplers.\n- Update DO and AO availability checks to explicitly return an error when PP mode is active, independent of general status register warnings.\n\n* Refine and simplify output node state validation logic\n\n- Consolidate status checks for DO and AO channels to use a unified validation path for node activity, health, and PP mode.\n- Remove redundant node index bounds checks.\n- Update unit tests to verify correct error reporting when IO nodes are uninitialized or in a fault state.\n- Fix documentation typos in the bus coupler header.\n\n* Convert DISPLAY_STATES to scoped enum for improved type safety\n\n- Change `DISPLAY_STATES` to an `enum class` to prevent name collisions and enforce type-safe usage.\n- Update `io_node::get_display_state` to return the explicit enum type instead of a generic integer.\n- Update all call sites, string formatting, and unit tests to accommodate the scoped enum members.\n\n* Fix documentation typo in bus coupler header\n\n* Clarify node state evaluation comment in PAC_info\n\nRemove the specific reference to PP mode in the display state check to reflect that it now handles general error and warning states.\n\n* Update node display state documentation and rename unit test\n\n- Update Doxygen comments for `get_display_state` to reference `DISPLAY_STATES` enum members instead of raw integers.\n- Rename the test case `get_pp_mode_display_state` to `is_pp_mode_active` to accurately reflect the function being tested.\n\n* Update node display state documentation to match enum members\n\n- Update Doxygen comments for `get_display_state` to use the current `DISPLAY_STATES` enum names (`DST_OK`, `DST_NO_CONNECT`, `DST_ERROR`, `DST_WARNING`) and clarify their conditions.\n- Remove trailing whitespace in `device.cpp`.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-04-07T07:36:08Z",
+          "tree_id": "f3be4ed160920ab862614220d56afd541bc060c9",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/6e222c6108e1d70ee68130c1112cf3a258e07c9a"
+        },
+        "date": 1775548170742,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.665079402814744,
+            "unit": "us/iter",
+            "extra": "iterations: 42064\ncpu: 16.661811453974895 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.02644256348393,
+            "unit": "us/iter",
+            "extra": "iterations: 6616\ncpu: 107.36007179564693 us\nthreads: 1"
           }
         ]
       }
