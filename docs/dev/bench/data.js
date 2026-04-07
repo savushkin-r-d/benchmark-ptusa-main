@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775485803507,
+  "lastUpdate": 1775539212463,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -95880,6 +95880,38 @@ window.BENCHMARK_DATA = {
             "value": 108.48322761418073,
             "unit": "us/iter",
             "extra": "iterations: 6656\ncpu: 107.97302749399043 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "adcb7914ccda362ea5142fead3ba9350fb782042",
+          "message": "feat: WATCHDOG fallback lookup without line prefix in check_device",
+          "timestamp": "2026-04-06T05:59:42Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1285/commits/adcb7914ccda362ea5142fead3ba9350fb782042"
+        },
+        "date": 1775539205299,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.264947286605363,
+            "unit": "us/iter",
+            "extra": "iterations: 43101\ncpu: 16.263264587828587 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.95618564209417,
+            "unit": "us/iter",
+            "extra": "iterations: 6728\ncpu: 108.15013599881095 us\nthreads: 1"
           }
         ]
       }
