@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775546566459,
+  "lastUpdate": 1775547651869,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -96048,6 +96048,42 @@ window.BENCHMARK_DATA = {
             "value": 111.08373870034943,
             "unit": "us/iter",
             "extra": "iterations: 6571\ncpu: 110.403684218536 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c52115576f70b5601cb75d6d0fd3c7e9ffdb8257",
+          "message": "[feat] `WATCHDOG` fallback lookup without line prefix in `CIP` (#1285)\n\n* Initial plan\n\n* feat: WATCHDOG device fallback lookup without line prefix\n\nWhen a WATCHDOG device named LINExWATCHDOGn is not found,\ncheck_device() now falls back to searching for WATCHDOGn.\nThis allows a single WATCHDOG device to be shared across\nmultiple CIP lines without requiring a per-line definition.\n\nAdd two tests: fallback_no_line_prefix and line_prefix_takes_priority.\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/bf2f7aff-e0ad-431a-a0aa-b0c1bea348fe\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Adds `LCOV_EXCL_START`, `LCOV_EXCL_STOP`\n\n* Fixes print buffer size\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-04-07T10:37:39+03:00",
+          "tree_id": "3035754824f1c998d844f3f49d2ad5214652128b",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/c52115576f70b5601cb75d6d0fd3c7e9ffdb8257"
+        },
+        "date": 1775547645212,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.5747548897606,
+            "unit": "us/iter",
+            "extra": "iterations: 42589\ncpu: 16.573139355232573 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.95149184185688,
+            "unit": "us/iter",
+            "extra": "iterations: 6374\ncpu: 109.32235095701289 us\nthreads: 1"
           }
         ]
       }
