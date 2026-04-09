@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775737429736,
+  "lastUpdate": 1775738313796,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -96702,6 +96702,38 @@ window.BENCHMARK_DATA = {
             "value": 111.08411396614363,
             "unit": "us/iter",
             "extra": "iterations: 6616\ncpu: 110.45782300483678 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "9312b53e27a5eea10ada96cc71337ad7ada28197",
+          "message": "[WIP] Fix overflow issue with recipe title length",
+          "timestamp": "2026-04-07T11:30:30Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1288/commits/9312b53e27a5eea10ada96cc71337ad7ada28197"
+        },
+        "date": 1775738306834,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.70695985155198,
+            "unit": "us/iter",
+            "extra": "iterations: 41496\ncpu: 16.70221806921149 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.34481043338826,
+            "unit": "us/iter",
+            "extra": "iterations: 6230\ncpu: 110.83457303370787 us\nthreads: 1"
           }
         ]
       }
