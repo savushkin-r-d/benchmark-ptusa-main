@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775801661177,
+  "lastUpdate": 1775802249465,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -96894,6 +96894,38 @@ window.BENCHMARK_DATA = {
             "value": 107.86188738268864,
             "unit": "us/iter",
             "extra": "iterations: 6713\ncpu: 107.3645852822881 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "570651f620f0a1ed5447be7b27bbc3e1de3c2ead",
+          "message": "Fixes `DO` and `AO` devices error on `I/O` node PP mode activation",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1286/commits/570651f620f0a1ed5447be7b27bbc3e1de3c2ead"
+        },
+        "date": 1775802242973,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.119320363344347,
+            "unit": "us/iter",
+            "extra": "iterations: 43485\ncpu: 16.117163780614003 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.87748204440372,
+            "unit": "us/iter",
+            "extra": "iterations: 6711\ncpu: 107.40124929220683 us\nthreads: 1"
           }
         ]
       }
