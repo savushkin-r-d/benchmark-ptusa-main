@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775819210357,
+  "lastUpdate": 1775820166554,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -97214,6 +97214,38 @@ window.BENCHMARK_DATA = {
             "value": 107.23876719175986,
             "unit": "us/iter",
             "extra": "iterations: 6602\ncpu: 106.73950711905484 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "a05ceaed0d837b7de71a1abc63069741cc57715e",
+          "message": "[WIP] Add new LT_CYL_HOR device type",
+          "timestamp": "2026-04-07T11:30:30Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1290/commits/a05ceaed0d837b7de71a1abc63069741cc57715e"
+        },
+        "date": 1775820159384,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.117099030069276,
+            "unit": "us/iter",
+            "extra": "iterations: 43199\ncpu: 16.1151406051066 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.00509786561103,
+            "unit": "us/iter",
+            "extra": "iterations: 6325\ncpu: 110.53615920948617 us\nthreads: 1"
           }
         ]
       }
