@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775820324178,
+  "lastUpdate": 1775823232500,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -97310,6 +97310,38 @@ window.BENCHMARK_DATA = {
             "value": 108.82639879518165,
             "unit": "us/iter",
             "extra": "iterations: 6640\ncpu: 108.27062530120486 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "5dca2fa97351c43cb34970062f75f0cab2cfdc33",
+          "message": "Update `Lua` from `5.1` to `5.5`",
+          "timestamp": "2026-04-07T11:30:30Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1289/commits/5dca2fa97351c43cb34970062f75f0cab2cfdc33"
+        },
+        "date": 1775823225543,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.150269884854975,
+            "unit": "us/iter",
+            "extra": "iterations: 43337\ncpu: 16.14837003022821 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.55965937940661,
+            "unit": "us/iter",
+            "extra": "iterations: 7090\ncpu: 103.2532053596615 us\nthreads: 1"
           }
         ]
       }
