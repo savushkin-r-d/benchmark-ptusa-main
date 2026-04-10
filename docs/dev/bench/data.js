@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775739530735,
+  "lastUpdate": 1775800797021,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -96766,6 +96766,38 @@ window.BENCHMARK_DATA = {
             "value": 111.02839811524883,
             "unit": "us/iter",
             "extra": "iterations: 6473\ncpu: 110.42817719758999 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "0272704f3906cce6bcda5360d3a460e515f1afb2",
+          "message": "Adds state change delay for `DO` and `AO` devices on `I/O` node errors",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1286/commits/0272704f3906cce6bcda5360d3a460e515f1afb2"
+        },
+        "date": 1775800789969,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.629624245540011,
+            "unit": "us/iter",
+            "extra": "iterations: 44734\ncpu: 15.628444248222829 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 113.37799875987912,
+            "unit": "us/iter",
+            "extra": "iterations: 6451\ncpu: 112.5054737250039 us\nthreads: 1"
           }
         ]
       }
