@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1775802999618,
+  "lastUpdate": 1775803142432,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -96958,6 +96958,38 @@ window.BENCHMARK_DATA = {
             "value": 110.44417664989999,
             "unit": "us/iter",
             "extra": "iterations: 6561\ncpu: 109.7993824112178 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "f7580e317b6cc92e649eb3516e314e7397e66df4",
+          "message": "Fix MSA recipe name overflow: truncate instead of silently dropping",
+          "timestamp": "2026-04-07T11:30:30Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1288/commits/f7580e317b6cc92e649eb3516e314e7397e66df4"
+        },
+        "date": 1775803135097,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.82573960416027,
+            "unit": "us/iter",
+            "extra": "iterations: 44513\ncpu: 15.82384593264889 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 117.23408647273577,
+            "unit": "us/iter",
+            "extra": "iterations: 6291\ncpu: 116.57919170243204 us\nthreads: 1"
           }
         ]
       }
