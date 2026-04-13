@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776078500650,
+  "lastUpdate": 1776079191628,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -97574,6 +97574,40 @@ window.BENCHMARK_DATA = {
             "value": 104.09280805217209,
             "unit": "us/iter",
             "extra": "iterations: 7054\ncpu: 103.77630663453357 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "ca0e2dc61381d0cdfef7370f0916ee4233305c2b",
+          "message": "Changes  `DO`, `AO` devices error on `I/O` node only PP mode activation (#1286)\n\n* Adds state change delay for `DO` and `AO` devices on `I/O` node errors\n\nIntroduces a `P_DT` parameter to `DO1` and `AO1` devices to provide a configurable delay before transitioning to an error state when an I/O node becomes unavailable. This ensures that transient network issues do not immediately trigger device errors. Updates parameter indexing in derived classes to account for the new base parameters.\n\n* Revert `PAC_dev_lua.cpp`\n\n* Refines state change delay for DO and AO devices and fixes valve parameter lookup\n\n- Implements configurable delay using the `P_DT` parameter for `DO1` to prevent immediate error states during transient network issues.\n- Updates `AO1` state capture logic and sets its initial `current_state` to 1.\n- Corrects parameter indexing for feedback monitoring in `analog_valve_iolink::get_state()`.\n\n* Sets initial state for AO1 devices to 0\n\n- Changes the default `current_state` for `AO1` from 1 to 0.\n- Removes the explicit `direct_set_state(1)` call from the `AO1` constructor.\n- Updates unit tests for analog valves and AO-Link devices to reflect the change in default state reporting.\n\n* Initializes state_change_time with current time for DO, DI, and AO devices\n\nSets the starting point for state change monitoring to the time of device creation. This prevents immediate timeout triggers upon initialization when calculating state change delays.\n\n* Removes redundant parameter count and adds tests for state change delay\n\n- Removes the `DO1::get_params_count()` override, as the parameter count is now correctly handled by the base class.\n- Adds unit tests for `DO` and `DI` devices to verify that the state change delay (`P_DT`) prevents immediate error reporting during I/O node failures.\n\n* Adds unit tests for DI signal state change delay\n\nUpdates the `DI_signal.get_state` test case to verify that the device correctly respects the `P_DT` parameter. The test ensures that state transitions are deferred until the specified time has elapsed, using `DeltaMilliSecSubHooker` to simulate time progression.\n\n* Extracts I/O state evaluation into evaluate_io for AO1 and DI1 devices\n\n- Moves state processing logic and delay handling from `get_state()` to the new `evaluate_io()` override.\n- Ensures `get_state()` remains a simple getter for the current processed state.\n- Updates unit tests to explicitly call `evaluate_io()` before verifying state transitions.\n\n* Fixes parameter indexing in analog valve IO-Link unit tests\n\nCorrects the `set_par` call for the feedback parameter (`P_FB`) by passing the parameter ID and start index as separate arguments, ensuring the test correctly disables feedback evaluation.\n\n* Updates unit tests for DO and AO devices to correctly verify state change delays\n\n- Uses `DeltaMilliSecSubHooker` to simulate the passage of time, ensuring that the `P_DT` (delay time) parameter is correctly respected during state transitions.\n- Adjusts the test sequence for analog outputs to ensure I/O evaluation occurs after node status changes.\n- Ensures the mock timer is reset after test execution to maintain test environment consistency.\n\n* Removes state change delay logic and refactors node state checks for DO and AO devices\n\n- Removes the `P_DT` parameter and associated timing logic from `DO1` and `AO1` devices.\n- Renames node status check functions to focus specifically on PP mode activation, narrowing the scope of I/O error reporting for these devices.\n- Simplifies parameter indexing in `analog_output` and `analog_valve_iolink` by removing redundant `start_param_idx` usage.\n- Updates unit tests to align with the simplified state evaluation and modified device serialization format.\n\n* Removes unused parameter index and cleans up obsolete `DO1` delay test\n\n- Removes the redundant `start_param_idx` member from the `analog_output` class.\n- Updates unit tests for `DO1` to remove references to the deprecated `P_DT` (delay time) parameter, ensuring alignment with the removal of state change delay logic.",
+          "timestamp": "2026-04-13T11:16:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/ca0e2dc61381d0cdfef7370f0916ee4233305c2b"
+        },
+        "date": 1776079184541,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.24190164957068,
+            "unit": "us/iter",
+            "extra": "iterations: 43284\ncpu: 16.239286017928105 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.82845685355927,
+            "unit": "us/iter",
+            "extra": "iterations: 6617\ncpu: 108.11864802780721 us\nthreads: 1"
           }
         ]
       }
