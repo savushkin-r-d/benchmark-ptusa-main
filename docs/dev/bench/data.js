@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776158963073,
+  "lastUpdate": 1776161528322,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -98162,6 +98162,38 @@ window.BENCHMARK_DATA = {
             "value": 104.9354167539261,
             "unit": "us/iter",
             "extra": "iterations: 6685\ncpu: 104.42346611817503 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "13e83cb230e86935985d91ea0abe6be3bccb7a2b",
+          "message": "[config][visual studio] Adds `Lua` debug launch cofiguration",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1293/commits/13e83cb230e86935985d91ea0abe6be3bccb7a2b"
+        },
+        "date": 1776161519965,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 14.909663157670096,
+            "unit": "us/iter",
+            "extra": "iterations: 46927\ncpu: 14.907906706160635 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 82.12329966691489,
+            "unit": "us/iter",
+            "extra": "iterations: 9307\ncpu: 81.74818910497477 us\nthreads: 1"
           }
         ]
       }
