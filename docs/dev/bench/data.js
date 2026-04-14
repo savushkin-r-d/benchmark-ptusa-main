@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776161528322,
+  "lastUpdate": 1776170585148,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -98194,6 +98194,42 @@ window.BENCHMARK_DATA = {
             "value": 82.12329966691489,
             "unit": "us/iter",
             "extra": "iterations: 9307\ncpu: 81.74818910497477 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d15684acfa77f10b7fef86f542a2419a1ff24f31",
+          "message": "[config][visual studio] Adds `Lua` debug launch configuration (#1293)",
+          "timestamp": "2026-04-14T15:40:08+03:00",
+          "tree_id": "8f7ca4868e70e960199e7a82925727498912b099",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d15684acfa77f10b7fef86f542a2419a1ff24f31"
+        },
+        "date": 1776170577861,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.235629603940566,
+            "unit": "us/iter",
+            "extra": "iterations: 43251\ncpu: 16.232541120436522 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.54130640290705,
+            "unit": "us/iter",
+            "extra": "iterations: 6622\ncpu: 106.70271277559648 us\nthreads: 1"
           }
         ]
       }
