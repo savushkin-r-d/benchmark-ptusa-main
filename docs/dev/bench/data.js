@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776261057714,
+  "lastUpdate": 1776261893498,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -98494,6 +98494,38 @@ window.BENCHMARK_DATA = {
             "value": 106.85997301633661,
             "unit": "us/iter",
             "extra": "iterations: 6856\ncpu: 106.20125670945158 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "0d40b1d105c2b5d920d99fb2eaa4f511789bf2f7",
+          "message": "Add `LT_CYL_HOR` subtype: horizontal cylindrical tank",
+          "timestamp": "2026-04-14T12:48:49Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1290/commits/0d40b1d105c2b5d920d99fb2eaa4f511789bf2f7"
+        },
+        "date": 1776261886188,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.356081571631755,
+            "unit": "us/iter",
+            "extra": "iterations: 42809\ncpu: 16.354187343782847 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.60114994026092,
+            "unit": "us/iter",
+            "extra": "iterations: 6696\ncpu: 109.05676657706094 us\nthreads: 1"
           }
         ]
       }
