@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776340228283,
+  "lastUpdate": 1776341144180,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -98858,6 +98858,38 @@ window.BENCHMARK_DATA = {
             "value": 107.95217798165223,
             "unit": "us/iter",
             "extra": "iterations: 6540\ncpu: 107.32884434250768 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "e82b1d7dda17a69e3aceddebe39998dabc4bf1ba",
+          "message": "[config][cmake] Fixes PLCnext build by making `lua` dependency conditional",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1294/commits/e82b1d7dda17a69e3aceddebe39998dabc4bf1ba"
+        },
+        "date": 1776341137265,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.787601110858292,
+            "unit": "us/iter",
+            "extra": "iterations: 44110\ncpu: 15.786373906143732 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.34476484773691,
+            "unit": "us/iter",
+            "extra": "iterations: 6634\ncpu: 110.74953105215556 us\nthreads: 1"
           }
         ]
       }
