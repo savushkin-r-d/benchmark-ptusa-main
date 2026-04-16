@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776326704520,
+  "lastUpdate": 1776327043425,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -98790,6 +98790,42 @@ window.BENCHMARK_DATA = {
             "value": 110.7417189340378,
             "unit": "us/iter",
             "extra": "iterations: 6792\ncpu: 110.23537028857481 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "2b31b3a2efe0bba566f500049c7e0064cd6bb0a2",
+          "message": "Add `DT_NODE` device type for network node management (#1148)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-04-16T11:05:50+03:00",
+          "tree_id": "dd315f0adfa7d2816649738affd15bb9637286d5",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2b31b3a2efe0bba566f500049c7e0064cd6bb0a2"
+        },
+        "date": 1776327036254,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.882770646394818,
+            "unit": "us/iter",
+            "extra": "iterations: 41569\ncpu: 16.881799369722632 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.32312442630551,
+            "unit": "us/iter",
+            "extra": "iterations: 5883\ncpu: 107.82824409314976 us\nthreads: 1"
           }
         ]
       }
