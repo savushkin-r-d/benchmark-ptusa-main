@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776323185925,
+  "lastUpdate": 1776324476653,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -98622,6 +98622,42 @@ window.BENCHMARK_DATA = {
             "value": 111.25404918815634,
             "unit": "us/iter",
             "extra": "iterations: 6282\ncpu: 110.70164581343522 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6d65958eeb13763d1dbeeaa54ff22b42bb4bb2ad",
+          "message": "Fixes `CIP` recipe name overflow (#1288)",
+          "timestamp": "2026-04-16T10:24:37+03:00",
+          "tree_id": "e9aa233ba31b634fc2e84232b0978e319a72ef77",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/6d65958eeb13763d1dbeeaa54ff22b42bb4bb2ad"
+        },
+        "date": 1776324470572,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 12.173978340419758,
+            "unit": "us/iter",
+            "extra": "iterations: 57388\ncpu: 12.170748849933785 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 87.72444884894719,
+            "unit": "us/iter",
+            "extra": "iterations: 8123\ncpu: 87.1433972670196 us\nthreads: 1"
           }
         ]
       }
