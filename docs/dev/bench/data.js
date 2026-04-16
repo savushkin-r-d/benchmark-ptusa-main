@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776341144180,
+  "lastUpdate": 1776341800628,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -98890,6 +98890,42 @@ window.BENCHMARK_DATA = {
             "value": 111.34476484773691,
             "unit": "us/iter",
             "extra": "iterations: 6634\ncpu: 110.74953105215556 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "77625230ab5cb25ecb442a7f90465b4912183ae8",
+          "message": "[config][cmake] Fixes PLCnext build by making `lua` dependency conditional (#1294)\n\nPrevents `libptusa_main` from depending on the `lua` target when `ARP_DEVICE` is defined, ensuring compatibility with the PLCnext build environment.",
+          "timestamp": "2026-04-16T15:13:49+03:00",
+          "tree_id": "c694d86eb8158b993561e97c10d6e9334197fab8",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/77625230ab5cb25ecb442a7f90465b4912183ae8"
+        },
+        "date": 1776341793608,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.609585565792624,
+            "unit": "us/iter",
+            "extra": "iterations: 42330\ncpu: 16.60520184266478 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.07749905749354,
+            "unit": "us/iter",
+            "extra": "iterations: 6366\ncpu: 107.56592365692744 us\nthreads: 1"
           }
         ]
       }
