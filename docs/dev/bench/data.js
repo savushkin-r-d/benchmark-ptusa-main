@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776414170847,
+  "lastUpdate": 1776419411499,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -99252,6 +99252,40 @@ window.BENCHMARK_DATA = {
             "value": 107.23018740784228,
             "unit": "us/iter",
             "extra": "iterations: 6782\ncpu: 106.76287260395166 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e6aeb40bd590acab1ce8a3dcf06d4276f5eab3d1",
+          "message": "Sets `OPC UA` server iteration to non-blocking (#1295)\n\n* Sets `OPC UA` server iteration to non-blocking\n\nUpdates the `UA_Server_run_iterate` call to use non-blocking mode by setting the `waitInternal` parameter to false. This ensures that the OPC UA server evaluation does not stall the main execution loop.\n\n* Adds unit test for non-blocking `OPC UA` server evaluation\n\nVerifies that the `evaluate()` method executes without stalling by measuring the total time taken for 200 iterations. This ensures that the OPC UA server correctly operates in non-blocking mode as expected.\n\n* Refactors `OPC UA` server tests to use `auto`\n\nReplaces explicit integer types with `auto` for loop iterations and constants in the non-blocking server evaluation test. Also fixes a punctuation error in a comment.\n\n* Resets `is_PAC_info_created` flag on `OPC UA` server shutdown\n\nEnsures that the `is_PAC_info_created` status is properly reset when the OPC UA server is shut down, allowing for correct re-initialization in subsequent server starts.\n\n* Refactors `OPC UA` server tests to use a test fixture\n\nMoves the `G_OPCUA_SERVER.shutdown()` call into a test fixture's `TearDown` method. This ensures the server is properly shut down after test execution, even if an assertion fails.",
+          "timestamp": "2026-04-17T09:47:14Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e6aeb40bd590acab1ce8a3dcf06d4276f5eab3d1"
+        },
+        "date": 1776419404476,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.307492602100183,
+            "unit": "us/iter",
+            "extra": "iterations: 42850\ncpu: 16.306714819136523 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.98638068350782,
+            "unit": "us/iter",
+            "extra": "iterations: 6730\ncpu: 107.53760817236255 us\nthreads: 1"
           }
         ]
       }
