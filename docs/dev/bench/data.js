@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776407644002,
+  "lastUpdate": 1776407653670,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -98958,6 +98958,38 @@ window.BENCHMARK_DATA = {
             "value": 109.47929367973181,
             "unit": "us/iter",
             "extra": "iterations: 6582\ncpu: 108.69763035551507 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "3895d01129d77305804ba23772e32f61d0b42051",
+          "message": "Sets `OPC UA` server iteration to non-blocking",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1295/commits/3895d01129d77305804ba23772e32f61d0b42051"
+        },
+        "date": 1776407639316,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.422098098074727,
+            "unit": "us/iter",
+            "extra": "iterations: 42641\ncpu: 16.42032919021599 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.21894688922524,
+            "unit": "us/iter",
+            "extra": "iterations: 6590\ncpu: 106.53638209408193 us\nthreads: 1"
           }
         ]
       }
