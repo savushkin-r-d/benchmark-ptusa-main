@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776677991907,
+  "lastUpdate": 1776845607836,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -99452,6 +99452,38 @@ window.BENCHMARK_DATA = {
             "value": 110.20730523683406,
             "unit": "us/iter",
             "extra": "iterations: 6798\ncpu: 109.71756398940865 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "6836eeb2ff330f069d18a380690ed478568675e9",
+          "message": "[config][copilot] Revises copilot comment formatting instructions",
+          "timestamp": "2026-04-17T09:51:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1302/commits/6836eeb2ff330f069d18a380690ed478568675e9"
+        },
+        "date": 1776845600365,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.38970094451115,
+            "unit": "us/iter",
+            "extra": "iterations: 41397\ncpu: 16.386389206947364 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.81633734045393,
+            "unit": "us/iter",
+            "extra": "iterations: 6738\ncpu: 104.29792238052832 us\nthreads: 1"
           }
         ]
       }
