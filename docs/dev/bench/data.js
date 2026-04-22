@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776867526563,
+  "lastUpdate": 1776867847884,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -99756,6 +99756,42 @@ window.BENCHMARK_DATA = {
             "value": 77.04630898137597,
             "unit": "us/iter",
             "extra": "iterations: 9130\ncpu: 76.60272475355968 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "335096d9dcae6fd1d826281c23e99a0b8b2f586d",
+          "message": "Adds `instant_off` support to `dev_stub` and `STUB` `Lua` API (#1301)\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-04-22T17:13:03+03:00",
+          "tree_id": "272ab4e42b679391f1353bbd630bb846ac690e05",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/335096d9dcae6fd1d826281c23e99a0b8b2f586d"
+        },
+        "date": 1776867840878,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.67892149951236,
+            "unit": "us/iter",
+            "extra": "iterations: 41987\ncpu: 16.676933527044085 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 103.78656571175985,
+            "unit": "us/iter",
+            "extra": "iterations: 6772\ncpu: 103.25137979917305 us\nthreads: 1"
           }
         ]
       }
