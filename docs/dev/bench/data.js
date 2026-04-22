@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776864267151,
+  "lastUpdate": 1776867330557,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -99684,6 +99684,42 @@ window.BENCHMARK_DATA = {
             "value": 108.94643802163792,
             "unit": "us/iter",
             "extra": "iterations: 6470\ncpu: 108.47598083462135 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d3c0cb7a0e9de8e94d0c2408e0bcaef73d3c4311",
+          "message": "[config][cmake] Serializes `cipline_tech_object.save_device` unit test (#1300)\n\nEnsures the `cipline_tech_object.save_device` test runs serially by excluding it from the general parallel test pool and registering it separately with the `RUN_SERIAL` property. This prevents potential race conditions or resource conflicts during test execution.",
+          "timestamp": "2026-04-22T17:12:16+03:00",
+          "tree_id": "388311c09f3e44e2ec7b1e3281efb28fd769b023",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d3c0cb7a0e9de8e94d0c2408e0bcaef73d3c4311"
+        },
+        "date": 1776867323016,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.27550403983486,
+            "unit": "us/iter",
+            "extra": "iterations: 42576\ncpu: 16.27495570274333 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.49731529656601,
+            "unit": "us/iter",
+            "extra": "iterations: 6727\ncpu: 104.9661486546752 us\nthreads: 1"
           }
         ]
       }
