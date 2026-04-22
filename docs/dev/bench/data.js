@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776845607836,
+  "lastUpdate": 1776846179198,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -99484,6 +99484,38 @@ window.BENCHMARK_DATA = {
             "value": 104.81633734045393,
             "unit": "us/iter",
             "extra": "iterations: 6738\ncpu: 104.29792238052832 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "1d7e28fb46ddca93a6390ad5c5e85b07288c8cb4",
+          "message": "[config][cmake] Serializes `cipline_tech_object.save_device` unit test",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1300/commits/1d7e28fb46ddca93a6390ad5c5e85b07288c8cb4"
+        },
+        "date": 1776846170852,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.40446447306746,
+            "unit": "us/iter",
+            "extra": "iterations: 42700\ncpu: 16.402363583138175 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.62400359712443,
+            "unit": "us/iter",
+            "extra": "iterations: 6394\ncpu: 109.12622818267124 us\nthreads: 1"
           }
         ]
       }
