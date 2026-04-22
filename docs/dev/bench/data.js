@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776846179198,
+  "lastUpdate": 1776854778143,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -99516,6 +99516,38 @@ window.BENCHMARK_DATA = {
             "value": 109.62400359712443,
             "unit": "us/iter",
             "extra": "iterations: 6394\ncpu: 109.12622818267124 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "50cf4efde7033690a985ff95e0de40a55f117649",
+          "message": "Add `instant_on`/`instant_off` support to `dev_stub` and STUB Lua API",
+          "timestamp": "2026-04-17T09:51:28Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1301/commits/50cf4efde7033690a985ff95e0de40a55f117649"
+        },
+        "date": 1776854770930,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.816015973287584,
+            "unit": "us/iter",
+            "extra": "iterations: 44324\ncpu: 15.813769019041603 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.78806823197424,
+            "unit": "us/iter",
+            "extra": "iterations: 6346\ncpu: 110.98731484399623 us\nthreads: 1"
           }
         ]
       }
