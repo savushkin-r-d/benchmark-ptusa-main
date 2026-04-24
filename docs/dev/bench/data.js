@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1776950575698,
+  "lastUpdate": 1777007845014,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -99920,6 +99920,38 @@ window.BENCHMARK_DATA = {
             "value": 107.6414250188397,
             "unit": "us/iter",
             "extra": "iterations: 6635\ncpu: 107.01169238884701 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "ba21ce2b340aa9b14fb7a4fd720e60afafd9c1b3",
+          "message": "Adds support for silent error resets in `PAC_critical_errors_manager`",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1303/commits/ba21ce2b340aa9b14fb7a4fd720e60afafd9c1b3"
+        },
+        "date": 1777007835468,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.160091751078436,
+            "unit": "us/iter",
+            "extra": "iterations: 46103\ncpu: 15.157920460707548 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 80.11130441500944,
+            "unit": "us/iter",
+            "extra": "iterations: 9060\ncpu: 79.59135044150109 us\nthreads: 1"
           }
         ]
       }
