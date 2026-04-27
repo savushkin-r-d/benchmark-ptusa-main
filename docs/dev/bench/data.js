@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777280822895,
+  "lastUpdate": 1777283425031,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -100368,6 +100368,40 @@ window.BENCHMARK_DATA = {
             "value": 103.8910396332421,
             "unit": "us/iter",
             "extra": "iterations: 6762\ncpu: 103.35966444838805 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "f5a4b0c18b159744aa990e6cabf7144d92341e95",
+          "message": "[config][copilot] Revises copilot comment formatting instructions (#1302)\n\nUpdated comment guidelines to require complete sentences.",
+          "timestamp": "2026-04-22T14:13:49Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/f5a4b0c18b159744aa990e6cabf7144d92341e95"
+        },
+        "date": 1777283417569,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.438379337910728,
+            "unit": "us/iter",
+            "extra": "iterations: 42532\ncpu: 16.437905200789995 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.79849992339855,
+            "unit": "us/iter",
+            "extra": "iterations: 6527\ncpu: 107.29513145396048 us\nthreads: 1"
           }
         ]
       }
