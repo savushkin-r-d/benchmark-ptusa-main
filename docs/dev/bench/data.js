@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777577802601,
+  "lastUpdate": 1777577943179,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -100892,6 +100892,38 @@ window.BENCHMARK_DATA = {
             "value": 106.16486366384113,
             "unit": "us/iter",
             "extra": "iterations: 6616\ncpu: 105.51704640266021 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "a6fc6e56111b4cedeca3d816255945104e61a759",
+          "message": "[WIP] Fix set_cmd behavior for STOP/PAUSE in IDLE state",
+          "timestamp": "2026-04-30T10:26:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1311/commits/a6fc6e56111b4cedeca3d816255945104e61a759"
+        },
+        "date": 1777577935362,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.431320762253705,
+            "unit": "us/iter",
+            "extra": "iterations: 42558\ncpu: 16.42886303397716 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.38314785447596,
+            "unit": "us/iter",
+            "extra": "iterations: 6432\ncpu: 108.61837080223879 us\nthreads: 1"
           }
         ]
       }
