@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777577755691,
+  "lastUpdate": 1777577802601,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -100860,6 +100860,38 @@ window.BENCHMARK_DATA = {
             "value": 110.10175889080656,
             "unit": "us/iter",
             "extra": "iterations: 6383\ncpu: 109.4885209149303 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "29ae1b829fe24f463ed95627a4df133944c02636",
+          "message": "[WIP] Add step transition command for CMD objects",
+          "timestamp": "2026-04-30T10:26:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1313/commits/29ae1b829fe24f463ed95627a4df133944c02636"
+        },
+        "date": 1777577795316,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.507792224754656,
+            "unit": "us/iter",
+            "extra": "iterations: 45169\ncpu: 15.504806039540396 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.16486366384113,
+            "unit": "us/iter",
+            "extra": "iterations: 6616\ncpu: 105.51704640266021 us\nthreads: 1"
           }
         ]
       }
