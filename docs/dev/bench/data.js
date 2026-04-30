@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777577943179,
+  "lastUpdate": 1777578009640,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -100924,6 +100924,38 @@ window.BENCHMARK_DATA = {
             "value": 109.38314785447596,
             "unit": "us/iter",
             "extra": "iterations: 6432\ncpu: 108.61837080223879 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "f4a882caf57e9d18b5738f1b09256e4af76543dc",
+          "message": "[WIP] Add limit for sensor values on QT_IOLINK conductivity",
+          "timestamp": "2026-04-30T10:26:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1312/commits/f4a882caf57e9d18b5738f1b09256e4af76543dc"
+        },
+        "date": 1777578002087,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.35981698358376,
+            "unit": "us/iter",
+            "extra": "iterations: 42335\ncpu: 16.358936482815636 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.29047182569164,
+            "unit": "us/iter",
+            "extra": "iterations: 6655\ncpu: 104.78608354620587 us\nthreads: 1"
           }
         ]
       }
