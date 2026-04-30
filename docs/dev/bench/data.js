@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777555731794,
+  "lastUpdate": 1777577472745,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -100796,6 +100796,38 @@ window.BENCHMARK_DATA = {
             "value": 77.64848255300329,
             "unit": "us/iter",
             "extra": "iterations: 9056\ncpu: 77.26935898851589 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "aa9c359cac425bdf99646a393f21d62e153e94d5",
+          "message": "[WIP] Add connection status tracking for Modbus client",
+          "timestamp": "2026-04-30T10:26:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1315/commits/aa9c359cac425bdf99646a393f21d62e153e94d5"
+        },
+        "date": 1777577463297,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.443475644573292,
+            "unit": "us/iter",
+            "extra": "iterations: 45185\ncpu: 15.441739803031977 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 78.25884953291406,
+            "unit": "us/iter",
+            "extra": "iterations: 8992\ncpu: 77.76103847864768 us\nthreads: 1"
           }
         ]
       }
