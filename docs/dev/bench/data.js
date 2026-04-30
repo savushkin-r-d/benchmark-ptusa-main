@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777578009640,
+  "lastUpdate": 1777579232130,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -100956,6 +100956,38 @@ window.BENCHMARK_DATA = {
             "value": 105.29047182569164,
             "unit": "us/iter",
             "extra": "iterations: 6655\ncpu: 104.78608354620587 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "549ea32e083fa002d2519df6029c183cf17c3b76",
+          "message": "[WIP] Add new device LS E&H FTW33",
+          "timestamp": "2026-04-30T10:26:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1319/commits/549ea32e083fa002d2519df6029c183cf17c3b76"
+        },
+        "date": 1777579222662,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.275892716214157,
+            "unit": "us/iter",
+            "extra": "iterations: 45869\ncpu: 15.251698358368397 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 82.59678850651245,
+            "unit": "us/iter",
+            "extra": "iterations: 8979\ncpu: 81.98989330660432 us\nthreads: 1"
           }
         ]
       }
