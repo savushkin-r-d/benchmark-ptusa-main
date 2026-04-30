@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777577472745,
+  "lastUpdate": 1777577755691,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -100828,6 +100828,38 @@ window.BENCHMARK_DATA = {
             "value": 78.25884953291406,
             "unit": "us/iter",
             "extra": "iterations: 8992\ncpu: 77.76103847864768 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "a1ecea6f432a3f253defb5b1ef034ed6637dc5d7",
+          "message": "[WIP] Add new register for reading errors 7997",
+          "timestamp": "2026-04-30T10:26:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1314/commits/a1ecea6f432a3f253defb5b1ef034ed6637dc5d7"
+        },
+        "date": 1777577747886,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.587970483324373,
+            "unit": "us/iter",
+            "extra": "iterations: 44856\ncpu: 15.584863184412342 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.10175889080656,
+            "unit": "us/iter",
+            "extra": "iterations: 6383\ncpu: 109.4885209149303 us\nthreads: 1"
           }
         ]
       }
