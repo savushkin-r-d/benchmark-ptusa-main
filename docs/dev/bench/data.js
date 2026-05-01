@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777613982174,
+  "lastUpdate": 1777620177220,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -101212,6 +101212,38 @@ window.BENCHMARK_DATA = {
             "value": 105.18621466352867,
             "unit": "us/iter",
             "extra": "iterations: 6806\ncpu: 104.65557904789894 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "7b30def2cc8686359f2a28d9083e7b2760377d12",
+          "message": "Fix STOP/PAUSE commands incorrectly activating mode when operation is in IDLE state",
+          "timestamp": "2026-04-30T10:26:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1311/commits/7b30def2cc8686359f2a28d9083e7b2760377d12"
+        },
+        "date": 1777620169623,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.082895397393514,
+            "unit": "us/iter",
+            "extra": "iterations: 43584\ncpu: 16.079405882892804 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.07373208216352,
+            "unit": "us/iter",
+            "extra": "iterations: 6767\ncpu: 103.54658622727943 us\nthreads: 1"
           }
         ]
       }
