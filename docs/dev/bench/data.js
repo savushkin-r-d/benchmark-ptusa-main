@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777613440288,
+  "lastUpdate": 1777613982174,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -101180,6 +101180,38 @@ window.BENCHMARK_DATA = {
             "value": 115.83603658340542,
             "unit": "us/iter",
             "extra": "iterations: 6205\ncpu: 115.3231300564061 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "7cccbefef7ce1d4cd6d0ae3ffe1e888bdbdb0cf4",
+          "message": "[WIP] Unify input/output communication functions for Linux and Windows",
+          "timestamp": "2026-04-30T10:26:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1322/commits/7cccbefef7ce1d4cd6d0ae3ffe1e888bdbdb0cf4"
+        },
+        "date": 1777613974765,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.65281629654232,
+            "unit": "us/iter",
+            "extra": "iterations: 42193\ncpu: 16.65029054582514 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.18621466352867,
+            "unit": "us/iter",
+            "extra": "iterations: 6806\ncpu: 104.65557904789894 us\nthreads: 1"
           }
         ]
       }
