@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777604287845,
+  "lastUpdate": 1777613093844,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -101116,6 +101116,38 @@ window.BENCHMARK_DATA = {
             "value": 78.61134313405404,
             "unit": "us/iter",
             "extra": "iterations: 9183\ncpu: 78.20234901448327 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "b05f504d6f3133f1c27ad2c654c66c21ee1ff3fe",
+          "message": "[WIP] Improve accident handling according to new guidelines",
+          "timestamp": "2026-04-30T10:26:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1323/commits/b05f504d6f3133f1c27ad2c654c66c21ee1ff3fe"
+        },
+        "date": 1777613086424,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.199329877406665,
+            "unit": "us/iter",
+            "extra": "iterations: 41764\ncpu: 18.1983819318073 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.62096068271637,
+            "unit": "us/iter",
+            "extra": "iterations: 6562\ncpu: 109.11855669003353 us\nthreads: 1"
           }
         ]
       }
