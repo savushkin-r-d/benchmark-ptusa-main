@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777613093844,
+  "lastUpdate": 1777613440288,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -101148,6 +101148,38 @@ window.BENCHMARK_DATA = {
             "value": 109.62096068271637,
             "unit": "us/iter",
             "extra": "iterations: 6562\ncpu: 109.11855669003353 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "71a8c6d496729d99b477b4240c883a57267dbbe8",
+          "message": "[WIP] Add support for configuring IO-Link devices in project 'Monitor'",
+          "timestamp": "2026-04-30T10:26:35Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1318/commits/71a8c6d496729d99b477b4240c883a57267dbbe8"
+        },
+        "date": 1777613432320,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 18.255730624431678,
+            "unit": "us/iter",
+            "extra": "iterations: 38515\ncpu: 18.253077424380113 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 115.83603658340542,
+            "unit": "us/iter",
+            "extra": "iterations: 6205\ncpu: 115.3231300564061 us\nthreads: 1"
           }
         ]
       }
