@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777985974984,
+  "lastUpdate": 1777986191622,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -102460,6 +102460,42 @@ window.BENCHMARK_DATA = {
             "value": 111.47361428571558,
             "unit": "us/iter",
             "extra": "iterations: 6300\ncpu: 110.83936714285714 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8ca25f7bffdf04f42ae23c13de09b394db9a23ca",
+          "message": "[format] Remove trailing whitespace and extra spaces (#1334)\n\n* [format] Remove trailing whitespace and extra spaces\n\nEliminates various instances of trailing whitespace and unnecessary spaces across the codebase, improving code cleanliness and consistency.\n\n* Ensure _UNICODE is correctly defined",
+          "timestamp": "2026-05-05T15:59:40+03:00",
+          "tree_id": "6dbeba31d804d3a405e07aa3b767b7fea2d796b0",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/8ca25f7bffdf04f42ae23c13de09b394db9a23ca"
+        },
+        "date": 1777986183493,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 14.024888708351025,
+            "unit": "us/iter",
+            "extra": "iterations: 49851\ncpu: 14.022808709955669 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 98.05207815349591,
+            "unit": "us/iter",
+            "extra": "iterations: 7127\ncpu: 97.25927402834293 us\nthreads: 1"
           }
         ]
       }
