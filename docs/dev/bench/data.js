@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777981012382,
+  "lastUpdate": 1777981181348,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -102088,6 +102088,40 @@ window.BENCHMARK_DATA = {
             "value": 110.46997216820239,
             "unit": "us/iter",
             "extra": "iterations: 6683\ncpu: 109.87008559030377 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]",
+            "email": "49699333+dependabot[bot]@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "bcc2aed916e0f5df15c65de5d748d10b1532c647",
+          "message": "Bump deps/lunarmodules/busted from `633862f` to `901de7d` (#1328)\n\nBumps [deps/lunarmodules/busted](https://github.com/lunarmodules/busted) from `633862f` to `901de7d`.\n- [Release notes](https://github.com/lunarmodules/busted/releases)\n- [Commits](https://github.com/lunarmodules/busted/compare/633862f58363cf395b2ee5f7121b6f3f66ad4d8e...901de7d0d0a6128e240b5beca5359621e12b0331)\n\n---\nupdated-dependencies:\n- dependency-name: deps/lunarmodules/busted\n  dependency-version: 901de7d0d0a6128e240b5beca5359621e12b0331\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-05-05T11:36:02Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/bcc2aed916e0f5df15c65de5d748d10b1532c647"
+        },
+        "date": 1777981173805,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.21770560920384,
+            "unit": "us/iter",
+            "extra": "iterations: 43286\ncpu: 16.215835605045513 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.20591332049183,
+            "unit": "us/iter",
+            "extra": "iterations: 6749\ncpu: 103.58975300044449 us\nthreads: 1"
           }
         ]
       }
