@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777985145473,
+  "lastUpdate": 1777985446455,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -102392,6 +102392,38 @@ window.BENCHMARK_DATA = {
             "value": 108.8682827436355,
             "unit": "us/iter",
             "extra": "iterations: 6444\ncpu: 108.33905477963998 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "b2a13a6671e6adb601886aae3fe06ed2adf93494",
+          "message": "Add `LS` `IO-Link` device: `E+H` `FTW33` (Liquipoint conductive level switch)",
+          "timestamp": "2026-05-05T11:59:31Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1319/commits/b2a13a6671e6adb601886aae3fe06ed2adf93494"
+        },
+        "date": 1777985439853,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 12.291851647202543,
+            "unit": "us/iter",
+            "extra": "iterations: 57370\ncpu: 12.290262785427926 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 85.39461617133566,
+            "unit": "us/iter",
+            "extra": "iterations: 8311\ncpu: 84.88769799061484 us\nthreads: 1"
           }
         ]
       }
