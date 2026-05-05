@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777980773163,
+  "lastUpdate": 1777980866164,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -101988,6 +101988,40 @@ window.BENCHMARK_DATA = {
             "value": 107.85035018811358,
             "unit": "us/iter",
             "extra": "iterations: 6645\ncpu: 107.25896689240032 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Copilot",
+            "username": "Copilot",
+            "email": "198982749+Copilot@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "05edebd17b4c91c5ed2126465fa422d31f8cfda1",
+          "message": "Fix `STOP`/`PAUSE` commands incorrectly activating operation from `IDLE` state (#1311)\n\n* Initial plan\n\n* Fix set_mode ignoring STOP/PAUSE in IDLE state and add tests\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/f0e258f6-f6c7-4393-89c1-a1ce990d1935\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Improve comment precision in set_mode STOP/PAUSE guard\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/f0e258f6-f6c7-4393-89c1-a1ce990d1935\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refine `set_mode` behavior and diagnostics for IDLE operations\n\nIntroduce specific result codes (5 for PAUSE, 6 for STOP) and corresponding\ndebug messages when `set_mode` attempts to transition an operation from\nthe IDLE state. This clarifies why such commands are ignored.\nAdditionally, refactor operation access within `set_mode` by caching\nthe operation pointer for improved readability. The test suite is updated\nto reflect this refined behavior.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-05-05T11:30:52Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/05edebd17b4c91c5ed2126465fa422d31f8cfda1"
+        },
+        "date": 1777980857946,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.594875617023323,
+            "unit": "us/iter",
+            "extra": "iterations: 44974\ncpu: 15.587844287810736 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.74726220425036,
+            "unit": "us/iter",
+            "extra": "iterations: 6678\ncpu: 107.05370589997003 us\nthreads: 1"
           }
         ]
       }
