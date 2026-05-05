@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777981865205,
+  "lastUpdate": 1777984522011,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -102260,6 +102260,38 @@ window.BENCHMARK_DATA = {
             "value": 81.81749454289155,
             "unit": "us/iter",
             "extra": "iterations: 8521\ncpu: 81.22497664593357 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "02a4e508cc14291b19d6fb52391186fe0fd50cda",
+          "message": "[format] Remove trailing whitespace and extra spaces",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1334/commits/02a4e508cc14291b19d6fb52391186fe0fd50cda"
+        },
+        "date": 1777984514093,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.14978215404474,
+            "unit": "us/iter",
+            "extra": "iterations: 43416\ncpu: 16.148035954486826 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.00622368616033,
+            "unit": "us/iter",
+            "extra": "iterations: 6755\ncpu: 108.49401791265733 us\nthreads: 1"
           }
         ]
       }
