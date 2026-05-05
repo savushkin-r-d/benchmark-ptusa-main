@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1777986239817,
+  "lastUpdate": 1777986335240,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -102532,6 +102532,42 @@ window.BENCHMARK_DATA = {
             "value": 110.8035443453706,
             "unit": "us/iter",
             "extra": "iterations: 6393\ncpu: 109.97977709995311 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "0492a806690b8f78cdd3175b61200e25fed7da0b",
+          "message": "Add `LS` `IO-Link` device: `E+H` `FTW33` (Liquipoint conductive level switch) (#1319)\n\n* Initial plan\n\n* Add E+H FTW33 (EH_FTW33) to level_s_iolink device\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/1f21b0a6-3014-40eb-a3a2-aa1350c5aa4a\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refine level_s_iolink evaluation for `E+H` sensors\n\nReuse `ARTICLE::EH_FTL33` case from `ARTICLE::EH_FTW33` device evaluation logic.\nAlso improves type safety in `ARTICLE::EH_FTW33` data parsing by adding a `static_cast` for the destination pointer.\n\n* Improve `level_s_iolink` article matching for E&H devices\n\nSwitches to substring matching (`strstr`) for E&H `FTL33` and `FTW33` articles, enabling recognition of variants in the full article string. This enhances flexibility in device identification. Introduces initial character checks for 'I' and 'E' to optimize article category determination.\n\n* Add `reset_article` method to `level_s_iolink`\n\nIntroduce a `reset_article()` method within the `PTUSA_TEST` block to enable consistent resetting of a `level_s_iolink` device's article state to `ARTICLE::DEFAULT`. This improves the reliability of unit tests by ensuring each article configuration is tested from a clean state.\n\n* Add `level_s_iolink` test for `E&H.FTW33` value evaluation\n\nExtends the `level_s_iolink_evaluate_io` test case to verify correct parsing and scaling of I/O data for the `E&H.FTW33` article, ensuring accurate `get_value()` output.\n\n* Remove `reset_article` method and default unknown articles\n\nThe `level_s_iolink::reset_article()` method has been removed as it is no longer necessary. The `set_article()` method now explicitly sets `n_article` to `ARTICLE::DEFAULT` if an unknown article string is provided. This ensures a consistent default state for invalid inputs and simplifies the class by consolidating article state management.\n\n* Remove extraneous empty line in `level_s_iolink::evaluate_io`\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-05-05T16:00:35+03:00",
+          "tree_id": "6a3704eab02bd7ef76d7fceecc9437b9df971bb3",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/0492a806690b8f78cdd3175b61200e25fed7da0b"
+        },
+        "date": 1777986327369,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.694625367539345,
+            "unit": "us/iter",
+            "extra": "iterations: 44553\ncpu: 15.693340470899829 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.987138048703,
+            "unit": "us/iter",
+            "extra": "iterations: 6447\ncpu: 111.3356862106406 us\nthreads: 1"
           }
         ]
       }
