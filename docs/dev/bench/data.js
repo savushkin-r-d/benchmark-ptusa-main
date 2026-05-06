@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778069463804,
+  "lastUpdate": 1778072454820,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -102792,6 +102792,38 @@ window.BENCHMARK_DATA = {
             "value": 109.82777246508475,
             "unit": "us/iter",
             "extra": "iterations: 6588\ncpu: 109.09827049180328 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "75de0c3f7e36c46c5d5e0ca4d4c1ecbcf6248423",
+          "message": "[WIP] Fix OPC initialization issue when starting with --opc=off",
+          "timestamp": "2026-05-05T13:00:41Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1339/commits/75de0c3f7e36c46c5d5e0ca4d4c1ecbcf6248423"
+        },
+        "date": 1778072447081,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.335175618473624,
+            "unit": "us/iter",
+            "extra": "iterations: 42524\ncpu: 16.333551265167902 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.74683505000559,
+            "unit": "us/iter",
+            "extra": "iterations: 6699\ncpu: 107.25250873264669 us\nthreads: 1"
           }
         ]
       }
