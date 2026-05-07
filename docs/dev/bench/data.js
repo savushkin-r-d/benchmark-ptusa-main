@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778136140536,
+  "lastUpdate": 1778137934860,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -102888,6 +102888,42 @@ window.BENCHMARK_DATA = {
             "value": 109.06214687159988,
             "unit": "us/iter",
             "extra": "iterations: 6441\ncpu: 108.51986601459397 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7f80b20a95328102316da1e8c3306fe2a9c1c081",
+          "message": "Adds support for silent error resets in `PAC_critical_errors_manager` (#1303)\n\n* Adds support for silent error resets in `PAC_critical_errors_manager`\n\nIntroduces an `is_print_msg` parameter to `reset_global_error` to allow clearing errors without triggering log messages. This is used when moving an IO coupler to service mode to prevent misleading connection restoration messages. Additionally refactors error parameters from `unsigned long` to `unsigned int` and updates casts to `static_cast`.\n\n* [review] Fixes codestyle\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>\n\n* Adds unit tests for node error reporting and resetting\n\nVerifies that disabling an IO node via the \"NODEENABLED\" command triggers a critical error and that the error state can be subsequently cleared using the command interface.\n\n* Adds unit tests for silent error resets and verifies state clearing\n\nIntroduces a test case to ensure that resetting a global error with the print message flag set to false produces no output. Additionally, adds assertions to existing tests to verify the global error state is correctly cleared after a reset.\n\n* Adds`I/O` coupler timeout setup and refines `PP mode` error handling\n\nRefactors `I/O` bus coupler error handling to ensure `PP mode` alarms are cleared immediately upon communication loss. The maximum communication wait time is now configurable via the `P_BK_ANSWER_MAX_WAIT_TIME` parameter.\n\nIncludes a new test case to verify these error state transitions and adds digit separators for improved readability of numerical literals.\n\n* Refine I/O node communication and PP mode alarm tests\n\nRemove outdated test cases for `PP mode` alarm resets on disconnect to align with updated I/O node error handling logic. Update existing tests to incorporate the `P_BK_ANSWER_MAX_WAIT_TIME` parameter for communication timeouts, ensuring accurate validation of error conditions.\n\n* Refine `PP mode` alarm test cleanup and correct typos\n\nAdds explicit cleanup for global `PAC_INFO` parameters and error state at the end of `PP mode` alarm tests. This improves test reliability by preventing state leakage between test runs.\n\nAlso corrects minor typos found in comments.\n\n* Refine unit test cleanup for global state management\n\nEnsures global error manager state and PAC info parameters are explicitly reset after tests. This prevents state leakage between test runs, improving test isolation and reliability.\n\n* Streamline I/O coupler timeout usage and remove obsolete test\n\nRemoves the `C_MAX_WAIT_TIME` constant, as its value is now configured via the `P_BK_ANSWER_MAX_WAIT_TIME` parameter. This finalizes the transition to a configurable communication timeout.\n\nAlso removes the `disconnect_resets_alarm` test, which validated a behavior no longer relevant after recent refinements to `PP mode` alarm handling.\n\n* Correct terminology in I/O node timeout comment\n\n* Clear PP mode alarm when disabling I/O node\n\nWhen an I/O node is explicitly disabled via `NODEENABLED`, any active `PP mode` alarm for that node is now cleared. This ensures the system accurately reflects the node's state by prioritizing the 'disabled for service' status over previous communication errors.\n\nUpdates related unit tests to reflect this new behavior and clarifies test naming.\n\n* Correct error handling comment and refine test cleanup\n\nThe typo fix clarifies the intent of error removal in I/O node processing.\nAdditionally, the `set_cmd` test now explicitly resets all critical errors, ensuring a clean state and improving test isolation.\n\n---------\n\nCo-authored-by: Copilot <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-05-07T10:08:28+03:00",
+          "tree_id": "80d60e740fcaba0717c38226665e1fdb085629bc",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/7f80b20a95328102316da1e8c3306fe2a9c1c081"
+        },
+        "date": 1778137928319,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 12.632117865219222,
+            "unit": "us/iter",
+            "extra": "iterations: 55275\ncpu: 12.631030809588422 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 85.44034578212434,
+            "unit": "us/iter",
+            "extra": "iterations: 8381\ncpu: 84.9347531320845 us\nthreads: 1"
           }
         ]
       }
