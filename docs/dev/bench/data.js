@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778138793782,
+  "lastUpdate": 1778227016859,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -102988,6 +102988,38 @@ window.BENCHMARK_DATA = {
             "value": 107.68846097560873,
             "unit": "us/iter",
             "extra": "iterations: 6560\ncpu: 107.20806631097561 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "d54defce1c4df7942d5f90c1c3a11f12220d98bd",
+          "message": "Adds dynamic `80` port forwarding for node devices",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1306/commits/d54defce1c4df7942d5f90c1c3a11f12220d98bd"
+        },
+        "date": 1778227007151,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.287178504531834,
+            "unit": "us/iter",
+            "extra": "iterations: 46447\ncpu: 15.285504273688291 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 82.93788181926548,
+            "unit": "us/iter",
+            "extra": "iterations: 8377\ncpu: 82.5624451474275 us\nthreads: 1"
           }
         ]
       }
