@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778501687943,
+  "lastUpdate": 1778501945766,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -103382,6 +103382,42 @@ window.BENCHMARK_DATA = {
             "value": 106.69019804183208,
             "unit": "us/iter",
             "extra": "iterations: 6741\ncpu: 106.20889111407803 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "b632c08c9729b9ad7f5e40f7abeafd019b30816a",
+          "message": "Fixes 'ctest' (#1342)\n\nReplaces the obsolete `pp_mode_alarm.disconnect_no_alarm` with `pp_mode_alarm.e_communicate`. This aligns the filter with current `PP mode` alarm handling and test configurations.",
+          "timestamp": "2026-05-11T12:11:14Z",
+          "tree_id": "17592c6c719b08dedb0a2cece8bd3a15f7818c63",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/b632c08c9729b9ad7f5e40f7abeafd019b30816a"
+        },
+        "date": 1778501936457,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.807837666711286,
+            "unit": "us/iter",
+            "extra": "iterations: 44538\ncpu: 15.804676837756524 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.73330302091206,
+            "unit": "us/iter",
+            "extra": "iterations: 6455\ncpu: 108.88872114639811 us\nthreads: 1"
           }
         ]
       }
