@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778467878997,
+  "lastUpdate": 1778483208919,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -103116,6 +103116,38 @@ window.BENCHMARK_DATA = {
             "value": 83.6476098952264,
             "unit": "us/iter",
             "extra": "iterations: 8590\ncpu: 83.12589126891733 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "0e8acae62ca0f73a5f90e0843b51e40622067657",
+          "message": "[cmake] Fixes 'ctest' configuration",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1342/commits/0e8acae62ca0f73a5f90e0843b51e40622067657"
+        },
+        "date": 1778483200282,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.422345044597215,
+            "unit": "us/iter",
+            "extra": "iterations: 42267\ncpu: 16.421792911727827 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.55130969807806,
+            "unit": "us/iter",
+            "extra": "iterations: 6558\ncpu: 109.04113921927419 us\nthreads: 1"
           }
         ]
       }
