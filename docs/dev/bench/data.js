@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1778507964752,
+  "lastUpdate": 1778508245703,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -103516,6 +103516,42 @@ window.BENCHMARK_DATA = {
             "value": 79.31023018326849,
             "unit": "us/iter",
             "extra": "iterations: 9058\ncpu: 78.87076540075073 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "39357d5063ccf7d9fdf1b092d66207b900432d44",
+          "message": "Bump benchmark-action/github-action-benchmark from 1.22.0 to 1.22.1 (#1340)\n\nBumps [benchmark-action/github-action-benchmark](https://github.com/benchmark-action/github-action-benchmark) from 1.22.0 to 1.22.1.\n- [Release notes](https://github.com/benchmark-action/github-action-benchmark/releases)\n- [Changelog](https://github.com/benchmark-action/github-action-benchmark/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/benchmark-action/github-action-benchmark/compare/a60cea5bc7b49e15c1f58f411161f99e0df48372...52576c92bccf6ac60c8223ec7eb2565637cae9ba)\n\n---\nupdated-dependencies:\n- dependency-name: benchmark-action/github-action-benchmark\n  dependency-version: 1.22.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-05-11T13:55:28Z",
+          "tree_id": "fccadaade4364e3fde89da9490a9ec03efc0e28a",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/39357d5063ccf7d9fdf1b092d66207b900432d44"
+        },
+        "date": 1778508237985,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.442722000937465,
+            "unit": "us/iter",
+            "extra": "iterations: 42680\ncpu: 16.43935461574508 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.17066396887549,
+            "unit": "us/iter",
+            "extra": "iterations: 6425\ncpu: 110.54076249027239 us\nthreads: 1"
           }
         ]
       }
