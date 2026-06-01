@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1779705409778,
+  "lastUpdate": 1780289261246,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -103716,6 +103716,38 @@ window.BENCHMARK_DATA = {
             "value": 83.7660108494895,
             "unit": "us/iter",
             "extra": "iterations: 8664\ncpu: 83.09605113111726 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "160a3c4514dfcd5dbb99a83677cb46a736d44c9c",
+          "message": "Bump deps/lunarmodules/luassert/luassert from `8b5fd81` to `8e18d95`",
+          "timestamp": "2026-05-11T14:08:15Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1352/commits/160a3c4514dfcd5dbb99a83677cb46a736d44c9c"
+        },
+        "date": 1780289253453,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.906003578547004,
+            "unit": "us/iter",
+            "extra": "iterations: 44152\ncpu: 15.90418843993477 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.7852191080853,
+            "unit": "us/iter",
+            "extra": "iterations: 6458\ncpu: 110.09851238773615 us\nthreads: 1"
           }
         ]
       }
