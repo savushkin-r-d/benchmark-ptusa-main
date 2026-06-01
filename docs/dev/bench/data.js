@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780294015207,
+  "lastUpdate": 1780294320997,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -103948,6 +103948,42 @@ window.BENCHMARK_DATA = {
             "value": 111.70676164166571,
             "unit": "us/iter",
             "extra": "iterations: 6335\ncpu: 110.84258247829517 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": false,
+          "id": "6eaf01d4695b12aded29204b183f0ef5a66349f1",
+          "message": "Bump step-security/harden-runner from 2.19.1 to 2.19.4 (#1346)\n\nBumps [step-security/harden-runner](https://github.com/step-security/harden-runner) from 2.19.1 to 2.19.4.\n- [Release notes](https://github.com/step-security/harden-runner/releases)\n- [Commits](https://github.com/step-security/harden-runner/compare/a5ad31d6a139d249332a2605b85202e8c0b78450...9af89fc71515a100421586dfdb3dc9c984fbf411)\n\n---\nupdated-dependencies:\n- dependency-name: step-security/harden-runner\n  dependency-version: 2.19.4\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-01T06:00:16Z",
+          "tree_id": "8f5f0682226267bb90b9c187e94319ef6c26fb68",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/6eaf01d4695b12aded29204b183f0ef5a66349f1"
+        },
+        "date": 1780294313607,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 12.269619090428018,
+            "unit": "us/iter",
+            "extra": "iterations: 56730\ncpu: 12.268580169222634 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 82.58163894095657,
+            "unit": "us/iter",
+            "extra": "iterations: 8536\ncpu: 82.05641213683222 us\nthreads: 1"
           }
         ]
       }
