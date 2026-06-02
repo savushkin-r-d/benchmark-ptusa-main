@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780310919154,
+  "lastUpdate": 1780406141487,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -104224,6 +104224,42 @@ window.BENCHMARK_DATA = {
             "value": 107.2323591269829,
             "unit": "us/iter",
             "extra": "iterations: 6552\ncpu: 106.58047252747254 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d76b80530ffda639f46b4ce5fab0c04154af108a",
+          "message": "Bump deps/lunarmodules/luassert/luassert from `8b5fd81` to `8e18d95` (#1352)\n\nBumps [deps/lunarmodules/luassert/luassert](https://github.com/lunarmodules/luassert) from `8b5fd81` to `8e18d95`.\n- [Release notes](https://github.com/lunarmodules/luassert/releases)\n- [Commits](https://github.com/lunarmodules/luassert/compare/8b5fd81d942532877091b68f1f3bd0f4e78fba83...8e18d95f9aef8fb28cedfcf5c43efbf3e10d330c)\n\n---\nupdated-dependencies:\n- dependency-name: deps/lunarmodules/luassert/luassert\n  dependency-version: 8e18d95f9aef8fb28cedfcf5c43efbf3e10d330c\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-06-02T16:12:18+03:00",
+          "tree_id": "92f7bcee75d3420679f6ab99098bf0dd2641a660",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d76b80530ffda639f46b4ce5fab0c04154af108a"
+        },
+        "date": 1780406132076,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.584603417782223,
+            "unit": "us/iter",
+            "extra": "iterations: 41840\ncpu: 16.58449815965583 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.2328214118741,
+            "unit": "us/iter",
+            "extra": "iterations: 6417\ncpu: 109.7511343306841 us\nthreads: 1"
           }
         ]
       }
