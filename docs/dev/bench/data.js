@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1780643020378,
+  "lastUpdate": 1780645869429,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -104420,6 +104420,38 @@ window.BENCHMARK_DATA = {
             "value": 110.57083055218229,
             "unit": "us/iter",
             "extra": "iterations: 6592\ncpu: 109.94675728155339 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "04ba30b6fb28e615e2be02df1c856e24c28e289b",
+          "message": "Preserve `CLI OPC` mode across parameter reinitialization",
+          "timestamp": "2026-06-02T13:12:36Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1339/commits/04ba30b6fb28e615e2be02df1c856e24c28e289b"
+        },
+        "date": 1780645859034,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 14.847317796878404,
+            "unit": "us/iter",
+            "extra": "iterations: 47351\ncpu: 14.846919959451757 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 80.05239019521197,
+            "unit": "us/iter",
+            "extra": "iterations: 9016\ncpu: 79.65635237355814 us\nthreads: 1"
           }
         ]
       }
