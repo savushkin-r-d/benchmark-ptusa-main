@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782723622311,
+  "lastUpdate": 1782724223980,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -104836,6 +104836,38 @@ window.BENCHMARK_DATA = {
             "value": 108.17151056125424,
             "unit": "us/iter",
             "extra": "iterations: 6628\ncpu: 107.52795534097766 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "b442e8cf3c01079df5aeb5022ef20835e880ce1b",
+          "message": "Fix Windows MSVC CI: use vswhere.exe to locate VS when hardcoded path is missing",
+          "timestamp": "2026-06-29T07:12:31Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1363/commits/b442e8cf3c01079df5aeb5022ef20835e880ce1b"
+        },
+        "date": 1782724214747,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.41414882543108,
+            "unit": "us/iter",
+            "extra": "iterations: 43037\ncpu: 16.41323319469294 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.84669101206842,
+            "unit": "us/iter",
+            "extra": "iterations: 6709\ncpu: 109.03345312267105 us\nthreads: 1"
           }
         ]
       }
