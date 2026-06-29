@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782724223980,
+  "lastUpdate": 1782729531661,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -104868,6 +104868,40 @@ window.BENCHMARK_DATA = {
             "value": 109.84669101206842,
             "unit": "us/iter",
             "extra": "iterations: 6709\ncpu: 109.03345312267105 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "2e7d4fa51843a0a199ed76d959de3cef8ccef709",
+          "message": "[github actions] Update `codecov-action` to `7.0.0` (#1362)",
+          "timestamp": "2026-06-29T07:12:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/2e7d4fa51843a0a199ed76d959de3cef8ccef709"
+        },
+        "date": 1782729521463,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.039854807503836,
+            "unit": "us/iter",
+            "extra": "iterations: 46001\ncpu: 15.038135627486358 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 80.9963006775529,
+            "unit": "us/iter",
+            "extra": "iterations: 9003\ncpu: 80.60592713539931 us\nthreads: 1"
           }
         ]
       }
