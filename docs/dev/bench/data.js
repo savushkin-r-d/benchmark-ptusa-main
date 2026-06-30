@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782736461510,
+  "lastUpdate": 1782827373928,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -104966,6 +104966,38 @@ window.BENCHMARK_DATA = {
             "value": 83.20369951091476,
             "unit": "us/iter",
             "extra": "iterations: 8383\ncpu: 82.61787379219852 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "6ed42fc6fe3ccea70dbb44bb295ccf3d770c1d1d",
+          "message": "Fix Windows MSVC CI: use `vswhere.exe` to locate VS",
+          "timestamp": "2026-06-29T07:12:31Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1363/commits/6ed42fc6fe3ccea70dbb44bb295ccf3d770c1d1d"
+        },
+        "date": 1782827364642,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.393595462117858,
+            "unit": "us/iter",
+            "extra": "iterations: 42619\ncpu: 16.39251064079401 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.18329274073861,
+            "unit": "us/iter",
+            "extra": "iterations: 6750\ncpu: 107.68357022222222 us\nthreads: 1"
           }
         ]
       }
