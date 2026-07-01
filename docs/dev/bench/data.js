@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782911477866,
+  "lastUpdate": 1782913361520,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -105450,6 +105450,38 @@ window.BENCHMARK_DATA = {
             "value": 109.90085446795773,
             "unit": "us/iter",
             "extra": "iterations: 6569\ncpu: 109.00059506774244 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "1a34c20db36fb82f745d22f8dcd10ab98825b05e",
+          "message": "Move Windows ccache state out of the workspace",
+          "timestamp": "2026-07-01T06:23:36Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1369/commits/1a34c20db36fb82f745d22f8dcd10ab98825b05e"
+        },
+        "date": 1782913352439,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.381832179329574,
+            "unit": "us/iter",
+            "extra": "iterations: 43183\ncpu: 16.378719797142395 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.72371968132113,
+            "unit": "us/iter",
+            "extra": "iterations: 6778\ncpu: 107.16934523458247 us\nthreads: 1"
           }
         ]
       }
