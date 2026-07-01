@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782874061113,
+  "lastUpdate": 1782887194306,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -105158,6 +105158,42 @@ window.BENCHMARK_DATA = {
             "value": 109.82859682441084,
             "unit": "us/iter",
             "extra": "iterations: 6424\ncpu: 109.22381273349934 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "6013b68762adea0e0cfaef8c78e26cc1dcc5faa9",
+          "message": "Fix Windows MSVC CI: use `vswhere.exe` to locate VS (#1363)\n\n* Fix Windows MSVC CI: use vswhere to find VS installation path\n\nThe windows-latest runner was updated from windows-2025 (VS 2022 at\n'C:/Program Files/Microsoft Visual Studio/2022/Enterprise') to\nwindows-2025-vs2026 (VS 2026 at '.../18/Enterprise'). The hardcoded\nenvironment_script path for vcvars32.bat no longer existed.\n\nFix the Configure step to fall back to vswhere.exe when the hardcoded\nenvironment_script path does not exist, making the workflow robust to\nfuture Visual Studio installation path changes.\n\n* Refactor Windows environment script handling in CMake\n\nRemoved the hardcoded environment script path for Windows and updated the logic to dynamically find the Visual Studio installation path.\n\n* Revert \"Refactor Windows environment script handling in CMake\"\n\nThis reverts commit 89d65c1bc315329862740958f702079fb589b0ae.\n\n* Fix Windows CI: Always dynamically locate Visual Studio environment\n\nRemoves the `environment_script` matrix configuration and makes the\n`vswhere.exe` discovery of `vcvars32.bat` unconditional on Windows.\n\nThis ensures the Visual Studio build environment is consistently set up\nby dynamically finding the VS installation path, resolving potential\nbuild failures due to changing runner configurations or previous\nconditional logic that prevented `vswhere` from always being used.\n\n* Fix MinGW build\n\n* Fix typo\n\n* Use variable\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-07-01T09:23:31+03:00",
+          "tree_id": "fea5f7dd758a49c38d380feed3c173a87edb1739",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/6013b68762adea0e0cfaef8c78e26cc1dcc5faa9"
+        },
+        "date": 1782887184674,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.168762262752624,
+            "unit": "us/iter",
+            "extra": "iterations: 45891\ncpu: 15.166216120808002 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 81.646372275014,
+            "unit": "us/iter",
+            "extra": "iterations: 8945\ncpu: 81.15955282280603 us\nthreads: 1"
           }
         ]
       }
