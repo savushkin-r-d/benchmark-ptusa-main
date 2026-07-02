@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782994544201,
+  "lastUpdate": 1782994563990,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -105878,6 +105878,42 @@ window.BENCHMARK_DATA = {
             "value": 112.00669593114307,
             "unit": "us/iter",
             "extra": "iterations: 6390\ncpu: 111.35771471048514 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "3d68a1e0bf93b941a640e036882297e98a8bc288",
+          "message": "Bump github/codeql-action/analyze from 4.30.8 to 4.36.2 (#1359)\n\nBumps [github/codeql-action/analyze](https://github.com/github/codeql-action) from 4.30.8 to 4.36.2.\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/f443b600d91635bebf5b0d9ebc620189c0d6fba5...8aad20d150bbac5944a9f9d289da16a4b0d87c1e)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action/analyze\n  dependency-version: 4.36.2\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-07-02T15:12:43+03:00",
+          "tree_id": "2591db2bb7948846ff0f6f26b2a781dc77bf506c",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/3d68a1e0bf93b941a640e036882297e98a8bc288"
+        },
+        "date": 1782994554699,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.366362672024884,
+            "unit": "us/iter",
+            "extra": "iterations: 42799\ncpu: 16.364301011705884 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.06970147438768,
+            "unit": "us/iter",
+            "extra": "iterations: 6579\ncpu: 109.5609858641131 us\nthreads: 1"
           }
         ]
       }
