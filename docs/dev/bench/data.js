@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782972435655,
+  "lastUpdate": 1782972477781,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -105582,6 +105582,42 @@ window.BENCHMARK_DATA = {
             "value": 108.91831427688437,
             "unit": "us/iter",
             "extra": "iterations: 6472\ncpu: 108.4136858776267 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "7876f48f70f409968edabeb428aeea42d2e865e0",
+          "message": "Bump demo_projects/T1-PLCnext-Demo from `021cf9d` to `f6dfb94` (#1368)\n\nBumps [demo_projects/T1-PLCnext-Demo](https://github.com/savushkin-r-d/T1-PLCnext-Demo) from `021cf9d` to `f6dfb94`.\n- [Release notes](https://github.com/savushkin-r-d/T1-PLCnext-Demo/releases)\n- [Commits](https://github.com/savushkin-r-d/T1-PLCnext-Demo/compare/021cf9d78c4afe84a3ce781966e2fe0a1375b8ac...f6dfb94b626822d0ebb5da618ce18d07148a5f85)\n\n---\nupdated-dependencies:\n- dependency-name: demo_projects/T1-PLCnext-Demo\n  dependency-version: f6dfb94b626822d0ebb5da618ce18d07148a5f85\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-02T09:04:51+03:00",
+          "tree_id": "a50128fbe3c081cd00b65f661a19d72f47ab7298",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/7876f48f70f409968edabeb428aeea42d2e865e0"
+        },
+        "date": 1782972466954,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.106316376502003,
+            "unit": "us/iter",
+            "extra": "iterations: 46353\ncpu: 15.105273380363732 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 78.99471632471031,
+            "unit": "us/iter",
+            "extra": "iterations: 8968\ncpu: 78.48487232381802 us\nthreads: 1"
           }
         ]
       }
