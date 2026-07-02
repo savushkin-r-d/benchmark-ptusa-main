@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782971341126,
+  "lastUpdate": 1782972435655,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -105546,6 +105546,42 @@ window.BENCHMARK_DATA = {
             "value": 106.38956413670766,
             "unit": "us/iter",
             "extra": "iterations: 6759\ncpu: 105.72743852640922 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "215e05656361b036cd799b07c9e0ef219f55cc2d",
+          "message": "[github actions] Move Windows ccache state out of the workspace (#1369)\n\n* Move Windows ccache paths to runner temp\n\n* [review] Apply suggestions from code review\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n* Fix Linux ccache temp dir handling in build workflow\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-07-02T09:04:26+03:00",
+          "tree_id": "5e598f067de429389530ecc1a651df8289784d7d",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/215e05656361b036cd799b07c9e0ef219f55cc2d"
+        },
+        "date": 1782972427174,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.35640017304277,
+            "unit": "us/iter",
+            "extra": "iterations: 42764\ncpu: 16.355119609952297 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.91831427688437,
+            "unit": "us/iter",
+            "extra": "iterations: 6472\ncpu: 108.4136858776267 us\nthreads: 1"
           }
         ]
       }
