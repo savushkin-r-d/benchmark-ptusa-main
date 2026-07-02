@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1782994135710,
+  "lastUpdate": 1782994544201,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -105842,6 +105842,42 @@ window.BENCHMARK_DATA = {
             "value": 110.43164761325674,
             "unit": "us/iter",
             "extra": "iterations: 6578\ncpu: 109.79392201276984 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a486ea667485603d059da39ac9e48c94def345ae",
+          "message": "Bump github/codeql-action/init from 4.30.8 to 4.36.2 (#1360)\n\nBumps [github/codeql-action/init](https://github.com/github/codeql-action) from 4.30.8 to 4.36.2.\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/f443b600d91635bebf5b0d9ebc620189c0d6fba5...8aad20d150bbac5944a9f9d289da16a4b0d87c1e)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action/init\n  dependency-version: 4.36.2\n  dependency-type: direct:production\n  update-type: version-update:semver-minor\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-02T15:12:17+03:00",
+          "tree_id": "009a6e0f514bcf785c5e634238417438c30d7c53",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/a486ea667485603d059da39ac9e48c94def345ae"
+        },
+        "date": 1782994534869,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.492962233016364,
+            "unit": "us/iter",
+            "extra": "iterations: 43027\ncpu: 16.489978455388474 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 112.00669593114307,
+            "unit": "us/iter",
+            "extra": "iterations: 6390\ncpu: 111.35771471048514 us\nthreads: 1"
           }
         ]
       }
