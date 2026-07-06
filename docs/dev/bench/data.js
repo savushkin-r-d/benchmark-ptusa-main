@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783320005792,
+  "lastUpdate": 1783320023144,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106194,6 +106194,42 @@ window.BENCHMARK_DATA = {
             "value": 104.81542761294259,
             "unit": "us/iter",
             "extra": "iterations: 6707\ncpu: 104.30194498285375 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "c44fa63bc74a69ac8307de26e34d230e87fe3b8b",
+          "message": "Bump actions/checkout from 6.0.2 to 7.0.0 (#1357)\n\nBumps [actions/checkout](https://github.com/actions/checkout) from 6.0.2 to 7.0.0.\n- [Release notes](https://github.com/actions/checkout/releases)\n- [Changelog](https://github.com/actions/checkout/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/actions/checkout/compare/de0fac2e4500dabe0009e67214ff5f5447ce83dd...9c091bb21b7c1c1d1991bb908d89e4e9dddfe3e0)\n\n---\nupdated-dependencies:\n- dependency-name: actions/checkout\n  dependency-version: 7.0.0\n  dependency-type: direct:production\n  update-type: version-update:semver-major\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-07-06T09:37:28+03:00",
+          "tree_id": "65545711317b69b2acadd329a104b104a08b7899",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/c44fa63bc74a69ac8307de26e34d230e87fe3b8b"
+        },
+        "date": 1783320014834,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.756784591513544,
+            "unit": "us/iter",
+            "extra": "iterations: 44469\ncpu: 15.75445146056804 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.12924589907513,
+            "unit": "us/iter",
+            "extra": "iterations: 6401\ncpu: 109.18342227776908 us\nthreads: 1"
           }
         ]
       }
