@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783319944028,
+  "lastUpdate": 1783319960761,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106122,6 +106122,42 @@ window.BENCHMARK_DATA = {
             "value": 107.20943682417507,
             "unit": "us/iter",
             "extra": "iterations: 6751\ncpu: 106.66245430306623 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8b1bb7fa35b6d792c4bc60611732719670fa823b",
+          "message": "Bump deps/lunarmodules/luassert/luassert from `8e18d95` to `f125e79` (#1364)\n\nBumps [deps/lunarmodules/luassert/luassert](https://github.com/lunarmodules/luassert) from `8e18d95` to `f125e79`.\n- [Release notes](https://github.com/lunarmodules/luassert/releases)\n- [Commits](https://github.com/lunarmodules/luassert/compare/8e18d95f9aef8fb28cedfcf5c43efbf3e10d330c...f125e793df6f8c4b0f51bdc6bb4cd3fde766ce58)\n\n---\nupdated-dependencies:\n- dependency-name: deps/lunarmodules/luassert/luassert\n  dependency-version: f125e793df6f8c4b0f51bdc6bb4cd3fde766ce58\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-07-06T09:36:36+03:00",
+          "tree_id": "54d304289a2ea7cd6f5b8d3602f864515b723d1e",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/8b1bb7fa35b6d792c4bc60611732719670fa823b"
+        },
+        "date": 1783319942466,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.472059597523465,
+            "unit": "us/iter",
+            "extra": "iterations: 42636\ncpu: 16.470311309691343 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.38246005632428,
+            "unit": "us/iter",
+            "extra": "iterations: 6747\ncpu: 104.89229657625613 us\nthreads: 1"
           }
         ]
       }
