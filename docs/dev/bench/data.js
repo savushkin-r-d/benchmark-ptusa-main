@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783319044123,
+  "lastUpdate": 1783319627257,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106014,6 +106014,42 @@ window.BENCHMARK_DATA = {
             "value": 109.25357442067765,
             "unit": "us/iter",
             "extra": "iterations: 6732\ncpu: 108.74145929887108 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9c3ca011aa153d90918a7f68ca65b4353a4dc7bc",
+          "message": "Bump github/codeql-action/analyze from 4.36.2 to 4.36.3 (#1370)\n\nBumps [github/codeql-action/analyze](https://github.com/github/codeql-action) from 4.36.2 to 4.36.3.\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/8aad20d150bbac5944a9f9d289da16a4b0d87c1e...54f647b7e1bb85c95cddabcd46b0c578ec92bc1a)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action/analyze\n  dependency-version: 4.36.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-07-06T09:31:05+03:00",
+          "tree_id": "680c87d8c031a1d8b8724e6ac0a731d9ab343497",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/9c3ca011aa153d90918a7f68ca65b4353a4dc7bc"
+        },
+        "date": 1783319616453,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.492270083331142,
+            "unit": "us/iter",
+            "extra": "iterations: 42361\ncpu: 16.49193671065367 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.56829184486378,
+            "unit": "us/iter",
+            "extra": "iterations: 6781\ncpu: 107.05862158973603 us\nthreads: 1"
           }
         ]
       }
