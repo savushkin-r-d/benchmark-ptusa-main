@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783328001757,
+  "lastUpdate": 1783328978749,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106298,6 +106298,42 @@ window.BENCHMARK_DATA = {
             "value": 80.787400177954,
             "unit": "us/iter",
             "extra": "iterations: 8991\ncpu: 80.40384551217885 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f2a0add4016cd3dd1d596f8e31e2a971fde15dfa",
+          "message": "[fix] Enable unsafe `PR` checkout in `CI` workflows (#1372)\n\nThis setting is required for GitHub Actions workflows to correctly check out, build, and analyze code from pull requests originating from forks. The default behavior of `actions/checkout` prevents this for security reasons, causing workflow failures for external contributions (https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target).",
+          "timestamp": "2026-07-06T12:06:37+03:00",
+          "tree_id": "8b0e5d330897c859b01111f7721b5fdf1917dabb",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/f2a0add4016cd3dd1d596f8e31e2a971fde15dfa"
+        },
+        "date": 1783328969848,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.44193145689195,
+            "unit": "us/iter",
+            "extra": "iterations: 42776\ncpu: 16.44128382737984 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.22118105766056,
+            "unit": "us/iter",
+            "extra": "iterations: 6694\ncpu: 110.51805183746639 us\nthreads: 1"
           }
         ]
       }
