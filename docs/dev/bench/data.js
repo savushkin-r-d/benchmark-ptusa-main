@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783329250632,
+  "lastUpdate": 1783329281698,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106370,6 +106370,38 @@ window.BENCHMARK_DATA = {
             "value": 79.45257544870438,
             "unit": "us/iter",
             "extra": "iterations: 9026\ncpu: 79.03042787502771 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "SergeiSilakov",
+            "username": "SergeiSilakov"
+          },
+          "committer": {
+            "name": "SergeiSilakov",
+            "username": "SergeiSilakov"
+          },
+          "id": "8bb857050c6ba2a9e35be65323293b175fe5eb97",
+          "message": "Fixed delayed response of the PID controller when limiting the output value",
+          "timestamp": "2026-06-09T13:33:57Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1356/commits/8bb857050c6ba2a9e35be65323293b175fe5eb97"
+        },
+        "date": 1783329272927,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.485133683583022,
+            "unit": "us/iter",
+            "extra": "iterations: 45301\ncpu: 15.48464016246882 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.07910421386332,
+            "unit": "us/iter",
+            "extra": "iterations: 6621\ncpu: 109.37786135024922 us\nthreads: 1"
           }
         ]
       }
