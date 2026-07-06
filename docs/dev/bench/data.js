@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783331903714,
+  "lastUpdate": 1783334173285,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106434,6 +106434,40 @@ window.BENCHMARK_DATA = {
             "value": 104.01067548787883,
             "unit": "us/iter",
             "extra": "iterations: 6764\ncpu: 103.45024704316974 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "616ab19ba6688708c27770c5e9d815805415582a",
+          "message": "[fix] Enable unsafe `PR` checkout in CI workflows (#1373)\n\n* [fix] Enable unsafe `PR` checkout in CI workflows\n\nThis setting is required for GitHub Actions workflows to correctly check out, build, and analyze code from pull requests originating from forks. The default behavior of `actions/checkout` prevents this for security reasons, causing workflow failures for external contributions (https://docs.github.com/en/actions/reference/security/securely-using-pull_request_target).\n\n* [fix] Correct YAML syntax for 'allow-unsafe-pr-checkout'\n\nThis ensures the `allow-unsafe-pr-checkout` option is correctly parsed and applied in GitHub Actions workflows, resolving a potential issue with the previous implementation.",
+          "timestamp": "2026-07-06T09:11:25Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/616ab19ba6688708c27770c5e9d815805415582a"
+        },
+        "date": 1783334164113,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.799696917890707,
+            "unit": "us/iter",
+            "extra": "iterations: 41530\ncpu: 16.798613026727665 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.6986895410055,
+            "unit": "us/iter",
+            "extra": "iterations: 6645\ncpu: 106.19597953348382 us\nthreads: 1"
           }
         ]
       }
