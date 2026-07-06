@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783326715890,
+  "lastUpdate": 1783328001757,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106262,6 +106262,42 @@ window.BENCHMARK_DATA = {
             "value": 79.52816640917933,
             "unit": "us/iter",
             "extra": "iterations: 9062\ncpu: 79.10587188258663 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5a247a8e59f4775c9fcc4a3e503fd73f728d3da2",
+          "message": "Bump deps/fmt from `12.1.0` to `12.2.0` (#1367)\n\n* Bump deps/fmt from `27bf8b4` to `1be298e`\n\nBumps [deps/fmt](https://github.com/fmtlib/fmt) from `27bf8b4` to `1be298e`.\n- [Release notes](https://github.com/fmtlib/fmt/releases)\n- [Commits](https://github.com/fmtlib/fmt/compare/27bf8b47fe99743c1ba9a33eacbdda99080b2490...1be298e1bd68957e4cd352e1f676f00e07dcfb57)\n\n---\nupdated-dependencies:\n- dependency-name: deps/fmt\n  dependency-version: 1be298e1bd68957e4cd352e1f676f00e07dcfb57\n  dependency-type: direct:production\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* Refactor: Standardize fmt library include path\n\n* Cleanup: Fix trailing whitespace and line breaks\n\n* Refactor: Adjust specific header includes\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-07-06T11:49:04+03:00",
+          "tree_id": "5fb646b23ea7a4d4f90ae6d67048d0bef59f77b6",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5a247a8e59f4775c9fcc4a3e503fd73f728d3da2"
+        },
+        "date": 1783327992648,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 14.375268538046143,
+            "unit": "us/iter",
+            "extra": "iterations: 47416\ncpu: 14.370664121815421 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 80.787400177954,
+            "unit": "us/iter",
+            "extra": "iterations: 8991\ncpu: 80.40384551217885 us\nthreads: 1"
           }
         ]
       }
