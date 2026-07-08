@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783498707984,
+  "lastUpdate": 1783499285990,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106632,6 +106632,38 @@ window.BENCHMARK_DATA = {
             "value": 108.17231302926595,
             "unit": "us/iter",
             "extra": "iterations: 6731\ncpu: 107.3233645817858 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "fbccd9920a9e5b7941fe1e5af07b4a4abedacd4d",
+          "message": "Add P_MAX_V clamping parameter to QT_IOLINK conductivity sensor",
+          "timestamp": "2026-07-08T07:59:48Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1312/commits/fbccd9920a9e5b7941fe1e5af07b4a4abedacd4d"
+        },
+        "date": 1783499276091,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.597359880890508,
+            "unit": "us/iter",
+            "extra": "iterations: 42314\ncpu: 16.595234792267334 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.345838248996,
+            "unit": "us/iter",
+            "extra": "iterations: 6442\ncpu: 108.84323424402359 us\nthreads: 1"
           }
         ]
       }
