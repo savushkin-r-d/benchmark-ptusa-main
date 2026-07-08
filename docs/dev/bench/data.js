@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783507080790,
+  "lastUpdate": 1783507305427,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106792,6 +106792,38 @@ window.BENCHMARK_DATA = {
             "value": 108.7146337861805,
             "unit": "us/iter",
             "extra": "iterations: 6772\ncpu: 108.2619432959244 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "44b2b43ae5663fa1607c5c33cb2f1f85f0bbff8b",
+          "message": "Add source-backed `TE_VIRT` temperature devices",
+          "timestamp": "2026-07-08T07:59:48Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1331/commits/44b2b43ae5663fa1607c5c33cb2f1f85f0bbff8b"
+        },
+        "date": 1783507295919,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.832141720239363,
+            "unit": "us/iter",
+            "extra": "iterations: 41843\ncpu: 16.831146619506253 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.3218855349648,
+            "unit": "us/iter",
+            "extra": "iterations: 6692\ncpu: 106.63846040047822 us\nthreads: 1"
           }
         ]
       }
