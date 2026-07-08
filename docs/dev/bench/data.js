@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783495444339,
+  "lastUpdate": 1783497776244,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106532,6 +106532,42 @@ window.BENCHMARK_DATA = {
             "value": 112.22334761904436,
             "unit": "us/iter",
             "extra": "iterations: 6510\ncpu: 111.38458509984645 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "139815520+SergeiSilakov@users.noreply.github.com",
+            "name": "SergeiSilakov",
+            "username": "SergeiSilakov"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "636e293c4be5344637220340d6f824bfb42e0729",
+          "message": "Fix delayed response of the `PID` controller when limiting the output value (#1356)\n\n* Fix uk_1 value dead zone for PID\n\n* add tests for pid\n\n* Change const value\n\n* Fix tests for sonarqubecloud conditions\n\n* Refactor PID test to verify anti-windup on output limits\n\nThe existing output saturation test was rewritten to explicitly verify the anti-windup mechanism. The new structure clearly demonstrates that the integrator does not accumulate values beyond output limits, ensuring an immediate response to error sign changes.\n\n* Refactor PID test to use RAII for time hook\n\nThe `DeltaMilliSecSubHooker` is now managed via RAII. This ensures the time hook is automatically reset when the test scope exits, preventing potential side effects and simplifying test cleanup.\n\n---------\n\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-07-08T10:59:34+03:00",
+          "tree_id": "f08a1fb46e5043671a3fdb779f31b1abf99926f5",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/636e293c4be5344637220340d6f824bfb42e0729"
+        },
+        "date": 1783497766907,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.357064359100598,
+            "unit": "us/iter",
+            "extra": "iterations: 42729\ncpu: 16.356052002153106 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.39354793171364,
+            "unit": "us/iter",
+            "extra": "iterations: 6092\ncpu: 104.90098325673013 us\nthreads: 1"
           }
         ]
       }
