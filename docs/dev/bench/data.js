@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783506799360,
+  "lastUpdate": 1783507080790,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106760,6 +106760,38 @@ window.BENCHMARK_DATA = {
             "value": 108.901867543731,
             "unit": "us/iter",
             "extra": "iterations: 6689\ncpu: 108.31800553146957 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "1727f8ed0dd774e493d209c0d5dd3c6853bf31c8",
+          "message": "Добавить свойство IN_VALUE у регуляторов в экспорт для Monitor",
+          "timestamp": "2026-07-08T07:59:48Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1316/commits/1727f8ed0dd774e493d209c0d5dd3c6853bf31c8"
+        },
+        "date": 1783507071710,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.061965267727768,
+            "unit": "us/iter",
+            "extra": "iterations: 43533\ncpu: 16.05733505616429 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.7146337861805,
+            "unit": "us/iter",
+            "extra": "iterations: 6772\ncpu: 108.2619432959244 us\nthreads: 1"
           }
         ]
       }
