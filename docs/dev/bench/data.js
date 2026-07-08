@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783498690838,
+  "lastUpdate": 1783498707984,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -106600,6 +106600,38 @@ window.BENCHMARK_DATA = {
             "value": 105.66588436189113,
             "unit": "us/iter",
             "extra": "iterations: 6676\ncpu: 104.90992914919116 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "6fee28b1c6ee84e47e4008787170707f03bc56c6",
+          "message": "Adds `OPC UA` methods for device control",
+          "timestamp": "2025-12-11T06:56:21Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1304/commits/6fee28b1c6ee84e47e4008787170707f03bc56c6"
+        },
+        "date": 1783498699419,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.587066523557041,
+            "unit": "us/iter",
+            "extra": "iterations: 44721\ncpu: 15.58577017508553 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.17231302926595,
+            "unit": "us/iter",
+            "extra": "iterations: 6731\ncpu: 107.3233645817858 us\nthreads: 1"
           }
         ]
       }
