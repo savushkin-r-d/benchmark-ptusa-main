@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1783596994112,
+  "lastUpdate": 1783598852143,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -107080,6 +107080,42 @@ window.BENCHMARK_DATA = {
             "value": 110.59816127512445,
             "unit": "us/iter",
             "extra": "iterations: 6368\ncpu: 109.81798005653266 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "198982749+Copilot@users.noreply.github.com",
+            "name": "Copilot",
+            "username": "Copilot"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "28cba33f817023a1ee59d24d658db4cc2628ea84",
+          "message": "Preserve `CLI OPC` mode across parameter reinitialization (#1339)\n\n* Initial plan\n\n* Preserve OPC CLI mode after init\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/738d9846-aeda-4e6d-9534-98bf0d0526cc\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Remove generated test artifacts\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/738d9846-aeda-4e6d-9534-98bf0d0526cc\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Document OPC mode regression fix\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/738d9846-aeda-4e6d-9534-98bf0d0526cc\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Fix Sonar issues in OPC mode handling\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/21ab238b-37c2-4da7-8dad-14faeb487f66\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Wrap long regression test comment\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/21ab238b-37c2-4da7-8dad-14faeb487f66\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Verify `apply_opc_mode` for `UNDEFINED` OPC UA mode\n\n* Address review comments for OPC mode init\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/41cc1718-90f9-413f-a98a-ab6917d57a1a\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Refine OPC mode review cleanup\n\nAgent-Logs-Url: https://github.com/savushkin-r-d/ptusa_main/sessions/41cc1718-90f9-413f-a98a-ab6917d57a1a\n\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\n\n* Adds `OPC UA` server and operation control parameters\n\n* Reset PAC info parameters in project manager test\n\n* Refactor OPC UA server state management and expose parameters to Lua\n\nExtracts OPC UA server activation and deactivation logic into a dedicated `proc_OPC` function to ensure consistent state handling across various operations, particularly during system parameter resets. This centralizes the logic, improving robustness and addressing potential issues with the server's initialization and shutdown.\n\nAdditionally, exposes new auto-operation and OPC UA server control parameters to the Lua scripting environment, enabling more dynamic configuration and interaction.\n\n* Enhance OPC UA server initialization robustness and diagnostics\n\nProvide human-readable error messages using `UA_StatusCode_name()` when the\nOPC UA server fails to start, significantly aiding in debugging.\n\nAdd comprehensive tests for `apply_opc_mode()` to ensure correct configuration\nof OPC UA server control parameters via command-line arguments.\n\n* Fix `RESET_PARAMS` OPC UA handling and enhance command enum type safety\n\nCorrects the `RESET_PARAMS` command to ensure `proc_OPC` is called with the\nactual updated `P_IS_OPC_UA_SERVER_ACTIVE` parameter, resolving an issue\nwhere the OPC UA server state might not have been correctly managed after\na parameter reset.\n\nMigrates the `COMMANDS` enum to `enum class` to enforce type safety and\nprevent implicit conversions, improving code robustness and clarity.\nNew tests validate the corrected `RESET_PARAMS` behavior and proper\nLua environment initialization for relevant commands.\n\n* Improve OPC UA command type safety and optimize state transitions\n\nEnsures `double` values are explicitly truncated to `int` before casting to the `COMMANDS` enum, preventing potential misinterpretation if `val` contains fractional parts. This enhances the type safety of command value conversion, especially for OPC UA related commands.\n\nAdds an early exit to `PAC_info::proc_OPC` to prevent unnecessary OPC UA server shutdowns or startups when the target state is identical to the current state. This optimizes state transitions and improves overall system robustness.\n\nAlso, enhances `apply_opc_mode` tests by asserting the success of `proc_main_params`, ensuring command-line argument processing is validated before applying OPC configurations.\n\n* Improve OPC UA command handling and diagnostics\n\nAdds input validation for the `P_IS_OPC_UA_SERVER_ACTIVE` command, ensuring only binary values (0 or 1) are accepted to prevent invalid server states.\n\nPropagates the return status of `proc_OPC` after a `RESET_PARAMS` command, ensuring that any issues during OPC UA server re-initialization are correctly reported.\n\nEnhances error reporting by copying detailed OPC UA server startup failure messages into `cmd_answer`, providing callers with better diagnostic information.\n\n* Enhance Lua environment setup and argument processing\n\nEnsures command-line arguments are correctly cleaned up by iterating `argc`.\nAdds robust error handling and logging for failures during Lua package path configuration via `luaL_dostring`.\nClarifies the success return value of `lua_init` by using `EXIT_SUCCESS`.\nExtends `lua_init` tests to include `luaL_openlibs` for a complete environment and validates the function's return value on the Lua stack for both success and failure.\n\n* Restore OPC UA server parameters after `apply_opc_mode` test\n\n* Simplify Lua initialization error logging\n\nReplaces manual sprintf and write_log calls with direct invocations of G_LOG->critical, streamlining error reporting in the Lua manager's init method for improved conciseness and consistency.\n\n---------\n\nCo-authored-by: copilot-swe-agent[bot] <198982749+Copilot@users.noreply.github.com>\nCo-authored-by: idzm <23375200+idzm@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-07-09T15:02:32+03:00",
+          "tree_id": "1eee141d1bbdcd4795ac415ee8e00886bb52c2f8",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/28cba33f817023a1ee59d24d658db4cc2628ea84"
+        },
+        "date": 1783598842964,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.589511427024068,
+            "unit": "us/iter",
+            "extra": "iterations: 42487\ncpu: 16.58775319509497 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.08625030285346,
+            "unit": "us/iter",
+            "extra": "iterations: 6604\ncpu: 110.30732858873414 us\nthreads: 1"
           }
         ]
       }
