@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785141139076,
+  "lastUpdate": 1785141220457,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -110668,6 +110668,42 @@ window.BENCHMARK_DATA = {
             "value": 80.89190483096725,
             "unit": "us/iter",
             "extra": "iterations: 8963\ncpu: 80.51781602142141 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "983e8f384d670ba0caf2b3af011a8f06a6d55577",
+          "message": "Bump `github/codeql-action` from `4.37.1` to `4.37.3` (#1387)\n\n* Bump github/codeql-action/init from 4.37.1 to 4.37.3\n\nBumps [github/codeql-action/init](https://github.com/github/codeql-action) from 4.37.1 to 4.37.3.\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/7188fc363630916deb702c7fdcf4e481b751f97a...e4fba868fa4b1b91e1fdab776edc8cfbe6e9fb81)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action/init\n  dependency-version: 4.37.3\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\n\n* Update codeql-analysis.yml\n\n---------\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>\nCo-authored-by: Dzmitry Ivaniuk <dzimitriy@gmail.com>",
+          "timestamp": "2026-07-27T11:30:22+03:00",
+          "tree_id": "81aa14fc31f11e1409d12ac8c3345f7414dcb130",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/983e8f384d670ba0caf2b3af011a8f06a6d55577"
+        },
+        "date": 1785141210651,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.768768448701225,
+            "unit": "us/iter",
+            "extra": "iterations: 44163\ncpu: 15.765282181916989 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 109.67601487163388,
+            "unit": "us/iter",
+            "extra": "iterations: 6388\ncpu: 108.99265012523483 us\nthreads: 1"
           }
         ]
       }
