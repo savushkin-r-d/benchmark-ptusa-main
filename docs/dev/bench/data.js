@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785142731108,
+  "lastUpdate": 1785147735393,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -110872,6 +110872,40 @@ window.BENCHMARK_DATA = {
             "value": 107.11053735894816,
             "unit": "us/iter",
             "extra": "iterations: 6558\ncpu: 106.40375937785912 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm",
+            "email": "dzimitriy@gmail.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "e7112d4c40275d58fa98dc222a7232936665ac0d",
+          "message": "[test] Fixes 'perfomance' typo in performance test names and paths (#1390)",
+          "timestamp": "2026-07-27T08:54:44Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e7112d4c40275d58fa98dc222a7232936665ac0d"
+        },
+        "date": 1785147726843,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 12.169848432691488,
+            "unit": "us/iter",
+            "extra": "iterations: 57519\ncpu: 12.168545350232097 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 84.33430276191642,
+            "unit": "us/iter",
+            "extra": "iterations: 8581\ncpu: 83.67641545274442 us\nthreads: 1"
           }
         ]
       }
