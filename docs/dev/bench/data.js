@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785226758861,
+  "lastUpdate": 1785227185249,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -111194,6 +111194,38 @@ window.BENCHMARK_DATA = {
             "value": 110.43940393181096,
             "unit": "us/iter",
             "extra": "iterations: 6511\ncpu: 109.53235386269391 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "f6ef7ef93f4b49bd33f83f8f2f238b0ad1465649",
+          "message": "Adds `P_MAX_V` parameter to `QT_IOLINK` conductivity sensor",
+          "timestamp": "2026-07-27T08:55:12Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1312/commits/f6ef7ef93f4b49bd33f83f8f2f238b0ad1465649"
+        },
+        "date": 1785227176475,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 12.195919086448635,
+            "unit": "us/iter",
+            "extra": "iterations: 57271\ncpu: 12.194696914668857 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 71.24527964566114,
+            "unit": "us/iter",
+            "extra": "iterations: 9934\ncpu: 70.90714827863903 us\nthreads: 1"
           }
         ]
       }
