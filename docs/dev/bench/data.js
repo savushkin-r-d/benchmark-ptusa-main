@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785227185249,
+  "lastUpdate": 1785227323436,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -111226,6 +111226,38 @@ window.BENCHMARK_DATA = {
             "value": 71.24527964566114,
             "unit": "us/iter",
             "extra": "iterations: 9934\ncpu: 70.90714827863903 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "afad2cdaf8908213f261855a5a26f45d41c5f503",
+          "message": "Track `Modbus` client connection state and log connect/disconnect messages",
+          "timestamp": "2026-07-08T07:59:48Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1315/commits/afad2cdaf8908213f261855a5a26f45d41c5f503"
+        },
+        "date": 1785227314154,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.773396037799982,
+            "unit": "us/iter",
+            "extra": "iterations: 43915\ncpu: 15.771311715814642 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.4551843960826,
+            "unit": "us/iter",
+            "extra": "iterations: 6524\ncpu: 110.58137262415697 us\nthreads: 1"
           }
         ]
       }
