@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785325115509,
+  "lastUpdate": 1785325280705,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -111770,6 +111770,38 @@ window.BENCHMARK_DATA = {
             "value": 112.81539284572871,
             "unit": "us/iter",
             "extra": "iterations: 6262\ncpu: 112.07317997444908 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "b7c381420dea8da1386e0dc41dfa25c09858aee9",
+          "message": "Add `CMD`-based step jump for running operations",
+          "timestamp": "2026-07-27T08:55:12Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1313/commits/b7c381420dea8da1386e0dc41dfa25c09858aee9"
+        },
+        "date": 1785325271607,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.152074450819427,
+            "unit": "us/iter",
+            "extra": "iterations: 43747\ncpu: 16.150368322399252 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.24635708255839,
+            "unit": "us/iter",
+            "extra": "iterations: 5923\ncpu: 106.25928043221339 us\nthreads: 1"
           }
         ]
       }
