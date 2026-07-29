@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785314689985,
+  "lastUpdate": 1785315270406,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -111642,6 +111642,38 @@ window.BENCHMARK_DATA = {
             "value": 110.52655143287791,
             "unit": "us/iter",
             "extra": "iterations: 6630\ncpu: 109.79946621417798 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "e22f6fde024d4afa049da1fe4deabfe83a491f66",
+          "message": "Handle `Phoenix` diagnostic register `7997` (bits 2 and 8)",
+          "timestamp": "2026-07-27T08:55:12Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1314/commits/e22f6fde024d4afa049da1fe4deabfe83a491f66"
+        },
+        "date": 1785315260286,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.140190471737867,
+            "unit": "us/iter",
+            "extra": "iterations: 42778\ncpu: 16.139712819673665 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.19744056690018,
+            "unit": "us/iter",
+            "extra": "iterations: 6562\ncpu: 107.75605013715331 us\nthreads: 1"
           }
         ]
       }
