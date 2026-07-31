@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785484773493,
+  "lastUpdate": 1785484787617,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -111962,6 +111962,38 @@ window.BENCHMARK_DATA = {
             "value": 109.26468410073416,
             "unit": "us/iter",
             "extra": "iterations: 6711\ncpu: 108.52789539561915 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "af837a8a2b37ab552d2da4fa20f705717f3efe5f",
+          "message": "[config][cmake] Regenerates `tolua++` files only when the content changes.",
+          "timestamp": "2026-07-28T13:41:29Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1395/commits/af837a8a2b37ab552d2da4fa20f705717f3efe5f"
+        },
+        "date": 1785484755345,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.469961684923533,
+            "unit": "us/iter",
+            "extra": "iterations: 42542\ncpu: 16.468539772460158 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.42066008316185,
+            "unit": "us/iter",
+            "extra": "iterations: 6734\ncpu: 103.91888402138406 us\nthreads: 1"
           }
         ]
       }
