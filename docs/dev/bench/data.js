@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785485286361,
+  "lastUpdate": 1785492916214,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -112122,6 +112122,42 @@ window.BENCHMARK_DATA = {
             "value": 107.3157856098258,
             "unit": "us/iter",
             "extra": "iterations: 6838\ncpu: 106.84999093302137 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "f2384cbd5be0882a4881698cd9dce2f14d0dbb75",
+          "message": "[config][cmake][VS] Removes user dependent configuration file (#1396)\n\n* [config][cmake][VS] Removes user dependant configuration file\n\n* Fixes names to get correct oder",
+          "timestamp": "2026-07-31T13:11:32+03:00",
+          "tree_id": "c4b0b88b506a12e4a2605f7a4095939153a334a1",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/f2384cbd5be0882a4881698cd9dce2f14d0dbb75"
+        },
+        "date": 1785492905796,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.613180495007423,
+            "unit": "us/iter",
+            "extra": "iterations: 42666\ncpu: 16.612399545305397 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.80512148564925,
+            "unit": "us/iter",
+            "extra": "iterations: 6758\ncpu: 107.05327434152117 us\nthreads: 1"
           }
         ]
       }
