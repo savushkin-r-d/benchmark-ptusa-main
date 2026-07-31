@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785484787617,
+  "lastUpdate": 1785484964698,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -111994,6 +111994,38 @@ window.BENCHMARK_DATA = {
             "value": 104.42066008316185,
             "unit": "us/iter",
             "extra": "iterations: 6734\ncpu: 103.91888402138406 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "5f97aadd0e11f1faf907f36b9fca7dede9987cd2",
+          "message": "[config][cmake][VS] Removes user dependant configuration file",
+          "timestamp": "2026-07-28T13:41:29Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1396/commits/5f97aadd0e11f1faf907f36b9fca7dede9987cd2"
+        },
+        "date": 1785484955536,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.85399246043474,
+            "unit": "us/iter",
+            "extra": "iterations: 44167\ncpu: 15.849057486358594 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.02061042944956,
+            "unit": "us/iter",
+            "extra": "iterations: 6520\ncpu: 109.41416042944785 us\nthreads: 1"
           }
         ]
       }
