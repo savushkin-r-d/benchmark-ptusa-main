@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785493018592,
+  "lastUpdate": 1785493431569,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -112190,6 +112190,42 @@ window.BENCHMARK_DATA = {
             "value": 112.47732318501185,
             "unit": "us/iter",
             "extra": "iterations: 6405\ncpu: 111.9429576893052 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "139815520+SergeiSilakov@users.noreply.github.com",
+            "name": "SergeiSilakov",
+            "username": "SergeiSilakov"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "44d506aadb4d3a5af35d0b8ad022f00b65514c52",
+          "message": "[cip] Пополнение бачка при самоочистке по среднему уровню (#1393)\n\n* Пополнение бачка при самоочистке по среднему уровню\n\n* Potential fix for pull request finding\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>\n\n---------\n\nCo-authored-by: Copilot Autofix powered by AI <175728472+Copilot@users.noreply.github.com>",
+          "timestamp": "2026-07-31T13:20:52+03:00",
+          "tree_id": "2b71d446cdb417744df916e841ca80ad094f85e3",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/44d506aadb4d3a5af35d0b8ad022f00b65514c52"
+        },
+        "date": 1785493424176,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 10.53818665404846,
+            "unit": "us/iter",
+            "extra": "iterations: 66567\ncpu: 10.536451259633152 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 59.110326277373154,
+            "unit": "us/iter",
+            "extra": "iterations: 12330\ncpu: 58.825480859691815 us\nthreads: 1"
           }
         ]
       }
