@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785739093640,
+  "lastUpdate": 1785739107032,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -112482,6 +112482,42 @@ window.BENCHMARK_DATA = {
             "value": 111.2543522205212,
             "unit": "us/iter",
             "extra": "iterations: 6530\ncpu: 110.58899724349159 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d3bf0b0ea930cec38de38cd0206231b1a81fbd43",
+          "message": "[config][dependabot] Group `CodeQL` actions for consolidated updates (#1402)\n\nConsolidates updates for `github/codeql-action/analyze` and `github/codeql-action/init` into a single pull request.",
+          "timestamp": "2026-08-03T09:35:27+03:00",
+          "tree_id": "e79d258ff9b47a50661e9c1f7cb2b586830c8676",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d3bf0b0ea930cec38de38cd0206231b1a81fbd43"
+        },
+        "date": 1785739097251,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.23105728629358,
+            "unit": "us/iter",
+            "extra": "iterations: 43623\ncpu: 16.22894965958325 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.05874894831938,
+            "unit": "us/iter",
+            "extra": "iterations: 6656\ncpu: 110.41101051682692 us\nthreads: 1"
           }
         ]
       }
