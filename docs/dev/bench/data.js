@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785746671417,
+  "lastUpdate": 1785746857002,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -113050,6 +113050,38 @@ window.BENCHMARK_DATA = {
             "value": 109.42918749999691,
             "unit": "us/iter",
             "extra": "iterations: 6368\ncpu: 108.89379538316584 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "6542f49b519d5db490f57ef750edd1b543f248fb",
+          "message": "Improves persistant parameters processing",
+          "timestamp": "2026-07-28T13:41:29Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1394/commits/6542f49b519d5db490f57ef750edd1b543f248fb"
+        },
+        "date": 1785746787400,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.716710608687317,
+            "unit": "us/iter",
+            "extra": "iterations: 44407\ncpu: 15.712104668182947 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.6795508514323,
+            "unit": "us/iter",
+            "extra": "iterations: 6401\ncpu: 109.9565827214498 us\nthreads: 1"
           }
         ]
       }
