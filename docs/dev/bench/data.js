@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785739355051,
+  "lastUpdate": 1785740056271,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -112710,6 +112710,42 @@ window.BENCHMARK_DATA = {
             "value": 109.1906234673279,
             "unit": "us/iter",
             "extra": "iterations: 6443\ncpu: 108.69237218686946 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "abbd27296ac19354f4125307ffe34a0ae7113d42",
+          "message": "Bump the `codeql-actions` group with 2 updates (#1407)\n\nBumps the codeql-actions group with 2 updates: [github/codeql-action/init](https://github.com/github/codeql-action) and [github/codeql-action/analyze](https://github.com/github/codeql-action).\n\n\nUpdates `github/codeql-action/init` from 4.37.3 to 4.37.4\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/e4fba868fa4b1b91e1fdab776edc8cfbe6e9fb81...f205ea1c3313d32999d8d6a48b4f6530d4437b38)\n\nUpdates `github/codeql-action/analyze` from 4.37.3 to 4.37.4\n- [Release notes](https://github.com/github/codeql-action/releases)\n- [Changelog](https://github.com/github/codeql-action/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/github/codeql-action/compare/e4fba868fa4b1b91e1fdab776edc8cfbe6e9fb81...f205ea1c3313d32999d8d6a48b4f6530d4437b38)\n\n---\nupdated-dependencies:\n- dependency-name: github/codeql-action/init\n  dependency-version: 4.37.4\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: codeql-actions\n- dependency-name: github/codeql-action/analyze\n  dependency-version: 4.37.4\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n  dependency-group: codeql-actions\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-08-03T09:50:17+03:00",
+          "tree_id": "d3e6dadfc78a34ef26855dfb30485d48de732905",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/abbd27296ac19354f4125307ffe34a0ae7113d42"
+        },
+        "date": 1785740043971,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.110956309415545,
+            "unit": "us/iter",
+            "extra": "iterations: 46074\ncpu: 15.109765008464644 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 80.32717535861288,
+            "unit": "us/iter",
+            "extra": "iterations: 8993\ncpu: 79.81398198598909 us\nthreads: 1"
           }
         ]
       }
