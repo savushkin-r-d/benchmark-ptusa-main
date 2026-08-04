@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785824940963,
+  "lastUpdate": 1785824962837,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -113340,6 +113340,42 @@ window.BENCHMARK_DATA = {
             "value": 106.40652745622128,
             "unit": "us/iter",
             "extra": "iterations: 6738\ncpu: 105.89810685663403 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "d0ac6085798fcd9f321939a8c412b03cc58d1557",
+          "message": "[demo] Updates `T1-PLCnext-Demo` subproject (#1409)",
+          "timestamp": "2026-08-04T09:25:50+03:00",
+          "tree_id": "11eb96761c18bf291ff6445cb2aea4c1bea463d7",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/d0ac6085798fcd9f321939a8c412b03cc58d1557"
+        },
+        "date": 1785824937147,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 14.836803142778816,
+            "unit": "us/iter",
+            "extra": "iterations: 47283\ncpu: 14.835522471078402 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 83.25794181342177,
+            "unit": "us/iter",
+            "extra": "iterations: 8404\ncpu: 82.76759388386485 us\nthreads: 1"
           }
         ]
       }
