@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1785764722423,
+  "lastUpdate": 1785824899271,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -113244,6 +113244,38 @@ window.BENCHMARK_DATA = {
             "value": 107.27820782824254,
             "unit": "us/iter",
             "extra": "iterations: 6847\ncpu: 106.69230904045567 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "b764576d2a4ef60c97fb889409ed773bdc6d0adf",
+          "message": "[demo] Updates `T1-PLCnext-Demo` subproject",
+          "timestamp": "2026-07-28T13:41:29Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1409/commits/b764576d2a4ef60c97fb889409ed773bdc6d0adf"
+        },
+        "date": 1785824889340,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.62344306079318,
+            "unit": "us/iter",
+            "extra": "iterations: 42159\ncpu: 16.62227270570934 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.16127183181585,
+            "unit": "us/iter",
+            "extra": "iterations: 6802\ncpu: 105.64820346956779 us\nthreads: 1"
           }
         ]
       }
