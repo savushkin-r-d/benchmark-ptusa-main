@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786432423759,
+  "lastUpdate": 1786435217633,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -114122,6 +114122,38 @@ window.BENCHMARK_DATA = {
             "value": 106.56920182555668,
             "unit": "us/iter",
             "extra": "iterations: 6902\ncpu: 105.9857719501594 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "540887ae2e4e4b23a8c7f8ac178b4a1e2f19294f",
+          "message": "Adds saving `persistant parameters` to the files",
+          "timestamp": "2026-07-28T13:41:29Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1394/commits/540887ae2e4e4b23a8c7f8ac178b4a1e2f19294f"
+        },
+        "date": 1786435207242,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.429674298306285,
+            "unit": "us/iter",
+            "extra": "iterations: 43110\ncpu: 16.42796084435166 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 114.54836997102699,
+            "unit": "us/iter",
+            "extra": "iterations: 6214\ncpu: 113.96917943353719 us\nthreads: 1"
           }
         ]
       }
