@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786429768457,
+  "lastUpdate": 1786432392039,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -114026,6 +114026,38 @@ window.BENCHMARK_DATA = {
             "value": 106.78147921760457,
             "unit": "us/iter",
             "extra": "iterations: 6544\ncpu: 106.25652658924207 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "055fd9c64241b026c6d9310ba9d02a2e305a989d",
+          "message": "Removes unsupported `WAGO` platform and `Profibus` slave support",
+          "timestamp": "2026-07-28T13:41:29Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1415/commits/055fd9c64241b026c6d9310ba9d02a2e305a989d"
+        },
+        "date": 1786432384741,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 10.58481590758447,
+            "unit": "us/iter",
+            "extra": "iterations: 66396\ncpu: 10.58381967287186 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 59.9600296798142,
+            "unit": "us/iter",
+            "extra": "iterations: 12399\ncpu: 59.625690620211294 us\nthreads: 1"
           }
         ]
       }
