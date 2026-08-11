@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786437971999,
+  "lastUpdate": 1786440156242,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -114282,6 +114282,42 @@ window.BENCHMARK_DATA = {
             "value": 105.890996488147,
             "unit": "us/iter",
             "extra": "iterations: 6834\ncpu: 105.26069183494293 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "8403f57080ae631282508e2fc342efe9d7444bd8",
+          "message": "Removes unsupported `WAGO` platform and `Profibus` slave support (#1415)\n\n* Removes unsupported `WAGO` platform and `Profibus` slave support\n\n* Reformat `docs/test/readme.md` for improved readability\n\nWrapped long lines and standardized spacing for list items.\n\n* Add spacing to `docs/test/readme.md` for readability\n\nIntroduce blank lines between sections, headings, and list items to improve visual separation and overall document clarity.\n\n* Exclude `PAC_PLCNEXT` from Linux `int 3` debug break\n\nPrevents the `asm(\"int\" \"3\")` instruction from being defined as `debug_break` for `PAC_PLCNEXT` targets running on Linux, ensuring appropriate debug behavior for the platform.\n\n* Fixes text",
+          "timestamp": "2026-08-11T12:17:41+03:00",
+          "tree_id": "7c93f3272779c1711106adb9f203fc829da1fd89",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/8403f57080ae631282508e2fc342efe9d7444bd8"
+        },
+        "date": 1786440145624,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.46793705835641,
+            "unit": "us/iter",
+            "extra": "iterations: 42738\ncpu: 16.464022064673127 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.01983070149339,
+            "unit": "us/iter",
+            "extra": "iterations: 6586\ncpu: 106.53727588824782 us\nthreads: 1"
           }
         ]
       }
