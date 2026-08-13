@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786539208895,
+  "lastUpdate": 1786615884018,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -114702,6 +114702,38 @@ window.BENCHMARK_DATA = {
             "value": 79.67849195426695,
             "unit": "us/iter",
             "extra": "iterations: 9446\ncpu: 79.30904700402286 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "7bcd72f9e44b0c99a61434d0451ae2479278f010",
+          "message": "[WIP] Fix failing GitHub Actions job Ubuntu Latest GCC",
+          "timestamp": "2026-08-13T08:22:19Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1418/commits/7bcd72f9e44b0c99a61434d0451ae2479278f010"
+        },
+        "date": 1786615872905,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.554170356389294,
+            "unit": "us/iter",
+            "extra": "iterations: 45035\ncpu: 15.552133718219164 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.37529767372837,
+            "unit": "us/iter",
+            "extra": "iterations: 6749\ncpu: 106.77488546451328 us\nthreads: 1"
           }
         ]
       }
