@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786698420897,
+  "lastUpdate": 1786699593604,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -114862,6 +114862,38 @@ window.BENCHMARK_DATA = {
             "value": 101.98035965925632,
             "unit": "us/iter",
             "extra": "iterations: 6926\ncpu: 101.48215391279237 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "28ca7f707159fb512cf68b7b2e19b913951edcdd",
+          "message": "Optimize `Copilot` instructions",
+          "timestamp": "2026-08-13T08:15:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1421/commits/28ca7f707159fb512cf68b7b2e19b913951edcdd"
+        },
+        "date": 1786699582615,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.737249575836234,
+            "unit": "us/iter",
+            "extra": "iterations: 41847\ncpu: 16.73231605610916 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 106.7175421616077,
+            "unit": "us/iter",
+            "extra": "iterations: 6819\ncpu: 105.9148332600088 us\nthreads: 1"
           }
         ]
       }
