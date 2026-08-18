@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787058732766,
+  "lastUpdate": 1787058752899,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -115228,6 +115228,38 @@ window.BENCHMARK_DATA = {
             "value": 105.80559199530926,
             "unit": "us/iter",
             "extra": "iterations: 6821\ncpu: 105.14874607828764 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "4a5cfeb89e4cbb5eefc2da1635401afe077d076a",
+          "message": "[CI] Add `autotools` build dependencies for `Linux`",
+          "timestamp": "2026-08-13T08:15:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1425/commits/4a5cfeb89e4cbb5eefc2da1635401afe077d076a"
+        },
+        "date": 1787058741409,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.29211194585276,
+            "unit": "us/iter",
+            "extra": "iterations: 42994\ncpu: 16.291590175373308 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 101.72019729768688,
+            "unit": "us/iter",
+            "extra": "iterations: 6883\ncpu: 101.20779166061313 us\nthreads: 1"
           }
         ]
       }
