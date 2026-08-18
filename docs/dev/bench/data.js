@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1786958294669,
+  "lastUpdate": 1787030538397,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -114992,6 +114992,42 @@ window.BENCHMARK_DATA = {
             "value": 104.25592071802417,
             "unit": "us/iter",
             "extra": "iterations: 6685\ncpu: 103.74068032909499 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "84e2245f72f826c5c0fb58ba2e802525145b9b0f",
+          "message": "Optimize `Copilot` instructions (#1421)\n\n* Optimize `Copilot` instructions\n\n* Optimize instructions\n\n* Удалены ненужные зависимости",
+          "timestamp": "2026-08-18T08:18:43+03:00",
+          "tree_id": "271935eba3081579db2db7d32ae046f032e3dc2d",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/84e2245f72f826c5c0fb58ba2e802525145b9b0f"
+        },
+        "date": 1787030525991,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.59495736865961,
+            "unit": "us/iter",
+            "extra": "iterations: 42199\ncpu: 16.591619564444652 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.75737809858389,
+            "unit": "us/iter",
+            "extra": "iterations: 6858\ncpu: 107.99622411781864 us\nthreads: 1"
           }
         ]
       }
