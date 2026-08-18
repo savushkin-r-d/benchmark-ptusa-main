@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787058752899,
+  "lastUpdate": 1787059254943,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -115260,6 +115260,42 @@ window.BENCHMARK_DATA = {
             "value": 101.72019729768688,
             "unit": "us/iter",
             "extra": "iterations: 6883\ncpu: 101.20779166061313 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "67a6a9b0167499580315fa27e38251e0ebfbe667",
+          "message": "[CI] Add `autotools` build dependencies for `Linux` (#1425)\n\nInstalls required `autotools` packages for `Linux` CI jobs running with `CMake` presets. This supports building projects that rely on `autotools`, such as `unixODBC`.",
+          "timestamp": "2026-08-18T16:17:00+03:00",
+          "tree_id": "926371a508f3f2b9a300ecb0ae93a5544ef9d811",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/67a6a9b0167499580315fa27e38251e0ebfbe667"
+        },
+        "date": 1787059243523,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.521641084166355,
+            "unit": "us/iter",
+            "extra": "iterations: 42060\ncpu: 16.519580741797434 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 107.3958251034886,
+            "unit": "us/iter",
+            "extra": "iterations: 6764\ncpu: 106.93808826138378 us\nthreads: 1"
           }
         ]
       }
