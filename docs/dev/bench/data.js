@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787149379940,
+  "lastUpdate": 1787205956029,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -115392,6 +115392,38 @@ window.BENCHMARK_DATA = {
             "value": 107.25056159154218,
             "unit": "us/iter",
             "extra": "iterations: 6811\ncpu: 106.67641154015563 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "c1ca658a3663510ab6b084693e7311745c671654",
+          "message": "[deps] Adds`unixODBC` build from source",
+          "timestamp": "2026-08-13T08:15:00Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1424/commits/c1ca658a3663510ab6b084693e7311745c671654"
+        },
+        "date": 1787205946417,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.87505592208588,
+            "unit": "us/iter",
+            "extra": "iterations: 41379\ncpu: 16.872785301723095 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.29424861636683,
+            "unit": "us/iter",
+            "extra": "iterations: 6866\ncpu: 103.7828606175357 us\nthreads: 1"
           }
         ]
       }
