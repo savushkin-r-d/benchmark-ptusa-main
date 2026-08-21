@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787316799524,
+  "lastUpdate": 1787318366527,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -115908,6 +115908,42 @@ window.BENCHMARK_DATA = {
             "value": 109.11682924937934,
             "unit": "us/iter",
             "extra": "iterations: 6448\ncpu: 108.41435111662531 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "a316c247df481db4f63a75d67ae70e2e023308b7",
+          "message": "Improves `CLI` argument parsing and path normalization (#1417)",
+          "timestamp": "2026-08-21T16:14:58+03:00",
+          "tree_id": "ed796c0ffa8c3027de045e470038d04e9732e079",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/a316c247df481db4f63a75d67ae70e2e023308b7"
+        },
+        "date": 1787318357468,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 12.54346849772457,
+            "unit": "us/iter",
+            "extra": "iterations: 54504\ncpu: 12.54122130485836 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 82.19319735327876,
+            "unit": "us/iter",
+            "extra": "iterations: 8690\ncpu: 81.38518964326812 us\nthreads: 1"
           }
         ]
       }
