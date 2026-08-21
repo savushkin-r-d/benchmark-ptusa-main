@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787318366527,
+  "lastUpdate": 1787318757501,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -115944,6 +115944,42 @@ window.BENCHMARK_DATA = {
             "value": 82.19319735327876,
             "unit": "us/iter",
             "extra": "iterations: 8690\ncpu: 81.38518964326812 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "008b5d9be59e3d1643a49715d87bff2e14db6895",
+          "message": "Adds dynamic `80` port forwarding for node devices (#1306)",
+          "timestamp": "2026-08-21T16:20:46+03:00",
+          "tree_id": "c493645b892beee587e3e9fcb4a48e2c6fbf5800",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/008b5d9be59e3d1643a49715d87bff2e14db6895"
+        },
+        "date": 1787318745688,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.965960180126785,
+            "unit": "us/iter",
+            "extra": "iterations: 43747\ncpu: 15.963084737239127 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 112.54951130747767,
+            "unit": "us/iter",
+            "extra": "iterations: 6677\ncpu: 111.87854126104538 us\nthreads: 1"
           }
         ]
       }
