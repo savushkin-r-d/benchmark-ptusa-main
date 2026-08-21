@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787308309111,
+  "lastUpdate": 1787308865977,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -115776,6 +115776,38 @@ window.BENCHMARK_DATA = {
             "value": 110.91234613012124,
             "unit": "us/iter",
             "extra": "iterations: 6486\ncpu: 110.20205442491518 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "c07c2eb13e85999c7cade664298161172b5c4784",
+          "message": "Improve `CLI` argument parsing and path normalization",
+          "timestamp": "2026-08-21T07:58:29Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1417/commits/c07c2eb13e85999c7cade664298161172b5c4784"
+        },
+        "date": 1787308853210,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.398155725659798,
+            "unit": "us/iter",
+            "extra": "iterations: 45593\ncpu: 15.397029127278312 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 80.83003708987275,
+            "unit": "us/iter",
+            "extra": "iterations: 9113\ncpu: 80.39146142872818 us\nthreads: 1"
           }
         ]
       }
