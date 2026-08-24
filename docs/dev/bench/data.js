@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1787539756904,
+  "lastUpdate": 1787559532200,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -116280,6 +116280,38 @@ window.BENCHMARK_DATA = {
             "value": 83.8828374736377,
             "unit": "us/iter",
             "extra": "iterations: 8534\ncpu: 83.14096976798687 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "b9cbb7b4abdeabe002cd55cd3e939ba25dd1784a",
+          "message": "Refactor valve feedback and digital `I/O` state management",
+          "timestamp": "2026-08-21T13:32:54Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1431/commits/b9cbb7b4abdeabe002cd55cd3e939ba25dd1784a"
+        },
+        "date": 1787559521831,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.889094676025383,
+            "unit": "us/iter",
+            "extra": "iterations: 44309\ncpu: 15.887597463269316 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.95871808176638,
+            "unit": "us/iter",
+            "extra": "iterations: 6360\ncpu: 110.38730849056606 us\nthreads: 1"
           }
         ]
       }
