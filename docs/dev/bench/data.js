@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788230856625,
+  "lastUpdate": 1788230874374,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -117156,6 +117156,38 @@ window.BENCHMARK_DATA = {
             "value": 106.54128573580343,
             "unit": "us/iter",
             "extra": "iterations: 6639\ncpu: 105.95376909173069 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "6aa774709046b49eafa846a437a457e06451d63c",
+          "message": "Bump deps/lunarmodules/busted from `901de7d` to `22f8089`",
+          "timestamp": "2026-08-31T07:25:18Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1440/commits/6aa774709046b49eafa846a437a457e06451d63c"
+        },
+        "date": 1788230827288,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.665924336746674,
+            "unit": "us/iter",
+            "extra": "iterations: 44817\ncpu: 15.663654238347055 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 108.030964871912,
+            "unit": "us/iter",
+            "extra": "iterations: 6519\ncpu: 107.39799493787395 us\nthreads: 1"
           }
         ]
       }
