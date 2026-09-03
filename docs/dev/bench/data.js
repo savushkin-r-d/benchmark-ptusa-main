@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788435943705,
+  "lastUpdate": 1788437856774,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -117776,6 +117776,38 @@ window.BENCHMARK_DATA = {
             "value": 110.11314581387988,
             "unit": "us/iter",
             "extra": "iterations: 6426\ncpu: 109.56288702147529 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "40b797fadcdce558424ab94d229dc65d54566b78",
+          "message": "Add IFM.SMFx20 (SMF420/SMF320) IO-Link flowmeter support to counter_iolink",
+          "timestamp": "2026-09-03T05:27:26Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1374/commits/40b797fadcdce558424ab94d229dc65d54566b78"
+        },
+        "date": 1788437846426,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.731742790299931,
+            "unit": "us/iter",
+            "extra": "iterations: 44454\ncpu: 15.729630764385659 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 105.8841904761857,
+            "unit": "us/iter",
+            "extra": "iterations: 6636\ncpu: 105.17407986738999 us\nthreads: 1"
           }
         ]
       }
