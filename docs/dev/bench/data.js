@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788442962594,
+  "lastUpdate": 1788443012829,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -117968,6 +117968,38 @@ window.BENCHMARK_DATA = {
             "value": 105.06547358943646,
             "unit": "us/iter",
             "extra": "iterations: 6664\ncpu: 104.43319597839135 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "8098e98c08b958f679610e08253ca2639df08a43",
+          "message": "[config][cmake] Upgrade `Visual Studio` `CMake` presets to `2026`",
+          "timestamp": "2026-08-21T13:32:54Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1442/commits/8098e98c08b958f679610e08253ca2639df08a43"
+        },
+        "date": 1788443002117,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.745215339928638,
+            "unit": "us/iter",
+            "extra": "iterations: 42347\ncpu: 16.74395978463646 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 104.1048520657518,
+            "unit": "us/iter",
+            "extra": "iterations: 6753\ncpu: 103.57460728565086 us\nthreads: 1"
           }
         ]
       }
