@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788334558661,
+  "lastUpdate": 1788413416456,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -117644,6 +117644,42 @@ window.BENCHMARK_DATA = {
             "value": 108.31467498109424,
             "unit": "us/iter",
             "extra": "iterations: 6615\ncpu: 107.80276386999245 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "9125b866d49ff2f00d88acb3acc54339df036281",
+          "message": "[docs][github] Clarify line length guideline in `Copilot` instructions (#1441)",
+          "timestamp": "2026-09-03T08:27:11+03:00",
+          "tree_id": "9524a8b131d279173af16127919f0e1974842d13",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/9125b866d49ff2f00d88acb3acc54339df036281"
+        },
+        "date": 1788413406137,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.750044969907504,
+            "unit": "us/iter",
+            "extra": "iterations: 44363\ncpu: 15.749551360367876 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 110.04063271317955,
+            "unit": "us/iter",
+            "extra": "iterations: 6450\ncpu: 109.15237984496127 us\nthreads: 1"
           }
         ]
       }
