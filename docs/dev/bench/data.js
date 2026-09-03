@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788442904206,
+  "lastUpdate": 1788442921520,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -117872,6 +117872,38 @@ window.BENCHMARK_DATA = {
             "value": 111.04194572444355,
             "unit": "us/iter",
             "extra": "iterations: 6467\ncpu: 110.1914369877841 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "3568e9e8621897cd58ba6cc60c6e06814d20ad55",
+          "message": "Enhances `Modbus` client error messages with device names",
+          "timestamp": "2026-08-21T13:32:54Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1434/commits/3568e9e8621897cd58ba6cc60c6e06814d20ad55"
+        },
+        "date": 1788442900157,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.748351499617117,
+            "unit": "us/iter",
+            "extra": "iterations: 44478\ncpu: 15.747209069652412 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.64677388632796,
+            "unit": "us/iter",
+            "extra": "iterations: 6510\ncpu: 110.68099201228881 us\nthreads: 1"
           }
         ]
       }
