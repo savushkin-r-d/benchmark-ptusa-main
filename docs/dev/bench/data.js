@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788446282377,
+  "lastUpdate": 1788749435082,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -118032,6 +118032,38 @@ window.BENCHMARK_DATA = {
             "value": 62.70364425254045,
             "unit": "us/iter",
             "extra": "iterations: 11927\ncpu: 62.3987804141863 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "committer": {
+            "name": "savushkin-r-d",
+            "username": "savushkin-r-d"
+          },
+          "id": "9da5fbce7558d355a25d300abdeb0c2e0827f12d",
+          "message": "Bump step-security/harden-runner from 2.21.0 to 2.21.1",
+          "timestamp": "2026-09-03T05:27:26Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1444/commits/9da5fbce7558d355a25d300abdeb0c2e0827f12d"
+        },
+        "date": 1788749426062,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 12.26705764877229,
+            "unit": "us/iter",
+            "extra": "iterations: 56983\ncpu: 12.265569977010687 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 84.35365558772362,
+            "unit": "us/iter",
+            "extra": "iterations: 8635\ncpu: 83.87766195715112 us\nthreads: 1"
           }
         ]
       }
