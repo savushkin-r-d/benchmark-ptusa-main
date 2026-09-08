@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788844995082,
+  "lastUpdate": 1788845056728,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -118230,6 +118230,42 @@ window.BENCHMARK_DATA = {
             "value": 105.92461981874709,
             "unit": "us/iter",
             "extra": "iterations: 6731\ncpu: 105.41308616847422 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "e7b90a306ffcd689a3d9364c2728ac5c2137a01b",
+          "message": "[config][cmake] Upgrade `Visual Studio` `CMake` presets to `2026` (#1442)",
+          "timestamp": "2026-09-08T08:20:54+03:00",
+          "tree_id": "c7d957962d87c8fd978720d6be8e298ffc6be2b7",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/e7b90a306ffcd689a3d9364c2728ac5c2137a01b"
+        },
+        "date": 1788845045778,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 16.382795800770015,
+            "unit": "us/iter",
+            "extra": "iterations: 42865\ncpu: 16.381969112329408 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 111.50519262038902,
+            "unit": "us/iter",
+            "extra": "iterations: 6396\ncpu: 110.99110397123202 us\nthreads: 1"
           }
         ]
       }
