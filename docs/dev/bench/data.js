@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789017787348,
+  "lastUpdate": 1789018695885,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -118630,6 +118630,38 @@ window.BENCHMARK_DATA = {
             "value": 114.14496712858575,
             "unit": "us/iter",
             "extra": "iterations: 6206\ncpu: 113.40860054785693 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "committer": {
+            "name": "idzm",
+            "username": "idzm"
+          },
+          "id": "ebf55d3025ba6474e400adab38e9518a8f86356b",
+          "message": "Fix initial parameter saving at application startup",
+          "timestamp": "2026-08-21T13:32:54Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/pull/1447/commits/ebf55d3025ba6474e400adab38e9518a8f86356b"
+        },
+        "date": 1789018684831,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 14.60543424942616,
+            "unit": "us/iter",
+            "extra": "iterations: 48030\ncpu: 14.603510451800958 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 78.38190863843168,
+            "unit": "us/iter",
+            "extra": "iterations: 9041\ncpu: 78.03323736312356 us\nthreads: 1"
           }
         ]
       }
