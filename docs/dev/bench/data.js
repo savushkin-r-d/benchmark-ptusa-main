@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1788878320490,
+  "lastUpdate": 1789017787348,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -118594,6 +118594,42 @@ window.BENCHMARK_DATA = {
             "value": 84.95703287239736,
             "unit": "us/iter",
             "extra": "iterations: 8244\ncpu: 84.60544141193593 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "139815520+SergeiSilakov@users.noreply.github.com",
+            "name": "SergeiSilakov",
+            "username": "SergeiSilakov"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "492c240e51182dc21a679fdc4fd12f0fe3f7561f",
+          "message": "Fixes restrictions hot reload after Profibus script removal (#1448)",
+          "timestamp": "2026-09-10T08:19:06+03:00",
+          "tree_id": "1b00a16cf8927f3b93e1d2666b67e6f033463bfd",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/492c240e51182dc21a679fdc4fd12f0fe3f7561f"
+        },
+        "date": 1789017775882,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.952214391168791,
+            "unit": "us/iter",
+            "extra": "iterations: 44027\ncpu: 15.949971585617917 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 114.14496712858575,
+            "unit": "us/iter",
+            "extra": "iterations: 6206\ncpu: 113.40860054785693 us\nthreads: 1"
           }
         ]
       }
