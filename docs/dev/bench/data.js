@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789018695885,
+  "lastUpdate": 1789019956838,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -118662,6 +118662,42 @@ window.BENCHMARK_DATA = {
             "value": 78.38190863843168,
             "unit": "us/iter",
             "extra": "iterations: 9041\ncpu: 78.03323736312356 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "dzimitriy@gmail.com",
+            "name": "Dzmitry Ivaniuk",
+            "username": "idzm"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "5654f0e9338c54a224dbdb16928ebaa709de567d",
+          "message": "Fixes initial parameter saving at application startup (#1447)\n\n* Fix initial parameter saving at application startup\n\nFixes #1446.",
+          "timestamp": "2026-09-10T08:53:34+03:00",
+          "tree_id": "e3bbbafed8df3425c1fb68045bf3fb29b2d3b6b8",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/5654f0e9338c54a224dbdb16928ebaa709de567d"
+        },
+        "date": 1789019945875,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 17.031486085568048,
+            "unit": "us/iter",
+            "extra": "iterations: 41324\ncpu: 17.02837435872617 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 113.57977174264533,
+            "unit": "us/iter",
+            "extra": "iterations: 6186\ncpu: 112.8201498545102 us\nthreads: 1"
           }
         ]
       }
