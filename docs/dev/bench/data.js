@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1789354278481,
+  "lastUpdate": 1789377495960,
   "repoUrl": "https://github.com/savushkin-r-d/ptusa_main",
   "entries": {
     "C++ Benchmark": [
@@ -118858,6 +118858,40 @@ window.BENCHMARK_DATA = {
             "value": 69.66046121924724,
             "unit": "us/iter",
             "extra": "iterations: 10121\ncpu: 69.08439314297006 us\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Copilot",
+            "username": "Copilot",
+            "email": "198982749+Copilot@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "ee0d813d65a0bcfc9afb7a76b697718821bbf22c",
+          "message": "Adds `IFM.SMFx20` `IO-Link` flowmeter support to `counter_iolink` (#1374)",
+          "timestamp": "2026-09-10T12:14:10Z",
+          "url": "https://github.com/savushkin-r-d/ptusa_main/commit/ee0d813d65a0bcfc9afb7a76b697718821bbf22c"
+        },
+        "date": 1789377483529,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "write_devices_service/\"no compression\"",
+            "value": 15.459989541271998,
+            "unit": "us/iter",
+            "extra": "iterations: 45321\ncpu: 15.458437038017697 us\nthreads: 1"
+          },
+          {
+            "name": "write_devices_service/\"with compression\"",
+            "value": 88.98727401630991,
+            "unit": "us/iter",
+            "extra": "iterations: 8463\ncpu: 88.47896384260902 us\nthreads: 1"
           }
         ]
       }
